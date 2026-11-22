@@ -1,0 +1,23 @@
+{
+  "store_id": "sheet_lastprice",
+  "store_name": "LastPrice",
+  "last_ok_at": "2026-11-22T09:17:20.649690+00:00",
+  "count": 1,
+  "items": [
+    {
+      "store_id": "lastprice",
+      "store_name": "LastPrice",
+      "our_sku": "90903-001-37",
+      "our_product_name": "אוזניות גיימינג Blackshark V2x בצבע ורוד מבית RAZER",
+      "title": "Razer BlackShark V2 X ורוד",
+      "price": 315.0,
+      "url": "https://www.lastprice.co.il/p/100060144/%D7%90%D7%95%D7%96%D7%A0%D7%99%D7%95%D7%AA-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%97%D7%95%D7%98%D7%99%D7%95%D7%AA-Razer/Razer-BlackShark-V2-X-%D7%95%D7%A8%D7%95%D7%93",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-001-37",
+      "barcodes": [],
+      "scraped_at": "2026-11-22 10:39"
+    }
+  ]
+}

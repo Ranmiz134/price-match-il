@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_payngo",
   "store_name": "מחסני חשמל",
-  "last_ok_at": "2026-11-22T08:25:22.818401+00:00",
-  "count": 29,
+  "last_ok_at": "2026-11-22T09:17:20.649796+00:00",
+  "count": 35,
   "items": [
     {
       "store_id": "payngo",
@@ -17,7 +17,7 @@
       "importer_text": "official",
       "sku": "99999-955-04",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -32,7 +32,7 @@
       "importer_text": "official",
       "sku": "99999-955-17",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -47,7 +47,7 @@
       "importer_text": "official",
       "sku": "99999-955-03",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -62,7 +62,7 @@
       "importer_text": "official",
       "sku": "99999-958-66",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -77,7 +77,7 @@
       "importer_text": "official",
       "sku": "99999-958-67",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -92,7 +92,7 @@
       "importer_text": "official",
       "sku": "99999-952-98",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -107,7 +107,7 @@
       "importer_text": "official",
       "sku": "99999-600-60",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -122,7 +122,7 @@
       "importer_text": "official",
       "sku": "99999-600-59",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -137,7 +137,7 @@
       "importer_text": "official",
       "sku": "99999-600-88",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -152,7 +152,7 @@
       "importer_text": "official",
       "sku": "99999-600-89",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -167,7 +167,7 @@
       "importer_text": "unverified",
       "sku": "99999-600-93",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -182,7 +182,7 @@
       "importer_text": "official",
       "sku": "99999-601-11",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -197,7 +197,7 @@
       "importer_text": "official",
       "sku": "99999-601-12",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -212,7 +212,7 @@
       "importer_text": "official",
       "sku": "99999-601-16",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -227,7 +227,7 @@
       "importer_text": "official",
       "sku": "99999-951-67",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -242,7 +242,7 @@
       "importer_text": "official",
       "sku": "99999-955-05",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -257,7 +257,7 @@
       "importer_text": "official",
       "sku": "99999-955-15",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -272,7 +272,7 @@
       "importer_text": "official",
       "sku": "99999-955-10",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -287,7 +287,7 @@
       "importer_text": "official",
       "sku": "99999-955-16",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -302,7 +302,7 @@
       "importer_text": "official",
       "sku": "99999-955-06",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -317,7 +317,7 @@
       "importer_text": "official",
       "sku": "99999-958-39",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -332,7 +332,7 @@
       "importer_text": "official",
       "sku": "99999-958-40",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -347,7 +347,7 @@
       "importer_text": "official",
       "sku": "99999-958-41",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -362,7 +362,7 @@
       "importer_text": "official",
       "sku": "99999-601-14",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -377,7 +377,7 @@
       "importer_text": "official",
       "sku": "99999-601-15",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -392,7 +392,7 @@
       "importer_text": "official",
       "sku": "99999-951-92",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -407,7 +407,7 @@
       "importer_text": "official",
       "sku": "99999-952-79",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
@@ -422,14 +422,14 @@
       "importer_text": "official",
       "sku": "99999-954-01",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "payngo",
       "store_name": "מחסני חשמל",
       "our_sku": "99999-952-76",
       "our_product_name": "DJI Mavic 4 Pro (DJI RC 2)",
-      "title": "רחפן עם שלט חכם DJI Mavic 4 Pro",
+      "title": "רחפן עם שלט חכם DJI Mavic 4 Pro (DJI RC 2) - צבע אפור",
       "price": 9299.0,
       "url": "https://www.payngo.co.il/computers-pcs/computing-gaming/drones-and-accessories/357857.html",
       "in_stock": true,
@@ -437,7 +437,97 @@
       "importer_text": "official",
       "sku": "99999-952-76",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
+    },
+    {
+      "store_id": "payngo",
+      "store_name": "מחסני חשמל",
+      "our_sku": "90903-001-51",
+      "our_product_name": "אוזניות אלחוטיות Razer BlackShark V3 Pro – שחור",
+      "title": "אוזניות גיימינג אלחוטיות Razer BlackShark V3 Pro - צבע שחור",
+      "price": 1079.0,
+      "url": "https://www.payngo.co.il/362791.html",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-001-51",
+      "barcodes": [],
+      "scraped_at": "2026-11-22 10:39"
+    },
+    {
+      "store_id": "payngo",
+      "store_name": "מחסני חשמל",
+      "our_sku": "41209-652-49",
+      "our_product_name": "אוז ספו עצם SHOKZ OPENRUN Pro 2 שח",
+      "title": "אוזניות ספורט אלחוטיות Shokz OpenRun Pro 2 - צבע שחור",
+      "price": 558.0,
+      "url": "https://www.payngo.co.il/350632.html",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "41209-652-49",
+      "barcodes": [],
+      "scraped_at": "2026-11-22 10:39"
+    },
+    {
+      "store_id": "payngo",
+      "store_name": "מחסני חשמל",
+      "our_sku": "41209-652-50",
+      "our_product_name": "אוז ספו עצם SHOKZ OPENRUN Pro 2 כת",
+      "title": "אוזניות ספורט אלחוטיות Shokz OpenRun Pro 2 - צבע כתום",
+      "price": 699.0,
+      "url": "https://www.payngo.co.il/350633.html",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "41209-652-50",
+      "barcodes": [],
+      "scraped_at": "2026-11-22 10:39"
+    },
+    {
+      "store_id": "payngo",
+      "store_name": "מחסני חשמל",
+      "our_sku": "41209-652-51",
+      "our_product_name": "אוז ספו עצם SHOKZ OPENRUN Pro 2 mini שח",
+      "title": "אוזניות ספורט אלחוטיות Shokz OpenRun Pro 2 Mini - צבע שחור",
+      "price": 589.0,
+      "url": "https://www.payngo.co.il/computers-pcs/peripheral-equipment/earphones/350634.html",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "41209-652-51",
+      "barcodes": [],
+      "scraped_at": "2026-11-22 10:39"
+    },
+    {
+      "store_id": "payngo",
+      "store_name": "מחסני חשמל",
+      "our_sku": "41209-652-52",
+      "our_product_name": "אוז ספו עצם SHOKZ OPENRUN Pro 2 mini  כת",
+      "title": "אוזניות ספורט אלחוטיות Shokz OpenRun Pro 2 Mini - צבע כתום",
+      "price": 589.0,
+      "url": "https://www.payngo.co.il/computers-pcs/peripheral-equipment/earphones/350635.html",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "41209-652-52",
+      "barcodes": [],
+      "scraped_at": "2026-11-22 10:39"
+    },
+    {
+      "store_id": "payngo",
+      "store_name": "מחסני חשמל",
+      "our_sku": "41209-652-48",
+      "our_product_name": "אוז עצםMP3+שחיה SHOKZ OPENSWIM PRO אדום",
+      "title": "אוזניות ספורט אלחוטיות Shokz OpenSwim Pro - צבע אדום",
+      "price": 799.0,
+      "url": "https://www.payngo.co.il/339261.html",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "41209-652-48",
+      "barcodes": [],
+      "scraped_at": "2026-11-22 10:39"
     }
   ]
 }

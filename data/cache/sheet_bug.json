@@ -1,7 +1,7 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-22T08:25:22.816487+00:00",
+  "last_ok_at": "2026-11-22T09:17:20.648462+00:00",
   "count": 50,
   "items": [
     {
@@ -17,7 +17,7 @@
       "importer_text": "official",
       "sku": "99999-958-91",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -32,7 +32,7 @@
       "importer_text": "official",
       "sku": "99999-958-90",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -47,7 +47,7 @@
       "importer_text": "official",
       "sku": "99999-958-88",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -62,7 +62,7 @@
       "importer_text": "official",
       "sku": "99999-958-89",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -77,7 +77,7 @@
       "importer_text": "official",
       "sku": "99999-958-81",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -92,7 +92,7 @@
       "importer_text": "official",
       "sku": "99999-956-23",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -107,7 +107,7 @@
       "importer_text": "official",
       "sku": "99999-951-94",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -122,7 +122,7 @@
       "importer_text": "official",
       "sku": "99999-956-24",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -137,7 +137,7 @@
       "importer_text": "unverified",
       "sku": "99999-958-59",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -152,7 +152,7 @@
       "importer_text": "official",
       "sku": "99999-958-73",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -167,7 +167,7 @@
       "importer_text": "official",
       "sku": "99999-958-72",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -182,7 +182,7 @@
       "importer_text": "official",
       "sku": "99999-958-68",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -197,7 +197,7 @@
       "importer_text": "official",
       "sku": "99999-958-71",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -212,7 +212,7 @@
       "importer_text": "official",
       "sku": "99999-958-66",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -227,7 +227,7 @@
       "importer_text": "official",
       "sku": "99999-958-42",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -242,7 +242,7 @@
       "importer_text": "official",
       "sku": "99999-958-67",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -257,7 +257,7 @@
       "importer_text": "official",
       "sku": "99999-958-43",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -272,7 +272,7 @@
       "importer_text": "official",
       "sku": "99999-958-40",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -287,7 +287,7 @@
       "importer_text": "official",
       "sku": "99999-958-45",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -302,7 +302,7 @@
       "importer_text": "official",
       "sku": "99999-958-41",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -317,7 +317,7 @@
       "importer_text": "official",
       "sku": "99999-958-39",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -332,7 +332,7 @@
       "importer_text": "official",
       "sku": "99999-958-44",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -347,7 +347,7 @@
       "importer_text": "official",
       "sku": "99999-955-06",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -362,7 +362,7 @@
       "importer_text": "official",
       "sku": "99999-952-78",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -377,7 +377,7 @@
       "importer_text": "official",
       "sku": "99999-955-11",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -392,7 +392,7 @@
       "importer_text": "official",
       "sku": "99999-955-16",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -407,7 +407,7 @@
       "importer_text": "official",
       "sku": "99999-955-10",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -422,7 +422,7 @@
       "importer_text": "official",
       "sku": "99999-955-15",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -437,7 +437,7 @@
       "importer_text": "official",
       "sku": "99999-955-09",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -452,7 +452,7 @@
       "importer_text": "official",
       "sku": "99999-955-17",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -467,7 +467,7 @@
       "importer_text": "official",
       "sku": "99999-955-18",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -482,7 +482,7 @@
       "importer_text": "official",
       "sku": "99999-954-12",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -497,7 +497,7 @@
       "importer_text": "official",
       "sku": "99999-955-04",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -512,7 +512,7 @@
       "importer_text": "official",
       "sku": "99999-955-05",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -527,7 +527,7 @@
       "importer_text": "official",
       "sku": "99999-954-11",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -542,7 +542,7 @@
       "importer_text": "official",
       "sku": "99999-954-01",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -557,7 +557,7 @@
       "importer_text": "official",
       "sku": "99999-952-79",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -572,7 +572,7 @@
       "importer_text": "official",
       "sku": "99999-952-76",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -587,7 +587,7 @@
       "importer_text": "official",
       "sku": "99999-952-77",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -602,7 +602,7 @@
       "importer_text": "official",
       "sku": "99999-951-91",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -617,7 +617,7 @@
       "importer_text": "official",
       "sku": "99999-951-92",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -632,7 +632,7 @@
       "importer_text": "official",
       "sku": "99999-601-16",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -647,7 +647,7 @@
       "importer_text": "official",
       "sku": "99999-951-66",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -662,7 +662,7 @@
       "importer_text": "official",
       "sku": "99999-951-67",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -677,7 +677,7 @@
       "importer_text": "official",
       "sku": "99999-601-11",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -692,7 +692,7 @@
       "importer_text": "official",
       "sku": "99999-601-12",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -707,7 +707,7 @@
       "importer_text": "official",
       "sku": "99999-488-09",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -715,14 +715,14 @@
       "our_sku": "99999-600-68",
       "our_product_name": "Osmo Pocket 3 Combo",
       "title": "מייצב  Osmo Pocket 3 Combo DJI",
-      "price": 1999.0,
+      "price": 1599.0,
       "url": "https://www.bug.co.il/brand/dji/osmo/pocket/3/combo",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-600-68",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -737,7 +737,7 @@
       "importer_text": "official",
       "sku": "99999-600-59",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     },
     {
       "store_id": "bug",
@@ -752,7 +752,7 @@
       "importer_text": "official",
       "sku": "99999-488-91",
       "barcodes": [],
-      "scraped_at": "2026-11-22 09:27"
+      "scraped_at": "2026-11-22 10:39"
     }
   ]
 }

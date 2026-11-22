@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-22T13:36:36.302213+00:00",
-  "scope": "Eight existing product pages checked, with per-page source times; not an exhaustive promotion sweep. Schema2 is required so older clients fail closed instead of omitting stock-limit conditions.",
+  "checked_at": "2026-11-22T16:31:32+02:00",
+  "scope": "Twelve existing product pages sampled with their actual source times; not an exhaustive promotion sweep. Schema2 preserves stock-limit conditions and old clients fail closed.",
   "checks": [
     {
       "our_sku": "99999-955-09",
@@ -84,6 +84,38 @@
       "price_vat": 449,
       "checked_at": "2026-11-22T15:28:20+02:00",
       "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99226-010-30",
+      "store_id": "alm",
+      "product_url": "https://www.alm.co.il/895001212.html",
+      "price_vat": 7999,
+      "checked_at": "2026-11-22T16:31:32+02:00",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90903-011-46",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/razer/black/kraken/v4",
+      "price_vat": 179,
+      "checked_at": "2026-11-22T16:31:32+02:00",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90903-011-46",
+      "store_id": "kravitz",
+      "product_url": "https://www.kravitz.co.il/products/%D7%90%D7%95%D7%96%D7%A0%D7%99%D7%95%D7%AA-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%97%D7%95%D7%98%D7%99%D7%95%D7%AA-razer-kraken-v4-x-rgb-ps-x-pc-%D7%A9%D7%97%D7%95%D7%A8",
+      "price_vat": 179,
+      "checked_at": "2026-11-22T16:31:32+02:00",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90903-011-46",
+      "store_id": "payngo",
+      "product_url": "https://www.payngo.co.il/347851.html",
+      "price_vat": 177,
+      "checked_at": "2026-11-22T16:31:32+02:00",
+      "date_result": "not_found_on_checked_product_page"
     }
   ],
   "offers": [
@@ -130,6 +162,51 @@
       "checked_at": "2026-11-22T15:28:20+02:00",
       "source_url": "https://www.payngo.co.il/364057.html",
       "terms": "מחיר מבצע ₪449 במקום ₪549. תוקף לא אותר בעמוד המוצר שנבדק. מידע המבצע נבדק: 2026-11-22T15:28:20+02:00"
+    },
+    {
+      "our_sku": "90903-011-46",
+      "store_id": "bug",
+      "url": "https://www.bug.co.il/brand/razer/black/kraken/v4",
+      "price_ils": 179,
+      "regular_price_ils": 359,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-26",
+      "date_status": "explicit_end_stock_limited",
+      "conditions": "או עד גמר המלאי, המוקדם מביניהם",
+      "checked_at": "2026-11-22T16:31:32+02:00",
+      "source_url": "https://www.bug.co.il/brand/razer/black/kraken/v4",
+      "terms": "מחיר מבצע ₪179 במקום ₪359. בתוקף עד26.11.2026 או עד גמר המלאי, המוקדם מביניהם. מידע המבצע נבדק: 2026-11-22T16:31:32+02:00"
+    },
+    {
+      "our_sku": "90903-011-46",
+      "store_id": "kravitz",
+      "url": "https://www.kravitz.co.il/products/%D7%90%D7%95%D7%96%D7%A0%D7%99%D7%95%D7%AA-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%97%D7%95%D7%98%D7%99%D7%95%D7%AA-razer-kraken-v4-x-rgb-ps-x-pc-%D7%A9%D7%97%D7%95%D7%A8",
+      "price_ils": 179,
+      "regular_price_ils": 339,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": null,
+      "date_status": "not_stated",
+      "conditions": "",
+      "checked_at": "2026-11-22T16:31:32+02:00",
+      "source_url": "https://www.kravitz.co.il/products/%D7%90%D7%95%D7%96%D7%A0%D7%99%D7%95%D7%AA-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%97%D7%95%D7%98%D7%99%D7%95%D7%AA-razer-kraken-v4-x-rgb-ps-x-pc-%D7%A9%D7%97%D7%95%D7%A8",
+      "terms": "מחיר מבצע ₪179 במקום ₪339. תוקף לא צוין בעמוד המוצר שנבדק. מידע המבצע נבדק: 2026-11-22T16:31:32+02:00"
+    },
+    {
+      "our_sku": "90903-011-46",
+      "store_id": "payngo",
+      "url": "https://www.payngo.co.il/347851.html",
+      "price_ils": 177,
+      "regular_price_ils": 328,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": null,
+      "date_status": "not_stated",
+      "conditions": "",
+      "checked_at": "2026-11-22T16:31:32+02:00",
+      "source_url": "https://www.payngo.co.il/347851.html",
+      "terms": "מחיר מבצע ₪177 במקום ₪328. תוקף לא צוין בעמוד המוצר שנבדק. מידע המבצע נבדק: 2026-11-22T16:31:32+02:00"
     }
   ]
 }

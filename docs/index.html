@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>השוואת מחירי שוק | סניף הרצליה</title>
   <link rel="stylesheet" href="style.css" />
-  <!-- html5-qrcode for fast EAN-13 / UPC-A / Code-128 camera scanning over HTTPS -->
   <script src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js" defer></script>
 </head>
 <body>
@@ -15,7 +14,7 @@
         <h1>השוואת מחירים — מרכז (כולל מע"מ)</h1>
         <p id="syncMeta" class="sync-meta">טוען נתוני שוק...</p>
       </div>
-      <span id="modeBadge" class="mode-badge">MVP</span>
+      <span id="modeBadge" class="mode-badge">מעודכן</span>
     </div>
     <div id="storeHealthBar" class="health-bar" aria-label="סטטוס בריאות סריקה לפי חנות"></div>
   </header>
@@ -28,7 +27,7 @@
           type="search"
           inputmode="search"
           autocomplete="off"
-          placeholder="חפש שם דגם, מילים לא צמודות, מק״ט או ברקוד..."
+          placeholder="חפש מכל הקטלוג: שם דגם, מילים לא צמודות, מק״ט או ברקוד..."
           aria-label="חיפוש מוצר"
         />
         <button id="clearBtn" class="btn-icon hidden" type="button" title="נקה חיפוש">✕</button>
@@ -44,6 +43,7 @@
           <span>רק מוצרים עם מתחרה זול יותר</span>
         </label>
       </div>
+      <div id="categoryChips" class="category-chips hidden"></div>
     </section>
 
     <section id="scannerModal" class="scanner-modal hidden" role="dialog" aria-modal="true">
@@ -57,6 +57,7 @@
       </div>
     </section>
 
+    <section id="categoryHome" class="category-grid hidden"></section>
     <section id="resultsGrid" class="results-grid" aria-live="polite"></section>
   </main>
 

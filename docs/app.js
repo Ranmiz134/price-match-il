@@ -1,16 +1,52 @@
 (function () {
   let allProducts = [];
+  let activeCategory = null; // null = category home view (unless searching or toggle active)
 
   const searchInput = document.getElementById("searchInput");
   const clearBtn = document.getElementById("clearBtn");
   const scanBtn = document.getElementById("scanBtn");
   const closeScannerBtn = document.getElementById("closeScannerBtn");
   const onlyCheaperToggle = document.getElementById("onlyCheaperToggle");
+  const categoryHome = document.getElementById("categoryHome");
+  const categoryChips = document.getElementById("categoryChips");
   const resultsGrid = document.getElementById("resultsGrid");
   const resultCount = document.getElementById("resultCount");
   const syncMeta = document.getElementById("syncMeta");
   const modeBadge = document.getElementById("modeBadge");
   const storeHealthBar = document.getElementById("storeHealthBar");
+
+  const CATEGORIES = [
+    { id: "drones", title: "רחפנים", icon: "🚁" },
+    { id: "cameras", title: "מצלמות וגימבלים", icon: "🎥" },
+    { id: "audio", title: "מיקרופונים ואודיו", icon: "🎙️" },
+    { id: "power", title: "סוללות, טעינה וכוח", icon: "🔋" },
+    { id: "accessories", title: "תיקים, פילטרים ואביזרים", icon: "🎒" },
+    { id: "home_other", title: "בית, גיימינג ושונות", icon: "🏠" },
+  ];
+
+  function classifyCategory(p) {
+    const name = (p.name || "").toLowerCase();
+    // Accessories & batteries checked first so "סוללה לרחפן Avata" goes to Power, not Drones
+    if (/(סוללה|battery|charging|רכזת טעינה|בסיס טעינה|מטען|power station|תחנת כוח|bluetti)/.test(name)) {
+      return "power";
+    }
+    if (/(תיק|מזוודה|פילטר|filter|פרופלור|propeller|תושבת|mount|מארז|case|מוט סלפי|extension rod|עדשה|lens|מסגרת|frame|רצועת|כיסוי|מגן|מגני|כבל|cable|קייס)/.test(name)) {
+      return "accessories";
+    }
+    if (/(מיקרופון|mic |אוזניות|רמקול|shure|audio)/.test(name)) {
+      return "audio";
+    }
+    if (/(שואב|romo|עכבר|מקלדת|גיימינג|ראוטר|router|מקרן)/.test(name)) {
+      return "home_other";
+    }
+    if (/(מצלמ|osmo|pocket|action|ronin|rs ?[345]|גימבל|מייצב)/.test(name)) {
+      return "cameras";
+    }
+    if (/(רחפן|mavic|mini [2345]|air [23]|avata|neo|lito|flip|fpv|air unit|goggles|שלט)/.test(name)) {
+      return "drones";
+    }
+    return "home_other";
+  }
 
   function formatILS(num) {
     if (num === null || num === undefined || Number.isNaN(Number(num))) return "—";
@@ -48,7 +84,7 @@
     const sku = normalizeCode(product.sku);
     const bcs = (product.barcodes || []).map(normalizeCode);
     const hay = `${product.name || ""} ${product.brand || ""} ${product.sku || ""} ${bcs.join(" ")}`.toLowerCase();
-    return { ...product, _sku: sku, _bcs: bcs, _hay: hay };
+    return { ...product, _sku: sku, _bcs: bcs, _hay: hay, _cat: classifyCategory(product) };
   }
 
   function zapUrl(name) {
@@ -88,46 +124,54 @@
     let matchBoxHtml = "";
     if (best) {
       const cheaper = best.diff_ils < 0;
+      const isOfficial = best.importer_status === "official";
       const diffText = cheaper
         ? `זול מאיתנו ב-${formatILS(Math.abs(best.diff_ils))} (${Math.abs(best.diff_pct)}%)`
         : best.diff_ils === 0
         ? "זהה למחיר שלנו"
         : `יקר מאיתנו ב-${formatILS(best.diff_ils)} (+${best.diff_pct}%)`;
+
+      const boxClass = !isOfficial ? "match-warn" : cheaper ? "match-ok" : "";
+      const storeBadge = isOfficial
+        ? `<span class="badge badge-official">${escapeHtml(best.store_name)} • יבואן רשמי</span>`
+        : `<span class="badge badge-check">${escapeHtml(best.store_name)} • לוודא יבואן</span>`;
+      const verifyNote = !isOfficial ? " — ⚠️ יש לוודא יבואן רשמי בקישור" : "";
+
       matchBoxHtml = `
-        <div class="price-box ${cheaper ? "match-ok" : ""}">
+        <div class="price-box ${boxClass}">
           <div class="price-label">
             <span>המחיר הזול ביותר להשוואה (במלאי)</span>
-            <span class="badge badge-official">${escapeHtml(best.store_name)}</span>
+            ${storeBadge}
           </div>
           <div class="price-value">${formatILS(best.price)}</div>
-          <div class="price-sub">${escapeHtml(diffText)}</div>
+          <div class="price-sub">${escapeHtml(diffText + verifyNote)}</div>
         </div>`;
     } else if (cheapest && !cheapest.in_stock) {
       matchBoxHtml = `
         <div class="price-box match-warn">
           <div class="price-label">
-            <span>אין מתחרה מאושר במלאי</span>
+            <span>אין מתחרה במלאי</span>
             <span class="badge badge-oos">אזל במלאי</span>
           </div>
           <div class="price-value">${formatILS(cheapest.price)}</div>
           <div class="price-sub">${escapeHtml(cheapest.store_name)} — אין במלאי אצל המתחרה</div>
         </div>`;
-    } else if (cheapest && cheapest.needs_seller_check) {
+    } else if (cheapest && cheapest.anomaly_flag) {
       matchBoxHtml = `
         <div class="price-box match-warn">
           <div class="price-label">
-            <span>נדרשת בדיקת מוכר לפני השוואה</span>
-            <span class="badge badge-check">לבדיקה</span>
+            <span>פער חריג — נדרשת בדיקה</span>
+            <span class="badge badge-check">${escapeHtml(cheapest.store_name)}</span>
           </div>
           <div class="price-value">${formatILS(cheapest.price)}</div>
-          <div class="price-sub">${escapeHtml(cheapest.store_name)} — בדוק יבואן/חבילה בקישור</div>
+          <div class="price-sub">⚠️ פער חריג — יש לוודא התאמת דגם/חבילה בקישור</div>
         </div>`;
     } else {
       matchBoxHtml = `
         <div class="price-box">
           <div class="price-label"><span>השוואת שוק</span></div>
           <div class="price-value">—</div>
-          <div class="price-sub">לא נמצא מתחרה מאושר בסריקה — בדוק בזאפ/גוגל</div>
+          <div class="price-sub">לא נמצא מתחרה בסריקה — בדוק בזאפ/גוגל</div>
         </div>`;
     }
 
@@ -163,7 +207,7 @@
       })
       .join("");
 
-    const barcodeText = (p.barcodes || []).length ? `ברקוד: ${p.barcodes.join(", ")}` : "ללא ברקוד";
+    const barcodeText = (p.barcodes || []).length ? `ברקוד: ${p.barcodes.join(", ")}` : "";
     const skuText = p.sku ? `מק״ט: ${p.sku}` : "";
 
     return `
@@ -173,7 +217,7 @@
             <h2 class="card-title">${escapeHtml(p.name)}</h2>
             <div class="card-meta">
               ${skuText ? `<span>${escapeHtml(skuText)}</span>` : ""}
-              <span>${escapeHtml(barcodeText)}</span>
+              ${barcodeText ? `<span>${escapeHtml(barcodeText)}</span>` : ""}
               <span>מקור: ${escapeHtml(p.source_name)}</span>
             </div>
           </div>
@@ -201,15 +245,80 @@
       </article>`;
   }
 
+  function renderCategoryHome() {
+    const cardsHtml = CATEGORIES.map((cat) => {
+      const items = allProducts.filter((p) => p._cat === cat.id);
+      if (!items.length) return "";
+      const withComp = items.filter((p) => p.competitors && p.competitors.length).length;
+      return `
+        <button class="cat-card" type="button" data-cat="${cat.id}">
+          <span class="cat-card-icon">${cat.icon}</span>
+          <span class="cat-card-title">${cat.title}</span>
+          <span class="cat-card-meta">${items.length} מוצרים • ${withComp} עם השוואת מתחרים</span>
+        </button>`;
+    }).join("");
+
+    categoryHome.innerHTML =
+      cardsHtml +
+      `<button class="cat-card" type="button" data-cat="ALL">
+        <span class="cat-card-icon">📋</span>
+        <span class="cat-card-title">כל המוצרים</span>
+        <span class="cat-card-meta">${allProducts.length} מוצרים בקטלוג</span>
+      </button>`;
+
+    categoryHome.querySelectorAll(".cat-card").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        activeCategory = btn.getAttribute("data-cat");
+        applyFilter();
+      });
+    });
+  }
+
+  function renderCategoryChips() {
+    const chips = [
+      `<button class="cat-chip ${activeCategory === null ? "active" : ""}" data-cat="HOME" type="button">⬅️ תתי-קטגוריות</button>`,
+      ...CATEGORIES.filter((c) => allProducts.some((p) => p._cat === c.id)).map(
+        (c) =>
+          `<button class="cat-chip ${activeCategory === c.id ? "active" : ""}" data-cat="${c.id}" type="button">${c.icon} ${c.title}</button>`
+      ),
+      `<button class="cat-chip ${activeCategory === "ALL" ? "active" : ""}" data-cat="ALL" type="button">הכול</button>`,
+    ];
+    categoryChips.innerHTML = chips.join("");
+    categoryChips.querySelectorAll(".cat-chip").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const val = btn.getAttribute("data-cat");
+        activeCategory = val === "HOME" ? null : val;
+        applyFilter();
+      });
+    });
+  }
+
   function applyFilter() {
     const rawQuery = searchInput.value.trim();
     clearBtn.classList.toggle("hidden", !rawQuery);
     const onlyCheaper = onlyCheaperToggle.checked;
 
+    // Show clean category tiles when not searching, no category selected, and toggle is off
+    if (!rawQuery && !onlyCheaper && activeCategory === null) {
+      categoryHome.classList.remove("hidden");
+      categoryChips.classList.add("hidden");
+      resultsGrid.innerHTML = "";
+      resultCount.textContent = `בחר קטגוריה או חפש מכל ${allProducts.length} המוצרים`;
+      return;
+    }
+
+    categoryHome.classList.add("hidden");
+    categoryChips.classList.remove("hidden");
+    renderCategoryChips();
+
     const queryNormCode = normalizeCode(rawQuery);
     const words = rawQuery.toLowerCase().split(/\s+/).filter(Boolean);
 
     const filtered = allProducts.filter((p) => {
+      // Search ALWAYS searches across the ENTIRE catalog regardless of activeCategory
+      if (!rawQuery && activeCategory && activeCategory !== "ALL" && p._cat !== activeCategory) {
+        return false;
+      }
       if (onlyCheaper && !(p.best_in_stock_match && p.best_in_stock_match.diff_ils < 0)) {
         return false;
       }
@@ -219,12 +328,19 @@
       return words.every((w) => p._hay.includes(w));
     });
 
-    resultCount.textContent = `מציג ${filtered.length} מתוך ${allProducts.length} מוצרים`;
+    // Prioritize items that actually have competitor offers when browsing a category
+    if (!rawQuery) {
+      filtered.sort((a, b) => (b.competitors?.length || 0) - (a.competitors?.length || 0));
+    }
+
+    resultCount.textContent = rawQuery
+      ? `חיפוש בכל הקטלוג: נמצאו ${filtered.length} תוצאות`
+      : `מציג ${filtered.length} מוצרים`;
 
     if (!filtered.length) {
       resultsGrid.innerHTML = `
         <div class="empty-state">
-          <p><strong>לא נמצא מוצר תואם בסריקה עבור "${escapeHtml(rawQuery)}"</strong></p>
+          <p><strong>לא נמצא מוצר תואם עבור "${escapeHtml(rawQuery)}"</strong></p>
           <p style="color:#64748b;font-size:0.9rem">ניתן לפתוח בדיקה מהירה בזאפ או בגוגל בלחיצה אחת:</p>
           <div style="display:flex;gap:8px;justify-content:center;margin-top:12px;">
             <a class="link-btn primary" href="${zapUrl(rawQuery)}" target="_blank" rel="noopener">🔎 חפש בזאפ</a>
@@ -234,7 +350,7 @@
       return;
     }
 
-    resultsGrid.innerHTML = filtered.slice(0, 80).map(renderCard).join("");
+    resultsGrid.innerHTML = filtered.slice(0, 100).map(renderCard).join("");
   }
 
   async function init() {
@@ -244,14 +360,15 @@
       const payload = await resp.json();
 
       syncMeta.textContent = `סריקה אחרונה: ${formatIsraelTime(payload.generated_at)} • ${payload.product_count} מוצרים`;
-      modeBadge.textContent = payload.mode === "demo" ? "מצב הדגמה" : payload.mode === "full" ? "קטלוג מלא" : "מצב DJI";
+      modeBadge.textContent = payload.mode === "sheet" ? "מסונכרן Google Sheets" : payload.mode === "demo" ? "מצב הדגמה" : "מסונכרן";
       renderHealth(payload.stores || []);
 
       allProducts = (payload.products || []).map(buildSearchIndex);
+      renderCategoryHome();
       applyFilter();
     } catch (err) {
       syncMeta.textContent = "שגיאה בטעינת נתוני prices.json";
-      resultsGrid.innerHTML = `<div class="empty-state">לא ניתן לטעון את קובץ הנתונים. הפעל את ה-GitHub Action ליצירת <code>docs/data/prices.json</code>.</div>`;
+      resultsGrid.innerHTML = `<div class="empty-state">לא ניתן לטעון את קובץ הנתונים.</div>`;
     }
   }
 

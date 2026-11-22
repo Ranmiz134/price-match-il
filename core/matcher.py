@@ -91,15 +91,16 @@ def match_catalog_to_competitors(
 
         matched_offers = sorted(best_per_store.values(), key=lambda x: x["price"])
 
-        approved_in_stock = [o for o in matched_offers if o["is_approved_match"]]
-        official_any_stock = [
-            o for o in matched_offers if o["importer_status"] == "official" and not o["anomaly_flag"]
+        # Highlight the lowest in-stock non-anomaly offer (including 'unverified' with clear seller-check badge)
+        in_stock_candidates = [
+            o for o in matched_offers if o["in_stock"] and not o["anomaly_flag"]
         ]
+        non_anomaly_any_stock = [o for o in matched_offers if not o["anomaly_flag"]]
 
-        best_in_stock = approved_in_stock[0] if approved_in_stock else None
+        best_in_stock = in_stock_candidates[0] if in_stock_candidates else None
         cheapest_overall = (
-            official_any_stock[0]
-            if official_any_stock
+            non_anomaly_any_stock[0]
+            if non_anomaly_any_stock
             else (matched_offers[0] if matched_offers else None)
         )
 
@@ -134,15 +135,12 @@ def _evaluate_match(
     offer_barcodes: set[str],
 ) -> tuple[str, float]:
     """Return (match_type, score) or ('', 0.0) if rejected by Price Match Guard."""
-    # 1) Direct SKU link from Google Sheet Competitor_Prices tab
     if prod_sku and linked_sku and prod_sku == linked_sku:
         return ("sku_exact", 1.0)
 
-    # 2) Exact barcode match
     if prod_barcodes and offer_barcodes and (prod_barcodes & offer_barcodes):
         return ("barcode", 1.0)
 
-    # 3) Variant guards
     if prod_sig.brand and offer_sig.brand and prod_sig.brand != offer_sig.brand:
         return ("", 0.0)
 

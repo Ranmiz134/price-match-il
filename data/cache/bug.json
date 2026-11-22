@@ -1,47 +1,13 @@
 {
   "store_id": "bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-22T06:25:18.829627+00:00",
-  "count": 32,
+  "last_ok_at": "2026-11-22T06:35:37.994426+00:00",
+  "count": 45,
   "items": [
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "סמארטפון",
-      "price": 1349.0,
-      "url": "https://www.bug.co.il/brand/nothing/phone/4b/8gb/128gb/blue",
-      "in_stock": true,
-      "importer_status": "official",
-      "importer_text": "ה לחץ לבדיקת מלאי המוצר בסניפי BUG יבואן רשמי משלוח חינם קנייה בטוחה אחריות: שנה ע\"י יבואן רשמי - באג מול",
-      "sku": "6974434229327",
-      "barcodes": [
-        "6974434229327"
-      ],
-      "regular_price": null,
-      "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
-    },
-    {
-      "store_id": "bug",
-      "store_name": "באג (Bug)",
-      "title": "רמקול אלחוטי נייד",
-      "price": 319.0,
-      "url": "https://www.bug.co.il/brand/jbl/bluetooth/speakers/flip/7/special/edition/tomorrowland",
-      "in_stock": true,
-      "importer_status": "official",
-      "importer_text": "ה לחץ לבדיקת מלאי המוצר בסניפי BUG יבואן רשמי איסוף חינם קנייה בטוחה אחריות: שנה ע\"י יבואן רשמי - באג מול",
-      "sku": "1200130028274",
-      "barcodes": [
-        "1200130028274"
-      ],
-      "regular_price": null,
-      "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
-    },
-    {
-      "store_id": "bug",
-      "store_name": "באג (Bug)",
-      "title": "מצלמת גימבל",
+      "title": "מצלמת גימבל Osmo Pocket 4P Vlog Combo די ג'יי איי - DJI",
       "price": 2899.0,
       "url": "https://www.bug.co.il/brand/dji/osmo/pocket/4p/vlog/combo",
       "in_stock": true,
@@ -53,12 +19,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "מצלמת גימבל",
+      "title": "מצלמת גימבל Osmo Pocket 4P Standard Combo די ג'יי איי - DJI",
       "price": 2499.0,
       "url": "https://www.bug.co.il/brand/dji/osmo/pocket/4p/standard/combo",
       "in_stock": true,
@@ -70,12 +36,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "מצלמה",
+      "title": "מצלמה Osmo 360 II Adventure Combo די ג'יי איי - DJI",
       "price": 2699.0,
       "url": "https://www.bug.co.il/brand/dji/osmo/360/ii/adventure/combo",
       "in_stock": true,
@@ -87,12 +53,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "מצלמה",
+      "title": "מצלמה Osmo 360 II Standard Combo די ג'יי איי - DJI",
       "price": 2199.0,
       "url": "https://www.bug.co.il/brand/dji/osmo/360/ii/standard/combo",
       "in_stock": true,
@@ -104,12 +70,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "מיקרופון אלחוטי",
+      "title": "מיקרופון אלחוטי Mic Mini 2S (2 TX + 1 RX + Charging Case) די ג'יי איי - DJI",
       "price": 649.0,
       "url": "https://www.bug.co.il/brand/dji/mic/mini/2s/2/tx/1/rx/charging/case/",
       "in_stock": true,
@@ -121,12 +87,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "מייצב",
+      "title": "מייצב Ronin RS5 Combo די ג'יי איי - DJI",
       "price": 2449.0,
       "url": "https://www.bug.co.il/brand/dji/ronin/rs5/combo",
       "in_stock": true,
@@ -138,12 +104,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "מייצב",
+      "title": "מייצב RS 4 Mini Combo די ג'יי איי - DJI",
       "price": 1549.0,
       "url": "https://www.bug.co.il/brand/dji/rs/4/mini/combo",
       "in_stock": true,
@@ -155,12 +121,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "מייצב",
+      "title": "מייצב Ronin RS5 די ג'יי איי - DJI",
       "price": 2099.0,
       "url": "https://www.bug.co.il/brand/dji/ronin/rs5",
       "in_stock": true,
@@ -172,12 +138,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "מארז צלילה",
+      "title": "מארז צלילה Osmo Action 6 Waterproof Case די ג'יי איי - DJI",
       "price": 269.0,
       "url": "https://www.bug.co.il/brand/dji/osmo/action/6/waterproof/case",
       "in_stock": true,
@@ -189,12 +155,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "מייצב",
+      "title": "מייצב Osmo Mobile 8P - Advanced Tracking Combo די ג'יי איי - DJI",
       "price": 799.0,
       "url": "https://www.bug.co.il/brand/dji/osmo/mobile/8p/advanced/tracking/combo",
       "in_stock": true,
@@ -206,12 +172,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "מייצב",
+      "title": "מייצב Osmo Mobile 8P - Creator Combo די ג'יי איי - DJI",
       "price": 999.0,
       "url": "https://www.bug.co.il/brand/dji/osmo/mobile/8p/creator/combo",
       "in_stock": true,
@@ -223,12 +189,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "מייצב",
+      "title": "מייצב Osmo Mobile 8P - Standard Combo די ג'יי איי - DJI",
       "price": 699.0,
       "url": "https://www.bug.co.il/brand/dji/osmo/mobile/8p/standard/combo",
       "in_stock": true,
@@ -240,12 +206,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "מערכת מיקרופון אלחוטית",
+      "title": "מערכת מיקרופון אלחוטית Mic Mini 2 (2TX+1Mobile RX+Charging Case) די ג'יי איי - DJI",
       "price": 299.0,
       "url": "https://www.bug.co.il/brand/dji/mic/mini/2/2tx/1mobile/rx/charging/case/",
       "in_stock": true,
@@ -257,12 +223,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "מערכת מיקרופון אלחוטית",
+      "title": "מערכת מיקרופון אלחוטית Mic Mini 2 (2TX+1RX+Charging Case) די ג'יי איי - DJI",
       "price": 399.0,
       "url": "https://www.bug.co.il/brand/dji/mic/mini/2/2tx/1rx/charging/case/",
       "in_stock": true,
@@ -274,12 +240,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "משדר מיקרופון אלחוטי",
+      "title": "משדר מיקרופון אלחוטי Mic Mini 2 Transmitter די ג'יי איי - DJI",
       "price": 129.0,
       "url": "https://www.bug.co.il/brand/dji/mic/mini/2/transmitter",
       "in_stock": true,
@@ -291,12 +257,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "מיקרופון אלחוטי",
+      "title": "מיקרופון אלחוטי Mic Mini 2 (1 TX + 1 RX) די ג'יי איי - DJI",
       "price": 249.0,
       "url": "https://www.bug.co.il/brand/dji/mic/mini/2/1/tx/1/rx/",
       "in_stock": true,
@@ -308,12 +274,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "מצלמת גימבל",
+      "title": "מצלמת גימבל Osmo Pocket 4 Creator Combo די ג'יי איי - DJI",
       "price": 2199.0,
       "url": "https://www.bug.co.il/brand/dji/osmo/pocket/4/creator/combo",
       "in_stock": true,
@@ -325,12 +291,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "רחפן",
+      "title": "רחפן Lito X1 Fly More Combo די ג'יי איי - DJI",
       "price": 2949.0,
       "url": "https://www.bug.co.il/brand/dji/lito/x1/fly/more/combo",
       "in_stock": true,
@@ -342,12 +308,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "מצלמת גימבל",
+      "title": "מצלמת גימבל Osmo Pocket 4 Standard Combo די ג'יי איי - DJI",
       "price": 1899.0,
       "url": "https://www.bug.co.il/brand/dji/osmo/pocket/4/standard/combo",
       "in_stock": true,
@@ -359,12 +325,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "רחפן",
+      "title": "רחפן Lito X1 Fly More Combo Plus די ג'יי איי - DJI",
       "price": 3349.0,
       "url": "https://www.bug.co.il/brand/dji/lito/x1/fly/more/combo/plus",
       "in_stock": true,
@@ -376,12 +342,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "רחפן",
+      "title": "רחפן Avata 360 Motion Fly More Combo די ג'יי איי - DJI",
       "price": 4399.0,
       "url": "https://www.bug.co.il/brand/dji/avata/360/motion/fly/more/combo",
       "in_stock": true,
@@ -393,12 +359,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "רחפן",
+      "title": "רחפן Lito 1 Fly More Combo די ג'יי איי - DJI",
       "price": 2149.0,
       "url": "https://www.bug.co.il/brand/dji/lito/1/fly/more/combo",
       "in_stock": true,
@@ -410,12 +376,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "רחפן",
+      "title": "רחפן Avata 360 Fly More Combo (DJI RC 2) די ג'יי איי - DJI",
       "price": 4399.0,
       "url": "https://www.bug.co.il/brand/dji/avata/360/fly/more/combo/dji/rc/2/",
       "in_stock": true,
@@ -427,12 +393,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "רחפן",
+      "title": "רחפן Avata 360 (DJI RC 2) די ג'יי איי - DJI",
       "price": 3149.0,
       "url": "https://www.bug.co.il/brand/dji/avata/360/dji/rc/2/",
       "in_stock": true,
@@ -444,12 +410,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "רחפן",
+      "title": "רחפן Lito 1 די ג'יי איי - DJI",
       "price": 1449.0,
       "url": "https://www.bug.co.il/brand/dji/lito/1",
       "in_stock": true,
@@ -461,12 +427,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "רחפן",
+      "title": "רחפן Mini 5 Pro Fly More Combo די ג'יי איי - DJI",
       "price": 4499.0,
       "url": "https://www.bug.co.il/brand/dji/mini/5/pro/fly/more/combo",
       "in_stock": true,
@@ -478,12 +444,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "רחפן",
+      "title": "רחפן Mavic 4 Pro Creator Combo די ג'יי איי - DJI",
       "price": 15999.0,
       "url": "https://www.bug.co.il/brand/dji/mavic/4/pro/creator/combo",
       "in_stock": true,
@@ -495,12 +461,12 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "רחפן",
+      "title": "רחפן Neo 2 Fly More Combo די ג'יי איי - DJI",
       "price": 1899.0,
       "url": "https://www.bug.co.il/brand/dji/neo/2/fly/more/combo",
       "in_stock": true,
@@ -512,41 +478,296 @@
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     },
     {
       "store_id": "bug",
       "store_name": "באג (Bug)",
-      "title": "קוד דיגיטלי כסף ארנק דיגיטלי 60 שקל",
-      "price": 60.0,
-      "url": "https://www.bug.co.il/brand/playstation/store/60ils/digital/code",
+      "title": "רחפן   Flip עם RC2 די ג'יי איי - DJI",
+      "price": 2799.0,
+      "url": "https://www.bug.co.il/brand/dji/flip/rc2",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 1",
+      "sku": "6941565994004",
+      "barcodes": [
+        "6941565994004"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "ערכת  Dji Avata 2 + Goggles Integra + RC Motion 2 די ג'יי איי - DJI",
+      "price": 2999.0,
+      "url": "https://www.bug.co.il/brand/dji/avata/2/integra/rc2/motion/kit",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "מלאי המוצר בסניפי BUG קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ אפשרות לתשלום בהוראת קבע ללא תפיס",
+      "sku": "7290117628256",
+      "barcodes": [
+        "7290117628256"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "רחפן Neo 2 (רחפן בלבד) די ג'יי איי - DJI",
+      "price": 999.0,
+      "url": "https://www.bug.co.il/brand/dji/neo/2/droneonly",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 5",
+      "sku": "6937224131767",
+      "barcodes": [
+        "6937224131767"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "רחפן Neo 2 Motion Fly More Combo די ג'יי איי - DJI",
+      "price": 2599.0,
+      "url": "https://www.bug.co.il/brand/dji/neo/2/motion/fly/more/combo",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 1",
+      "sku": "6937224131729",
+      "barcodes": [
+        "6937224131729"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "רחפן Neo 2 Fly More Combo ללא שלט די ג'יי איי - DJI",
+      "price": 1449.0,
+      "url": "https://www.bug.co.il/brand/dji/neo/2/fly/more/combo/droneonly",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 8",
+      "sku": "6937224131736",
+      "barcodes": [
+        "6937224131736"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "רחפן Mini 5 Pro Fly More Combo Plus די ג'יי איי - DJI",
+      "price": 4799.0,
+      "url": "https://www.bug.co.il/brand/dji/mini/5/pro/fly/more/combo/plus",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 2",
+      "sku": "6937224123205",
+      "barcodes": [
+        "6937224123205"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "רחפן Mavic 4 Pro די ג'יי איי - DJI",
+      "price": 9299.0,
+      "url": "https://www.bug.co.il/brand/dji/mavic/4/pro",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 5",
+      "sku": "6937224109933",
+      "barcodes": [
+        "6937224109933"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "רחפן Mavic 4 Pro Fly More Combo די ג'יי איי - DJI",
+      "price": 11999.0,
+      "url": "https://www.bug.co.il/brand/dji/mavic/4/pro/fly/more/combo",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 6",
+      "sku": "6937224109940",
+      "barcodes": [
+        "6937224109940"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "רחפן ושלט חכם AIR 3S + RC 2 Combo די ג'יי איי - DJI",
+      "price": 6499.0,
+      "url": "https://www.bug.co.il/brand/dji/rc/2/air/3s/combo",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 3",
+      "sku": "6941565989932",
+      "barcodes": [
+        "6941565989932"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "רחפן Flip Fly More Combo די ג'יי איי - DJI",
+      "price": 3399.0,
+      "url": "https://www.bug.co.il/brand/dji/flip/fly/more/combo",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 1",
+      "sku": "6941565992536",
+      "barcodes": [
+        "6941565992536"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "רחפן   Neo די ג'יי איי - DJI",
+      "price": 899.0,
+      "url": "https://www.bug.co.il/brand/dji/neo/",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 4",
+      "sku": "6941565988362",
+      "barcodes": [
+        "6941565988362"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "רחפן  Neo Fly More Combo די ג'יי איי - DJI",
+      "price": 1549.0,
+      "url": "https://www.bug.co.il/brand/dji/neo/fly/more/combo",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "י BUG איסוף מלוקר חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 8",
+      "sku": "6941565988294",
+      "barcodes": [
+        "6941565988294"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "רחפן Avata 2 Fly More Combo One Battery די ג'יי איי - DJI",
+      "price": 3999.0,
+      "url": "https://www.bug.co.il/brand/dji/avata2/fly/more/combo/onebattery",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 2",
+      "sku": "6941565980083",
+      "barcodes": [
+        "6941565980083"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "רחפן Mini 4 Pro Combo Plus די ג'יי איי - DJI",
+      "price": 3999.0,
+      "url": "https://www.bug.co.il/brand/dji/mini/4/pro/combo/plus",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 2",
+      "sku": "6941565969002",
+      "barcodes": [
+        "6941565969002"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "ערכת קומבו  Goggles 2 & RC Motion 2 די ג'יי איי - DJI",
+      "price": 3499.0,
+      "url": "https://www.bug.co.il/brand/dji/combo/kit/rc/motion2/goggles2",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 1",
+      "sku": "6941565952318",
+      "barcodes": [
+        "6941565952318"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "ערכת קומבו  Goggles Integra & RC Motion 2 די ג'יי איי - DJI",
+      "price": 999.0,
+      "url": "https://www.bug.co.il/brand/dji/combo/kit/rc/motion2/goggles/se/integra",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 5",
+      "sku": "6941565952288",
+      "barcodes": [
+        "6941565952288"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "סוללה לרחפן Avata די ג'יי איי - DJI",
+      "price": 599.0,
+      "url": "https://www.bug.co.il/brand/dji/battery/avata/99999/488/33",
       "in_stock": true,
       "importer_status": "unverified",
       "importer_text": "",
-      "sku": "729012154201",
+      "sku": "6941565936455",
       "barcodes": [
-        "0729012154201"
+        "6941565936455"
       ],
       "regular_price": null,
       "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
-    },
-    {
-      "store_id": "bug",
-      "store_name": "באג (Bug)",
-      "title": "עט תלת מימד",
-      "price": 179.0,
-      "url": "https://www.bug.co.il/brand/myfirst/color/blue/3dpen/make",
-      "in_stock": true,
-      "importer_status": "official",
-      "importer_text": "ה לחץ לבדיקת מלאי המוצר בסניפי BUG יבואן רשמי איסוף חינם קנייה בטוחה אחריות: שנה ע\"י יבואן רשמי - באג מול",
-      "sku": "0850031616257",
-      "barcodes": [
-        "0850031616257"
-      ],
-      "regular_price": null,
-      "is_on_sale": false,
-      "scraped_at": "2026-11-22T06:24:46.738802+00:00"
+      "scraped_at": "2026-11-22T06:35:02.988456+00:00"
     }
   ]
 }

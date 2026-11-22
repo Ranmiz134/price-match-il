@@ -1,5 +1,7 @@
 (function () {
   let allProducts = [];
+  const isManagerView = new URLSearchParams(window.location.search).get("view") === "manager" && Boolean(document.getElementById("managerPanel"));
+  let managerVisibleLimit = 100;
   let activeCategory = null; // null = category home view (unless searching or toggle active)
 
   const searchInput = document.getElementById("searchInput");
@@ -14,6 +16,22 @@
   const syncMeta = document.getElementById("syncMeta");
   const modeBadge = document.getElementById("modeBadge");
   const storeHealthBar = document.getElementById("storeHealthBar");
+
+  const healthPanel = document.getElementById("storeHealthPanel");
+  const mobileHealth = window.matchMedia("(max-width: 700px)");
+  if (healthPanel) {
+    healthPanel.open = !mobileHealth.matches;
+    mobileHealth.addEventListener("change", (event) => { healthPanel.open = !event.matches; });
+  }
+  const managerStockOnly = document.getElementById("managerStockOnly");
+  const managerDirection = document.getElementById("managerDirection");
+  const managerGapRange = document.getElementById("managerGapRange");
+  if (isManagerView) {
+    document.body.classList.add("manager-mode");
+    document.getElementById("managerPanel").classList.remove("hidden");
+    document.querySelector(".topbar h1").textContent = "בקרת מחירים | הנהלת האתר";
+    document.title = "בקרת מחירים | קטלוג בנדא";
+  }
 
   const CATEGORIES = [
     { id: "drones", title: "רחפנים", icon: "🚁" },
@@ -67,7 +85,7 @@
   }
 
   function normalizeCode(str) {
-    return String(str || "").replace(/[\s\-]+/g, "").trim().toUpperCase();
+    return String(str || "").replace(/[\s\p{Pd}\u2212]+/gu, "").trim().toUpperCase();
   }
 
   function barcodeMatches(queryNorm, barcodes) {
@@ -80,11 +98,29 @@
     });
   }
 
+  function normalizeSearchText(value) {
+    return String(value || "").normalize("NFKD").replace(/\p{M}/gu, "")
+      .toLowerCase().replace(/[׳״'’"]/g, "").replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+  }
+
+  function searchRank(product, query) {
+    const code = normalizeCode(query);
+    if (barcodeMatches(code, product._bcs)) return 0;
+    if (product._sku && product._sku === code) return 1;
+    const words = normalizeSearchText(query).split(/\s+/).filter(Boolean);
+    if (!words.length) return null;
+    if (words.every((word) => product._nameSearch.includes(word))) return 2;
+    if (code.length >= 3 && product._sku && product._sku.includes(code)) return 3;
+    if (/^\d{4,}$/.test(code) && product._bcs.some((barcode) => barcode.includes(code))) return 4;
+    if (words.every((word) => product._search.includes(word))) return 5;
+    return null;
+  }
+
   function buildSearchIndex(product) {
     const sku = normalizeCode(product.sku);
     const bcs = (product.barcodes || []).map(normalizeCode);
     const hay = `${product.name || ""} ${product.brand || ""} ${product.sku || ""} ${bcs.join(" ")}`.toLowerCase();
-    return { ...product, _sku: sku, _bcs: bcs, _hay: hay, _cat: classifyCategory(product) };
+    return { ...product, _sku: sku, _bcs: bcs, _hay: hay, _search: normalizeSearchText(hay), _nameSearch: normalizeSearchText(product.name), _cat: classifyCategory(product) };
   }
 
   function zapUrl(name) {
@@ -104,6 +140,8 @@
   }
 
   function renderHealth(stores) {
+    const healthCounts = document.getElementById("healthSummaryCounts");
+    if (healthCounts) healthCounts.textContent = `(${(stores || []).length})`;
     storeHealthBar.innerHTML = (stores || [])
       .map((s) => {
         const cls = s.status === "ok" ? "ok" : s.status === "stale" ? "stale" : "error";
@@ -293,7 +331,105 @@
     });
   }
 
+
+  function managerAssessment(product, inStockOnly = false) {
+    const ownPrice = Number(product.our_price);
+    const eligible = (product.competitors || []).filter((offer) =>
+      ["official", "unverified"].includes(offer.importer_status) &&
+      Number.isFinite(Number(offer.price)) && Number(offer.price) > 0 &&
+      (!inStockOnly || offer.in_stock === true)
+    ).map((offer) => {
+      const gap = Number.isFinite(ownPrice) && ownPrice > 0 ? Math.round((ownPrice - Number(offer.price)) * 100) / 100 : null;
+      return { ...offer, _managerGap: gap, _managerPct: gap === null ? null : Math.abs(gap) / ownPrice * 100 };
+    }).sort((a, b) => Math.abs(b._managerPct || 0) - Math.abs(a._managerPct || 0));
+    return { eligible, hasCheaper: eligible.some((offer) => offer._managerGap > 0.005), hasHigher: eligible.some((offer) => offer._managerGap < -0.005) };
+  }
+
+  function managerFilteredOffers(assessment) {
+    const minPercent = Number(managerGapRange.value);
+    return assessment.eligible.filter((offer) => {
+      if (offer._managerGap === null) return minPercent === 0 && managerDirection.value === "all";
+      if (offer._managerPct + 0.0000001 < minPercent) return false;
+      if (managerDirection.value === "ours-higher") return offer._managerGap > 0.005;
+      if (managerDirection.value === "ours-lower") return offer._managerGap < -0.005;
+      if (managerDirection.value === "equal") return Math.abs(offer._managerGap) <= 0.005;
+      return true;
+    });
+  }
+
+  function formatPreciseILS(value) {
+    if (value === null || value === undefined || !Number.isFinite(Number(value))) return "לא צוין";
+    return `₪${Number(value).toLocaleString("he-IL", { maximumFractionDigits: 2 })}`;
+  }
+
+  function managerGapText(offer) {
+    if (offer._managerGap === null) return "מחיר שלנו חסר, לא חושב פער";
+    if (Math.abs(offer._managerGap) <= 0.005) return "מחיר זהה";
+    const percent = Math.round(offer._managerPct * 10) / 10;
+    return `אנחנו ${offer._managerGap > 0 ? "יקרים" : "זולים"} יותר ב-${formatPreciseILS(Math.abs(offer._managerGap))}, פער ${percent}% ממחירנו`;
+  }
+
+  function managerGapClass(offer) {
+    return !offer || offer._managerGap === null || Math.abs(offer._managerGap) <= 0.005 ? "is-clear is-equal" : offer._managerGap < 0 ? "is-lower" : "";
+  }
+
+  function renderManagerCard(product) {
+    const assessment = managerAssessment(product, managerStockOnly.checked);
+    const displayedOffers = managerFilteredOffers(assessment);
+    const best = displayedOffers[0];
+    const offers = displayedOffers.map((offer) => {
+      const importer = offer.importer_status === "official" ? "יבואן רשמי" : "יבואן לא אומת (?)";
+      return `<div class="manager-offer">
+        <div class="manager-offer-head"><strong>${escapeHtml(offer.store_name)} · ${formatPreciseILS(offer.price)}</strong>
+          <a class="link-btn" href="${escapeHtml(offer.url)}" target="_blank" rel="noopener">למקור ↗</a></div>
+        <div class="manager-offer-gap ${managerGapClass(offer)}">${managerGapText(offer)}</div>
+        <div class="manager-offer-badges"><span class="badge ${offer.importer_status === "official" ? "badge-official" : "badge-check"}">${importer}</span>
+          <span class="badge ${offer.in_stock ? "badge-official" : "badge-oos"}">${offer.in_stock ? "במלאי" : "אזל במלאי"}</span></div>
+        <small>${escapeHtml(offer.title)}</small>
+        ${offer.anomaly_flag ? `<div class="anomaly-banner">${escapeHtml(offer.anomaly_warning || "פער חריג, יש לוודא התאמת דגם וחבילה לפני שינוי מחיר")}</div>` : ""}
+        <small>נבדק: ${escapeHtml(formatIsraelTime(offer.scraped_at))}</small>
+      </div>`;
+    }).join("");
+    return `<article class="card manager-card" data-sku="${escapeHtml(product.sku)}">
+      <h2 class="card-title">${escapeHtml(product.name)}</h2>
+      <div class="card-meta"><span>מק"ט: <bdi>${escapeHtml(product.sku)}</bdi></span>${product.brand ? `<span>${escapeHtml(product.brand)}</span>` : ""}
+        ${(product.barcodes || []).length ? `<span>ברקוד: <bdi>${escapeHtml(product.barcodes.join(", "))}</bdi></span>` : ""}</div>
+      <div class="manager-prices"><div class="manager-price"><span>המחיר שלנו, כולל מע"מ</span><strong>${formatPreciseILS(product.our_price)}</strong></div>
+        <div class="manager-price"><span>מחיר מתחרה להשוואה</span><strong>${best ? formatPreciseILS(best.price) : "אין הצעה"}</strong></div></div>
+      <div class="manager-gap ${managerGapClass(best)}">${best ? managerGapText(best) : "אין השוואה מתאימה בסריקה הקיימת"}</div>
+      ${best ? `<div class="manager-offer-badges"><span class="badge ${best.importer_status === "official" ? "badge-official" : "badge-check"}">${escapeHtml(best.store_name)} · ${best.importer_status === "official" ? "יבואן רשמי" : "יבואן לא אומת (?)"}</span>
+        <span class="badge ${best.in_stock ? "badge-official" : "badge-oos"}">${best.in_stock ? "במלאי" : "אזל במלאי"}</span>
+        ${best.anomaly_flag ? '<span class="badge badge-check">פער חריג לבדיקה</span>' : ""}</div>` : ""}
+      ${product.source_url ? `<div class="card-footer"><a class="link-btn" href="${escapeHtml(product.source_url)}" target="_blank" rel="noopener">דף המוצר שלנו ↗</a></div>` : ""}
+      ${offers ? `<details class="manager-offers" open><summary>השוואות ומקורות (${displayedOffers.length}/${assessment.eligible.length}) ⌄</summary>${offers}</details>` : ""}
+    </article>`;
+  }
+
+  function applyManagerFilter() {
+    categoryHome.classList.add("hidden");
+    categoryChips.classList.add("hidden");
+    const rawQuery = searchInput.value.trim();
+    clearBtn.classList.toggle("hidden", !rawQuery);
+    const minPercent = Number(managerGapRange.value);
+    document.getElementById("managerGapValue").textContent = `${minPercent}% ומעלה`;
+    managerGapRange.setAttribute("aria-valuetext", `${minPercent}% ומעלה`);
+    document.querySelectorAll("[data-gap]").forEach((button) => button.classList.toggle("active", Number(button.dataset.gap) === minPercent));
+    const assessed = allProducts.map((product) => ({ product, assessment: managerAssessment(product, managerStockOnly.checked), rank: rawQuery ? searchRank(product, rawQuery) : 0 }));
+    const higherCount = assessed.filter((item) => item.assessment.hasCheaper).length;
+    const lowerCount = assessed.filter((item) => item.assessment.hasHigher).length;
+    document.getElementById("managerSummary").innerHTML = `<div class="manager-stat"><strong>${allProducts.length.toLocaleString("he-IL")}</strong><span>מוצרים בקטלוג</span></div><div class="manager-stat"><strong>${higherCount}</strong><span>אנחנו יקרים יותר</span></div><div class="manager-stat"><strong>${lowerCount}</strong><span>אנחנו זולים יותר</span></div>`;
+    const needsComparison = minPercent > 0 || managerDirection.value !== "all";
+    const filtered = assessed.filter((item) => item.rank !== null && (!needsComparison || managerFilteredOffers(item.assessment).length > 0));
+    filtered.sort((a, b) => rawQuery ? a.rank - b.rank : Math.max(0, ...managerFilteredOffers(b.assessment).map((offer) => offer._managerPct || 0)) - Math.max(0, ...managerFilteredOffers(a.assessment).map((offer) => offer._managerPct || 0)));
+    const visible = filtered.slice(0, managerVisibleLimit);
+    resultCount.textContent = `מציג ${visible.length} מתוך ${filtered.length} מוצרים${rawQuery ? " בחיפוש בכל הקטלוג" : ""}`;
+    resultsGrid.innerHTML = visible.length ? visible.map((item) => renderManagerCard(item.product)).join("") : '<div class="empty-state">לא נמצאו מוצרים לסינון הנוכחי.</div>';
+    document.getElementById("managerPagination").classList.toggle("hidden", visible.length >= filtered.length);
+    document.getElementById("managerLoadMore").textContent = `הצג עוד ${Math.min(100, filtered.length - visible.length)} מוצרים`;
+  }
+
   function applyFilter() {
+    if (isManagerView) { applyManagerFilter(); return; }
     const rawQuery = searchInput.value.trim();
     clearBtn.classList.toggle("hidden", !rawQuery);
     const onlyCheaper = onlyCheaperToggle.checked;
@@ -323,11 +459,10 @@
         return false;
       }
       if (!rawQuery) return true;
-      if (barcodeMatches(queryNormCode, p._bcs)) return true;
-      if (p._sku && p._sku === queryNormCode) return true;
-      return words.every((w) => p._hay.includes(w));
+      return searchRank(p, rawQuery) !== null;
     });
 
+    if (rawQuery) filtered.sort((a, b) => searchRank(a, rawQuery) - searchRank(b, rawQuery));
     // Prioritize items that actually have competitor offers when browsing a category
     if (!rawQuery) {
       filtered.sort((a, b) => (b.competitors?.length || 0) - (a.competitors?.length || 0));
@@ -372,8 +507,14 @@
     }
   }
 
-  searchInput.addEventListener("input", applyFilter);
-  onlyCheaperToggle.addEventListener("change", applyFilter);
+  function resetManagerPage() { managerVisibleLimit = 100; applyFilter(); }
+  searchInput.addEventListener("input", resetManagerPage);
+  onlyCheaperToggle.addEventListener("change", resetManagerPage);
+  managerStockOnly?.addEventListener("change", resetManagerPage);
+  managerDirection?.addEventListener("change", resetManagerPage);
+  managerGapRange?.addEventListener("input", resetManagerPage);
+  document.querySelectorAll("[data-gap]").forEach((button) => button.addEventListener("click", () => { managerGapRange.value = button.dataset.gap; resetManagerPage(); }));
+  document.getElementById("managerLoadMore")?.addEventListener("click", () => { managerVisibleLimit += 100; applyFilter(); });
   clearBtn.addEventListener("click", () => {
     searchInput.value = "";
     searchInput.focus();

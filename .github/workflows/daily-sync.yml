@@ -1,0 +1,48 @@
+name: Daily Market Price Sync
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "היקף הסריקה (dji = מהיר לבדיקה, full = כל הקטלוג)"
+        required: true
+        default: "dji"
+        type: choice
+        options:
+          - dji
+          - full
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Price Sync
+        run: |
+          MODE="${{ github.event.inputs.mode || 'dji' }}"
+          python run_sync.py --mode "$MODE"
+
+      - name: Commit updated prices & cache
+        run: |
+          git config user.name "price-match-bot"
+          git config user.email "actions@github.com"
+          git add data/cache docs/data/prices.json
+          git diff --staged --quiet || git commit -m "chore: daily price sync ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+          git push

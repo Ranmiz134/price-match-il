@@ -6,6 +6,26 @@ from core.cache import StickyCache
 from core.loader import merge_base_catalog
 from core.matcher import match_catalog_to_competitors
 from core.normalizer import barcode_variants, classify_importer, normalize_barcode
+from scrapers.woocommerce import WooCommerceScraper
+
+
+def test_woocommerce_zero_minor_unit_not_divided_by_100():
+    scraper = WooCommerceScraper("dji_israel", "DJI ישראל", "https://www.djistore.benda.co.il", default_brand="DJI")
+    parsed = scraper._parse_store_api_item(
+        {
+            "id": 101,
+            "name": "מצלמת גימבל דגם Osmo Pocket 4P Standard Combo DJI (Pearl White)",
+            "sku": "99999-959-03",
+            "prices": {"price": "2499", "regular_price": "2499", "sale_price": "", "currency_minor_unit": 0},
+            "on_sale": False,
+            "is_in_stock": True,
+            "permalink": "https://www.djistore.benda.co.il/product/test/",
+            "categories": [{"name": "Osmo Pocket"}],
+        }
+    )
+    assert parsed is not None
+    assert parsed.our_price == 2499.0
+    assert parsed.barcodes == []  # internal SKU not misclassified as EAN barcode
 
 
 def test_barcode_leading_zero_equivalence():
@@ -35,7 +55,6 @@ def test_price_match_guard_rejects_bundle_and_storage_mismatch():
         }
     ]
     offers = [
-        # Standard (non-combo) must be rejected
         {
             "store_id": "bug",
             "store_name": "באג",
@@ -45,7 +64,6 @@ def test_price_match_guard_rejects_bundle_and_storage_mismatch():
             "in_stock": True,
             "importer_status": "official",
         },
-        # Parallel import must be rejected
         {
             "store_id": "ksp",
             "store_name": "KSP",
@@ -75,7 +93,6 @@ def test_out_of_stock_and_anomaly_guard():
         }
     ]
     offers = [
-        # >30% cheaper -> anomaly warning, NOT auto-approved
         {
             "store_id": "store_anom",
             "store_name": "חנות חריגה",
@@ -85,7 +102,6 @@ def test_out_of_stock_and_anomaly_guard():
             "in_stock": True,
             "importer_status": "official",
         },
-        # Cheapest valid official, but OUT OF STOCK
         {
             "store_id": "bug",
             "store_name": "באג",
@@ -95,7 +111,6 @@ def test_out_of_stock_and_anomaly_guard():
             "in_stock": False,
             "importer_status": "official",
         },
-        # Valid official IN STOCK (matched via 12-digit UPC-A barcode without leading 0)
         {
             "store_id": "ksp",
             "store_name": "KSP",

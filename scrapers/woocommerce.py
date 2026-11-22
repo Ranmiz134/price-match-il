@@ -101,7 +101,10 @@ class WooCommerceScraper(ScraperBase):
             return None
 
         prices = raw.get("prices") or {}
-        minor_unit = int(prices.get("currency_minor_unit", 2) or 2)
+        # CRITICAL FIX: currency_minor_unit can legitimately be 0 (whole ILS without agorot).
+        # Never use `or 2`, which treats 0 as falsy and divides every price by 100!
+        raw_minor = prices.get("currency_minor_unit")
+        minor_unit = 2 if raw_minor is None or raw_minor == "" else int(raw_minor)
         divisor = 10**minor_unit
 
         price_val = _to_float(prices.get("price")) / divisor
@@ -115,7 +118,8 @@ class WooCommerceScraper(ScraperBase):
         sku = str(raw.get("sku") or "").strip()
 
         barcodes: list[str] = []
-        for candidate in (sku, raw.get("gtin"), raw.get("ean"), raw.get("barcode")):
+        # Only treat explicit GTIN/EAN/barcode fields as barcodes (not internal Benda SKUs like 99999-959-03)
+        for candidate in (raw.get("gtin"), raw.get("ean"), raw.get("barcode")):
             nb = normalize_barcode(str(candidate or ""))
             if nb and nb not in barcodes:
                 barcodes.append(nb)
@@ -222,7 +226,7 @@ class WooCommerceScraper(ScraperBase):
 
         sku = str(product_ld.get("sku") or "").strip()
         barcodes: list[str] = []
-        for key in ("gtin13", "gtin12", "gtin", "ean", "mpn", "sku"):
+        for key in ("gtin13", "gtin12", "gtin", "ean"):
             nb = normalize_barcode(str(product_ld.get(key) or ""))
             if nb and nb not in barcodes:
                 barcodes.append(nb)

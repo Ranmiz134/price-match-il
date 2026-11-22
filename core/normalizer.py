@@ -33,10 +33,14 @@ STOPWORDS = {
     "מייצב",
     "מיקרופון",
     "אלחוטי",
+    "דגם",
     "צבע",
     "שחור",
     "אפור",
     "לבן",
+    "פנינה",
+    "כסוף",
+    "כחול",
     "מבית",
     "די",
     "גיי",
@@ -47,15 +51,20 @@ STOPWORDS = {
     "חכם",
     "ערכת",
     "ערכה",
+    "סוללה",
+    "לרחפן",
     "drone",
     "camera",
     "action",
+    "gimbal",
     "with",
     "color",
     "black",
     "gray",
     "grey",
     "white",
+    "pearl",
+    "silver",
     "official",
     "israel",
     "benda",
@@ -98,12 +107,10 @@ def normalize_barcode(raw: str) -> str:
         return ""
     if cleaned.isdigit():
         if len(cleaned) == 12:
-            # Store canonical 13-digit EAN form (leading zero added) so UPC-A and EAN-13 always match
             return "0" + cleaned
         if 8 <= len(cleaned) <= 14:
             return cleaned
         return ""
-    # Support Code-128 alphanumeric manufacturer barcodes (e.g. CP.FP.00000123.01)
     if 6 <= len(cleaned) <= 32 and re.match(r"^[A-Z0-9._/]+$", cleaned):
         return cleaned
     return ""
@@ -156,12 +163,12 @@ def extract_variant_signature(title: str, brand_hint: str = "") -> VariantSignat
     prevents matching Fly More Combo to Standard, RC 2 to RC-N3, or 128GB to 256GB.
     """
     low = (title or "").lower()
-    low_clean = re.sub(r"[()\[\],/|]+", " ", low)
+    low_clean = re.sub(r"[()\[\],/|\-]+", " ", low)
     low_clean = re.sub(r"\s+", " ", low_clean).strip()
 
     brand = (brand_hint or infer_brand(title)).lower()
 
-    # 1) Bundle / Kit type
+    # 1) Bundle / Kit type (Standard Combo == Standard base kit!)
     bundle = "standard"
     if "fly more combo plus" in low_clean or "fly more plus" in low_clean:
         bundle = "fly_more_plus"
@@ -171,12 +178,16 @@ def extract_variant_signature(title: str, brand_hint: str = "") -> VariantSignat
         bundle = "adventure_combo"
     elif "creator combo" in low_clean:
         bundle = "creator_combo"
+    elif "vlog combo" in low_clean:
+        bundle = "vlog_combo"
     elif "motion fly more" in low_clean or "motion combo" in low_clean:
         bundle = "motion_combo"
     elif "pro combo" in low_clean:
         bundle = "pro_combo"
     elif "cine combo" in low_clean or "cine premium" in low_clean:
         bundle = "cine_combo"
+    elif "standard combo" in low_clean:
+        bundle = "standard"
     elif "combo" in low_clean or "קומבו" in low_clean:
         bundle = "combo"
     elif "גוף בלבד" in low_clean or "drone only" in low_clean or "body only" in low_clean:
@@ -208,9 +219,9 @@ def extract_variant_signature(title: str, brand_hint: str = "") -> VariantSignat
     # 4) Core model tokens (remove bundle/controller/storage/stopwords)
     stripped = re.sub(
         r"\b(fly more combo plus|fly more plus|fly more combo|fly more|adventure combo|creator combo|"
-        r"motion combo|pro combo|cine combo|combo|drone only|body only|standard|rc[\s\-]?pro|rc[\s\-]?2|"
-        r"rc[\s\-]?n3|rc[\s\-]?n2|rc[\s\-]?motion[\s\-]?3|goggles[\s\-]?n3|goggles[\s\-]?3|"
-        r"(?:32|64|128|256|512)\s*gb|(?:1|2|4)\s*tb)\b",
+        r"vlog combo|motion combo|pro combo|cine combo|standard combo|combo|drone only|body only|standard|"
+        r"rc[\s\-]?pro|rc[\s\-]?2|rc[\s\-]?n3|rc[\s\-]?n2|rc[\s\-]?motion[\s\-]?3|"
+        r"goggles[\s\-]?n3|goggles[\s\-]?3|(?:32|64|128|256|512)\s*gb|(?:1|2|4)\s*tb)\b",
         " ",
         low_clean,
     )

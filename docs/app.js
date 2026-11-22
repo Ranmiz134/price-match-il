@@ -33,6 +33,128 @@
     document.title = "בקרת מחירים | קטלוג בנדא";
   }
 
+  // XLSX export is generated locally. No catalog or customer data leaves this page.
+  let managerExportItems = [];
+  let feedGeneratedAt = "";
+  let managerExportButton = null;
+  let managerExportStatus = null;
+
+  function exportDateValue(promotion, key) {
+    return promotion && promotion.verified === true ? String(promotion[key] || "") : "";
+  }
+
+  function exportComparisonRows() {
+    const rows = [];
+    managerExportItems.forEach(({ product, assessment }) => {
+      managerFilteredOffers(assessment).forEach((offer) => {
+        const direction = offer._managerGap === null ? "לא חושב" : Math.abs(offer._managerGap) <= 0.005 ? "מחיר זהה" : offer._managerGap > 0 ? "אנחנו יקרים יותר" : "אנחנו זולים יותר";
+        rows.push([
+          String(product.sku || ""), (product.barcodes || []).join(", "), product.brand || "", product.name || "",
+          Number.isFinite(Number(product.our_price)) && Number(product.our_price) > 0 ? Number(product.our_price) : null,
+          offer.store_name || "", offer.title || "", Number(offer.price), offer._managerGap,
+          offer._managerGap === null ? null : offer._managerGap / Number(product.our_price), direction,
+          offer.in_stock === true ? "במלאי" : "אזל במלאי", offer.importer_status === "official" ? "יבואן רשמי" : "יבואן לא אומת (?)",
+          offer.anomaly_flag ? (offer.anomaly_warning || "פער חריג, נדרשת בדיקת דגם וחבילה") : "",
+          offer.scraped_at || "", product.source_url || "", offer.url || "",
+          exportDateValue(offer.promotion, "starts_on"), exportDateValue(offer.promotion, "ends_on"), exportDateValue(offer.promotion, "terms"),
+          exportDateValue(product.promotion, "starts_on"), exportDateValue(product.promotion, "ends_on"), exportDateValue(product.promotion, "terms")
+        ]);
+      });
+    });
+    return rows;
+  }
+
+  function updateManagerExport() {
+    if (!managerExportButton) return;
+    const rows = exportComparisonRows();
+    const productCount = new Set(rows.map((row) => row[0])).size;
+    managerExportButton.disabled = !rows.length;
+    managerExportButton.style.opacity = rows.length ? "1" : "0.5";
+    managerExportStatus.textContent = rows.length ? `${rows.length} השוואות מ-${productCount} מוצרים לייצוא, כולל כל התוצאות שמעבר לעמוד הנוכחי` : "אין השוואות מתאימות לייצוא בסינון הנוכחי";
+  }
+
+  function xlsxXml(value) {
+    return String(value == null ? "" : value).replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\uFFFE\uFFFF]/g, "")
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&apos;");
+  }
+
+  function xlsxColumn(index) {
+    let value = index + 1, out = "";
+    while (value) { value--; out = String.fromCharCode(65 + value % 26) + out; value = Math.floor(value / 26); }
+    return out;
+  }
+
+  function xlsxSheet(rows, widths, metadata = false) {
+    const last = `${xlsxColumn(Math.max(0, widths.length - 1))}${Math.max(1, rows.length)}`;
+    const body = rows.map((row, r) => `<row r="${r + 1}"${r === 0 ? ' ht="34" customHeight="1"' : ' ht="32" customHeight="1"'}>${row.map((value, c) => {
+      const cell = `${xlsxColumn(c)}${r + 1}`;
+      const style = r === 0 ? 1 : !metadata && [4, 7, 8].includes(c) ? 2 : !metadata && c === 9 ? 3 : 0;
+      if (typeof value === "number" && Number.isFinite(value)) return `<c r="${cell}" s="${style}"><v>${value}</v></c>`;
+      // Inline strings preserve leading zeros and never turn source text into formulas.
+      return `<c r="${cell}" s="${style}" t="inlineStr"><is><t xml:space="preserve">${xlsxXml(value)}</t></is></c>`;
+    }).join("")}</row>`).join("");
+    const hyperlinks = [];
+    if (!metadata) rows.slice(1).forEach((row, i) => [15, 16].forEach((c) => {
+      if (/^https?:\/\//i.test(String(row[c] || ""))) hyperlinks.push({ ref: `${xlsxColumn(c)}${i + 2}`, target: row[c] });
+    }));
+    return {
+      xml: `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><dimension ref="A1:${last}"/><sheetViews><sheetView workbookViewId="0" rightToLeft="1"><pane xSplit="${metadata ? 0 : 4}" ySplit="1" topLeftCell="${metadata ? 'A2' : 'E2'}" activePane="${metadata ? 'bottomLeft' : 'bottomRight'}" state="frozen"/></sheetView></sheetViews><sheetFormatPr defaultRowHeight="32"/><cols>${widths.map((w, i) => `<col min="${i + 1}" max="${i + 1}" width="${w}" customWidth="1"/>`).join("")}</cols><sheetData>${body}</sheetData>${!metadata ? `<autoFilter ref="A1:${last}"/>` : ''}${hyperlinks.length ? `<hyperlinks>${hyperlinks.map((h, i) => `<hyperlink ref="${h.ref}" r:id="rId${i + 1}"/>`).join("")}</hyperlinks>` : ''}<printOptions horizontalCentered="0"/><pageMargins left="0.25" right="0.25" top="0.5" bottom="0.5" header="0.2" footer="0.2"/><pageSetup orientation="landscape" paperSize="9"/></worksheet>`,
+      rels: hyperlinks.length ? `<?xml version="1.0" encoding="UTF-8"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">${hyperlinks.map((h, i) => `<Relationship Id="rId${i + 1}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="${xlsxXml(h.target)}" TargetMode="External"/>`).join("")}</Relationships>` : null
+    };
+  }
+
+  function xlsxZip(files) {
+    const encoder = new TextEncoder();
+    const crcTable = Array.from({ length: 256 }, (_, i) => { let n = i; for (let k = 0; k < 8; k++) n = n & 1 ? 0xEDB88320 ^ (n >>> 1) : n >>> 1; return n >>> 0; });
+    const crc = (data) => { let value = 0xFFFFFFFF; for (const byte of data) value = crcTable[(value ^ byte) & 255] ^ (value >>> 8); return (value ^ 0xFFFFFFFF) >>> 0; };
+    const locals = [], central = []; let offset = 0;
+    const header = (size) => { const bytes = new Uint8Array(size); return { bytes, view: new DataView(bytes.buffer) }; };
+    for (const [name, text] of Object.entries(files)) {
+      const filename = encoder.encode(name), data = encoder.encode(text), checksum = crc(data);
+      const local = header(30); local.view.setUint32(0, 0x04034b50, true); local.view.setUint16(4, 20, true); local.view.setUint16(6, 0x800, true); local.view.setUint16(12, 0x21, true); local.view.setUint32(14, checksum, true); local.view.setUint32(18, data.length, true); local.view.setUint32(22, data.length, true); local.view.setUint16(26, filename.length, true);
+      locals.push(local.bytes, filename, data);
+      const entry = header(46); entry.view.setUint32(0, 0x02014b50, true); entry.view.setUint16(4, 20, true); entry.view.setUint16(6, 20, true); entry.view.setUint16(8, 0x800, true); entry.view.setUint16(14, 0x21, true); entry.view.setUint32(16, checksum, true); entry.view.setUint32(20, data.length, true); entry.view.setUint32(24, data.length, true); entry.view.setUint16(28, filename.length, true); entry.view.setUint32(42, offset, true);
+      central.push(entry.bytes, filename); offset += 30 + filename.length + data.length;
+    }
+    const centralSize = central.reduce((sum, a) => sum + a.length, 0), end = header(22), count = Object.keys(files).length;
+    end.view.setUint32(0, 0x06054b50, true); end.view.setUint16(8, count, true); end.view.setUint16(10, count, true); end.view.setUint32(12, centralSize, true); end.view.setUint32(16, offset, true);
+    return new Blob([...locals, ...central, end.bytes], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" });
+  }
+
+  function buildManagerWorkbook(rows) {
+    const headings = ["מק״ט", "ברקודים", "מותג", "שם המוצר שלנו", "מחיר שלנו כולל מע״מ (ILS)", "רשת מתחרה", "שם המוצר אצל המתחרה", "מחיר מתחרה כולל מע״מ (ILS)", "פער בש״ח: שלנו פחות המתחרה", "פער באחוזים ממחירנו", "כיוון הפער", "מלאי אצל המתחרה", "סטטוס יבואן", "אזהרה לבדיקה", "נבדק במקור", "קישור למוצר שלנו", "קישור למתחרה", "מבצע מתחרה: תחילה", "מבצע מתחרה: סיום", "תנאי מבצע מתחרה שתועדו", "מבצע בנדא: תחילה", "מבצע בנדא: סיום", "תנאי מבצע בנדא שתועדו"];
+    const directionLabels = { all: "כל כיווני הפער", "ours-higher": "אנחנו יקרים יותר", "ours-lower": "אנחנו זולים יותר", equal: "מחיר זהה" };
+    const meta = [["פרטי הייצוא", "ערך"], ["חיפוש", searchInput.value.trim() || "ללא"], ["כיוון הפער", directionLabels[managerDirection.value]], ["פער מינימלי בערך מוחלט", `${managerGapRange.value}%`], ["מלאי בלבד", managerStockOnly.checked ? "כן" : "לא"], ["מספר השוואות", rows.length], ["מספר מוצרים עם השוואה", new Set(rows.map((r) => r[0])).size], ["נתונים נוצרו", feedGeneratedAt], ["הייצוא נוצר בשעון ישראל", formatIsraelTime(new Date().toISOString())], ["מטבע", "ILS, כולל מע״מ"], ["משמעות הפער", "מחיר שלנו פחות מחיר המתחרה. פער חיובי: אנחנו יקרים יותר. אחוז הפער מחושב ביחס למחיר שלנו."], ["היקף", "כל ההשוואות המתאימות לסינון, גם מעבר ל-100 המוצרים הראשונים. מוצרים ללא השוואה מתאימה אינם נכללים."], ["תאריכי מבצע", "תאריך ריק פירושו שלא תועד תוקף מאומת, לא הוכחה שאין מבצע. תאריכי priceValidUntil כלליים לא משמשים כתוקף מבצע."], ["הסתייגויות", "אזהרות מחיר, יבואן לא מאומת ומלאי נשמרו. יש לבדוק את המקור לפני שינוי מחיר. הייצוא לא משנה מחירים או נתונים."]];
+    const sheets = [xlsxSheet([headings, ...rows], [23, 27, 17, 49, 20, 20, 49, 22, 22, 20, 24, 21, 25, 49, 28, 49, 49, 24, 24, 49, 24, 24, 49]), xlsxSheet(meta, [34, 100], true)];
+    const files = {
+      "[Content_Types].xml": '<?xml version="1.0" encoding="UTF-8"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/><Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/><Override PartName="/xl/worksheets/sheet1.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/><Override PartName="/xl/worksheets/sheet2.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/></Types>',
+      "_rels/.rels": '<?xml version="1.0" encoding="UTF-8"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/></Relationships>',
+      "xl/workbook.xml": '<?xml version="1.0" encoding="UTF-8"?><workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><bookViews><workbookView activeTab="0"/></bookViews><sheets><sheet name="השוואות" sheetId="1" r:id="rId1"/><sheet name="פרטי הייצוא" sheetId="2" r:id="rId2"/></sheets></workbook>',
+      "xl/_rels/workbook.xml.rels": '<?xml version="1.0" encoding="UTF-8"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet1.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet2.xml"/><Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/></Relationships>',
+      "xl/styles.xml": '<?xml version="1.0" encoding="UTF-8"?><styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><numFmts count="2"><numFmt numFmtId="164" formatCode="#,##0.00"/><numFmt numFmtId="165" formatCode="0.0%"/></numFmts><fonts count="2"><font><sz val="11"/><name val="Calibri"/></font><font><b/><sz val="11"/><color rgb="FFFFFFFF"/><name val="Calibri"/></font></fonts><fills count="3"><fill><patternFill patternType="none"/></fill><fill><patternFill patternType="gray125"/></fill><fill><patternFill patternType="solid"><fgColor rgb="FF0F172A"/><bgColor indexed="64"/></patternFill></fill></fills><borders count="1"><border/></borders><cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs><cellXfs count="4"><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0" applyAlignment="1"><alignment vertical="top" wrapText="1" readingOrder="2"/></xf><xf numFmtId="0" fontId="1" fillId="2" borderId="0" xfId="0" applyAlignment="1"><alignment vertical="center" wrapText="1" readingOrder="2"/></xf><xf numFmtId="164" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1" applyAlignment="1"><alignment vertical="top" readingOrder="2"/></xf><xf numFmtId="165" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1" applyAlignment="1"><alignment vertical="top" readingOrder="2"/></xf></cellXfs><cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles></styleSheet>'
+    };
+    sheets.forEach((sheet, i) => { files[`xl/worksheets/sheet${i + 1}.xml`] = sheet.xml; if (sheet.rels) files[`xl/worksheets/_rels/sheet${i + 1}.xml.rels`] = sheet.rels; });
+    return xlsxZip(files);
+  }
+
+  function initManagerExport() {
+    if (!isManagerView) return;
+    const panel = document.createElement("div"); panel.className = "manager-export";
+    panel.style.cssText = "display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:14px 0;";
+    managerExportButton = document.createElement("button"); managerExportButton.id = "managerExportExcel"; managerExportButton.type = "button"; managerExportButton.className = "btn-scan"; managerExportButton.textContent = "ייצוא השוואות ל-Excel"; managerExportButton.disabled = true;
+    managerExportStatus = document.createElement("span"); managerExportStatus.id = "managerExportStatus"; managerExportStatus.setAttribute("role", "status"); managerExportStatus.setAttribute("aria-live", "polite"); managerExportStatus.style.cssText = "font-size:13px;color:#64748b;flex:1;min-width:180px;";
+    panel.append(managerExportButton, managerExportStatus);
+    document.querySelector("#managerPanel .manager-controls").before(panel);
+    managerExportButton.addEventListener("click", () => {
+      try {
+        const rows = exportComparisonRows(); if (!rows.length) return;
+        const blob = buildManagerWorkbook(rows), href = URL.createObjectURL(blob), a = document.createElement("a");
+        a.href = href; a.download = `benda-comparisons-${new Date().toISOString().slice(0, 19).replace(/:/g, "-")}Z.xlsx`; document.body.append(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(href), 60000);
+        managerExportStatus.textContent = `הוכן קובץ Excel עם ${rows.length} השוואות לפי הסינון הנוכחי`;
+      } catch (_) { managerExportStatus.textContent = "הייצוא לא הצליח. יש לרענן את העמוד ולנסות שוב."; }
+    });
+  }
+
   const CATEGORIES = [
     { id: "drones", title: "רחפנים", icon: "🚁" },
     { id: "cameras", title: "מצלמות וגימבלים", icon: "🎥" },
@@ -421,6 +543,8 @@
     const needsComparison = minPercent > 0 || managerDirection.value !== "all";
     const filtered = assessed.filter((item) => item.rank !== null && (!needsComparison || managerFilteredOffers(item.assessment).length > 0));
     filtered.sort((a, b) => rawQuery ? a.rank - b.rank : Math.max(0, ...managerFilteredOffers(b.assessment).map((offer) => offer._managerPct || 0)) - Math.max(0, ...managerFilteredOffers(a.assessment).map((offer) => offer._managerPct || 0)));
+    managerExportItems = filtered;
+    updateManagerExport();
     const visible = filtered.slice(0, managerVisibleLimit);
     resultCount.textContent = `מציג ${visible.length} מתוך ${filtered.length} מוצרים${rawQuery ? " בחיפוש בכל הקטלוג" : ""}`;
     resultsGrid.innerHTML = visible.length ? visible.map((item) => renderManagerCard(item.product)).join("") : '<div class="empty-state">לא נמצאו מוצרים לסינון הנוכחי.</div>';
@@ -493,6 +617,7 @@
       const resp = await fetch("data/prices.json", { cache: "no-store" });
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
       const payload = await resp.json();
+      feedGeneratedAt = payload.generated_at || "";
 
       syncMeta.textContent = `סריקה אחרונה: ${formatIsraelTime(payload.generated_at)} • ${payload.product_count} מוצרים`;
       modeBadge.textContent = payload.mode === "sheet" ? "מסונכרן Google Sheets" : payload.mode === "demo" ? "מצב הדגמה" : "מסונכרן";
@@ -529,5 +654,6 @@
   });
   closeScannerBtn.addEventListener("click", () => window.BarcodeScanner.stopScanner());
 
+  initManagerExport();
   init();
 })();

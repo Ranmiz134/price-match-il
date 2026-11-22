@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
+from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -11,6 +13,7 @@ from core.loader import merge_base_catalog
 from core.matcher import match_catalog_to_competitors
 from scrapers.base import ScraperBase
 from scrapers.bug import BugScraper
+from scrapers.google_sheet import DEFAULT_SHEET_ID, GoogleSheetSync
 from scrapers.ksp import KspScraper
 from scrapers.woocommerce import WooCommerceScraper
 
@@ -43,61 +46,83 @@ def run_scraper_with_cache(
         return cache.fallback_on_failure(scraper.store_id, scraper.store_name, str(exc))
 
 
-def build_demo_dataset() -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
-    now_iso = datetime.now(timezone.utc).isoformat()
-    dji_demo = [
-        {
-            "id": "dji_israel:neo-fmc",
-            "name": "DJI Neo Fly More Combo",
-            "brand": "DJI",
-            "sku": "CP.FP.00000185.01",
-            "barcodes": ["0190021114562"],
-            "our_price": 1599.0,
-            "regular_price": 1699.0,
-            "is_on_sale": True,
-            "in_stock": True,
-            "source_id": "dji_israel",
-            "source_name": "DJI ישראל",
-            "source_url": "https://www.djistore.benda.co.il/product/%D7%A8%D7%97%D7%A4%D7%9F-dji-neo-fly-more-combo/",
-            "category": "רחפנים",
-            "image_url": "",
-            "secondary_sources": [],
-        },
-    ]
-    comp_demo = [
-        {
-            "store_id": "bug",
-            "store_name": "באג (Bug)",
-            "title": "רחפן Neo Fly More Combo די ג'יי איי - DJI",
-            "price": 1499.0,
-            "url": "https://www.bug.co.il/brand/dji/neo/fly/more/combo",
-            "in_stock": True,
-            "importer_status": "official",
-            "importer_text": "אחריות יבואן רשמי",
-            "barcodes": [],
-            "scraped_at": now_iso,
-        },
-    ]
-    health = [
-        {"store_id": "dji_israel", "store_name": "DJI ישראל", "status": "ok", "status_label": "נתוני הדגמה", "last_ok_at": now_iso, "count": 1, "message": ""},
-        {"store_id": "bug", "store_name": "באג (Bug)", "status": "ok", "status_label": "נתוני הדגמה", "last_ok_at": now_iso, "count": 1, "message": ""},
-    ]
-    return dji_demo, comp_demo, health
+def sync_from_google_sheet(
+    sheet_id: str,
+    cache: StickyCache,
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
+    sheet = GoogleSheetSync(sheet_id)
+    health_list: list[dict[str, Any]] = []
+
+    try:
+        our_items = sheet.fetch_our_catalog()
+        if our_items:
+            h_cat = cache.save_success("sheet_catalog", "DJI / בנדא (Sheets)", our_items)
+        else:
+            our_items, h_cat = cache.fallback_on_failure(
+                "sheet_catalog", "DJI / בנדא (Sheets)", "גיליון Our_Catalog ריק"
+            )
+        health_list.append(h_cat)
+        print(f"[SHEET] Our_Catalog: {len(our_items)} items")
+    except Exception as exc:
+        our_items, h_cat = cache.fallback_on_failure("sheet_catalog", "DJI / בנדא (Sheets)", str(exc))
+        health_list.append(h_cat)
+        print(f"[SHEET] Our_Catalog ERROR: {exc}")
+
+    try:
+        comp_items = sheet.fetch_competitor_prices()
+        if comp_items:
+            by_store: dict[str, list[dict[str, Any]]] = defaultdict(list)
+            store_names: dict[str, str] = {}
+            for offer in comp_items:
+                sid = offer["store_id"]
+                by_store[sid].append(offer)
+                store_names[sid] = offer["store_name"]
+            for sid, items in sorted(by_store.items()):
+                h_store = cache.save_success(f"sheet_{sid}", store_names[sid], items)
+                health_list.append(h_store)
+                print(f"[SHEET] Competitor {store_names[sid]}: {len(items)} offers")
+        else:
+            comp_items, h_comp = cache.fallback_on_failure(
+                "sheet_competitors", "מתחרים (Sheets)", "גיליון Competitor_Prices ריק"
+            )
+            health_list.append(h_comp)
+    except Exception as exc:
+        comp_items, h_comp = cache.fallback_on_failure("sheet_competitors", "מתחרים (Sheets)", str(exc))
+        health_list.append(h_comp)
+        print(f"[SHEET] Competitor_Prices ERROR: {exc}")
+
+    return our_items, comp_items, health_list
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Daily market price sync for Herzliya store")
-    parser.add_argument("--mode", choices=["dji", "full"], default="dji", help="Scan scope")
-    parser.add_argument("--demo", action="store_true", help="Generate offline demo prices.json")
+    parser.add_argument(
+        "--source",
+        choices=["sheet", "hybrid", "scrape"],
+        default="sheet",
+        help="sheet=Google Sheet only (fast), hybrid=Google Sheet + live DJI/Benda/Bug, scrape=live scrapers only",
+    )
+    parser.add_argument("--mode", choices=["dji", "full"], default="dji", help="Scan scope for live scrapers")
+    parser.add_argument(
+        "--sheet-id",
+        default=os.environ.get("GOOGLE_SHEET_ID", DEFAULT_SHEET_ID),
+        help="Google Sheet ID containing Our_Catalog and Competitor_Prices",
+    )
     args = parser.parse_args()
 
     cache = StickyCache(CACHE_DIR)
     store_health: list[dict[str, Any]] = []
+    dji_items: list[dict[str, Any]] = []
+    benda_items: list[dict[str, Any]] = []
+    comp_offers: list[dict[str, Any]] = []
 
-    if args.demo:
-        dji_items, comp_offers, store_health = build_demo_dataset()
-        benda_items: list[dict[str, Any]] = []
-    else:
+    if args.source in ("sheet", "hybrid"):
+        sheet_catalog, sheet_comps, sheet_health = sync_from_google_sheet(args.sheet_id, cache)
+        dji_items.extend(sheet_catalog)
+        comp_offers.extend(sheet_comps)
+        store_health.extend(sheet_health)
+
+    if args.source in ("hybrid", "scrape"):
         dji_scraper = WooCommerceScraper(
             store_id="dji_israel",
             store_name="DJI ישראל",
@@ -109,30 +134,35 @@ def main() -> None:
             store_name="בנדא סטור",
             base_url="https://www.bendastore.co.il",
         )
-        ksp_scraper = KspScraper()
         bug_scraper = BugScraper()
 
-        dji_items, h_dji = run_scraper_with_cache(dji_scraper, cache, args.mode)
-        benda_items, h_benda = run_scraper_with_cache(benda_scraper, cache, args.mode)
-        ksp_offers, h_ksp = run_scraper_with_cache(ksp_scraper, cache, args.mode)
-        bug_offers, h_bug = run_scraper_with_cache(bug_scraper, cache, args.mode)
+        live_dji, h_dji = run_scraper_with_cache(dji_scraper, cache, args.mode)
+        live_benda, h_benda = run_scraper_with_cache(benda_scraper, cache, args.mode)
+        live_bug, h_bug = run_scraper_with_cache(bug_scraper, cache, args.mode)
 
-        store_health = [h_dji, h_benda, h_ksp, h_bug]
-        comp_offers = ksp_offers + bug_offers
+        dji_items.extend(live_dji)
+        benda_items.extend(live_benda)
+        comp_offers.extend(live_bug)
+        store_health.extend([h_dji, h_benda, h_bug])
+
+        if args.source == "scrape":
+            ksp_scraper = KspScraper()
+            live_ksp, h_ksp = run_scraper_with_cache(ksp_scraper, cache, args.mode)
+            comp_offers.extend(live_ksp)
+            store_health.append(h_ksp)
 
     base_catalog = merge_base_catalog(dji_items, benda_items, overrides_dir=OVERRIDES_DIR)
     matched_products = match_catalog_to_competitors(base_catalog, comp_offers)
     with_matches = sum(1 for p in matched_products if p["competitors"])
 
     print(
-        f"[SUMMARY] base={len(base_catalog)} | comp_offers={len(comp_offers)} | matched_products={with_matches}"
+        f"[SUMMARY] source={args.source} | base={len(base_catalog)} | "
+        f"comp_offers={len(comp_offers)} | matched_products={with_matches}"
     )
-    if comp_offers:
-        print("[SAMPLE COMP OFFERS]", [o.get("title") for o in comp_offers[:5]])
 
     output_payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "mode": "demo" if args.demo else args.mode,
+        "mode": args.source,
         "product_count": len(matched_products),
         "stores": store_health,
         "products": matched_products,

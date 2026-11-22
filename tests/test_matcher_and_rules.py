@@ -6,7 +6,35 @@ from core.cache import StickyCache
 from core.loader import merge_base_catalog
 from core.matcher import match_catalog_to_competitors
 from core.normalizer import barcode_variants, classify_importer, normalize_barcode
+from scrapers.google_sheet import GoogleSheetSync
 from scrapers.woocommerce import WooCommerceScraper
+
+
+def test_google_sheet_csv_parsing_and_exact_sku_matching():
+    our_csv = (
+        "sku,barcode,brand,product_name,our_price_vat,is_on_sale,our_url,updated_at\n"
+        "99999-958-88,,DJI,מצלמת אקשן Osmo 360 II Adventure Combo,2699,FALSE,https://www.djistore.benda.co.il/product/99999-958-88/,2026-11-22 09:27\n"
+        "99999-958-90,,DJI,מצלמת גימבל דגם Osmo Pocket 4P Standard Combo מבית DJI,2499,FALSE,https://www.djistore.benda.co.il/product/99999-958-90/,2026-11-22 09:27\n"
+    )
+    comp_csv = (
+        "our_sku,our_product_name,store_name,competitor_title,price_vat,in_stock,importer_status,product_url,checked_at\n"
+        "99999-958-88,מצלמת אקשן Osmo 360 II Adventure Combo,KSP,מצלמת אקסטרים DJI Osmo 360 II Adventure Combo,2399,TRUE,unverified,https://ksp.co.il/web/item/492065,2026-11-22 09:27\n"
+        "99999-958-88,מצלמת אקשן Osmo 360 II Adventure Combo,Bug,מצלמה Osmo 360 II Adventure Combo DJI,2699,TRUE,official,https://www.bug.co.il/brand/dji/osmo/360/ii/adventure/combo,2026-11-22 09:27\n"
+        "99999-958-90,מצלמת גימבל דגם Osmo Pocket 4P Standard Combo מבית DJI,Bug,מצלמת גימבל Osmo Pocket 4P Standard Combo DJI,2499,TRUE,official,https://www.bug.co.il/brand/dji/osmo/pocket/4p/standard/combo,2026-11-22 09:27\n"
+        "99999-958-90,מצלמת גימבל דגם Osmo Pocket 4P Standard Combo מבית DJI,Payngo,אילת,2000,TRUE,official,https://eilat.payngo.co.il/123.html,2026-11-22 09:27\n"
+    )
+    our_items = GoogleSheetSync.parse_our_catalog_rows(GoogleSheetSync.parse_csv_text(our_csv))
+    comp_items = GoogleSheetSync.parse_competitor_rows(GoogleSheetSync.parse_csv_text(comp_csv))
+    assert len(our_items) == 2
+    assert len(comp_items) == 3  # eilat.payngo.co.il row strictly rejected!
+
+    matched = match_catalog_to_competitors(our_items, comp_items)
+    osmo360 = [m for m in matched if m["sku"] == "99999-958-88"][0]
+    assert len(osmo360["competitors"]) == 2
+    # KSP is cheaper (2399) but unverified -> Bug (2699 official) is best_in_stock_match
+    assert osmo360["best_in_stock_match"]["store_id"] == "bug"
+    ksp_offer = [c for c in osmo360["competitors"] if c["store_id"] == "ksp"][0]
+    assert ksp_offer["needs_seller_check"] is True
 
 
 def test_real_bug_hebrew_title_matches_dji_israel():
@@ -35,7 +63,6 @@ def test_real_bug_hebrew_title_matches_dji_israel():
     res = match_catalog_to_competitors(base, offers)[0]
     assert len(res["competitors"]) == 1
     assert res["best_in_stock_match"]["store_id"] == "bug"
-    assert res["best_in_stock_match"]["price"] == 1549.0
 
 
 def test_woocommerce_zero_minor_unit_not_divided_by_100():

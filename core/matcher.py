@@ -11,7 +11,7 @@ def match_catalog_to_competitors(
     base_products: list[dict[str, Any]],
     competitor_offers: list[dict[str, Any]],
 ) -> list[dict[str, Any]]:
-    indexed_offers: list[tuple[dict[str, Any], VariantSignature, set[str]]] = []
+    indexed_offers: list[tuple[dict[str, Any], VariantSignature, set[str], str]] = []
     for offer in competitor_offers:
         if offer.get("importer_status") == "parallel":
             continue
@@ -21,7 +21,8 @@ def match_catalog_to_competitors(
         bc_set: set[str] = set()
         for bc in offer.get("barcodes") or []:
             bc_set.update(barcode_variants(bc))
-        indexed_offers.append((offer, sig, bc_set))
+        linked_sku = str(offer.get("our_sku") or "").strip().upper()
+        indexed_offers.append((offer, sig, bc_set, linked_sku))
 
     enriched: list[dict[str, Any]] = []
 
@@ -30,6 +31,7 @@ def match_catalog_to_competitors(
         if our_price <= 0:
             continue
 
+        prod_sku = str(prod.get("sku") or "").strip().upper()
         prod_sig = extract_variant_signature(prod.get("name", ""), prod.get("brand", ""))
         prod_barcodes: set[str] = set()
         for bc in prod.get("barcodes") or []:
@@ -37,8 +39,10 @@ def match_catalog_to_competitors(
 
         best_per_store: dict[str, dict[str, Any]] = {}
 
-        for offer, offer_sig, offer_barcodes in indexed_offers:
-            match_type, score = _evaluate_match(prod_sig, prod_barcodes, offer_sig, offer_barcodes)
+        for offer, offer_sig, offer_barcodes, linked_sku in indexed_offers:
+            match_type, score = _evaluate_match(
+                prod_sku, prod_sig, prod_barcodes, linked_sku, offer_sig, offer_barcodes
+            )
             if not match_type:
                 continue
 
@@ -122,15 +126,23 @@ def match_catalog_to_competitors(
 
 
 def _evaluate_match(
+    prod_sku: str,
     prod_sig: VariantSignature,
     prod_barcodes: set[str],
+    linked_sku: str,
     offer_sig: VariantSignature,
     offer_barcodes: set[str],
 ) -> tuple[str, float]:
     """Return (match_type, score) or ('', 0.0) if rejected by Price Match Guard."""
+    # 1) Direct SKU link from Google Sheet Competitor_Prices tab
+    if prod_sku and linked_sku and prod_sku == linked_sku:
+        return ("sku_exact", 1.0)
+
+    # 2) Exact barcode match
     if prod_barcodes and offer_barcodes and (prod_barcodes & offer_barcodes):
         return ("barcode", 1.0)
 
+    # 3) Variant guards
     if prod_sig.brand and offer_sig.brand and prod_sig.brand != offer_sig.brand:
         return ("", 0.0)
 
@@ -154,7 +166,6 @@ def _evaluate_match(
     if not prod_sig.model_tokens or not offer_sig.model_tokens:
         return ("", 0.0)
 
-    # All version numbers (e.g. 4, 3, 360, 2) must match strictly
     prod_nums = {t for t in prod_sig.model_tokens if any(ch.isdigit() for ch in t)}
     offer_nums = {t for t in offer_sig.model_tokens if any(ch.isdigit() for ch in t)}
     if prod_nums != offer_nums:
@@ -165,7 +176,6 @@ def _evaluate_match(
     jaccard = len(intersection) / len(union)
     overlap = len(intersection) / min(len(prod_sig.model_tokens), len(offer_sig.model_tokens))
 
-    # Require at least 2 matching model tokens (e.g. 'dji' + 'neo') and high precision
     if len(intersection) >= 2 and (jaccard >= 0.70 or (overlap >= 0.90 and jaccard >= 0.60)):
         return ("variant_exact", jaccard)
 

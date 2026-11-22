@@ -1,7 +1,7 @@
 {
-  "schema_version": 1,
-  "checked_at": "2026-11-22T12:47:48.109393+00:00",
-  "scope": "Six existing product pages checked; not an exhaustive promotion sweep. Generic category dates and schema priceValidUntil are not sale validity.",
+  "schema_version": 2,
+  "checked_at": "2026-11-22T13:36:36.302213+00:00",
+  "scope": "Eight existing product pages checked, with per-page source times; not an exhaustive promotion sweep. Schema2 is required so older clients fail closed instead of omitting stock-limit conditions.",
   "checks": [
     {
       "our_sku": "99999-955-09",
@@ -68,6 +68,22 @@
       "comparison_scraped_at": "2026-11-22 10:39",
       "checked_at": "2026-11-22T12:47:48.109393+00:00",
       "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90902-810-01",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/thrustmaster/t98p/ferrari/296/gtb",
+      "price_vat": 449,
+      "checked_at": "2026-11-22T15:27:23+02:00",
+      "date_result": "explicit_end_date_and_stock_limit"
+    },
+    {
+      "our_sku": "90902-810-01",
+      "store_id": "payngo",
+      "product_url": "https://www.payngo.co.il/364057.html",
+      "price_vat": 449,
+      "checked_at": "2026-11-22T15:28:20+02:00",
+      "date_result": "not_found_on_checked_product_page"
     }
   ],
   "offers": [
@@ -84,6 +100,36 @@
       "checked_at": "2026-11-22T12:47:48.109393+00:00",
       "source_url": "https://www.kravitz.co.il/products/%D7%94%D7%92%D7%94-%D7%95%D7%A2%D7%A8%D7%9B%D7%AA-%D7%93%D7%95%D7%95%D7%A9%D7%95%D7%AA-thrustmaster-t98-ferrari-296-gtb?variant=51092621656360",
       "terms": "מחיר מבצע ₪449 במקום ₪549. תוקף לא צוין בעמוד המוצר שנבדק. בדיקת מידע המבצע: 2026-11-22T12:47:48.109393+00:00"
+    },
+    {
+      "our_sku": "90902-810-01",
+      "store_id": "bug",
+      "url": "https://www.bug.co.il/brand/thrustmaster/t98p/ferrari/296/gtb",
+      "price_ils": 449,
+      "regular_price_ils": 549,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "explicit_end_stock_limited",
+      "conditions": "או עד גמר המלאי, המוקדם מביניהם",
+      "checked_at": "2026-11-22T15:27:23+02:00",
+      "source_url": "https://www.bug.co.il/brand/thrustmaster/t98p/ferrari/296/gtb",
+      "terms": "מחיר מבצע ₪449 במקום ₪549. בתוקף עד30.11.2026 או עד גמר המלאי, המוקדם מביניהם. מידע המבצע נבדק: 2026-11-22T15:27:23+02:00"
+    },
+    {
+      "our_sku": "90902-810-01",
+      "store_id": "payngo",
+      "url": "https://www.payngo.co.il/364057.html",
+      "price_ils": 449,
+      "regular_price_ils": 549,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": null,
+      "date_status": "not_stated",
+      "conditions": "",
+      "checked_at": "2026-11-22T15:28:20+02:00",
+      "source_url": "https://www.payngo.co.il/364057.html",
+      "terms": "מחיר מבצע ₪449 במקום ₪549. תוקף לא אותר בעמוד המוצר שנבדק. מידע המבצע נבדק: 2026-11-22T15:28:20+02:00"
     }
   ]
 }

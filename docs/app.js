@@ -738,7 +738,7 @@
     const start = promotion.starts_on || "", end = promotion.ends_on || "";
     const label = start && start > today ? "מבצע עתידי" : end && end < today ? "תוקף המבצע שהוצג הסתיים, המחיר דורש בדיקה" : "מבצע ברשת";
     const dates = !start && !end ? "תוקף לא צוין בעמוד המוצר שנבדק" : [start ? `מתאריך ${start}` : "תחילת המבצע לא צוינה", end ? `עד ${end}` : "סיום המבצע לא צוין"].join(" · ");
-    return `${label} · ${dates}`;
+    return `${label} · ${dates}${promotion.conditions ? ` · ${promotion.conditions}` : ""}`;
   }
   function promotionHtml(promotion) {
     const text = promotionText(promotion);
@@ -760,7 +760,7 @@
       if (!response.ok) throw new Error("Promotion data unavailable");
       const payload = await response.json();
       const checked = Date.parse(payload.checked_at), age = Date.now() - checked;
-      if (payload.schema_version !== 1 || !Array.isArray(payload.offers) || !Array.isArray(payload.checks) || !Number.isFinite(checked) || age < -300000 || age > 36*3600000) throw new Error("Stale or invalid promotion data");
+      if (![1, 2].includes(payload.schema_version) || !Array.isArray(payload.offers) || !Array.isArray(payload.checks) || !Number.isFinite(checked) || age < -300000 || age > 36*3600000) throw new Error("Stale or invalid promotion data");
       const lookup = new Map();
       allProducts.forEach(p => (p.competitors || []).forEach(o => lookup.set([p.sku,o.store_id,o.url].join("|"),o)));
       const binding = p => {
@@ -773,11 +773,12 @@
         const validDate = value => value === null || value === "" || (typeof value === "string" && /^\d{4}-\d{2}-\d{2}$/.test(value) && !Number.isNaN(Date.parse(value)) && new Date(value).toISOString().slice(0,10) === value);
         const time = Date.parse(p.checked_at);
         if (!offer || p.verified !== true || p.source_url !== offer.url || !validDate(p.starts_on) || !validDate(p.ends_on) || p.starts_on && p.ends_on && p.starts_on > p.ends_on || !Number.isFinite(time) || Date.now()-time > 36*3600000 || time > Date.now()+300000) return;
+        if (p.conditions != null && typeof p.conditions !== "string" || p.date_status === "explicit_end_stock_limited" && !String(p.conditions || "").trim()) return;
         if (p.regular_price_ils != null && (!Number.isFinite(Number(p.regular_price_ils)) || Number(p.regular_price_ils) <= Number(offer.price))) return;
         offer.promotion = {...p}; attached++;
       });
-      const checkedCount = payload.checks.filter(binding).length;
-      if (promotionInfoStatus) promotionInfoStatus.textContent = `מידע תוקף מבצעים: נבדקו ${checkedCount} עמודי הצעות בלבד, לא כל השוק. זוהו ${attached} הצעות מבצע עם מידע שניתן לשייך למחיר הנוכחי. תוקף שלא פורסם נשאר לא ידוע. בדיקה: ${formatIsraelTime(payload.checked_at)}.`;
+      const checkedCount = payload.checks.filter(p => binding(p) && Number.isFinite(Date.parse(p.checked_at)) && Date.now() - Date.parse(p.checked_at) <= 36*3600000 && Date.parse(p.checked_at) <= Date.now()+300000).length;
+      if (promotionInfoStatus) promotionInfoStatus.textContent = `מידע תוקף מבצעים: נבדקו ${checkedCount} עמודי הצעות בלבד, לא כל השוק. מספר הצעות המבצע עם מידע המשויך למחיר הנוכחי: ${attached}. תוקף שלא אותר נשאר לא ידוע. עדכון נתוני המבצעים: ${formatIsraelTime(payload.checked_at)}.`;
     } catch (error) {
       if (promotionInfoStatus) promotionInfoStatus.textContent = "מידע תוקף המבצעים אינו זמין או דורש בדיקה מחדש. אין להסיק מכך שאין מבצע. המחירים נשארו ללא שינוי.";
     } finally { clearTimeout(timeout); }

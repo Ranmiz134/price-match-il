@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-22T10:30:18.447959+00:00",
-  "count": 50,
+  "last_ok_at": "2026-11-22T10:36:03.614729+00:00",
+  "count": 49,
   "items": [
     {
       "store_id": "bug",
@@ -691,21 +691,6 @@
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-601-12",
-      "barcodes": [],
-      "scraped_at": "2026-11-22 10:39"
-    },
-    {
-      "store_id": "bug",
-      "store_name": "באג (Bug)",
-      "our_sku": "99999-488-09",
-      "our_product_name": "DJI RS 3 Combo",
-      "title": "מייצב מקצועי לצלמים Ronin RS3 Combo DJI",
-      "price": 5149.0,
-      "url": "https://www.bug.co.il/brand/dji/ronin/rs3/pro/combo",
-      "in_stock": true,
-      "importer_status": "official",
-      "importer_text": "official",
-      "sku": "99999-488-09",
       "barcodes": [],
       "scraped_at": "2026-11-22 10:39"
     },

@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-22T11:23:43.276197+00:00",
-  "count": 49,
+  "last_ok_at": "2026-11-22T13:37:03.761498+00:00",
+  "count": 50,
   "items": [
     {
       "store_id": "bug",
@@ -738,6 +738,21 @@
       "sku": "99999-488-91",
       "barcodes": [],
       "scraped_at": "2026-11-22 10:39"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90902-810-01",
+      "our_product_name": "הגה וערכת דוושות THRUSTMASTER T98 FERRARI 296 GTB",
+      "title": "תראסטמאסטר - Thrustmaster הגה מרוצים ודוושות T98P Ferrari 296 GTB",
+      "price": 449.0,
+      "url": "https://www.bug.co.il/brand/thrustmaster/t98p/ferrari/296/gtb",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90902-810-01",
+      "barcodes": [],
+      "scraped_at": "2026-11-22T15:27:23+02:00"
     }
   ]
 }

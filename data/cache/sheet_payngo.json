@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_payngo",
   "store_name": "מחסני חשמל",
-  "last_ok_at": "2026-11-22T11:23:43.277999+00:00",
-  "count": 36,
+  "last_ok_at": "2026-11-22T13:37:03.762668+00:00",
+  "count": 37,
   "items": [
     {
       "store_id": "payngo",
@@ -543,6 +543,21 @@
       "sku": "99226-000-11",
       "barcodes": [],
       "scraped_at": "2026-11-22 13:21"
+    },
+    {
+      "store_id": "payngo",
+      "store_name": "מחסני חשמל",
+      "our_sku": "90902-810-01",
+      "our_product_name": "הגה וערכת דוושות THRUSTMASTER T98 FERRARI 296 GTB",
+      "title": "הגה סימולטור Thrustmaster T98 Ferrari 296 GTB למחשב ולקונסולה Sony Playstation 4/5 - צבע שחור שנה אחריות ע\"י היבואן הרשמי",
+      "price": 449.0,
+      "url": "https://www.payngo.co.il/364057.html",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90902-810-01",
+      "barcodes": [],
+      "scraped_at": "2026-11-22T15:28:20+02:00"
     }
   ]
 }

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-22T12:47:48.109393+00:00",
+  "scope": "Six existing product pages checked; not an exhaustive promotion sweep. Generic category dates and schema priceValidUntil are not sale validity.",
+  "checks": [
+    {
+      "our_sku": "99999-955-09",
+      "name": "מייצב OSMO   MOBILE 8",
+      "store_name": "KSP",
+      "store_id": "ksp",
+      "price_vat": 499.0,
+      "product_url": "https://ksp.co.il/web/item/425921",
+      "comparison_scraped_at": "2026-11-22 10:39",
+      "checked_at": "2026-11-22T12:47:48.109393+00:00",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99999-955-09",
+      "name": "מייצב OSMO   MOBILE 8",
+      "store_name": "באג (Bug)",
+      "store_id": "bug",
+      "price_vat": 599.0,
+      "product_url": "https://www.bug.co.il/brand/dji/osmo/mobile/8",
+      "comparison_scraped_at": "2026-11-22 10:39",
+      "checked_at": "2026-11-22T12:47:48.109393+00:00",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99226-000-11",
+      "name": "סוללה BLUETTI B230 – 2048WH (עבור AC200PL)",
+      "store_name": "ACE",
+      "store_id": "ace",
+      "price_vat": 6990.0,
+      "product_url": "https://www.ace.co.il/4437144",
+      "comparison_scraped_at": "2026-11-22 13:21",
+      "checked_at": "2026-11-22T12:47:48.109393+00:00",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99226-000-11",
+      "name": "סוללה BLUETTI B230 – 2048WH (עבור AC200PL)",
+      "store_name": "מחסני חשמל",
+      "store_id": "payngo",
+      "price_vat": 6990.0,
+      "product_url": "https://www.payngo.co.il/311123.html",
+      "comparison_scraped_at": "2026-11-22 13:21",
+      "checked_at": "2026-11-22T12:47:48.109393+00:00",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90902-810-01",
+      "name": "הגה וערכת דוושות THRUSTMASTER T98 FERRARI 296 GTB",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 449.0,
+      "product_url": "https://www.kravitz.co.il/products/%D7%94%D7%92%D7%94-%D7%95%D7%A2%D7%A8%D7%9B%D7%AA-%D7%93%D7%95%D7%95%D7%A9%D7%95%D7%AA-thrustmaster-t98-ferrari-296-gtb?variant=51092621656360",
+      "comparison_scraped_at": "2026-11-22T11:35:03.537119+02:00",
+      "checked_at": "2026-11-22T12:47:48.109393+00:00",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99999-958-91",
+      "name": "מצלמת גימבל דגם Osmo Pocket 4P Vlog Combo מבית DJI",
+      "store_name": "ALM",
+      "store_id": "alm",
+      "price_vat": 2899.0,
+      "product_url": "https://www.alm.co.il/659002352.html",
+      "comparison_scraped_at": "2026-11-22 10:39",
+      "checked_at": "2026-11-22T12:47:48.109393+00:00",
+      "date_result": "not_found_on_checked_product_page"
+    }
+  ],
+  "offers": [
+    {
+      "our_sku": "90902-810-01",
+      "store_id": "kravitz",
+      "url": "https://www.kravitz.co.il/products/%D7%94%D7%92%D7%94-%D7%95%D7%A2%D7%A8%D7%9B%D7%AA-%D7%93%D7%95%D7%95%D7%A9%D7%95%D7%AA-thrustmaster-t98-ferrari-296-gtb?variant=51092621656360",
+      "price_ils": 449,
+      "regular_price_ils": 549,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": null,
+      "date_status": "not_stated",
+      "checked_at": "2026-11-22T12:47:48.109393+00:00",
+      "source_url": "https://www.kravitz.co.il/products/%D7%94%D7%92%D7%94-%D7%95%D7%A2%D7%A8%D7%9B%D7%AA-%D7%93%D7%95%D7%95%D7%A9%D7%95%D7%AA-thrustmaster-t98-ferrari-296-gtb?variant=51092621656360",
+      "terms": "מחיר מבצע ₪449 במקום ₪549. תוקף לא צוין בעמוד המוצר שנבדק. בדיקת מידע המבצע: 2026-11-22T12:47:48.109393+00:00"
+    }
+  ]
+}

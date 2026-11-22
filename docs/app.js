@@ -54,7 +54,7 @@
           offer.store_name || "", offer.title || "", Number(offer.price), offer._managerGap,
           offer._managerGap === null ? null : offer._managerGap / Number(product.our_price), direction,
           offer.in_stock === true ? "במלאי" : "אזל במלאי", offer.importer_status === "official" ? "יבואן רשמי" : "יבואן לא אומת (?)",
-          offer.anomaly_flag ? (offer.anomaly_warning || "פער חריג, נדרשת בדיקת דגם וחבילה") : "",
+          [offer.anomaly_flag ? (offer.anomaly_warning || "פער חריג, נדרשת בדיקת דגם וחבילה") : "", clearanceCollisionText(product)].filter(Boolean).join(" | "),
           offer.scraped_at || "", product.source_url || "", offer.url || "",
           exportDateValue(offer.promotion, "starts_on"), exportDateValue(offer.promotion, "ends_on"), exportDateValue(offer.promotion, "terms"),
           exportDateValue(product.promotion, "starts_on"), exportDateValue(product.promotion, "ends_on"), exportDateValue(product.promotion, "terms")
@@ -133,7 +133,7 @@
       offers.map((r) => `${r[5]}: ${r[10]}${r[8] === null ? "" : `, ${formatPreciseILS(Math.abs(r[8]))} (${(Math.abs(r[9]) * 100).toFixed(1)}%)`}`).join("\n")
     ]));
     const multiple = Array.from(groups.values()).filter((items) => new Set(items.map((r) => r[5])).size > 1).length;
-    meta.push(["קריאת הקובץ", "בגיליון השוואות: שורה נפרדת לכל מוצר ומתחרה. בגיליון תמונת שוק למוצר: כל המתחרים של אותו מוצר יחד. כל הגיליונות מכבדים את הסינון."], ["מוצרים עם כמה רשתות בסינון", multiple], ["מוצרים עם רשת אחת בסינון", groups.size - multiple], ["מגבלת הכיסוי", "מוצר עם רשת אחת משקף הצעה מאומתת אחת בנתונים ובסינון הנוכחי. אין בכך הוכחה שאין רשתות נוספות, והסריקה המלאה טרם הושלמה."]);
+    meta.push(["מצב בדיקת מציאון", clearanceStatus ? clearanceStatus.textContent : "לא נטען"], ["קריאת הקובץ", "בגיליון השוואות: שורה נפרדת לכל מוצר ומתחרה. בגיליון תמונת שוק למוצר: כל המתחרים של אותו מוצר יחד. כל הגיליונות מכבדים את הסינון."], ["מוצרים עם כמה רשתות בסינון", multiple], ["מוצרים עם רשת אחת בסינון", groups.size - multiple], ["מגבלת הכיסוי", "מוצר עם רשת אחת משקף הצעה מאומתת אחת בנתונים ובסינון הנוכחי. אין בכך הוכחה שאין רשתות נוספות, והסריקה המלאה טרם הושלמה."]);
     const sheets = [xlsxSheet([headings, ...rows], [23, 27, 17, 49, 20, 20, 49, 22, 22, 20, 24, 21, 25, 49, 28, 49, 49, 24, 24, 49, 24, 24, 49]), xlsxSheet(meta, [34, 100], true), xlsxSheet(marketRows, [23, 49, 23, 22, 55, 70], true)];
     const files = {
       "[Content_Types].xml": '<?xml version="1.0" encoding="UTF-8"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/><Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/><Override PartName="/xl/worksheets/sheet1.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/><Override PartName="/xl/worksheets/sheet2.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/></Types>',
@@ -288,6 +288,96 @@
       .join("");
   }
 
+
+  // Clearance is a separate condition lookup, never a competitor-price catalog.
+  let clearanceProducts = [];
+  let clearanceBySku = new Map();
+  let clearanceStatus = null;
+  let clearanceResults = null;
+
+  function clearanceCollisionText(product) {
+    return clearanceBySku.has(normalizeCode(product.sku)) ? "קיים גם רישום מציאון למק״ט זה באתר בנדא. אין להסיק מכך שהמוצר הרגיל הוא מציאון; יש לוודא את מצב הפריט." : "";
+  }
+
+  function clearanceCollisionHtml(product) {
+    const text = clearanceCollisionText(product);
+    if (!text) return "";
+    const listing = clearanceBySku.get(normalizeCode(product.sku))[0];
+    return `<div class="price-box clearance-collision" style="margin:10px 0"><div class="price-sub">${escapeHtml(text)} <a href="${escapeHtml(listing.source_url)}" target="_blank" rel="noopener">לרישום המציאון בבנדא ↗</a></div></div>`;
+  }
+
+  function renderClearanceCard(product) {
+    const shared = allProducts.some((p) => normalizeCode(p.sku) === product._sku);
+    return `<article class="card clearance-card" data-clearance-id="${escapeHtml(product.id)}">
+      <span class="badge badge-check">מציאון באתר בנדא</span>
+      <h2 class="card-title" style="margin-top:10px">${escapeHtml(product.name)}</h2>
+      <div class="card-meta"><span>מק״ט: <bdi>${escapeHtml(product.sku)}</bdi></span>${product.barcodes.length ? `<span>ברקוד: <bdi>${escapeHtml(product.barcodes.join(", "))}</bdi></span>` : ""}</div>
+      <p class="price-sub">סימון מפורש בשם המוצר באתר בנדא. מוצג לזיהוי מצב הפריט בלבד, ללא השוואת מתחרים.</p>
+      ${shared ? '<p class="price-sub">אותו מק״ט מופיע גם בקטלוג הרגיל. יש לוודא איזה פריט נסרק; הרישום הרגיל לא סומן מחדש כמציאון.</p>' : ""}
+      <p class="price-sub">המחיר והברקודים יושלמו מהמחירון. לא הוסק מצב המוצר מגובה המחיר.</p>
+      <div class="card-footer"><a class="link-btn" href="${escapeHtml(product.source_url)}" target="_blank" rel="noopener">לרישום המציאון בבנדא ↗</a></div>
+    </article>`;
+  }
+
+  function renderClearanceQuery(rawQuery) {
+    if (!clearanceResults) return 0;
+    let matches = [];
+    if (!isManagerView && activeCategory === "CLEARANCE" && !rawQuery) {
+      matches = clearanceProducts;
+    } else if (rawQuery) {
+      const regularSkus = new Set(allProducts.filter((p) => searchRank(p, rawQuery) !== null).map((p) => normalizeCode(p.sku)));
+      matches = clearanceProducts.filter((p) => searchRank(p, rawQuery) !== null || regularSkus.has(p._sku));
+      matches.sort((a, b) => (searchRank(a, rawQuery) ?? 10) - (searchRank(b, rawQuery) ?? 10));
+    }
+    clearanceResults.classList.toggle("hidden", !matches.length);
+    clearanceResults.innerHTML = matches.length ? `<div style="grid-column:1/-1"><strong>זיהוי מציאון: ${matches.length === 1 ? "רישום אחד" : `${matches.length} רישומים`}</strong><p class="price-sub">התראות מצב פריט בלבד. אינן משתתפות בהשוואות או במסנן מחיר המתחרה.</p></div>${matches.map(renderClearanceCard).join("")}` : "";
+    return matches.length;
+  }
+
+  async function initClearance() {
+    clearanceStatus = document.createElement("div");
+    clearanceStatus.id = "clearanceStatus";
+    clearanceStatus.className = "price-sub";
+    clearanceStatus.style.marginTop = "10px";
+    clearanceStatus.setAttribute("role", "status");
+    clearanceStatus.textContent = "טוען זיהוי מציאון מאתר בנדא...";
+    document.querySelector(".search-panel").appendChild(clearanceStatus);
+    clearanceResults = document.createElement("section");
+    clearanceResults.id = "clearanceResults";
+    clearanceResults.className = "results-grid hidden";
+    clearanceResults.setAttribute("aria-label", "זיהוי מציאון, ללא השוואת מחירים");
+    resultsGrid.before(clearanceResults);
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 8000);
+    try {
+      const response = await fetch("data/clearance.json", { cache: "no-store", signal: controller.signal });
+      if (!response.ok) throw new Error("Clearance source unavailable");
+      const payload = await response.json();
+      if (!Array.isArray(payload.products) || payload.product_count !== payload.products.length) throw new Error("Invalid clearance data");
+      clearanceProducts = payload.products.map((product) => {
+        const url = new URL(product.source_url);
+        if (url.origin !== "https://www.bendastore.co.il" || !String(product.name).includes("מציאון") || product.label_evidence !== "product_title" || product.is_clearance !== true) throw new Error("Unverified clearance label");
+        return buildSearchIndex({ ...product, barcodes: Array.isArray(product.barcodes) ? product.barcodes.map(String) : [], competitors: [] });
+      });
+      clearanceBySku = new Map();
+      clearanceProducts.forEach((product) => { const items = clearanceBySku.get(product._sku) || []; items.push(product); clearanceBySku.set(product._sku, items); });
+      clearanceStatus.textContent = `זיהוי מציאון: ${clearanceProducts.length} ${clearanceProducts.length === 1 ? "רישום שסומן" : "רישומים שסומנו"} במפורש באתר בנדא. נבדק: ${payload.source_checked_at ? formatIsraelTime(payload.source_checked_at) : payload.source_checked_on || "לא צוין"}. חיפוש לפי מק״ט או שם; ברקודים יושלמו מהמחירון. `;
+      if (!isManagerView && clearanceProducts.length) {
+        const button = document.createElement("button");
+        button.type = "button"; button.className = "link-btn"; button.style.minHeight = "44px";
+        button.textContent = "הצג מציאון";
+        button.addEventListener("click", () => { activeCategory = "CLEARANCE"; searchInput.value = ""; onlyCheaperToggle.checked = false; applyFilter(); });
+        clearanceStatus.appendChild(button);
+      }
+    } catch (error) {
+      clearanceProducts = []; clearanceBySku = new Map();
+      clearanceStatus.textContent = "בדיקת מציאון אינה זמינה כרגע. אין בכך אישור שהפריט אינו מציאון; יש לבדוק באתר בנדא.";
+    } finally {
+      clearTimeout(timeout);
+      if (allProducts.length) applyFilter();
+    }
+  }
+
   function renderCard(p) {
     const saleBadge = p.is_on_sale ? `<span class="badge badge-sale">מחיר מבצע באתר</span>` : "";
     const best = p.best_in_stock_match;
@@ -396,6 +486,7 @@
           ${p.source_url ? `<a class="link-btn" href="${escapeHtml(p.source_url)}" target="_blank" rel="noopener">דף שלנו ↗</a>` : ""}
         </div>
 
+        ${clearanceCollisionHtml(p)}
         <div class="price-grid">
           <div class="price-box ours">
             <div class="price-label">
@@ -529,6 +620,7 @@
       <h2 class="card-title">${escapeHtml(product.name)}</h2>
       <div class="card-meta"><span>מק"ט: <bdi>${escapeHtml(product.sku)}</bdi></span>${product.brand ? `<span>${escapeHtml(product.brand)}</span>` : ""}
         ${(product.barcodes || []).length ? `<span>ברקוד: <bdi>${escapeHtml(product.barcodes.join(", "))}</bdi></span>` : ""}</div>
+      ${clearanceCollisionHtml(product)}
       <div class="manager-prices"><div class="manager-price"><span>המחיר שלנו, כולל מע״מ</span><strong>${formatPreciseILS(product.our_price)}</strong></div>
         <div class="manager-price"><span>רשתות שעוברות את הסינון</span><strong>${new Set(displayedOffers.map((offer) => offer.store_id || offer.store_name)).size}</strong></div></div>
       <div class="manager-offers" aria-label="כל המתחרים המתאימים לסינון">
@@ -544,6 +636,7 @@
     categoryHome.classList.add("hidden");
     categoryChips.classList.add("hidden");
     const rawQuery = searchInput.value.trim();
+    const clearanceMatches = renderClearanceQuery(rawQuery);
     clearBtn.classList.toggle("hidden", !rawQuery);
     const minPercent = Number(managerGapRange.value);
     document.getElementById("managerGapValue").textContent = `${minPercent}% ומעלה`;
@@ -568,6 +661,7 @@
   function applyFilter() {
     if (isManagerView) { applyManagerFilter(); return; }
     const rawQuery = searchInput.value.trim();
+    const clearanceMatches = renderClearanceQuery(rawQuery);
     clearBtn.classList.toggle("hidden", !rawQuery);
     const onlyCheaper = onlyCheaperToggle.checked;
 
@@ -583,6 +677,11 @@
     categoryHome.classList.add("hidden");
     categoryChips.classList.remove("hidden");
     renderCategoryChips();
+    if (!rawQuery && activeCategory === "CLEARANCE") {
+      resultCount.textContent = `${clearanceProducts.length} רישומי מציאון, ללא השוואת מחירים`;
+      resultsGrid.innerHTML = "";
+      return;
+    }
 
     const queryNormCode = normalizeCode(rawQuery);
     const words = rawQuery.toLowerCase().split(/\s+/).filter(Boolean);
@@ -606,9 +705,13 @@
     }
 
     resultCount.textContent = rawQuery
-      ? `חיפוש בכל הקטלוג: נמצאו ${filtered.length} תוצאות`
+      ? clearanceMatches ? `נמצאו ${filtered.length} מוצרי קטלוג ו-${clearanceMatches} ${clearanceMatches === 1 ? "רישום מציאון נפרד" : "רישומי מציאון נפרדים"}` : `חיפוש בכל הקטלוג: נמצאו ${filtered.length} תוצאות`
       : `מציג ${filtered.length} מוצרים`;
 
+    if (!filtered.length && clearanceMatches) {
+      resultsGrid.innerHTML = "";
+      return;
+    }
     if (!filtered.length) {
       resultsGrid.innerHTML = `
         <div class="empty-state">
@@ -668,5 +771,6 @@
   closeScannerBtn.addEventListener("click", () => window.BarcodeScanner.stopScanner());
 
   initManagerExport();
+  initClearance();
   init();
 })();

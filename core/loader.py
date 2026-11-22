@@ -45,7 +45,7 @@ def merge_base_catalog(
         sku_key = (item.get("sku") or "").strip().upper()
         if sku_key and sku_key in by_sku:
             existing_idx = by_sku[sku_key]
-        if existing_idx is None:
+        if existing_idx is None and not sku_key:
             for bc in item.get("barcodes") or []:
                 for v in barcode_variants(bc):
                     if v in by_barcode:
@@ -53,7 +53,9 @@ def merge_base_catalog(
                         break
                 if existing_idx is not None:
                     break
-        if existing_idx is None:
+        # A nonempty SKU is the authoritative identity. Different SKU keys
+        # must remain separate even when names, barcodes or colors look alike.
+        if existing_idx is None and not sku_key:
             sig = extract_variant_signature(item["name"], item.get("brand", ""))
             key = (sig.brand, sig.bundle, sig.storage, sig.model_tokens)
             if key in by_sig:

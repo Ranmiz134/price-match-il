@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-22T16:31:32+02:00",
-  "scope": "Twelve existing product pages sampled with their actual source times; not an exhaustive promotion sweep. Schema2 preserves stock-limit conditions and old clients fail closed.",
+  "checked_at": "2026-11-22T15:46:01.335Z",
+  "scope": "48 product pages checked at their own recorded source times. This is not an exhaustive promotion sweep. Schema2 retains earlier-of-stock conditions; old records and times are preserved.",
   "checks": [
     {
       "our_sku": "99999-955-09",
@@ -116,6 +116,294 @@
       "price_vat": 177,
       "checked_at": "2026-11-22T16:31:32+02:00",
       "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99702-001-63",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/miracase/mqiw610",
+      "price_vat": 179,
+      "checked_at": "2026-11-22T15:42:48.253Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99701-804-36",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/miracase/tws/pure/audio/mtws290",
+      "price_vat": 229,
+      "checked_at": "2026-11-22T15:43:06.480Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99702-001-53",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/miracase/mwc65rc/black",
+      "price_vat": 139,
+      "checked_at": "2026-11-22T15:43:10.163Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99702-001-55",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/miracase/mwc65rc/white",
+      "price_vat": 139,
+      "checked_at": "2026-11-22T15:43:13.735Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99702-001-54",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/miracase/mwc65rc/yellow",
+      "price_vat": 199,
+      "checked_at": "2026-11-22T15:43:17.544Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90904-911-30",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/corsair/k70/core/tkl/rgb",
+      "price_vat": 319,
+      "checked_at": "2026-11-22T15:43:21.175Z",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "91000-002-27",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/miracase/managererpro",
+      "price_vat": 1490,
+      "checked_at": "2026-11-22T15:43:24.883Z",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "99700-901-18",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/miracase/mwkm1000",
+      "price_vat": 99,
+      "checked_at": "2026-11-22T15:43:28.370Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99700-901-22",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/miracase/mgmcd1",
+      "price_vat": 99,
+      "checked_at": "2026-11-22T15:43:35.290Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-802-00",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/turtlebeach/command/series/kb5",
+      "price_vat": 529,
+      "checked_at": "2026-11-22T15:43:38.682Z",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90905-802-11",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/turtlebeach/vulcan/ii/mini/air",
+      "price_vat": 649,
+      "checked_at": "2026-11-22T15:43:42.103Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99701-804-34",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/miracase/mqi2w590",
+      "price_vat": 199,
+      "checked_at": "2026-11-22T15:43:45.455Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99999-488-69",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/dji/action/adhesive/base/kit",
+      "price_vat": 79,
+      "checked_at": "2026-11-22T15:43:48.929Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99700-902-00",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/miracase/maig10",
+      "price_vat": 199,
+      "checked_at": "2026-11-22T15:43:52.424Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99999-488-64",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/dji/osmo/action/chest/strap/mount",
+      "price_vat": 179,
+      "checked_at": "2026-11-22T15:44:12.785Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90902-815-06",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/thrustmaster/simtask/ww",
+      "price_vat": 419,
+      "checked_at": "2026-11-22T15:45:04.869Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90902-815-09",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/thrustmaster/simtask/farmstick",
+      "price_vat": 599,
+      "checked_at": "2026-11-22T15:45:12.369Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99213-559-34",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/miracase/car/stand/mcm71",
+      "price_vat": 89,
+      "checked_at": "2026-11-22T15:45:14.827Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90902-815-26",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/thrustmaster/sol/r/3/ava/add/on",
+      "price_vat": 489,
+      "checked_at": "2026-11-22T15:45:17.449Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-710-05",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/turtle/beach/black/stealth/ultra",
+      "price_vat": 899,
+      "checked_at": "2026-11-22T15:45:19.944Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90902-805-42",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/thrustmaster/t248r",
+      "price_vat": 999,
+      "checked_at": "2026-11-22T15:45:22.651Z",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "99999-488-66",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/dji/osmo/magnetic/ball/joint/adapter/mount",
+      "price_vat": 129,
+      "checked_at": "2026-11-22T15:45:25.303Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99999-958-74",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/dji/osmo/mobile/8p/standard/combo",
+      "price_vat": 699,
+      "checked_at": "2026-11-22T15:45:27.886Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90904-001-26",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/corsair/hs35/v3/wired/white",
+      "price_vat": 155,
+      "checked_at": "2026-11-22T15:45:30.513Z",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90904-001-25",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/corsair/hs35/v3/wired/black",
+      "price_vat": 155,
+      "checked_at": "2026-11-22T15:45:33.036Z",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90904-720-69",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/corsair/void/wireless/v2/black",
+      "price_vat": 329,
+      "checked_at": "2026-11-22T15:45:35.596Z",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90904-720-70",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/corsair/void/wireless/v2/white",
+      "price_vat": 329,
+      "checked_at": "2026-11-22T15:45:38.184Z",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "99219-000-16",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/miracase/mrmf750",
+      "price_vat": 249,
+      "checked_at": "2026-11-22T15:45:40.747Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90902-815-38",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/thrustmaster/t/flight/hotas/5/microsoft/flight/simulator/ed",
+      "price_vat": 449,
+      "checked_at": "2026-11-22T15:45:43.365Z",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90904-911-31",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/corsair/keyboard/k70/core/tkl",
+      "price_vat": 599,
+      "checked_at": "2026-11-22T15:45:46.023Z",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90905-801-60",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/turtlebeach/vulcan/ii/tkl",
+      "price_vat": 399,
+      "checked_at": "2026-11-22T15:45:48.588Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90902-815-28",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/thrustmaster/t598/xbox",
+      "price_vat": 2999,
+      "checked_at": "2026-11-22T15:45:51.060Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-005-01",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/turtlebeach/vulcan/tkl",
+      "price_vat": 499,
+      "checked_at": "2026-11-22T15:45:53.547Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90902-815-40",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/thrustmaster/ace/combat/8/playstation",
+      "price_vat": 799,
+      "checked_at": "2026-11-22T15:45:56.049Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99700-902-01",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/miracase/maitp20",
+      "price_vat": 199,
+      "checked_at": "2026-11-22T15:45:58.683Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99999-958-69",
+      "store_id": "bug",
+      "product_url": "https://www.bug.co.il/brand/dji/mic/mini/2/2tx/1rx/charging/case/",
+      "price_vat": 399,
+      "checked_at": "2026-11-22T15:46:01.335Z",
+      "date_result": "not_found_on_checked_product_page"
     }
   ],
   "offers": [
@@ -207,6 +495,156 @@
       "checked_at": "2026-11-22T16:31:32+02:00",
       "source_url": "https://www.payngo.co.il/347851.html",
       "terms": "מחיר מבצע ₪177 במקום ₪328. תוקף לא צוין בעמוד המוצר שנבדק. מידע המבצע נבדק: 2026-11-22T16:31:32+02:00"
+    },
+    {
+      "our_sku": "90904-911-30",
+      "store_id": "bug",
+      "url": "https://www.bug.co.il/brand/corsair/k70/core/tkl/rgb",
+      "price_ils": 319,
+      "regular_price_ils": 589.0,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "explicit_end_stock_limited",
+      "conditions": "או עד גמר המלאי, המוקדם מביניהם",
+      "checked_at": "2026-11-22T15:43:21.175Z",
+      "source_url": "https://www.bug.co.il/brand/corsair/k70/core/tkl/rgb",
+      "terms": "מחיר מבצע ₪319 במקום ₪589. בתוקף עד 30.11.2026 או עד גמר המלאי, המוקדם מביניהם. בדיקת מידע המבצע: 2026-11-22T15:43:21.175Z"
+    },
+    {
+      "our_sku": "91000-002-27",
+      "store_id": "bug",
+      "url": "https://www.bug.co.il/brand/miracase/managererpro",
+      "price_ils": 1490,
+      "regular_price_ils": 2300.0,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "explicit_end_stock_limited",
+      "conditions": "או עד גמר המלאי, המוקדם מביניהם",
+      "checked_at": "2026-11-22T15:43:24.883Z",
+      "source_url": "https://www.bug.co.il/brand/miracase/managererpro",
+      "terms": "מחיר מבצע ₪1490 במקום ₪2300. בתוקף עד 30.11.2026 או עד גמר המלאי, המוקדם מביניהם. בדיקת מידע המבצע: 2026-11-22T15:43:24.883Z"
+    },
+    {
+      "our_sku": "90905-802-00",
+      "store_id": "bug",
+      "url": "https://www.bug.co.il/brand/turtlebeach/command/series/kb5",
+      "price_ils": 529,
+      "regular_price_ils": 629.0,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "explicit_end_stock_limited",
+      "conditions": "או עד גמר המלאי, המוקדם מביניהם",
+      "checked_at": "2026-11-22T15:43:38.682Z",
+      "source_url": "https://www.bug.co.il/brand/turtlebeach/command/series/kb5",
+      "terms": "מחיר מבצע ₪529 במקום ₪629. בתוקף עד 30.11.2026 או עד גמר המלאי, המוקדם מביניהם. בדיקת מידע המבצע: 2026-11-22T15:43:38.682Z"
+    },
+    {
+      "our_sku": "90902-805-42",
+      "store_id": "bug",
+      "url": "https://www.bug.co.il/brand/thrustmaster/t248r",
+      "price_ils": 999,
+      "regular_price_ils": 1599.0,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "explicit_end_stock_limited",
+      "conditions": "או עד גמר המלאי, המוקדם מביניהם",
+      "checked_at": "2026-11-22T15:45:22.651Z",
+      "source_url": "https://www.bug.co.il/brand/thrustmaster/t248r",
+      "terms": "מחיר מבצע ₪999 במקום ₪1599. בתוקף עד 30.11.2026 או עד גמר המלאי, המוקדם מביניהם. בדיקת מידע המבצע: 2026-11-22T15:45:22.651Z"
+    },
+    {
+      "our_sku": "90904-001-26",
+      "store_id": "bug",
+      "url": "https://www.bug.co.il/brand/corsair/hs35/v3/wired/white",
+      "price_ils": 155,
+      "regular_price_ils": 199.0,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "explicit_end_stock_limited",
+      "conditions": "או עד גמר המלאי, המוקדם מביניהם",
+      "checked_at": "2026-11-22T15:45:30.513Z",
+      "source_url": "https://www.bug.co.il/brand/corsair/hs35/v3/wired/white",
+      "terms": "מחיר מבצע ₪155 במקום ₪199. בתוקף עד 30.11.2026 או עד גמר המלאי, המוקדם מביניהם. בדיקת מידע המבצע: 2026-11-22T15:45:30.513Z"
+    },
+    {
+      "our_sku": "90904-001-25",
+      "store_id": "bug",
+      "url": "https://www.bug.co.il/brand/corsair/hs35/v3/wired/black",
+      "price_ils": 155,
+      "regular_price_ils": 199.0,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "explicit_end_stock_limited",
+      "conditions": "או עד גמר המלאי, המוקדם מביניהם",
+      "checked_at": "2026-11-22T15:45:33.036Z",
+      "source_url": "https://www.bug.co.il/brand/corsair/hs35/v3/wired/black",
+      "terms": "מחיר מבצע ₪155 במקום ₪199. בתוקף עד 30.11.2026 או עד גמר המלאי, המוקדם מביניהם. בדיקת מידע המבצע: 2026-11-22T15:45:33.036Z"
+    },
+    {
+      "our_sku": "90904-720-69",
+      "store_id": "bug",
+      "url": "https://www.bug.co.il/brand/corsair/void/wireless/v2/black",
+      "price_ils": 329,
+      "regular_price_ils": 699.0,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "explicit_end_stock_limited",
+      "conditions": "או עד גמר המלאי, המוקדם מביניהם",
+      "checked_at": "2026-11-22T15:45:35.596Z",
+      "source_url": "https://www.bug.co.il/brand/corsair/void/wireless/v2/black",
+      "terms": "מחיר מבצע ₪329 במקום ₪699. בתוקף עד 30.11.2026 או עד גמר המלאי, המוקדם מביניהם. בדיקת מידע המבצע: 2026-11-22T15:45:35.596Z"
+    },
+    {
+      "our_sku": "90904-720-70",
+      "store_id": "bug",
+      "url": "https://www.bug.co.il/brand/corsair/void/wireless/v2/white",
+      "price_ils": 329,
+      "regular_price_ils": 699.0,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "explicit_end_stock_limited",
+      "conditions": "או עד גמר המלאי, המוקדם מביניהם",
+      "checked_at": "2026-11-22T15:45:38.184Z",
+      "source_url": "https://www.bug.co.il/brand/corsair/void/wireless/v2/white",
+      "terms": "מחיר מבצע ₪329 במקום ₪699. בתוקף עד 30.11.2026 או עד גמר המלאי, המוקדם מביניהם. בדיקת מידע המבצע: 2026-11-22T15:45:38.184Z"
+    },
+    {
+      "our_sku": "90902-815-38",
+      "store_id": "bug",
+      "url": "https://www.bug.co.il/brand/thrustmaster/t/flight/hotas/5/microsoft/flight/simulator/ed",
+      "price_ils": 449,
+      "regular_price_ils": 589.0,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "explicit_end_stock_limited",
+      "conditions": "או עד גמר המלאי, המוקדם מביניהם",
+      "checked_at": "2026-11-22T15:45:43.365Z",
+      "source_url": "https://www.bug.co.il/brand/thrustmaster/t/flight/hotas/5/microsoft/flight/simulator/ed",
+      "terms": "מחיר מבצע ₪449 במקום ₪589. בתוקף עד 30.11.2026 או עד גמר המלאי, המוקדם מביניהם. בדיקת מידע המבצע: 2026-11-22T15:45:43.365Z"
+    },
+    {
+      "our_sku": "90904-911-31",
+      "store_id": "bug",
+      "url": "https://www.bug.co.il/brand/corsair/keyboard/k70/core/tkl",
+      "price_ils": 599,
+      "regular_price_ils": 799.0,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "explicit_end_stock_limited",
+      "conditions": "או עד גמר המלאי, המוקדם מביניהם",
+      "checked_at": "2026-11-22T15:45:46.023Z",
+      "source_url": "https://www.bug.co.il/brand/corsair/keyboard/k70/core/tkl",
+      "terms": "מחיר מבצע ₪599 במקום ₪799. בתוקף עד 30.11.2026 או עד גמר המלאי, המוקדם מביניהם. בדיקת מידע המבצע: 2026-11-22T15:45:46.023Z"
     }
   ]
 }

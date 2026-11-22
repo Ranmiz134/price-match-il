@@ -133,7 +133,7 @@
       offers.map((r) => `${r[5]}: ${r[10]}${r[8] === null ? "" : `, ${formatPreciseILS(Math.abs(r[8]))} (${(Math.abs(r[9]) * 100).toFixed(1)}%)`}`).join("\n")
     ]));
     const multiple = Array.from(groups.values()).filter((items) => new Set(items.map((r) => r[5])).size > 1).length;
-    meta.push(["מצב בדיקת מציאון", clearanceStatus ? clearanceStatus.textContent : "לא נטען"], ["קריאת הקובץ", "בגיליון השוואות: שורה נפרדת לכל מוצר ומתחרה. בגיליון תמונת שוק למוצר: כל המתחרים של אותו מוצר יחד. כל הגיליונות מכבדים את הסינון."], ["מוצרים עם כמה רשתות בסינון", multiple], ["מוצרים עם רשת אחת בסינון", groups.size - multiple], ["מגבלת הכיסוי", "מוצר עם רשת אחת משקף הצעה מאומתת אחת בנתונים ובסינון הנוכחי. אין בכך הוכחה שאין רשתות נוספות, והסריקה המלאה טרם הושלמה."]);
+    meta.push(["מצב בדיקת מציאון", clearanceStatus ? clearanceStatus.textContent : "לא נטען"], ["כיסוי מידע תוקף מבצעים", promotionInfoStatus ? promotionInfoStatus.textContent : "לא נטען"], ["קריאת הקובץ", "בגיליון השוואות: שורה נפרדת לכל מוצר ומתחרה. בגיליון תמונת שוק למוצר: כל המתחרים של אותו מוצר יחד. כל הגיליונות מכבדים את הסינון."], ["מוצרים עם כמה רשתות בסינון", multiple], ["מוצרים עם רשת אחת בסינון", groups.size - multiple], ["מגבלת הכיסוי", "מוצר עם רשת אחת משקף הצעה מאומתת אחת בנתונים ובסינון הנוכחי. אין בכך הוכחה שאין רשתות נוספות, והסריקה המלאה טרם הושלמה."]);
     const sheets = [xlsxSheet([headings, ...rows], [23, 27, 17, 49, 20, 20, 49, 22, 22, 20, 24, 21, 25, 49, 28, 49, 49, 24, 24, 49, 24, 24, 49]), xlsxSheet(meta, [34, 100], true), xlsxSheet(marketRows, [23, 49, 23, 22, 55, 70], true)];
     const files = {
       "[Content_Types].xml": '<?xml version="1.0" encoding="UTF-8"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/><Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/><Override PartName="/xl/worksheets/sheet1.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/><Override PartName="/xl/worksheets/sheet2.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/></Types>',
@@ -459,6 +459,7 @@
                 ${importerBadge}
               </div>
               <small style="color:#64748b">${escapeHtml(c.title)}</small>
+              ${promotionHtml(c.promotion)}
               ${anomalyHtml}
             </div>
             <div class="comp-actions">
@@ -612,6 +613,7 @@
           <span class="badge ${offer.in_stock ? "badge-official" : "badge-oos"}">${offer.in_stock ? "במלאי" : "אזל במלאי"}</span></div>
         ${offer.anomaly_flag ? '<span class="badge badge-check">פער חריג לבדיקה</span>' : ""}
         <small>${escapeHtml(offer.title)}</small>
+        ${promotionHtml(offer.promotion)}
         ${offer.anomaly_flag ? `<div class="anomaly-banner">${escapeHtml(offer.anomaly_warning || "פער חריג, יש לוודא התאמת דגם וחבילה לפני שינוי מחיר")}</div>` : ""}
         <small>נבדק: ${escapeHtml(formatIsraelTime(offer.scraped_at))}</small>
       </div>`;
@@ -728,6 +730,59 @@
     resultsGrid.innerHTML = filtered.slice(0, 100).map(renderCard).join("");
   }
 
+
+  let promotionInfoStatus = null;
+  function promotionText(promotion) {
+    if (!promotion || promotion.verified !== true) return "";
+    const today = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Jerusalem", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
+    const start = promotion.starts_on || "", end = promotion.ends_on || "";
+    const label = start && start > today ? "מבצע עתידי" : end && end < today ? "תוקף המבצע שהוצג הסתיים, המחיר דורש בדיקה" : "מבצע ברשת";
+    const dates = !start && !end ? "תוקף לא צוין בעמוד המוצר שנבדק" : [start ? `מתאריך ${start}` : "תחילת המבצע לא צוינה", end ? `עד ${end}` : "סיום המבצע לא צוין"].join(" · ");
+    return `${label} · ${dates}`;
+  }
+  function promotionHtml(promotion) {
+    const text = promotionText(promotion);
+    if (!text) return "";
+    return `<div class="promotion-note price-sub" style="margin-top:8px;color:#854d0e;background:#fffbeb;padding:8px;border-radius:8px"><strong>${escapeHtml(text)}</strong>${promotion.regular_price_ils ? `<div>מחיר רגיל שצוין: ${formatPreciseILS(promotion.regular_price_ils)}</div>` : ""}<div>מידע המבצע נבדק: ${escapeHtml(formatIsraelTime(promotion.checked_at))}</div></div>`;
+  }
+  async function loadPromotions() {
+    if (isManagerView) {
+      promotionInfoStatus = document.createElement("div");
+      promotionInfoStatus.id = "promotionInfoStatus";
+      promotionInfoStatus.className = "price-sub";
+      promotionInfoStatus.setAttribute("role", "status");
+      document.querySelector(".search-panel").appendChild(promotionInfoStatus);
+      promotionInfoStatus.textContent = "טוען מידע על תוקף מבצעים...";
+    }
+    const controller = new AbortController(), timeout = setTimeout(() => controller.abort(), 8000);
+    try {
+      const response = await fetch("data/promotions.json", {cache:"no-store", signal:controller.signal});
+      if (!response.ok) throw new Error("Promotion data unavailable");
+      const payload = await response.json();
+      const checked = Date.parse(payload.checked_at), age = Date.now() - checked;
+      if (payload.schema_version !== 1 || !Array.isArray(payload.offers) || !Array.isArray(payload.checks) || !Number.isFinite(checked) || age < -300000 || age > 36*3600000) throw new Error("Stale or invalid promotion data");
+      const lookup = new Map();
+      allProducts.forEach(p => (p.competitors || []).forEach(o => lookup.set([p.sku,o.store_id,o.url].join("|"),o)));
+      const binding = p => {
+        const offer = lookup.get([p.our_sku,p.store_id,p.url || p.product_url].join("|"));
+        return offer && Number.isFinite(Number(p.price_ils ?? p.price_vat)) && Math.abs(Number(offer.price)-Number(p.price_ils ?? p.price_vat)) < 0.005 ? offer : null;
+      };
+      let attached = 0;
+      payload.offers.forEach(p => {
+        const offer = binding(p);
+        const validDate = value => value === null || value === "" || (typeof value === "string" && /^\d{4}-\d{2}-\d{2}$/.test(value) && !Number.isNaN(Date.parse(value)) && new Date(value).toISOString().slice(0,10) === value);
+        const time = Date.parse(p.checked_at);
+        if (!offer || p.verified !== true || p.source_url !== offer.url || !validDate(p.starts_on) || !validDate(p.ends_on) || p.starts_on && p.ends_on && p.starts_on > p.ends_on || !Number.isFinite(time) || Date.now()-time > 36*3600000 || time > Date.now()+300000) return;
+        if (p.regular_price_ils != null && (!Number.isFinite(Number(p.regular_price_ils)) || Number(p.regular_price_ils) <= Number(offer.price))) return;
+        offer.promotion = {...p}; attached++;
+      });
+      const checkedCount = payload.checks.filter(binding).length;
+      if (promotionInfoStatus) promotionInfoStatus.textContent = `מידע תוקף מבצעים: נבדקו ${checkedCount} עמודי הצעות בלבד, לא כל השוק. זוהו ${attached} הצעות מבצע עם מידע שניתן לשייך למחיר הנוכחי. תוקף שלא פורסם נשאר לא ידוע. בדיקה: ${formatIsraelTime(payload.checked_at)}.`;
+    } catch (error) {
+      if (promotionInfoStatus) promotionInfoStatus.textContent = "מידע תוקף המבצעים אינו זמין או דורש בדיקה מחדש. אין להסיק מכך שאין מבצע. המחירים נשארו ללא שינוי.";
+    } finally { clearTimeout(timeout); }
+  }
+
   async function init() {
     try {
       const resp = await fetch("data/prices.json", { cache: "no-store" });
@@ -740,6 +795,7 @@
       renderHealth(payload.stores || []);
 
       allProducts = (payload.products || []).map(buildSearchIndex);
+      await loadPromotions();
       renderCategoryHome();
       applyFilter();
     } catch (err) {

@@ -81,7 +81,7 @@ class GoogleSheetSync:
                 continue
             sku = (row.get("sku") or "").strip()
             bc = normalize_barcode(row.get("barcode") or "")
-            brand = (row.get("brand") or "DJI").strip()
+            brand = (row.get("brand") or "").strip()
             is_on_sale = _to_bool(row.get("is_on_sale"), default=False)
             url = (row.get("our_url") or row.get("url") or "").strip()
 

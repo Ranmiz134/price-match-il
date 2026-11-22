@@ -1,0 +1,552 @@
+{
+  "store_id": "bug",
+  "store_name": "באג (Bug)",
+  "last_ok_at": "2026-11-22T05:44:24.993723+00:00",
+  "count": 32,
+  "items": [
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "סמארטפון",
+      "price": 1349.0,
+      "url": "https://www.bug.co.il/brand/nothing/phone/4b/8gb/128gb/blue",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "ה לחץ לבדיקת מלאי המוצר בסניפי BUG יבואן רשמי משלוח חינם קנייה בטוחה אחריות: שנה ע\"י יבואן רשמי - באג מול",
+      "sku": "6974434229327",
+      "barcodes": [
+        "6974434229327"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "רמקול אלחוטי נייד",
+      "price": 319.0,
+      "url": "https://www.bug.co.il/brand/jbl/bluetooth/speakers/flip/7/special/edition/tomorrowland",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "ה לחץ לבדיקת מלאי המוצר בסניפי BUG יבואן רשמי איסוף חינם קנייה בטוחה אחריות: שנה ע\"י יבואן רשמי - באג מול",
+      "sku": "1200130028274",
+      "barcodes": [
+        "1200130028274"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "מצלמת גימבל",
+      "price": 2899.0,
+      "url": "https://www.bug.co.il/brand/dji/osmo/pocket/4p/vlog/combo",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "",
+      "sku": "6937224148307",
+      "barcodes": [
+        "6937224148307"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "מצלמת גימבל",
+      "price": 2499.0,
+      "url": "https://www.bug.co.il/brand/dji/osmo/pocket/4p/standard/combo",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "",
+      "sku": "6937224148321",
+      "barcodes": [
+        "6937224148321"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "מצלמה",
+      "price": 2699.0,
+      "url": "https://www.bug.co.il/brand/dji/osmo/360/ii/adventure/combo",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 1",
+      "sku": "6937224148741",
+      "barcodes": [
+        "6937224148741"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "מצלמה",
+      "price": 2199.0,
+      "url": "https://www.bug.co.il/brand/dji/osmo/360/ii/standard/combo",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 1",
+      "sku": "6937224148376",
+      "barcodes": [
+        "6937224148376"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "מיקרופון אלחוטי",
+      "price": 649.0,
+      "url": "https://www.bug.co.il/brand/dji/mic/mini/2s/2/tx/1/rx/charging/case/",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 3",
+      "sku": "6937224141018",
+      "barcodes": [
+        "6937224141018"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "מייצב",
+      "price": 2449.0,
+      "url": "https://www.bug.co.il/brand/dji/ronin/rs5/combo",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 1",
+      "sku": "6937224131422",
+      "barcodes": [
+        "6937224131422"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "מייצב",
+      "price": 1549.0,
+      "url": "https://www.bug.co.il/brand/dji/rs/4/mini/combo",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 8",
+      "sku": "6941565991959",
+      "barcodes": [
+        "6941565991959"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "מייצב",
+      "price": 2099.0,
+      "url": "https://www.bug.co.il/brand/dji/ronin/rs5",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 1",
+      "sku": "6937224131712",
+      "barcodes": [
+        "6937224131712"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "מארז צלילה",
+      "price": 269.0,
+      "url": "https://www.bug.co.il/brand/dji/osmo/action/6/waterproof/case",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "פחות מדקה אחת עם ניסיון קל. האם יש אחריות על Osmo Action 6 Waterproof Case? כן, Osmo Action 6 Waterpr",
+      "sku": "6937224127692",
+      "barcodes": [
+        "6937224127692"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "מייצב",
+      "price": 799.0,
+      "url": "https://www.bug.co.il/brand/dji/osmo/mobile/8p/advanced/tracking/combo",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 4",
+      "sku": "6937224141759",
+      "barcodes": [
+        "6937224141759"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "מייצב",
+      "price": 999.0,
+      "url": "https://www.bug.co.il/brand/dji/osmo/mobile/8p/creator/combo",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 5",
+      "sku": "6937224142930",
+      "barcodes": [
+        "6937224142930"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "מייצב",
+      "price": 699.0,
+      "url": "https://www.bug.co.il/brand/dji/osmo/mobile/8p/standard/combo",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 3",
+      "sku": "6937224142947",
+      "barcodes": [
+        "6937224142947"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "מערכת מיקרופון אלחוטית",
+      "price": 299.0,
+      "url": "https://www.bug.co.il/brand/dji/mic/mini/2/2tx/1mobile/rx/charging/case/",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG איסוף חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 1",
+      "sku": "6937224141452",
+      "barcodes": [
+        "6937224141452"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "מערכת מיקרופון אלחוטית",
+      "price": 399.0,
+      "url": "https://www.bug.co.il/brand/dji/mic/mini/2/2tx/1rx/charging/case/",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG איסוף חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 2",
+      "sku": "6937224139749",
+      "barcodes": [
+        "6937224139749"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "משדר מיקרופון אלחוטי",
+      "price": 129.0,
+      "url": "https://www.bug.co.il/brand/dji/mic/mini/2/transmitter",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG איסוף חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 7",
+      "sku": "6937224139732",
+      "barcodes": [
+        "6937224139732"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "מיקרופון אלחוטי",
+      "price": 249.0,
+      "url": "https://www.bug.co.il/brand/dji/mic/mini/2/1/tx/1/rx/",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG איסוף חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 1",
+      "sku": "6937224139787",
+      "barcodes": [
+        "6937224139787"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "מצלמת גימבל",
+      "price": 2199.0,
+      "url": "https://www.bug.co.il/brand/dji/osmo/pocket/4/creator/combo",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 1",
+      "sku": "6937224133082",
+      "barcodes": [
+        "6937224133082"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "רחפן",
+      "price": 2949.0,
+      "url": "https://www.bug.co.il/brand/dji/lito/x1/fly/more/combo",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 1",
+      "sku": "6937224142701",
+      "barcodes": [
+        "6937224142701"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "מצלמת גימבל",
+      "price": 1899.0,
+      "url": "https://www.bug.co.il/brand/dji/osmo/pocket/4/standard/combo",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 1",
+      "sku": "6937224133099",
+      "barcodes": [
+        "6937224133099"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "רחפן",
+      "price": 3349.0,
+      "url": "https://www.bug.co.il/brand/dji/lito/x1/fly/more/combo/plus",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 1",
+      "sku": "6937224142756",
+      "barcodes": [
+        "6937224142756"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "רחפן",
+      "price": 4399.0,
+      "url": "https://www.bug.co.il/brand/dji/avata/360/motion/fly/more/combo",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 2",
+      "sku": "6937224137639",
+      "barcodes": [
+        "6937224137639"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "רחפן",
+      "price": 2149.0,
+      "url": "https://www.bug.co.il/brand/dji/lito/1/fly/more/combo",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 1",
+      "sku": "6937224146839",
+      "barcodes": [
+        "6937224146839"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "רחפן",
+      "price": 4399.0,
+      "url": "https://www.bug.co.il/brand/dji/avata/360/fly/more/combo/dji/rc/2/",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 2",
+      "sku": "6937224137622",
+      "barcodes": [
+        "6937224137622"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "רחפן",
+      "price": 3149.0,
+      "url": "https://www.bug.co.il/brand/dji/avata/360/dji/rc/2/",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 1",
+      "sku": "6937224137615",
+      "barcodes": [
+        "6937224137615"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "רחפן",
+      "price": 1449.0,
+      "url": "https://www.bug.co.il/brand/dji/lito/1",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 8",
+      "sku": "6937224146877",
+      "barcodes": [
+        "6937224146877"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "רחפן",
+      "price": 4499.0,
+      "url": "https://www.bug.co.il/brand/dji/mini/5/pro/fly/more/combo",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 2",
+      "sku": "6937224123212",
+      "barcodes": [
+        "6937224123212"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "רחפן",
+      "price": 15999.0,
+      "url": "https://www.bug.co.il/brand/dji/mavic/4/pro/creator/combo",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 8",
+      "sku": "6937224110014",
+      "barcodes": [
+        "6937224110014"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "רחפן",
+      "price": 1899.0,
+      "url": "https://www.bug.co.il/brand/dji/neo/2/fly/more/combo",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "בסניפי BUG משלוח חינם קנייה בטוחה אחריות: שנה ע\"י בנדא מגנטיק בע\"מ עד 18 תשלומים ללא ריבית. החל מ- 1",
+      "sku": "6937224131774",
+      "barcodes": [
+        "6937224131774"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "קוד דיגיטלי כסף ארנק דיגיטלי 60 שקל",
+      "price": 60.0,
+      "url": "https://www.bug.co.il/brand/playstation/store/60ils/digital/code",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "",
+      "sku": "729012154201",
+      "barcodes": [
+        "0729012154201"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "title": "עט תלת מימד",
+      "price": 179.0,
+      "url": "https://www.bug.co.il/brand/myfirst/color/blue/3dpen/make",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "ה לחץ לבדיקת מלאי המוצר בסניפי BUG יבואן רשמי איסוף חינם קנייה בטוחה אחריות: שנה ע\"י יבואן רשמי - באג מול",
+      "sku": "0850031616257",
+      "barcodes": [
+        "0850031616257"
+      ],
+      "regular_price": null,
+      "is_on_sale": false,
+      "scraped_at": "2026-11-22T05:43:54.178589+00:00"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "store_id": "benda_store",
+  "store_name": "בנדא סטור",
+  "last_ok_at": "2026-11-22T05:43:53.657979+00:00",
+  "count": 9,
+  "items": [
+    {
+      "id": "benda_store:62414",
+      "name": "מיקרופון אלחוטי DJI 3 בודד",
+      "brand": "DJI",
+      "sku": "99999-954-11",
+      "barcodes": [
+        "9999995411"
+      ],
+      "our_price": 7.99,
+      "regular_price": 7.99,
+      "is_on_sale": false,
+      "in_stock": true,
+      "source_id": "benda_store",
+      "source_name": "בנדא סטור",
+      "source_url": "https://www.bendastore.co.il/product/99999-954-11/",
+      "category": "Auto / רחפנים ומוצרי צילום",
+      "image_url": "https://www.bendastore.co.il/wp-content/uploads/2026/09/7ff2a68aaf4c103680c3d5eeeab89f54@ultra.webp",
+      "secondary_sources": []
+    },
+    {
+      "id": "benda_store:62413",
+      "name": "DJI Osmo 360",
+      "brand": "DJI",
+      "sku": "99999-952-79",
+      "barcodes": [
+        "9999995279"
+      ],
+      "our_price": 17.49,
+      "regular_price": 17.49,
+      "is_on_sale": false,
+      "in_stock": true,
+      "source_id": "benda_store",
+      "source_name": "בנדא סטור",
+      "source_url": "https://www.bendastore.co.il/product/99999-952-79/",
+      "category": "Auto / רחפנים ומוצרי צילום",
+      "image_url": "https://www.bendastore.co.il/wp-content/uploads/2026/09/2b874dbec03014aeaf81efebf8a6413a@ultra.webp",
+      "secondary_sources": []
+    },
+    {
+      "id": "benda_store:56973",
+      "name": "מייצב DJI RS 4 Mini",
+      "brand": "DJI",
+      "sku": "99999-951-93",
+      "barcodes": [
+        "9999995193"
+      ],
+      "our_price": 12.99,
+      "regular_price": 12.99,
+      "is_on_sale": false,
+      "in_stock": true,
+      "source_id": "benda_store",
+      "source_name": "בנדא סטור",
+      "source_url": "https://www.bendastore.co.il/product/99999-951-93/",
+      "category": "Auto / רחפנים ומוצרי צילום",
+      "image_url": "https://www.bendastore.co.il/wp-content/uploads/2026/07/צילום-מסך-2026-07-23-162312.png",
+      "secondary_sources": []
+    },
+    {
+      "id": "benda_store:56972",
+      "name": "מייצב DJI RS 4 Mini Combo",
+      "brand": "DJI",
+      "sku": "99999-951-94",
+      "barcodes": [
+        "9999995194"
+      ],
+      "our_price": 15.49,
+      "regular_price": 15.49,
+      "is_on_sale": false,
+      "in_stock": true,
+      "source_id": "benda_store",
+      "source_name": "בנדא סטור",
+      "source_url": "https://www.bendastore.co.il/product/99999-951-94/",
+      "category": "Auto / רחפנים ומוצרי צילום",
+      "image_url": "https://www.bendastore.co.il/wp-content/uploads/2026/07/צילום-מסך-2026-07-23-162123.png",
+      "secondary_sources": []
+    },
+    {
+      "id": "benda_store:56970",
+      "name": "מייצב DJI RONIN RS4",
+      "brand": "DJI",
+      "sku": "99999-600-96",
+      "barcodes": [
+        "9999960096"
+      ],
+      "our_price": 16.99,
+      "regular_price": 16.99,
+      "is_on_sale": false,
+      "in_stock": true,
+      "source_id": "benda_store",
+      "source_name": "בנדא סטור",
+      "source_url": "https://www.bendastore.co.il/product/99999-600-96/",
+      "category": "Auto / רחפנים ומוצרי צילום",
+      "image_url": "https://www.bendastore.co.il/wp-content/uploads/2026/07/צילום-מסך-2026-07-23-161935.png",
+      "secondary_sources": []
+    },
+    {
+      "id": "benda_store:56968",
+      "name": "מייצב DJI RONIN RS4 PRO COMBO",
+      "brand": "DJI",
+      "sku": "99999-600-99",
+      "barcodes": [
+        "9999960099"
+      ],
+      "our_price": 41.99,
+      "regular_price": 41.99,
+      "is_on_sale": false,
+      "in_stock": true,
+      "source_id": "benda_store",
+      "source_name": "בנדא סטור",
+      "source_url": "https://www.bendastore.co.il/product/99999-600-99/",
+      "category": "Auto / רחפנים ומוצרי צילום",
+      "image_url": "https://www.bendastore.co.il/wp-content/uploads/2026/07/צילום-מסך-2026-07-23-161556.png",
+      "secondary_sources": []
+    },
+    {
+      "id": "benda_store:56967",
+      "name": "מייצב DJI RONIN RS4 PRO",
+      "brand": "DJI",
+      "sku": "99999-600-98",
+      "barcodes": [
+        "9999960098"
+      ],
+      "our_price": 35.49,
+      "regular_price": 35.49,
+      "is_on_sale": false,
+      "in_stock": true,
+      "source_id": "benda_store",
+      "source_name": "בנדא סטור",
+      "source_url": "https://www.bendastore.co.il/product/99999-600-98/",
+      "category": "Auto / רחפנים ומוצרי צילום",
+      "image_url": "https://www.bendastore.co.il/wp-content/uploads/2026/07/צילום-מסך-2026-07-23-161300.png",
+      "secondary_sources": []
+    },
+    {
+      "id": "benda_store:56966",
+      "name": "מייצב DJI RONIN RS5",
+      "brand": "DJI",
+      "sku": "99999-956-24",
+      "barcodes": [
+        "9999995624"
+      ],
+      "our_price": 20.99,
+      "regular_price": 20.99,
+      "is_on_sale": false,
+      "in_stock": true,
+      "source_id": "benda_store",
+      "source_name": "בנדא סטור",
+      "source_url": "https://www.bendastore.co.il/product/99999-956-24/",
+      "category": "Auto / רחפנים ומוצרי צילום",
+      "image_url": "https://www.bendastore.co.il/wp-content/uploads/2026/07/WhatsApp-Image-2026-01-27-at-16.46.15.bf65e1.webp",
+      "secondary_sources": []
+    },
+    {
+      "id": "benda_store:56965",
+      "name": "מייצב DJI RONIN RS5 COMBO",
+      "brand": "DJI",
+      "sku": "99999-956-23",
+      "barcodes": [
+        "9999995623"
+      ],
+      "our_price": 24.49,
+      "regular_price": 24.49,
+      "is_on_sale": false,
+      "in_stock": true,
+      "source_id": "benda_store",
+      "source_name": "בנדא סטור",
+      "source_url": "https://www.bendastore.co.il/product/99999-956-23/",
+      "category": "Auto / רחפנים ומוצרי צילום",
+      "image_url": "https://www.bendastore.co.il/wp-content/uploads/2026/07/צילום-מסך-2026-07-23-161126.png",
+      "secondary_sources": []
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_alm",
   "store_name": "ALM",
-  "last_ok_at": "2026-11-22T13:37:03.761373+00:00",
-  "count": 8,
+  "last_ok_at": "2026-11-22T14:35:40.690995+00:00",
+  "count": 9,
   "items": [
     {
       "store_id": "alm",
@@ -123,6 +123,21 @@
       "sku": "41209-652-60",
       "barcodes": [],
       "scraped_at": "2026-11-22 10:39"
+    },
+    {
+      "store_id": "alm",
+      "store_name": "ALM",
+      "our_sku": "99226-010-30",
+      "our_product_name": "סוללת הרחבה BLUETTI B300K – 2764Wh",
+      "title": "סוללת הרחבה דגם BLUETTI 2764WH B300K",
+      "price": 7999.0,
+      "url": "https://www.alm.co.il/895001212.html",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99226-010-30",
+      "barcodes": [],
+      "scraped_at": "2026-11-22T16:31:32+02:00"
     }
   ]
 }

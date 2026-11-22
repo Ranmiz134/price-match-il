@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_kravitz",
   "store_name": "Kravitz",
-  "last_ok_at": "2026-11-22T13:37:03.761943+00:00",
-  "count": 60,
+  "last_ok_at": "2026-11-22T14:35:40.691892+00:00",
+  "count": 61,
   "items": [
     {
       "store_id": "kravitz",
@@ -903,6 +903,21 @@
       "sku": "99360-053-00",
       "barcodes": [],
       "scraped_at": "2026-11-22T11:35:08.083507+02:00"
+    },
+    {
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "our_sku": "90903-011-46",
+      "our_product_name": "אוזניות גיימינג RAZER KRAKEN V4 X RGB",
+      "title": "אוזניות גיימינג חוטיות Razer Kraken V4 X RGB PS/X/PC שחור",
+      "price": 179.0,
+      "url": "https://www.kravitz.co.il/products/%D7%90%D7%95%D7%96%D7%A0%D7%99%D7%95%D7%AA-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%97%D7%95%D7%98%D7%99%D7%95%D7%AA-razer-kraken-v4-x-rgb-ps-x-pc-%D7%A9%D7%97%D7%95%D7%A8",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-011-46",
+      "barcodes": [],
+      "scraped_at": "2026-11-22T16:31:32+02:00"
     }
   ]
 }

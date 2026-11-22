@@ -70,7 +70,7 @@
     const productCount = new Set(rows.map((row) => row[0])).size;
     managerExportButton.disabled = !rows.length;
     managerExportButton.style.opacity = rows.length ? "1" : "0.5";
-    managerExportStatus.textContent = rows.length ? `${rows.length} השוואות מ-${productCount} מוצרים לייצוא, כולל כל התוצאות שמעבר לעמוד הנוכחי` : "אין השוואות מתאימות לייצוא בסינון הנוכחי";
+    managerExportStatus.textContent = rows.length ? `${rows.length} השוואות מ-${productCount} מוצרים לייצוא, שורה לכל מתחרה, כולל כל התוצאות שמעבר לעמוד הנוכחי` : "אין השוואות מתאימות לייצוא בסינון הנוכחי";
   }
 
   function xlsxXml(value) {
@@ -86,7 +86,7 @@
 
   function xlsxSheet(rows, widths, metadata = false) {
     const last = `${xlsxColumn(Math.max(0, widths.length - 1))}${Math.max(1, rows.length)}`;
-    const body = rows.map((row, r) => `<row r="${r + 1}"${r === 0 ? ' ht="34" customHeight="1"' : ' ht="32" customHeight="1"'}>${row.map((value, c) => {
+    const body = rows.map((row, r) => `<row r="${r + 1}" ht="${r === 0 ? 42 : Math.max(32, ...row.map((value, c) => String(value == null ? '' : value).split('\n').reduce((sum, line) => sum + Math.max(1, Math.ceil(line.length / Math.max(10, widths[c] * 0.85))), 0) * 15 + 6))}" customHeight="1">${row.map((value, c) => {
       const cell = `${xlsxColumn(c)}${r + 1}`;
       const style = r === 0 ? 1 : !metadata && [4, 7, 8].includes(c) ? 2 : !metadata && c === 9 ? 3 : 0;
       if (typeof value === "number" && Number.isFinite(value)) return `<c r="${cell}" s="${style}"><v>${value}</v></c>`;
@@ -125,7 +125,16 @@
     const headings = ["מק״ט", "ברקודים", "מותג", "שם המוצר שלנו", "מחיר שלנו כולל מע״מ (ILS)", "רשת מתחרה", "שם המוצר אצל המתחרה", "מחיר מתחרה כולל מע״מ (ILS)", "פער בש״ח: שלנו פחות המתחרה", "פער באחוזים ממחירנו", "כיוון הפער", "מלאי אצל המתחרה", "סטטוס יבואן", "אזהרה לבדיקה", "נבדק במקור", "קישור למוצר שלנו", "קישור למתחרה", "מבצע מתחרה: תחילה", "מבצע מתחרה: סיום", "תנאי מבצע מתחרה שתועדו", "מבצע בנדא: תחילה", "מבצע בנדא: סיום", "תנאי מבצע בנדא שתועדו"];
     const directionLabels = { all: "כל כיווני הפער", "ours-higher": "אנחנו יקרים יותר", "ours-lower": "אנחנו זולים יותר", equal: "מחיר זהה" };
     const meta = [["פרטי הייצוא", "ערך"], ["חיפוש", searchInput.value.trim() || "ללא"], ["כיוון הפער", directionLabels[managerDirection.value]], ["פער מינימלי בערך מוחלט", `${managerGapRange.value}%`], ["מלאי בלבד", managerStockOnly.checked ? "כן" : "לא"], ["מספר השוואות", rows.length], ["מספר מוצרים עם השוואה", new Set(rows.map((r) => r[0])).size], ["נתונים נוצרו", feedGeneratedAt], ["הייצוא נוצר בשעון ישראל", formatIsraelTime(new Date().toISOString())], ["מטבע", "ILS, כולל מע״מ"], ["משמעות הפער", "מחיר שלנו פחות מחיר המתחרה. פער חיובי: אנחנו יקרים יותר. אחוז הפער מחושב ביחס למחיר שלנו."], ["היקף", "כל ההשוואות המתאימות לסינון, גם מעבר ל-100 המוצרים הראשונים. מוצרים ללא השוואה מתאימה אינם נכללים."], ["תאריכי מבצע", "תאריך ריק פירושו שלא תועד תוקף מאומת, לא הוכחה שאין מבצע. תאריכי priceValidUntil כלליים לא משמשים כתוקף מבצע."], ["הסתייגויות", "אזהרות מחיר, יבואן לא מאומת ומלאי נשמרו. יש לבדוק את המקור לפני שינוי מחיר. הייצוא לא משנה מחירים או נתונים."]];
-    const sheets = [xlsxSheet([headings, ...rows], [23, 27, 17, 49, 20, 20, 49, 22, 22, 20, 24, 21, 25, 49, 28, 49, 49, 24, 24, 49, 24, 24, 49]), xlsxSheet(meta, [34, 100], true)];
+    const groups = new Map();
+    rows.forEach((row) => { const items = groups.get(row[0]) || []; items.push(row); groups.set(row[0], items); });
+    const marketRows = [["מק״ט", "שם המוצר", "מחיר שלנו כולל מע״מ (ILS)", "מספר רשתות בסינון", "כל מחירי המתחרים בסינון", "הפער מול כל מתחרה"]];
+    groups.forEach((offers, sku) => marketRows.push([sku, offers[0][3], offers[0][4], new Set(offers.map((r) => r[5])).size,
+      offers.map((r) => `${r[5]}: ${formatPreciseILS(r[7])}`).join("\n"),
+      offers.map((r) => `${r[5]}: ${r[10]}${r[8] === null ? "" : `, ${formatPreciseILS(Math.abs(r[8]))} (${(Math.abs(r[9]) * 100).toFixed(1)}%)`}`).join("\n")
+    ]));
+    const multiple = Array.from(groups.values()).filter((items) => new Set(items.map((r) => r[5])).size > 1).length;
+    meta.push(["קריאת הקובץ", "בגיליון השוואות: שורה נפרדת לכל מוצר ומתחרה. בגיליון תמונת שוק למוצר: כל המתחרים של אותו מוצר יחד. כל הגיליונות מכבדים את הסינון."], ["מוצרים עם כמה רשתות בסינון", multiple], ["מוצרים עם רשת אחת בסינון", groups.size - multiple], ["מגבלת הכיסוי", "מוצר עם רשת אחת משקף הצעה מאומתת אחת בנתונים ובסינון הנוכחי. אין בכך הוכחה שאין רשתות נוספות, והסריקה המלאה טרם הושלמה."]);
+    const sheets = [xlsxSheet([headings, ...rows], [23, 27, 17, 49, 20, 20, 49, 22, 22, 20, 24, 21, 25, 49, 28, 49, 49, 24, 24, 49, 24, 24, 49]), xlsxSheet(meta, [34, 100], true), xlsxSheet(marketRows, [23, 49, 23, 22, 55, 70], true)];
     const files = {
       "[Content_Types].xml": '<?xml version="1.0" encoding="UTF-8"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/><Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/><Override PartName="/xl/worksheets/sheet1.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/><Override PartName="/xl/worksheets/sheet2.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/></Types>',
       "_rels/.rels": '<?xml version="1.0" encoding="UTF-8"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/></Relationships>',
@@ -133,6 +142,9 @@
       "xl/_rels/workbook.xml.rels": '<?xml version="1.0" encoding="UTF-8"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet1.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet2.xml"/><Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/></Relationships>',
       "xl/styles.xml": '<?xml version="1.0" encoding="UTF-8"?><styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><numFmts count="2"><numFmt numFmtId="164" formatCode="#,##0.00"/><numFmt numFmtId="165" formatCode="0.0%"/></numFmts><fonts count="2"><font><sz val="11"/><name val="Calibri"/></font><font><b/><sz val="11"/><color rgb="FFFFFFFF"/><name val="Calibri"/></font></fonts><fills count="3"><fill><patternFill patternType="none"/></fill><fill><patternFill patternType="gray125"/></fill><fill><patternFill patternType="solid"><fgColor rgb="FF0F172A"/><bgColor indexed="64"/></patternFill></fill></fills><borders count="1"><border/></borders><cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs><cellXfs count="4"><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0" applyAlignment="1"><alignment vertical="top" wrapText="1" readingOrder="2"/></xf><xf numFmtId="0" fontId="1" fillId="2" borderId="0" xfId="0" applyAlignment="1"><alignment vertical="center" wrapText="1" readingOrder="2"/></xf><xf numFmtId="164" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1" applyAlignment="1"><alignment vertical="top" readingOrder="2"/></xf><xf numFmtId="165" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1" applyAlignment="1"><alignment vertical="top" readingOrder="2"/></xf></cellXfs><cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles></styleSheet>'
     };
+    files["[Content_Types].xml"] = files["[Content_Types].xml"].replace("</Types>", '<Override PartName="/xl/worksheets/sheet3.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/></Types>');
+    files["xl/workbook.xml"] = files["xl/workbook.xml"].replace('<sheet name="פרטי הייצוא"', '<sheet name="תמונת שוק למוצר" sheetId="3" r:id="rId3"/><sheet name="פרטי הייצוא"');
+    files["xl/_rels/workbook.xml.rels"] = files["xl/_rels/workbook.xml.rels"].replace('Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles"', 'Id="rId4" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles"').replace("</Relationships>", '<Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet3.xml"/></Relationships>');
     sheets.forEach((sheet, i) => { files[`xl/worksheets/sheet${i + 1}.xml`] = sheet.xml; if (sheet.rels) files[`xl/worksheets/_rels/sheet${i + 1}.xml.rels`] = sheet.rels; });
     return xlsxZip(files);
   }
@@ -507,6 +519,7 @@
         <div class="manager-offer-gap ${managerGapClass(offer)}">${managerGapText(offer)}</div>
         <div class="manager-offer-badges"><span class="badge ${offer.importer_status === "official" ? "badge-official" : "badge-check"}">${importer}</span>
           <span class="badge ${offer.in_stock ? "badge-official" : "badge-oos"}">${offer.in_stock ? "במלאי" : "אזל במלאי"}</span></div>
+        ${offer.anomaly_flag ? '<span class="badge badge-check">פער חריג לבדיקה</span>' : ""}
         <small>${escapeHtml(offer.title)}</small>
         ${offer.anomaly_flag ? `<div class="anomaly-banner">${escapeHtml(offer.anomaly_warning || "פער חריג, יש לוודא התאמת דגם וחבילה לפני שינוי מחיר")}</div>` : ""}
         <small>נבדק: ${escapeHtml(formatIsraelTime(offer.scraped_at))}</small>
@@ -516,14 +529,14 @@
       <h2 class="card-title">${escapeHtml(product.name)}</h2>
       <div class="card-meta"><span>מק"ט: <bdi>${escapeHtml(product.sku)}</bdi></span>${product.brand ? `<span>${escapeHtml(product.brand)}</span>` : ""}
         ${(product.barcodes || []).length ? `<span>ברקוד: <bdi>${escapeHtml(product.barcodes.join(", "))}</bdi></span>` : ""}</div>
-      <div class="manager-prices"><div class="manager-price"><span>המחיר שלנו, כולל מע"מ</span><strong>${formatPreciseILS(product.our_price)}</strong></div>
-        <div class="manager-price"><span>מחיר מתחרה להשוואה</span><strong>${best ? formatPreciseILS(best.price) : "אין הצעה"}</strong></div></div>
-      <div class="manager-gap ${managerGapClass(best)}">${best ? managerGapText(best) : "אין השוואה מתאימה בסריקה הקיימת"}</div>
-      ${best ? `<div class="manager-offer-badges"><span class="badge ${best.importer_status === "official" ? "badge-official" : "badge-check"}">${escapeHtml(best.store_name)} · ${best.importer_status === "official" ? "יבואן רשמי" : "יבואן לא אומת (?)"}</span>
-        <span class="badge ${best.in_stock ? "badge-official" : "badge-oos"}">${best.in_stock ? "במלאי" : "אזל במלאי"}</span>
-        ${best.anomaly_flag ? '<span class="badge badge-check">פער חריג לבדיקה</span>' : ""}</div>` : ""}
+      <div class="manager-prices"><div class="manager-price"><span>המחיר שלנו, כולל מע״מ</span><strong>${formatPreciseILS(product.our_price)}</strong></div>
+        <div class="manager-price"><span>רשתות שעוברות את הסינון</span><strong>${new Set(displayedOffers.map((offer) => offer.store_id || offer.store_name)).size}</strong></div></div>
+      <div class="manager-offers" aria-label="כל המתחרים המתאימים לסינון">
+        <strong>כל המתחרים המתאימים (${displayedOffers.length}/${assessment.eligible.length})</strong>
+        <p class="price-sub">כל מתחרה בשורה נפרדת, עם המחיר והפער מולנו. לא רק הזול או היקר ביותר.</p>
+        ${offers || '<div class="manager-gap is-clear is-equal">אין השוואה מתאימה בסינון הנוכחי.</div>'}
+      </div>
       ${product.source_url ? `<div class="card-footer"><a class="link-btn" href="${escapeHtml(product.source_url)}" target="_blank" rel="noopener">דף המוצר שלנו ↗</a></div>` : ""}
-      ${offers ? `<details class="manager-offers" open><summary>השוואות ומקורות (${displayedOffers.length}/${assessment.eligible.length}) ⌄</summary>${offers}</details>` : ""}
     </article>`;
   }
 

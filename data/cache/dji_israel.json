@@ -1,7 +1,7 @@
 {
   "store_id": "dji_israel",
   "store_name": "DJI ישראל",
-  "last_ok_at": "2026-11-22T05:43:52.193462+00:00",
+  "last_ok_at": "2026-11-22T05:55:19.486336+00:00",
   "count": 431,
   "items": [
     {
@@ -9,11 +9,9 @@
       "name": "מצלמת גימבל דגם Osmo Pocket 4P Standard Combo DJI (Pearl White)",
       "brand": "DJI",
       "sku": "99999-959-03",
-      "barcodes": [
-        "9999995903"
-      ],
-      "our_price": 24.99,
-      "regular_price": 24.99,
+      "barcodes": [],
+      "our_price": 2499.0,
+      "regular_price": 2499.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -28,11 +26,9 @@
       "name": "מצלמת גימבל דגם Osmo Pocket 4P Vlog Combo DJI (Pearl White)",
       "brand": "DJI",
       "sku": "99999-959-04",
-      "barcodes": [
-        "9999995904"
-      ],
-      "our_price": 28.99,
-      "regular_price": 28.99,
+      "barcodes": [],
+      "our_price": 2899.0,
+      "regular_price": 2899.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -47,11 +43,9 @@
       "name": "סוללה לרחפן -DJI Avata 360 Intelligent Flight Battery",
       "brand": "DJI",
       "sku": "99999-958-57",
-      "barcodes": [
-        "9999995857"
-      ],
-      "our_price": 6.49,
-      "regular_price": 6.49,
+      "barcodes": [],
+      "our_price": 649.0,
+      "regular_price": 649.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -66,11 +60,9 @@
       "name": "סוללה לרחפן – DJI Lito X1 Intelligent Flight Battery",
       "brand": "DJI",
       "sku": "99999-958-83",
-      "barcodes": [
-        "9999995883"
-      ],
-      "our_price": 2.49,
-      "regular_price": 2.49,
+      "barcodes": [],
+      "our_price": 249.0,
+      "regular_price": 249.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -85,11 +77,9 @@
       "name": "סוללה לרחפן – DJI Lito 1 Intelligent Flight Battery",
       "brand": "DJI",
       "sku": "99999-958-82",
-      "barcodes": [
-        "9999995882"
-      ],
-      "our_price": 1.99,
-      "regular_price": 1.99,
+      "barcodes": [],
+      "our_price": 199.0,
+      "regular_price": 199.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -104,11 +94,9 @@
       "name": "DJI NEO 2 TWO-WAY CHARGING HUB",
       "brand": "DJI",
       "sku": "99999-957-64",
-      "barcodes": [
-        "9999995764"
-      ],
-      "our_price": 1.49,
-      "regular_price": 1.49,
+      "barcodes": [],
+      "our_price": 149.0,
+      "regular_price": 149.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -123,11 +111,9 @@
       "name": "תושבת מצלמה לקסדה – DJI Osmo Action Curved Adhesive Base",
       "brand": "DJI",
       "sku": "99999-958-75",
-      "barcodes": [
-        "9999995875"
-      ],
-      "our_price": 0.79,
-      "regular_price": 0.79,
+      "barcodes": [],
+      "our_price": 79.0,
+      "regular_price": 79.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -142,11 +128,9 @@
       "name": "ערכת 4 פילטרים ל – ND MAVIC 4 DJI /16/32/64",
       "brand": "DJI",
       "sku": "99999-955-08",
-      "barcodes": [
-        "9999995508"
-      ],
-      "our_price": 6.99,
-      "regular_price": 6.99,
+      "barcodes": [],
+      "our_price": 699.0,
+      "regular_price": 699.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -161,11 +145,9 @@
       "name": "רכזת טעינה ל FLIP DJI",
       "brand": "DJI",
       "sku": "99999-954-17",
-      "barcodes": [
-        "9999995417"
-      ],
-      "our_price": 1.99,
-      "regular_price": 1.99,
+      "barcodes": [],
+      "our_price": 199.0,
+      "regular_price": 199.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -180,11 +162,9 @@
       "name": "מגני פרופלורים- DJI Mini 5 Pro Quick-Release 360° Propeller",
       "brand": "DJI",
       "sku": "99999-958-79",
-      "barcodes": [
-        "9999995879"
-      ],
-      "our_price": 1.59,
-      "regular_price": 1.59,
+      "barcodes": [],
+      "our_price": 159.0,
+      "regular_price": 159.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -199,11 +179,9 @@
       "name": "רכזת טעינה לרחפן MINI 3 / 4 DJI",
       "brand": "DJI",
       "sku": "99999-954-22",
-      "barcodes": [
-        "9999995422"
-      ],
-      "our_price": 1.59,
-      "regular_price": 1.59,
+      "barcodes": [],
+      "our_price": 159.0,
+      "regular_price": 159.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -218,11 +196,9 @@
       "name": "בסיס טעינה לרחפן MAVIC MINI",
       "brand": "DJI",
       "sku": "99999-015-70",
-      "barcodes": [
-        "9999901570"
-      ],
-      "our_price": 0.99,
-      "regular_price": 0.99,
+      "barcodes": [],
+      "our_price": 99.0,
+      "regular_price": 99.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -237,11 +213,9 @@
       "name": "תושבת לפה – Osmo Action Bite Mount",
       "brand": "DJI",
       "sku": "99999-958-84",
-      "barcodes": [
-        "9999995884"
-      ],
-      "our_price": 0.89,
-      "regular_price": 0.89,
+      "barcodes": [],
+      "our_price": 89.0,
+      "regular_price": 89.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -256,11 +230,9 @@
       "name": "מטען אלטרנטור BLUETTI Charger 1",
       "brand": "DJI",
       "sku": "99226-010-12",
-      "barcodes": [
-        "9922601012"
-      ],
-      "our_price": 14.99,
-      "regular_price": 14.99,
+      "barcodes": [],
+      "our_price": 1499.0,
+      "regular_price": 1499.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -275,11 +247,9 @@
       "name": "מטען אלטרנטור וסולארי דגם Charger 2 מבית BLUETTI",
       "brand": "DJI",
       "sku": "99226-010-34",
-      "barcodes": [
-        "9922601034"
-      ],
-      "our_price": 16.99,
-      "regular_price": 16.99,
+      "barcodes": [],
+      "our_price": 1699.0,
+      "regular_price": 1699.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -294,11 +264,9 @@
       "name": "תחנת כוח ניידת דגם Premium 100 V2 מבית BLUETTI",
       "brand": "DJI",
       "sku": "99226-010-33",
-      "barcodes": [
-        "9922601033"
-      ],
-      "our_price": 34.9,
-      "regular_price": 34.9,
+      "barcodes": [],
+      "our_price": 3490.0,
+      "regular_price": 3490.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -313,11 +281,9 @@
       "name": "תחנת כוח ניידת דגם AC50P מבית BLUETTI",
       "brand": "DJI",
       "sku": "99226-010-32",
-      "barcodes": [
-        "9922601032"
-      ],
-      "our_price": 18.9,
-      "regular_price": 18.9,
+      "barcodes": [],
+      "our_price": 1890.0,
+      "regular_price": 1890.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -332,11 +298,9 @@
       "name": "סוללת הרחבה דגם B300K מבית BLUETTI",
       "brand": "DJI",
       "sku": "99226-010-30",
-      "barcodes": [
-        "9922601030"
-      ],
-      "our_price": 79.99,
-      "regular_price": 79.99,
+      "barcodes": [],
+      "our_price": 7999.0,
+      "regular_price": 7999.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -351,11 +315,9 @@
       "name": "תחנת כוח ניידת מתרחבת AC200PL 2400W 2304Wh",
       "brand": "DJI",
       "sku": "99226-010-20",
-      "barcodes": [
-        "9922601020"
-      ],
-      "our_price": 79.49,
-      "regular_price": 79.49,
+      "barcodes": [],
+      "our_price": 7949.0,
+      "regular_price": 7949.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -370,11 +332,9 @@
       "name": "תחנת כוח ניידת דגם Apex 300 3,840W/2,764.8Wh מבית BLUETTI",
       "brand": "DJI",
       "sku": "99226-010-10",
-      "barcodes": [
-        "9922601010"
-      ],
-      "our_price": 89.99,
-      "regular_price": 89.99,
+      "barcodes": [],
+      "our_price": 8999.0,
+      "regular_price": 8999.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -389,11 +349,9 @@
       "name": "תחנת כוח ניידת Jackery Explorer 240 v2",
       "brand": "DJI",
       "sku": "99226-000-47",
-      "barcodes": [
-        "9922600047"
-      ],
-      "our_price": 16.9,
-      "regular_price": 16.9,
+      "barcodes": [],
+      "our_price": 1690.0,
+      "regular_price": 1690.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -408,11 +366,9 @@
       "name": "מארז צלילה אטום למים Osmo 360 Invisible Waterproof Case מבית DJI",
       "brand": "DJI",
       "sku": "99999-958-99",
-      "barcodes": [
-        "9999995899"
-      ],
-      "our_price": 2.49,
-      "regular_price": 2.49,
+      "barcodes": [],
+      "our_price": 249.0,
+      "regular_price": 249.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -427,11 +383,9 @@
       "name": "מוט סוללה והארכה Osmo 360 II Battery Extension Rod מבית DJI",
       "brand": "DJI",
       "sku": "99999-958-98",
-      "barcodes": [
-        "9999995898"
-      ],
-      "our_price": 3.49,
-      "regular_price": 3.49,
+      "barcodes": [],
+      "our_price": 349.0,
+      "regular_price": 349.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -446,11 +400,9 @@
       "name": "ערכת החלפת עדשה Osmo 360 II Lens Replacement Kit מבית DJI",
       "brand": "DJI",
       "sku": "99999-958-95",
-      "barcodes": [
-        "9999995895"
-      ],
-      "our_price": 0.89,
-      "regular_price": 0.89,
+      "barcodes": [],
+      "our_price": 89.0,
+      "regular_price": 89.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -465,11 +417,9 @@
       "name": "ערכת החלפת עדשות כפולה Osmo 360 II Lens Replacement Kit מבית DJI",
       "brand": "DJI",
       "sku": "99999-958-94",
-      "barcodes": [
-        "9999995894"
-      ],
-      "our_price": 1.29,
-      "regular_price": 1.29,
+      "barcodes": [],
+      "our_price": 129.0,
+      "regular_price": 129.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -484,11 +434,9 @@
       "name": "מצלמת אקשן Osmo 360 II Standard Combo",
       "brand": "DJI",
       "sku": "99999-958-89",
-      "barcodes": [
-        "9999995889"
-      ],
-      "our_price": 21.99,
-      "regular_price": 21.99,
+      "barcodes": [],
+      "our_price": 2199.0,
+      "regular_price": 2199.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -503,11 +451,9 @@
       "name": "מצלמת אקשן Osmo 360 II Adventure Combo",
       "brand": "DJI",
       "sku": "99999-958-88",
-      "barcodes": [
-        "9999995888"
-      ],
-      "our_price": 26.99,
-      "regular_price": 26.99,
+      "barcodes": [],
+      "our_price": 2699.0,
+      "regular_price": 2699.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -522,11 +468,9 @@
       "name": "משטח נחיתה מתקפל לרחפנים – 50cm",
       "brand": "DJI",
       "sku": "99999-960-17",
-      "barcodes": [
-        "9999996017"
-      ],
-      "our_price": 0.69,
-      "regular_price": 0.69,
+      "barcodes": [],
+      "our_price": 69.0,
+      "regular_price": 69.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -541,11 +485,9 @@
       "name": "מזוודת נשיאה המיועדת ל־DJI Avata 2",
       "brand": "DJI",
       "sku": "99999-960-15",
-      "barcodes": [
-        "9999996015"
-      ],
-      "our_price": 1.99,
-      "regular_price": 1.99,
+      "barcodes": [],
+      "our_price": 199.0,
+      "regular_price": 199.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -560,11 +502,9 @@
       "name": "מזוודת נשיאה קשיחה ומוגנת עבור DJI NEO 2 Fly More Combo",
       "brand": "DJI",
       "sku": "99999-960-14",
-      "barcodes": [
-        "9999996014"
-      ],
-      "our_price": 1.99,
-      "regular_price": 1.99,
+      "barcodes": [],
+      "our_price": 199.0,
+      "regular_price": 199.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -579,11 +519,9 @@
       "name": "תיק צד NEO 2 בסיס",
       "brand": "DJI",
       "sku": "99999-960-13",
-      "barcodes": [
-        "9999996013"
-      ],
-      "our_price": 1.49,
-      "regular_price": 1.49,
+      "barcodes": [],
+      "our_price": 149.0,
+      "regular_price": 149.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -598,11 +536,9 @@
       "name": "תיק נשיאה ואחסון עבור DJI Neo 2 Motion Combo",
       "brand": "DJI",
       "sku": "99999-960-12",
-      "barcodes": [
-        "9999996012"
-      ],
-      "our_price": 1.49,
-      "regular_price": 1.49,
+      "barcodes": [],
+      "our_price": 149.0,
+      "regular_price": 149.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -617,11 +553,9 @@
       "name": "תיק נשיאה עבור DJI LITO 1 Fly More Combo",
       "brand": "DJI",
       "sku": "99999-960-11",
-      "barcodes": [
-        "9999996011"
-      ],
-      "our_price": 0.99,
-      "regular_price": 0.99,
+      "barcodes": [],
+      "our_price": 99.0,
+      "regular_price": 99.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -636,11 +570,9 @@
       "name": "מזוודה קשיחה LITO",
       "brand": "DJI",
       "sku": "99999-960-10",
-      "barcodes": [
-        "9999996010"
-      ],
-      "our_price": 1.99,
-      "regular_price": 1.99,
+      "barcodes": [],
+      "our_price": 199.0,
+      "regular_price": 199.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -655,11 +587,9 @@
       "name": "תיק נשיאה עבור DJI Avata 360",
       "brand": "DJI",
       "sku": "99999-960-09",
-      "barcodes": [
-        "9999996009"
-      ],
-      "our_price": 2.49,
-      "regular_price": 2.49,
+      "barcodes": [],
+      "our_price": 249.0,
+      "regular_price": 249.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -674,11 +604,9 @@
       "name": "מזוודת נשיאה עמידה למים עבור DJI Avata 360",
       "brand": "DJI",
       "sku": "99999-960-08",
-      "barcodes": [
-        "9999996008"
-      ],
-      "our_price": 1.99,
-      "regular_price": 1.99,
+      "barcodes": [],
+      "our_price": 199.0,
+      "regular_price": 199.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -693,11 +621,9 @@
       "name": "תיק נשיאה קומפקטי ואיכותי ל־DJI Mini 4 Pro עם שלט DJI RC 2",
       "brand": "DJI",
       "sku": "99999-960-07",
-      "barcodes": [
-        "9999996007"
-      ],
-      "our_price": 1.49,
-      "regular_price": 1.49,
+      "barcodes": [],
+      "our_price": 149.0,
+      "regular_price": 149.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -712,11 +638,9 @@
       "name": "מזוודה קשיחה DJI Mini 3/4/5 Pro",
       "brand": "DJI",
       "sku": "99999-960-06",
-      "barcodes": [
-        "9999996006"
-      ],
-      "our_price": 1.99,
-      "regular_price": 1.99,
+      "barcodes": [],
+      "our_price": 199.0,
+      "regular_price": 199.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -731,11 +655,9 @@
       "name": "מזוודת נשיאה קשיחה ועמידה למים ל-DJI Air 3S Fly More Combo",
       "brand": "DJI",
       "sku": "99999-960-05",
-      "barcodes": [
-        "9999996005"
-      ],
-      "our_price": 2.49,
-      "regular_price": 2.49,
+      "barcodes": [],
+      "our_price": 249.0,
+      "regular_price": 249.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -750,11 +672,9 @@
       "name": "מזוודת נשיאה גדולה ל־DJI Mavic 4 Pro",
       "brand": "DJI",
       "sku": "99999-960-04",
-      "barcodes": [
-        "9999996004"
-      ],
-      "our_price": 2.99,
-      "regular_price": 2.99,
+      "barcodes": [],
+      "our_price": 299.0,
+      "regular_price": 299.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -769,11 +689,9 @@
       "name": "תושבת מגנטית לטלפון לשלטי DJI RC-N",
       "brand": "DJI",
       "sku": "99999-960-02",
-      "barcodes": [
-        "9999996002"
-      ],
-      "our_price": 0.99,
-      "regular_price": 0.99,
+      "barcodes": [],
+      "our_price": 99.0,
+      "regular_price": 99.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -788,11 +706,9 @@
       "name": "תושבת יניקה חשמלית ומגנטית",
       "brand": "DJI",
       "sku": "99999-960-01",
-      "barcodes": [
-        "9999996001"
-      ],
-      "our_price": 1.29,
-      "regular_price": 1.29,
+      "barcodes": [],
+      "our_price": 129.0,
+      "regular_price": 129.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -807,11 +723,9 @@
       "name": "רצועת צוואר לשלטי DJI",
       "brand": "DJI",
       "sku": "99999-960-00",
-      "barcodes": [
-        "9999996000"
-      ],
-      "our_price": 0.99,
-      "regular_price": 0.99,
+      "barcodes": [],
+      "our_price": 99.0,
+      "regular_price": 99.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -826,11 +740,9 @@
       "name": "מיקרופון אלחוטי – (DJI Mic Mini 2S(2TX+1RX+Charging Case",
       "brand": "DJI",
       "sku": "99999-958-81",
-      "barcodes": [
-        "9999995881"
-      ],
-      "our_price": 6.49,
-      "regular_price": 6.49,
+      "barcodes": [],
+      "our_price": 649.0,
+      "regular_price": 649.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -845,11 +757,9 @@
       "name": "סוללה בקיבולת גבוהה Osmo Extreme Battery Plus 2150mAh מבית DJI",
       "brand": "DJI",
       "sku": "99999-958-97",
-      "barcodes": [
-        "9999995897"
-      ],
-      "our_price": 1.49,
-      "regular_price": 1.49,
+      "barcodes": [],
+      "our_price": 149.0,
+      "regular_price": 149.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -864,11 +774,9 @@
       "name": "מוט סלפי בלתי נראה Osmo 1.2m Invisible Selfie Stick Kit מבית DJI",
       "brand": "DJI",
       "sku": "99999-958-93",
-      "barcodes": [
-        "9999995893"
-      ],
-      "our_price": 1.99,
-      "regular_price": 1.99,
+      "barcodes": [],
+      "our_price": 199.0,
+      "regular_price": 199.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -883,11 +791,9 @@
       "name": "מצלמת גימבל דגם Osmo Pocket 4P Vlog Combo מבית DJI",
       "brand": "DJI",
       "sku": "99999-958-91",
-      "barcodes": [
-        "9999995891"
-      ],
-      "our_price": 28.99,
-      "regular_price": 28.99,
+      "barcodes": [],
+      "our_price": 2899.0,
+      "regular_price": 2899.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -902,11 +808,9 @@
       "name": "מצלמת גימבל דגם Osmo Pocket 4P Standard Combo מבית DJI",
       "brand": "DJI",
       "sku": "99999-958-90",
-      "barcodes": [
-        "9999995890"
-      ],
-      "our_price": 24.99,
-      "regular_price": 24.99,
+      "barcodes": [],
+      "our_price": 2499.0,
+      "regular_price": 2499.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -921,11 +825,9 @@
       "name": "סט כיסויים מגנטיים צבעוניים למשדר Mic Mini 2 מבית DJI",
       "brand": "DJI",
       "sku": "99999-958-85",
-      "barcodes": [
-        "9999995885"
-      ],
-      "our_price": 0.99,
-      "regular_price": 0.99,
+      "barcodes": [],
+      "our_price": 99.0,
+      "regular_price": 99.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -940,11 +842,9 @@
       "name": "סט מגני רוח צבעוניים למיקרופון ל-DJI Mic Mini 2 מבית DJI",
       "brand": "DJI",
       "sku": "99999-958-86",
-      "barcodes": [
-        "9999995886"
-      ],
-      "our_price": 0.99,
-      "regular_price": 0.99,
+      "barcodes": [],
+      "our_price": 99.0,
+      "regular_price": 99.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -959,11 +859,9 @@
       "name": "תחנת כוח ניידת Jackery Explorer 3000 V2, 3072Wh, 3600W / 7200W",
       "brand": "DJI",
       "sku": "99227-300-30",
-      "barcodes": [
-        "9922730030"
-      ],
-      "our_price": 88.99,
-      "regular_price": 88.99,
+      "barcodes": [],
+      "our_price": 8899.0,
+      "regular_price": 8899.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -979,11 +877,10 @@
       "brand": "DJI",
       "sku": "99227-300-20",
       "barcodes": [
-        "9922730020",
         "0972505353839"
       ],
-      "our_price": 69.99,
-      "regular_price": 69.99,
+      "our_price": 6999.0,
+      "regular_price": 6999.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -998,11 +895,9 @@
       "name": "תחנת כוח ניידת Jackery Explorer 1000 V2, 1070Wh, 1500W / 3000W",
       "brand": "DJI",
       "sku": "99227-300-10",
-      "barcodes": [
-        "9922730010"
-      ],
-      "our_price": 37.99,
-      "regular_price": 37.99,
+      "barcodes": [],
+      "our_price": 3799.0,
+      "regular_price": 3799.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1017,11 +912,9 @@
       "name": "תחנת כוח ניידת Jackery Explorer 500 V2, 512Wh, 500W / 1000W",
       "brand": "DJI",
       "sku": "99227-300-05",
-      "barcodes": [
-        "9922730005"
-      ],
-      "our_price": 18.99,
-      "regular_price": 18.99,
+      "barcodes": [],
+      "our_price": 1899.0,
+      "regular_price": 1899.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1036,11 +929,9 @@
       "name": "פילטרים לרחפן – DJI Mini 5 Pro ND Filter Set",
       "brand": "DJI",
       "sku": "99999-958-51",
-      "barcodes": [
-        "9999995851"
-      ],
-      "our_price": 1.99,
-      "regular_price": 1.99,
+      "barcodes": [],
+      "our_price": 199.0,
+      "regular_price": 199.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1055,11 +946,9 @@
       "name": "סוללה למצלמות OSMO",
       "brand": "DJI",
       "sku": "99999-953-57",
-      "barcodes": [
-        "9999995357"
-      ],
-      "our_price": 1.69,
-      "regular_price": 1.69,
+      "barcodes": [],
+      "our_price": 169.0,
+      "regular_price": 169.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1074,11 +963,9 @@
       "name": "תושבת מצלמה לקסדת רכיבה – DJI Osmo Helmet Chin Mount Clip",
       "brand": "DJI",
       "sku": "99999-958-76",
-      "barcodes": [
-        "9999995876"
-      ],
-      "our_price": 1.89,
-      "regular_price": 1.89,
+      "barcodes": [],
+      "our_price": 189.0,
+      "regular_price": 189.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1093,11 +980,9 @@
       "name": "מסגרת למצלמת אקשן Osmo Action 6 Utility Frame 6",
       "brand": "DJI",
       "sku": "99999-958-77",
-      "barcodes": [
-        "9999995877"
-      ],
-      "our_price": 1.99,
-      "regular_price": 1.99,
+      "barcodes": [],
+      "our_price": 199.0,
+      "regular_price": 199.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1112,11 +997,9 @@
       "name": "כרטיס SanDisk Extreme Go microSD 240S 512G",
       "brand": "DJI",
       "sku": "38142-512-56",
-      "barcodes": [
-        "3814251256"
-      ],
-      "our_price": 5.99,
-      "regular_price": 5.99,
+      "barcodes": [],
+      "our_price": 599.0,
+      "regular_price": 599.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1131,11 +1014,9 @@
       "name": "כרטיס SanDisk Extreme Go microSD 240S 256G",
       "brand": "DJI",
       "sku": "38142-256-56",
-      "barcodes": [
-        "3814225656"
-      ],
-      "our_price": 2.59,
-      "regular_price": 2.59,
+      "barcodes": [],
+      "our_price": 259.0,
+      "regular_price": 259.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1150,11 +1031,9 @@
       "name": "כרטיס SanDisk Extreme Pro microSD 250S 1T",
       "brand": "DJI",
       "sku": "38142-001-55",
-      "barcodes": [
-        "3814200155"
-      ],
-      "our_price": 13.49,
-      "regular_price": 13.49,
+      "barcodes": [],
+      "our_price": 1349.0,
+      "regular_price": 1349.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -1169,11 +1048,9 @@
       "name": "כרטיס SanDisk Extreme Pro microSD 250S 256G",
       "brand": "DJI",
       "sku": "38142-256-55",
-      "barcodes": [
-        "3814225655"
-      ],
-      "our_price": 3.49,
-      "regular_price": 3.49,
+      "barcodes": [],
+      "our_price": 349.0,
+      "regular_price": 349.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1188,11 +1065,9 @@
       "name": "כרטיס SanDisk Extreme Pro microSD 250S 128G",
       "brand": "DJI",
       "sku": "38142-128-55",
-      "barcodes": [
-        "3814212855"
-      ],
-      "our_price": 1.99,
-      "regular_price": 1.99,
+      "barcodes": [],
+      "our_price": 199.0,
+      "regular_price": 199.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1207,11 +1082,9 @@
       "name": "כרטיס SanDisk Extreme Pro microSD 200S 64G",
       "brand": "DJI",
       "sku": "38142-064-55",
-      "barcodes": [
-        "3814206455"
-      ],
-      "our_price": 1.39,
-      "regular_price": 1.39,
+      "barcodes": [],
+      "our_price": 139.0,
+      "regular_price": 139.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1226,11 +1099,9 @@
       "name": "כרטיס EX PRO SD 280S V60 6K 1T",
       "brand": "DJI",
       "sku": "38140-001-36",
-      "barcodes": [
-        "3814000136"
-      ],
-      "our_price": 26.99,
-      "regular_price": 26.99,
+      "barcodes": [],
+      "our_price": 2699.0,
+      "regular_price": 2699.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -1245,11 +1116,9 @@
       "name": "כרטיס EX PRO SD 280S V60 6K 512G",
       "brand": "DJI",
       "sku": "38140-512-36",
-      "barcodes": [
-        "3814051236"
-      ],
-      "our_price": 15.99,
-      "regular_price": 15.99,
+      "barcodes": [],
+      "our_price": 1599.0,
+      "regular_price": 1599.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -1264,11 +1133,9 @@
       "name": "כרטיס EX PRO SD 280S V60 6K 256G",
       "brand": "DJI",
       "sku": "38140-256-36",
-      "barcodes": [
-        "3814025636"
-      ],
-      "our_price": 8.59,
-      "regular_price": 8.59,
+      "barcodes": [],
+      "our_price": 859.0,
+      "regular_price": 859.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -1283,11 +1150,9 @@
       "name": "כרטיס EX PRO SD 280S V60 6K 128G",
       "brand": "DJI",
       "sku": "38140-128-36",
-      "barcodes": [
-        "3814012836"
-      ],
-      "our_price": 5.29,
-      "regular_price": 5.29,
+      "barcodes": [],
+      "our_price": 529.0,
+      "regular_price": 529.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -1302,11 +1167,9 @@
       "name": "כרטיס EX PRO SD 280S V60 6K 64B",
       "brand": "DJI",
       "sku": "38140-064-36",
-      "barcodes": [
-        "3814006436"
-      ],
-      "our_price": 4.29,
-      "regular_price": 4.29,
+      "barcodes": [],
+      "our_price": 429.0,
+      "regular_price": 429.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -1321,11 +1184,9 @@
       "name": "כרטיס EX PRO SD 200S V30 4K 256G",
       "brand": "DJI",
       "sku": "38140-256-34",
-      "barcodes": [
-        "3814025634"
-      ],
-      "our_price": 3.89,
-      "regular_price": 3.89,
+      "barcodes": [],
+      "our_price": 389.0,
+      "regular_price": 389.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1340,11 +1201,9 @@
       "name": "כרטיס S.D EX 4K 180S V30 SD 256G",
       "brand": "DJI",
       "sku": "38140-256-33",
-      "barcodes": [
-        "3814025633"
-      ],
-      "our_price": 3.49,
-      "regular_price": 3.49,
+      "barcodes": [],
+      "our_price": 349.0,
+      "regular_price": 349.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1359,11 +1218,9 @@
       "name": "כרטיס S.D EX 4K 170S V30 SD 64G",
       "brand": "DJI",
       "sku": "38140-064-33",
-      "barcodes": [
-        "3814006433"
-      ],
-      "our_price": 0.99,
-      "regular_price": 0.99,
+      "barcodes": [],
+      "our_price": 99.0,
+      "regular_price": 99.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1378,11 +1235,9 @@
       "name": "תושבת למושב אופניים -Osmo Action Bike Seat Rail Mount",
       "brand": "DJI",
       "sku": "99999-958-64",
-      "barcodes": [
-        "9999995864"
-      ],
-      "our_price": 0.89,
-      "regular_price": 0.89,
+      "barcodes": [],
+      "our_price": 89.0,
+      "regular_price": 89.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1397,11 +1252,9 @@
       "name": "רצועת חזה מגנטית-Osmo Magnetic Chest Strap",
       "brand": "DJI",
       "sku": "99999-958-56",
-      "barcodes": [
-        "9999995856"
-      ],
-      "our_price": 1.19,
-      "regular_price": 1.19,
+      "barcodes": [],
+      "our_price": 119.0,
+      "regular_price": 119.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1416,11 +1269,9 @@
       "name": "מייצב לסמארטפון Osmo Mobile 8P Standard Combo",
       "brand": "DJI",
       "sku": "99999-958-74",
-      "barcodes": [
-        "9999995874"
-      ],
-      "our_price": 6.99,
-      "regular_price": 6.99,
+      "barcodes": [],
+      "our_price": 699.0,
+      "regular_price": 699.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1435,11 +1286,9 @@
       "name": "מייצב לסמארטפון Osmo Mobile 8P AdvancedTracking Combo",
       "brand": "DJI",
       "sku": "99999-958-73",
-      "barcodes": [
-        "9999995873"
-      ],
-      "our_price": 7.99,
-      "regular_price": 7.99,
+      "barcodes": [],
+      "our_price": 799.0,
+      "regular_price": 799.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1454,11 +1303,9 @@
       "name": "מייצב לסמארטפון Osmo Mobile 8P Creator Combo",
       "brand": "DJI",
       "sku": "99999-958-72",
-      "barcodes": [
-        "9999995872"
-      ],
-      "our_price": 9.99,
-      "regular_price": 9.99,
+      "barcodes": [],
+      "our_price": 999.0,
+      "regular_price": 999.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1473,11 +1320,9 @@
       "name": "ערכת החלפת עדשה – DJI Avata 360 Replacement Lens Kit",
       "brand": "DJI",
       "sku": "99999-958-53",
-      "barcodes": [
-        "9999995853"
-      ],
-      "our_price": 1.29,
-      "regular_price": 1.29,
+      "barcodes": [],
+      "our_price": 129.0,
+      "regular_price": 129.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1492,11 +1337,9 @@
       "name": "ערכת החלפת עדשה עם כלים -DJI Avata 360 Replacement Lens Kit",
       "brand": "DJI",
       "sku": "99999-958-52",
-      "barcodes": [
-        "9999995852"
-      ],
-      "our_price": 1.69,
-      "regular_price": 1.69,
+      "barcodes": [],
+      "our_price": 169.0,
+      "regular_price": 169.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1511,11 +1354,9 @@
       "name": "קייס צלילה- Osmo Action 6 Waterproof Case",
       "brand": "DJI",
       "sku": "99999-958-59",
-      "barcodes": [
-        "9999995859"
-      ],
-      "our_price": 2.59,
-      "regular_price": 2.59,
+      "barcodes": [],
+      "our_price": 259.0,
+      "regular_price": 259.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1530,11 +1371,9 @@
       "name": "כונן SSD נייד דגם SanDisk E10 בנפח 1TB מבית SanDisk",
       "brand": "DJI",
       "sku": "38168-001-10",
-      "barcodes": [
-        "3816800110"
-      ],
-      "our_price": 5.49,
-      "regular_price": 5.49,
+      "barcodes": [],
+      "our_price": 549.0,
+      "regular_price": 549.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1549,11 +1388,9 @@
       "name": "BENDA CARE – LITO 1X",
       "brand": "DJI",
       "sku": "99999-117-70",
-      "barcodes": [
-        "9999911770"
-      ],
-      "our_price": 3.99,
-      "regular_price": 3.99,
+      "barcodes": [],
+      "our_price": 399.0,
+      "regular_price": 399.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1568,11 +1405,9 @@
       "name": "DJI Avata 2 Fly More Combo (Single Battery)",
       "brand": "DJI",
       "sku": "99999-600-88",
-      "barcodes": [
-        "9999960088"
-      ],
-      "our_price": 39.99,
-      "regular_price": 39.99,
+      "barcodes": [],
+      "our_price": 3999.0,
+      "regular_price": 3999.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -1587,11 +1422,9 @@
       "name": "DJI Avata 2 Fly More Combo (3 Batteries)",
       "brand": "DJI",
       "sku": "99999-600-89",
-      "barcodes": [
-        "9999960089"
-      ],
-      "our_price": 43.49,
-      "regular_price": 43.49,
+      "barcodes": [],
+      "our_price": 4349.0,
+      "regular_price": 4349.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -1607,8 +1440,8 @@
       "brand": "DJI",
       "sku": "",
       "barcodes": [],
-      "our_price": 0.02,
-      "regular_price": 0.02,
+      "our_price": 2.0,
+      "regular_price": 2.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1623,11 +1456,9 @@
       "name": "מצלמה-Osmo Pocket 4 Standard Combo",
       "brand": "DJI",
       "sku": "99999-958-67",
-      "barcodes": [
-        "9999995867"
-      ],
-      "our_price": 18.99,
-      "regular_price": 18.99,
+      "barcodes": [],
+      "our_price": 1899.0,
+      "regular_price": 1899.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1642,11 +1473,9 @@
       "name": "מצלמה- Osmo Pocket 4 Creator Combo",
       "brand": "DJI",
       "sku": "99999-958-66",
-      "barcodes": [
-        "9999995866"
-      ],
-      "our_price": 21.99,
-      "regular_price": 21.99,
+      "barcodes": [],
+      "our_price": 2199.0,
+      "regular_price": 2199.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1661,11 +1490,9 @@
       "name": "פילטרים -(OSMO NANO ND Filter (8/16/32",
       "brand": "DJI",
       "sku": "99999-958-61",
-      "barcodes": [
-        "9999995861"
-      ],
-      "our_price": 2.69,
-      "regular_price": 2.69,
+      "barcodes": [],
+      "our_price": 269.0,
+      "regular_price": 269.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1680,11 +1507,9 @@
       "name": "מיקרופון אלחוטי(DJI Mic Mini 2 (1 TX + 1 RX",
       "brand": "DJI",
       "sku": "99999-958-71",
-      "barcodes": [
-        "9999995871"
-      ],
-      "our_price": 2.49,
-      "regular_price": 2.49,
+      "barcodes": [],
+      "our_price": 249.0,
+      "regular_price": 249.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1699,11 +1524,9 @@
       "name": "מתאם DJI Mic Series Mobile Receiver Adapter (USB-C to Lightning)",
       "brand": "DJI",
       "sku": "99999-958-58",
-      "barcodes": [
-        "9999995858"
-      ],
-      "our_price": 0.89,
-      "regular_price": 0.89,
+      "barcodes": [],
+      "our_price": 89.0,
+      "regular_price": 89.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1718,11 +1541,9 @@
       "name": "מיקרופון אלחוטי (DJI Mic Mini 2 (2 TX + 1 Mobile RX + Charging Case",
       "brand": "DJI",
       "sku": "99999-958-68",
-      "barcodes": [
-        "9999995868"
-      ],
-      "our_price": 2.99,
-      "regular_price": 2.99,
+      "barcodes": [],
+      "our_price": 299.0,
+      "regular_price": 299.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1737,11 +1558,9 @@
       "name": "מיקרופון אלחוטי (Mic Mini 2 (2 TX + 1 RX + Charging Case",
       "brand": "DJI",
       "sku": "99999-958-69",
-      "barcodes": [
-        "9999995869"
-      ],
-      "our_price": 3.99,
-      "regular_price": 3.99,
+      "barcodes": [],
+      "our_price": 399.0,
+      "regular_price": 399.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1756,11 +1575,9 @@
       "name": "סוללה לרחפן – DJI Mini 5 Pro Intelligent Flight Battery",
       "brand": "DJI",
       "sku": "99999-958-50",
-      "barcodes": [
-        "9999995850"
-      ],
-      "our_price": 2.99,
-      "regular_price": 2.99,
+      "barcodes": [],
+      "our_price": 299.0,
+      "regular_price": 299.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1775,11 +1592,9 @@
       "name": "סוללה לרחפן – DJI Neo 2 Intelligent Flight Battery",
       "brand": "DJI",
       "sku": "99999-958-49",
-      "barcodes": [
-        "9999995849"
-      ],
-      "our_price": 1.69,
-      "regular_price": 1.69,
+      "barcodes": [],
+      "our_price": 169.0,
+      "regular_price": 169.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1794,11 +1609,9 @@
       "name": "רכזת טעינה – DJI Neo 2 Two-Way Charging Hub",
       "brand": "DJI",
       "sku": "99999-958-48",
-      "barcodes": [
-        "9999995848"
-      ],
-      "our_price": 1.49,
-      "regular_price": 1.49,
+      "barcodes": [],
+      "our_price": 149.0,
+      "regular_price": 149.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1813,11 +1626,9 @@
       "name": "כיסוי מגן עדשה ACTION DJI",
       "brand": "DJI",
       "sku": "99999-488-68",
-      "barcodes": [
-        "9999948868"
-      ],
-      "our_price": 0.99,
-      "regular_price": 0.99,
+      "barcodes": [],
+      "our_price": 99.0,
+      "regular_price": 99.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1832,11 +1643,9 @@
       "name": "סוללה לרחפן FPV DJI",
       "brand": "DJI",
       "sku": "99999-020-39",
-      "barcodes": [
-        "9999902039"
-      ],
-      "our_price": 6.99,
-      "regular_price": 6.99,
+      "barcodes": [],
+      "our_price": 699.0,
+      "regular_price": 699.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -1851,11 +1660,9 @@
       "name": "Mavic 2 Pro ND Filters Set",
       "brand": "DJI",
       "sku": "99999-020-21",
-      "barcodes": [
-        "9999902021"
-      ],
-      "our_price": 2.36,
-      "regular_price": 2.36,
+      "barcodes": [],
+      "our_price": 236.0,
+      "regular_price": 236.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1870,11 +1677,9 @@
       "name": "Osmo 1.5m Extension Rod Kit (Dual-Direction Quick-Release)",
       "brand": "DJI",
       "sku": "99999-957-81",
-      "barcodes": [
-        "9999995781"
-      ],
-      "our_price": 1.69,
-      "regular_price": 1.69,
+      "barcodes": [],
+      "our_price": 169.0,
+      "regular_price": 169.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -1889,11 +1694,9 @@
       "name": "שלט DJI RC 2 – ללא אריזה",
       "brand": "DJI",
       "sku": "99999-496-86",
-      "barcodes": [
-        "9999949686"
-      ],
-      "our_price": 17.49,
-      "regular_price": 17.49,
+      "barcodes": [],
+      "our_price": 1749.0,
+      "regular_price": 1749.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -1908,11 +1711,9 @@
       "name": "כונן חיצוני SanDisk Creator Phone E62C 2TB SSD",
       "brand": "DJI",
       "sku": "38121-200-62",
-      "barcodes": [
-        "3812120062"
-      ],
-      "our_price": 10.49,
-      "regular_price": 10.49,
+      "barcodes": [],
+      "our_price": 1049.0,
+      "regular_price": 1049.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -1927,11 +1728,9 @@
       "name": "כונן חיצוני SanDisk Creator Phone E62C 1TB SSD",
       "brand": "DJI",
       "sku": "38121-100-62",
-      "barcodes": [
-        "3812110062"
-      ],
-      "our_price": 7.99,
-      "regular_price": 7.99,
+      "barcodes": [],
+      "our_price": 799.0,
+      "regular_price": 799.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -1946,11 +1745,9 @@
       "name": "כונן חיצוני SSD E82 PRO 2.5 2T",
       "brand": "DJI",
       "sku": "38168-200-82",
-      "barcodes": [
-        "3816820082"
-      ],
-      "our_price": 15.99,
-      "regular_price": 15.99,
+      "barcodes": [],
+      "our_price": 1599.0,
+      "regular_price": 1599.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -1965,11 +1762,9 @@
       "name": "כונן חיצוני 500GB שחור SSD E61 2.5",
       "brand": "DJI",
       "sku": "38168-500-61",
-      "barcodes": [
-        "3816850061"
-      ],
-      "our_price": 6.49,
-      "regular_price": 6.49,
+      "barcodes": [],
+      "our_price": 649.0,
+      "regular_price": 649.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -1984,11 +1779,9 @@
       "name": "BENDA CARE – LITO 1",
       "brand": "DJI",
       "sku": "99999-117-67",
-      "barcodes": [
-        "9999911767"
-      ],
-      "our_price": 3.49,
-      "regular_price": 3.49,
+      "barcodes": [],
+      "our_price": 349.0,
+      "regular_price": 349.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2003,11 +1796,9 @@
       "name": "BENDA CARE – AVATA 360",
       "brand": "DJI",
       "sku": "99999-117-64",
-      "barcodes": [
-        "9999911764"
-      ],
-      "our_price": 6.99,
-      "regular_price": 6.99,
+      "barcodes": [],
+      "our_price": 699.0,
+      "regular_price": 699.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2022,11 +1813,9 @@
       "name": "רחפן -(DJI Lito 1 Fly More Combo (DJI RC-RN3",
       "brand": "DJI",
       "sku": "99999-958-45",
-      "barcodes": [
-        "9999995845"
-      ],
-      "our_price": 21.49,
-      "regular_price": 21.49,
+      "barcodes": [],
+      "our_price": 2149.0,
+      "regular_price": 2149.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2041,11 +1830,9 @@
       "name": "רחפן – DJI Lito 1",
       "brand": "DJI",
       "sku": "99999-958-44",
-      "barcodes": [
-        "9999995844"
-      ],
-      "our_price": 14.49,
-      "regular_price": 14.49,
+      "barcodes": [],
+      "our_price": 1449.0,
+      "regular_price": 1449.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2060,11 +1847,9 @@
       "name": "רחפן – (DJI Lito X1 Fly More Combo Plus (DJI RC 2",
       "brand": "DJI",
       "sku": "99999-958-43",
-      "barcodes": [
-        "9999995843"
-      ],
-      "our_price": 33.49,
-      "regular_price": 33.49,
+      "barcodes": [],
+      "our_price": 3349.0,
+      "regular_price": 3349.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2079,11 +1864,9 @@
       "name": "רחפן – (DJI Lito X1 Fly More Combo (DJI RC 2",
       "brand": "DJI",
       "sku": "99999-958-42",
-      "barcodes": [
-        "9999995842"
-      ],
-      "our_price": 29.49,
-      "regular_price": 29.49,
+      "barcodes": [],
+      "our_price": 2949.0,
+      "regular_price": 2949.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -2098,11 +1881,9 @@
       "name": "רחפן – (DJI Avata 360 Fly More Combo (DJI RC 2",
       "brand": "DJI",
       "sku": "99999-958-41",
-      "barcodes": [
-        "9999995841"
-      ],
-      "our_price": 43.99,
-      "regular_price": 43.99,
+      "barcodes": [],
+      "our_price": 4399.0,
+      "regular_price": 4399.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2117,11 +1898,9 @@
       "name": "רחפן – (DJI Avata 360 Motion Fly More Combo (DJI Goggles N3",
       "brand": "DJI",
       "sku": "99999-958-40",
-      "barcodes": [
-        "9999995840"
-      ],
-      "our_price": 43.99,
-      "regular_price": 43.99,
+      "barcodes": [],
+      "our_price": 4399.0,
+      "regular_price": 4399.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2136,11 +1915,9 @@
       "name": "רחפן – (DJI Avata 360(DJI RC 2",
       "brand": "DJI",
       "sku": "99999-958-39",
-      "barcodes": [
-        "9999995839"
-      ],
-      "our_price": 34.99,
-      "regular_price": 34.99,
+      "barcodes": [],
+      "our_price": 3499.0,
+      "regular_price": 3499.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2155,11 +1932,9 @@
       "name": "Benda Care — DJI Mini 5 Pro",
       "brand": "DJI",
       "sku": "99999-117-48",
-      "barcodes": [
-        "9999911748"
-      ],
-      "our_price": 6.99,
-      "regular_price": 6.99,
+      "barcodes": [],
+      "our_price": 699.0,
+      "regular_price": 699.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2174,11 +1949,9 @@
       "name": "BENDA CARE – MAVIC 4 PRO CREATOR",
       "brand": "DJI",
       "sku": "99999-117-60",
-      "barcodes": [
-        "9999911760"
-      ],
-      "our_price": 24.99,
-      "regular_price": 24.99,
+      "barcodes": [],
+      "our_price": 2499.0,
+      "regular_price": 2499.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2193,11 +1966,9 @@
       "name": "BENDA CARE – DJI Mavic 4 Pro",
       "brand": "DJI",
       "sku": "99999-117-57",
-      "barcodes": [
-        "9999911757"
-      ],
-      "our_price": 19.99,
-      "regular_price": 19.99,
+      "barcodes": [],
+      "our_price": 1999.0,
+      "regular_price": 1999.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2212,11 +1983,9 @@
       "name": "BENDA CARE – DJI Air 3S",
       "brand": "DJI",
       "sku": "99999-117-54",
-      "barcodes": [
-        "9999911754"
-      ],
-      "our_price": 9.99,
-      "regular_price": 9.99,
+      "barcodes": [],
+      "our_price": 999.0,
+      "regular_price": 999.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2231,11 +2000,9 @@
       "name": "BENDA CARE – DJI Avata 2",
       "brand": "DJI",
       "sku": "99999-117-51",
-      "barcodes": [
-        "9999911751"
-      ],
-      "our_price": 5.99,
-      "regular_price": 5.99,
+      "barcodes": [],
+      "our_price": 599.0,
+      "regular_price": 599.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2250,11 +2017,9 @@
       "name": "BENDA CARE – DJI Mini 4 Pro",
       "brand": "DJI",
       "sku": "99999-117-45",
-      "barcodes": [
-        "9999911745"
-      ],
-      "our_price": 5.99,
-      "regular_price": 5.99,
+      "barcodes": [],
+      "our_price": 599.0,
+      "regular_price": 599.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2269,11 +2034,9 @@
       "name": "BENDA CARE – DJI Flip",
       "brand": "DJI",
       "sku": "99999-117-42",
-      "barcodes": [
-        "9999911742"
-      ],
-      "our_price": 4.99,
-      "regular_price": 4.99,
+      "barcodes": [],
+      "our_price": 499.0,
+      "regular_price": 499.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2288,11 +2051,9 @@
       "name": "BENDA CARE – DJI Neo 2",
       "brand": "DJI",
       "sku": "99999-117-39",
-      "barcodes": [
-        "9999911739"
-      ],
-      "our_price": 2.99,
-      "regular_price": 2.99,
+      "barcodes": [],
+      "our_price": 299.0,
+      "regular_price": 299.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2307,11 +2068,9 @@
       "name": "BENDA CARE – DJI Neo 1",
       "brand": "DJI",
       "sku": "99999-117-36",
-      "barcodes": [
-        "9999911736"
-      ],
-      "our_price": 2.49,
-      "regular_price": 2.49,
+      "barcodes": [],
+      "our_price": 249.0,
+      "regular_price": 249.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2326,11 +2085,9 @@
       "name": "מוט סלפי 2.5 מ' DJI Osmo Extended Carbon Fiber",
       "brand": "DJI",
       "sku": "99999-957-82",
-      "barcodes": [
-        "9999995782"
-      ],
-      "our_price": 4.49,
-      "regular_price": 4.49,
+      "barcodes": [],
+      "our_price": 449.0,
+      "regular_price": 449.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2345,11 +2102,9 @@
       "name": "מבשם ROMO Floor Deodorizer",
       "brand": "DJI",
       "sku": "99999-956-92",
-      "barcodes": [
-        "9999995692"
-      ],
-      "our_price": 0.89,
-      "regular_price": 0.89,
+      "barcodes": [],
+      "our_price": 89.0,
+      "regular_price": 89.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2364,11 +2119,9 @@
       "name": "נוזל ניקיון ROMO Cleaning Solution(GL)",
       "brand": "DJI",
       "sku": "99999-956-91",
-      "barcodes": [
-        "9999995691"
-      ],
-      "our_price": 0.79,
-      "regular_price": 0.79,
+      "barcodes": [],
+      "our_price": 79.0,
+      "regular_price": 79.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -2383,11 +2136,9 @@
       "name": "פד שטיפה ROMO Mop Pad (GL)",
       "brand": "DJI",
       "sku": "99999-956-90",
-      "barcodes": [
-        "9999995690"
-      ],
-      "our_price": 1.29,
-      "regular_price": 1.29,
+      "barcodes": [],
+      "our_price": 129.0,
+      "regular_price": 129.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2402,11 +2153,9 @@
       "name": "ערכת אביזרים ROMO Accessory Kit(GL)",
       "brand": "DJI",
       "sku": "99999-956-89",
-      "barcodes": [
-        "9999995689"
-      ],
-      "our_price": 7.99,
-      "regular_price": 7.99,
+      "barcodes": [],
+      "our_price": 799.0,
+      "regular_price": 799.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -2421,11 +2170,9 @@
       "name": "מברשת רולר פלסטית ROMO Rubber Roller Brush",
       "brand": "DJI",
       "sku": "99999-956-87",
-      "barcodes": [
-        "9999995687"
-      ],
-      "our_price": 1.29,
-      "regular_price": 1.29,
+      "barcodes": [],
+      "our_price": 129.0,
+      "regular_price": 129.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2440,11 +2187,9 @@
       "name": "משטח שיפוע ROMO Auxiliary Ramp",
       "brand": "DJI",
       "sku": "99999-956-86",
-      "barcodes": [
-        "9999995686"
-      ],
-      "our_price": 0.99,
-      "regular_price": 0.99,
+      "barcodes": [],
+      "our_price": 99.0,
+      "regular_price": 99.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2459,11 +2204,9 @@
       "name": "מברשת ROMO Roller Brush With Bristles and Rubber",
       "brand": "DJI",
       "sku": "99999-956-85",
-      "barcodes": [
-        "9999995685"
-      ],
-      "our_price": 1.29,
-      "regular_price": 1.29,
+      "barcodes": [],
+      "our_price": 129.0,
+      "regular_price": 129.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2478,11 +2221,9 @@
       "name": "פילטר ROMO High-Efficiency Filter",
       "brand": "DJI",
       "sku": "99999-956-83",
-      "barcodes": [
-        "9999995683"
-      ],
-      "our_price": 1.39,
-      "regular_price": 1.39,
+      "barcodes": [],
+      "our_price": 139.0,
+      "regular_price": 139.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2497,11 +2238,9 @@
       "name": "שקית אבק ROMO Base Station Dust Bag",
       "brand": "DJI",
       "sku": "99999-956-84",
-      "barcodes": [
-        "9999995684"
-      ],
-      "our_price": 1.29,
-      "regular_price": 1.29,
+      "barcodes": [],
+      "our_price": 129.0,
+      "regular_price": 129.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2516,11 +2255,9 @@
       "name": "מברשת ROMO Side Brush",
       "brand": "DJI",
       "sku": "99999-956-82",
-      "barcodes": [
-        "9999995682"
-      ],
-      "our_price": 1.29,
-      "regular_price": 1.29,
+      "barcodes": [],
+      "our_price": 129.0,
+      "regular_price": 129.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2535,11 +2272,9 @@
       "name": "מתאם Lightning למיקרופון DJI Mic 3",
       "brand": "DJI",
       "sku": "99999-954-23",
-      "barcodes": [
-        "9999995423"
-      ],
-      "our_price": 0.89,
-      "regular_price": 0.89,
+      "barcodes": [],
+      "our_price": 89.0,
+      "regular_price": 89.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2554,11 +2289,9 @@
       "name": "התקן DUAL USB3.1/TYPEC GO 128BG",
       "brand": "DJI",
       "sku": "38120-128-54",
-      "barcodes": [
-        "3812012854"
-      ],
-      "our_price": 0.94,
-      "regular_price": 0.94,
+      "barcodes": [],
+      "our_price": 94.0,
+      "regular_price": 94.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -2573,11 +2306,9 @@
       "name": "התקן DUAL USB3.1/TYPEC GO 64GB",
       "brand": "DJI",
       "sku": "38120-064-54",
-      "barcodes": [
-        "3812006454"
-      ],
-      "our_price": 0.61,
-      "regular_price": 0.61,
+      "barcodes": [],
+      "our_price": 61.0,
+      "regular_price": 61.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2592,11 +2323,9 @@
       "name": "התקן SAN CRUZER BLADE Z50 16G",
       "brand": "DJI",
       "sku": "38120-016-23",
-      "barcodes": [
-        "3812001623"
-      ],
-      "our_price": 0.27,
-      "regular_price": 0.27,
+      "barcodes": [],
+      "our_price": 27.0,
+      "regular_price": 27.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -2611,11 +2340,9 @@
       "name": "שואב שוטף רובוטי DJI Romo P",
       "brand": "DJI",
       "sku": "99999-956-81",
-      "barcodes": [
-        "9999995681"
-      ],
-      "our_price": 29.99,
-      "regular_price": 39.99,
+      "barcodes": [],
+      "our_price": 2999.0,
+      "regular_price": 3999.0,
       "is_on_sale": true,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2630,11 +2357,9 @@
       "name": "שואב שוטף רובוטי DJI Romo S",
       "brand": "DJI",
       "sku": "99999-956-80",
-      "barcodes": [
-        "9999995680"
-      ],
-      "our_price": 19.99,
-      "regular_price": 31.99,
+      "barcodes": [],
+      "our_price": 1999.0,
+      "regular_price": 3199.0,
       "is_on_sale": true,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2649,11 +2374,9 @@
       "name": "שואב שוטף רובוטי DJI Romo A",
       "brand": "DJI",
       "sku": "99999-956-79",
-      "barcodes": [
-        "9999995679"
-      ],
-      "our_price": 34.99,
-      "regular_price": 34.99,
+      "barcodes": [],
+      "our_price": 3499.0,
+      "regular_price": 3499.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2668,11 +2391,9 @@
       "name": "ערכת פילטרים Osmo Action 6 ND Filter Set",
       "brand": "DJI",
       "sku": "99999-956-27",
-      "barcodes": [
-        "9999995627"
-      ],
-      "our_price": 2.49,
-      "regular_price": 2.49,
+      "barcodes": [],
+      "our_price": 249.0,
+      "regular_price": 249.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2687,11 +2408,9 @@
       "name": "מטען DJI 240W Power Adapter",
       "brand": "DJI",
       "sku": "99999-999-46",
-      "barcodes": [
-        "9999999946"
-      ],
-      "our_price": 6.99,
-      "regular_price": 6.99,
+      "barcodes": [],
+      "our_price": 699.0,
+      "regular_price": 699.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -2706,11 +2425,9 @@
       "name": "רכזת טעינה DJI Mavic 4 Pro Charging Hub",
       "brand": "DJI",
       "sku": "99999-954-18",
-      "barcodes": [
-        "9999995418"
-      ],
-      "our_price": 4.49,
-      "regular_price": 4.49,
+      "barcodes": [],
+      "our_price": 449.0,
+      "regular_price": 449.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2725,11 +2442,9 @@
       "name": "סוללה לרחפן DJI Mavic 4 Pro",
       "brand": "DJI",
       "sku": "99999-954-19",
-      "barcodes": [
-        "9999995419"
-      ],
-      "our_price": 8.99,
-      "regular_price": 8.99,
+      "barcodes": [],
+      "our_price": 899.0,
+      "regular_price": 899.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2744,11 +2459,9 @@
       "name": "שלט חכם DJI RC Pro 2",
       "brand": "DJI",
       "sku": "99999-955-26",
-      "barcodes": [
-        "9999995526"
-      ],
-      "our_price": 49.99,
-      "regular_price": 49.99,
+      "barcodes": [],
+      "our_price": 4999.0,
+      "regular_price": 4999.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2763,11 +2476,9 @@
       "name": "עדשה רחבה Osmo Action 6 FOV Boost Lens",
       "brand": "DJI",
       "sku": "99999-956-28",
-      "barcodes": [
-        "9999995628"
-      ],
-      "our_price": 4.49,
-      "regular_price": 4.49,
+      "barcodes": [],
+      "our_price": 449.0,
+      "regular_price": 449.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2782,11 +2493,9 @@
       "name": "עדשת מאקרו Osmo Action 6 Macro Lens",
       "brand": "DJI",
       "sku": "99999-956-29",
-      "barcodes": [
-        "9999995629"
-      ],
-      "our_price": 7.39,
-      "regular_price": 7.39,
+      "barcodes": [],
+      "our_price": 739.0,
+      "regular_price": 739.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2801,11 +2510,9 @@
       "name": "WD Blue SN5000 – 2 T",
       "brand": "DJI",
       "sku": "39222-500-60",
-      "barcodes": [
-        "3922250060"
-      ],
-      "our_price": 15.86,
-      "regular_price": 15.86,
+      "barcodes": [],
+      "our_price": 1586.0,
+      "regular_price": 1586.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -2820,11 +2527,9 @@
       "name": "WD BLUE SSD 2T 2.5",
       "brand": "DJI",
       "sku": "39220-001-08",
-      "barcodes": [
-        "3922000108"
-      ],
-      "our_price": 19.26,
-      "regular_price": 19.26,
+      "barcodes": [],
+      "our_price": 1926.0,
+      "regular_price": 1926.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -2839,11 +2544,9 @@
       "name": "כונן WD ELEMENTS PORTABL USB3 5T",
       "brand": "DJI",
       "sku": "39199-005-01",
-      "barcodes": [
-        "3919900501"
-      ],
-      "our_price": 9.39,
-      "regular_price": 9.39,
+      "barcodes": [],
+      "our_price": 939.0,
+      "regular_price": 939.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2858,11 +2561,9 @@
       "name": "כונן WD ELEMENTS PORTABL USB3 4T",
       "brand": "DJI",
       "sku": "39199-004-01",
-      "barcodes": [
-        "3919900401"
-      ],
-      "our_price": 8.29,
-      "regular_price": 8.29,
+      "barcodes": [],
+      "our_price": 829.0,
+      "regular_price": 829.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2877,11 +2578,9 @@
       "name": "כונן WD ELEMENTS PORTABL USB3 2T",
       "brand": "DJI",
       "sku": "39199-002-02",
-      "barcodes": [
-        "3919900202"
-      ],
-      "our_price": 5.49,
-      "regular_price": 5.49,
+      "barcodes": [],
+      "our_price": 549.0,
+      "regular_price": 549.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2896,11 +2595,9 @@
       "name": "כונן WD ELEMENTS PORTABL USB3 1T",
       "brand": "DJI",
       "sku": "39199-001-01",
-      "barcodes": [
-        "3919900101"
-      ],
-      "our_price": 4.99,
-      "regular_price": 4.99,
+      "barcodes": [],
+      "our_price": 499.0,
+      "regular_price": 499.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2915,11 +2612,9 @@
       "name": "כונן 6T אפור WD My Passport USB-C",
       "brand": "DJI",
       "sku": "39179-006-01",
-      "barcodes": [
-        "3917900601"
-      ],
-      "our_price": 12.29,
-      "regular_price": 12.29,
+      "barcodes": [],
+      "our_price": 1229.0,
+      "regular_price": 1229.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2934,11 +2629,9 @@
       "name": "כונן 4T אפור WD My Passport USB-C",
       "brand": "DJI",
       "sku": "39179-004-01",
-      "barcodes": [
-        "3917900401"
-      ],
-      "our_price": 9.29,
-      "regular_price": 9.29,
+      "barcodes": [],
+      "our_price": 929.0,
+      "regular_price": 929.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2953,11 +2646,9 @@
       "name": "כונן 2T אפור WD My Passport USB-C",
       "brand": "DJI",
       "sku": "39179-002-01",
-      "barcodes": [
-        "3917900201"
-      ],
-      "our_price": 6.29,
-      "regular_price": 6.29,
+      "barcodes": [],
+      "our_price": 629.0,
+      "regular_price": 629.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2972,11 +2663,9 @@
       "name": "כונן 2T חדש שחור WD MY PASSPORT",
       "brand": "DJI",
       "sku": "39174-002-10",
-      "barcodes": [
-        "3917400210"
-      ],
-      "our_price": 5.69,
-      "regular_price": 5.69,
+      "barcodes": [],
+      "our_price": 569.0,
+      "regular_price": 569.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -2991,11 +2680,9 @@
       "name": "כונן 4T חדש שחור WD MY PASSPORT",
       "brand": "DJI",
       "sku": "39174-004-10",
-      "barcodes": [
-        "3917400410"
-      ],
-      "our_price": 8.49,
-      "regular_price": 8.49,
+      "barcodes": [],
+      "our_price": 849.0,
+      "regular_price": 849.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3010,11 +2697,9 @@
       "name": "כונן חיצוני SSD E30 2.5 2T",
       "brand": "DJI",
       "sku": "38168-002-33",
-      "barcodes": [
-        "3816800233"
-      ],
-      "our_price": 11.4,
-      "regular_price": 11.4,
+      "barcodes": [],
+      "our_price": 1140.0,
+      "regular_price": 1140.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3029,11 +2714,9 @@
       "name": "כונן חיצוני SSD E30 2.5 1T",
       "brand": "DJI",
       "sku": "38168-001-33",
-      "barcodes": [
-        "3816800133"
-      ],
-      "our_price": 5.45,
-      "regular_price": 5.45,
+      "barcodes": [],
+      "our_price": 545.0,
+      "regular_price": 545.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3048,11 +2731,9 @@
       "name": "כרטיס EXT MICRO SD 4K 190S 128GB",
       "brand": "DJI",
       "sku": "38142-128-49",
-      "barcodes": [
-        "3814212849"
-      ],
-      "our_price": 1.35,
-      "regular_price": 1.35,
+      "barcodes": [],
+      "our_price": 135.0,
+      "regular_price": 135.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -3067,11 +2748,9 @@
       "name": "התקן IXPAND TYPE A+LIGHTNING 64G",
       "brand": "DJI",
       "sku": "38142-064-90",
-      "barcodes": [
-        "3814206490"
-      ],
-      "our_price": 1.54,
-      "regular_price": 1.54,
+      "barcodes": [],
+      "our_price": 154.0,
+      "regular_price": 154.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3086,11 +2765,9 @@
       "name": "כרטיס EXT MICRO SD 4K 170S 64GB",
       "brand": "DJI",
       "sku": "38142-064-49",
-      "barcodes": [
-        "3814206449"
-      ],
-      "our_price": 0.99,
-      "regular_price": 0.99,
+      "barcodes": [],
+      "our_price": 99.0,
+      "regular_price": 99.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -3105,11 +2782,9 @@
       "name": "התקן SD USB/IPHONE 60 IXPAN 064G",
       "brand": "DJI",
       "sku": "38142-064-41",
-      "barcodes": [
-        "3814206441"
-      ],
-      "our_price": 1.71,
-      "regular_price": 1.71,
+      "barcodes": [],
+      "our_price": 171.0,
+      "regular_price": 171.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -3124,11 +2799,9 @@
       "name": "התקן SAN USB 3 FLAIR 256GB Z73",
       "brand": "DJI",
       "sku": "38120-256-44",
-      "barcodes": [
-        "3812025644"
-      ],
-      "our_price": 1.99,
-      "regular_price": 1.99,
+      "barcodes": [],
+      "our_price": 199.0,
+      "regular_price": 199.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3143,11 +2816,9 @@
       "name": "התקן SAN USB 3 FLAIR 128GB Z73",
       "brand": "DJI",
       "sku": "38120-128-44",
-      "barcodes": [
-        "3812012844"
-      ],
-      "our_price": 1.02,
-      "regular_price": 1.02,
+      "barcodes": [],
+      "our_price": 102.0,
+      "regular_price": 102.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3162,11 +2833,9 @@
       "name": "התקן SAN CRUZER BLADE Z50 128G",
       "brand": "DJI",
       "sku": "38120-128-23",
-      "barcodes": [
-        "3812012823"
-      ],
-      "our_price": 0.9,
-      "regular_price": 0.9,
+      "barcodes": [],
+      "our_price": 90.0,
+      "regular_price": 90.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3181,11 +2850,9 @@
       "name": "התקן SAN USB 3 FLAIR 64GB Z73",
       "brand": "DJI",
       "sku": "38120-064-44",
-      "barcodes": [
-        "3812006444"
-      ],
-      "our_price": 0.5,
-      "regular_price": 0.5,
+      "barcodes": [],
+      "our_price": 50.0,
+      "regular_price": 50.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3200,11 +2867,9 @@
       "name": "התקן SAN CRUZER BLADE Z50 64G",
       "brand": "DJI",
       "sku": "38120-064-23",
-      "barcodes": [
-        "3812006423"
-      ],
-      "our_price": 0.46,
-      "regular_price": 0.46,
+      "barcodes": [],
+      "our_price": 46.0,
+      "regular_price": 46.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3219,11 +2884,9 @@
       "name": "התקן SAN USB 3 FLAIR 32GB Z73",
       "brand": "DJI",
       "sku": "38120-032-44",
-      "barcodes": [
-        "3812003244"
-      ],
-      "our_price": 0.4,
-      "regular_price": 0.4,
+      "barcodes": [],
+      "our_price": 40.0,
+      "regular_price": 40.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3238,11 +2901,9 @@
       "name": "התקן SAN CRUZER BLADE Z50 32G",
       "brand": "DJI",
       "sku": "38120-032-23",
-      "barcodes": [
-        "3812003223"
-      ],
-      "our_price": 0.34,
-      "regular_price": 0.34,
+      "barcodes": [],
+      "our_price": 34.0,
+      "regular_price": 34.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3257,11 +2918,9 @@
       "name": "סט פילטרים ND16/64/256 לרחפן DJI Mini 4 Pro מבית DJI",
       "brand": "DJI",
       "sku": "99999-954-16",
-      "barcodes": [
-        "9999995416"
-      ],
-      "our_price": 2.49,
-      "regular_price": 2.49,
+      "barcodes": [],
+      "our_price": 249.0,
+      "regular_price": 249.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3276,11 +2935,9 @@
       "name": "DJI RS 5 Combo",
       "brand": "DJI",
       "sku": "99999-956-23",
-      "barcodes": [
-        "9999995623"
-      ],
-      "our_price": 24.49,
-      "regular_price": 24.49,
+      "barcodes": [],
+      "our_price": 2449.0,
+      "regular_price": 2449.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3295,11 +2952,9 @@
       "name": "DJI RS 5",
       "brand": "DJI",
       "sku": "99999-956-24",
-      "barcodes": [
-        "9999995624"
-      ],
-      "our_price": 20.99,
-      "regular_price": 20.99,
+      "barcodes": [],
+      "our_price": 2099.0,
+      "regular_price": 2099.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3314,11 +2969,9 @@
       "name": "DJI Mini 5 Pro",
       "brand": "DJI",
       "sku": "99999-955-07",
-      "barcodes": [
-        "9999995507"
-      ],
-      "our_price": 39.99,
-      "regular_price": 39.99,
+      "barcodes": [],
+      "our_price": 3999.0,
+      "regular_price": 3999.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3333,11 +2986,9 @@
       "name": "DJI Neo 2 Digital Transceiver",
       "brand": "DJI",
       "sku": "99999-956-77",
-      "barcodes": [
-        "9999995677"
-      ],
-      "our_price": 0.99,
-      "regular_price": 0.99,
+      "barcodes": [],
+      "our_price": 99.0,
+      "regular_price": 99.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3352,11 +3003,9 @@
       "name": "DJI Osmo Action 6 – Diving Accessory Kit",
       "brand": "DJI",
       "sku": "99999-956-25",
-      "barcodes": [
-        "9999995625"
-      ],
-      "our_price": 3.19,
-      "regular_price": 3.19,
+      "barcodes": [],
+      "our_price": 319.0,
+      "regular_price": 319.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -3371,11 +3020,9 @@
       "name": "מייצב DJI MINI RONIN SC 2",
       "brand": "DJI",
       "sku": "99999-020-13",
-      "barcodes": [
-        "9999902013"
-      ],
-      "our_price": 19.99,
-      "regular_price": 19.99,
+      "barcodes": [],
+      "our_price": 1999.0,
+      "regular_price": 1999.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -3390,11 +3037,9 @@
       "name": "Dji Neo 2 Motion Fly More Combo",
       "brand": "DJI",
       "sku": "99999-955-10",
-      "barcodes": [
-        "9999995510"
-      ],
-      "our_price": 25.99,
-      "regular_price": 25.99,
+      "barcodes": [],
+      "our_price": 2599.0,
+      "regular_price": 2599.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3409,11 +3054,9 @@
       "name": "Dji Neo 2 Fly More Combo כולל שלט",
       "brand": "DJI",
       "sku": "99999-955-11",
-      "barcodes": [
-        "9999995511"
-      ],
-      "our_price": 18.99,
-      "regular_price": 18.99,
+      "barcodes": [],
+      "our_price": 1899.0,
+      "regular_price": 1899.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -3428,11 +3071,9 @@
       "name": "Dji Neo 2 Fly More Combo ללא שלט",
       "brand": "DJI",
       "sku": "99999-955-15",
-      "barcodes": [
-        "9999995515"
-      ],
-      "our_price": 14.49,
-      "regular_price": 14.49,
+      "barcodes": [],
+      "our_price": 1449.0,
+      "regular_price": 1449.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3447,11 +3088,9 @@
       "name": "Dji Neo 2 ללא שלט",
       "brand": "DJI",
       "sku": "99999-955-16",
-      "barcodes": [
-        "9999995516"
-      ],
-      "our_price": 9.99,
-      "regular_price": 9.99,
+      "barcodes": [],
+      "our_price": 999.0,
+      "regular_price": 999.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3466,11 +3105,9 @@
       "name": "מייצב OSMO MOBILE 8",
       "brand": "DJI",
       "sku": "99999-955-09",
-      "barcodes": [
-        "9999995509"
-      ],
-      "our_price": 5.99,
-      "regular_price": 5.99,
+      "barcodes": [],
+      "our_price": 599.0,
+      "regular_price": 599.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3485,11 +3122,9 @@
       "name": "מצלמת DJI ACTION 6 STANDARD COMBO",
       "brand": "DJI",
       "sku": "99999-955-18",
-      "barcodes": [
-        "9999995518"
-      ],
-      "our_price": 15.49,
-      "regular_price": 15.49,
+      "barcodes": [],
+      "our_price": 1549.0,
+      "regular_price": 1549.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3504,11 +3139,9 @@
       "name": "מצלמת DJI ACTION 6 ADVENTURE COMBO",
       "brand": "DJI",
       "sku": "99999-955-17",
-      "barcodes": [
-        "9999995517"
-      ],
-      "our_price": 19.49,
-      "regular_price": 19.49,
+      "barcodes": [],
+      "our_price": 1949.0,
+      "regular_price": 1949.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3523,11 +3156,9 @@
       "name": "מגן שלט RC 2",
       "brand": "DJI",
       "sku": "99999-202-47",
-      "barcodes": [
-        "9999920247"
-      ],
-      "our_price": 0.99,
-      "regular_price": 0.99,
+      "barcodes": [],
+      "our_price": 99.0,
+      "regular_price": 99.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3542,11 +3173,9 @@
       "name": "מזוודה קשיחה עמידה למים לרחפן DJI FLIP",
       "brand": "DJI",
       "sku": "99999-202-48",
-      "barcodes": [
-        "9999920248"
-      ],
-      "our_price": 1.99,
-      "regular_price": 1.99,
+      "barcodes": [],
+      "our_price": 199.0,
+      "regular_price": 199.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -3561,11 +3190,9 @@
       "name": "תיק שקוף לרחפן DJI NEO 1",
       "brand": "DJI",
       "sku": "99999-202-49",
-      "barcodes": [
-        "9999920249"
-      ],
-      "our_price": 0.99,
-      "regular_price": 0.99,
+      "barcodes": [],
+      "our_price": 99.0,
+      "regular_price": 99.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -3580,11 +3207,9 @@
       "name": "DJI Mini 5 Pro Fly More Combo",
       "brand": "DJI",
       "sku": "99999-955-06",
-      "barcodes": [
-        "9999995506"
-      ],
-      "our_price": 44.99,
-      "regular_price": 44.99,
+      "barcodes": [],
+      "our_price": 4499.0,
+      "regular_price": 4499.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3599,11 +3224,9 @@
       "name": "DJI Mini 5 Pro Fly More Combo Plus",
       "brand": "DJI",
       "sku": "99999-955-05",
-      "barcodes": [
-        "9999995505"
-      ],
-      "our_price": 47.99,
-      "regular_price": 47.99,
+      "barcodes": [],
+      "our_price": 4799.0,
+      "regular_price": 4799.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3618,11 +3241,9 @@
       "name": "מצלמת DJI OSMO NANO 128GB",
       "brand": "DJI",
       "sku": "99999-955-04",
-      "barcodes": [
-        "9999995504"
-      ],
-      "our_price": 13.49,
-      "regular_price": 13.49,
+      "barcodes": [],
+      "our_price": 1349.0,
+      "regular_price": 1349.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3637,11 +3258,9 @@
       "name": "מצלמת DJI OSMO NANO 64GB",
       "brand": "DJI",
       "sku": "99999-955-03",
-      "barcodes": [
-        "9999995503"
-      ],
-      "our_price": 11.99,
-      "regular_price": 11.99,
+      "barcodes": [],
+      "our_price": 1199.0,
+      "regular_price": 1199.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3656,11 +3275,9 @@
       "name": "OSMO VORTEX ROTATING HANDLE DJI",
       "brand": "DJI",
       "sku": "99999-954-27",
-      "barcodes": [
-        "9999995427"
-      ],
-      "our_price": 1.79,
-      "regular_price": 1.79,
+      "barcodes": [],
+      "our_price": 179.0,
+      "regular_price": 179.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3675,11 +3292,9 @@
       "name": "OSMO 360 CARRY BAG DJI",
       "brand": "DJI",
       "sku": "99999-954-25",
-      "barcodes": [
-        "9999995425"
-      ],
-      "our_price": 1.49,
-      "regular_price": 1.49,
+      "barcodes": [],
+      "our_price": 149.0,
+      "regular_price": 149.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3694,11 +3309,9 @@
       "name": "OSMO SELFIE STICK CLIP MOUNT DJI",
       "brand": "DJI",
       "sku": "99999-954-24",
-      "barcodes": [
-        "9999995424"
-      ],
-      "our_price": 0.89,
-      "regular_price": 0.89,
+      "barcodes": [],
+      "our_price": 89.0,
+      "regular_price": 89.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3713,11 +3326,9 @@
       "name": "מארז עמיד למים ACTION DJI",
       "brand": "DJI",
       "sku": "99999-954-20",
-      "barcodes": [
-        "9999995420"
-      ],
-      "our_price": 2.99,
-      "regular_price": 2.99,
+      "barcodes": [],
+      "our_price": 299.0,
+      "regular_price": 299.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3732,11 +3343,9 @@
       "name": "סט פילטרים ND ל OSMO POCKET 3",
       "brand": "DJI",
       "sku": "99999-600-72",
-      "barcodes": [
-        "9999960072"
-      ],
-      "our_price": 2.59,
-      "regular_price": 2.59,
+      "barcodes": [],
+      "our_price": 259.0,
+      "regular_price": 259.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -3751,11 +3360,9 @@
       "name": "OSMO BIKE REAR MOUNT KIT DJI",
       "brand": "DJI",
       "sku": "99999-954-26",
-      "barcodes": [
-        "9999995426"
-      ],
-      "our_price": 3.19,
-      "regular_price": 3.19,
+      "barcodes": [],
+      "our_price": 319.0,
+      "regular_price": 319.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3770,11 +3377,9 @@
       "name": "מיקרופון אלחוטי DJI 2 זוגי",
       "brand": "DJI",
       "sku": "99999-600-79",
-      "barcodes": [
-        "9999960079"
-      ],
-      "our_price": 10.99,
-      "regular_price": 10.99,
+      "barcodes": [],
+      "our_price": 1099.0,
+      "regular_price": 1099.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -3789,11 +3394,9 @@
       "name": "DJI Mic 3 Receiver",
       "brand": "DJI",
       "sku": "99999-954-13",
-      "barcodes": [
-        "9999995413"
-      ],
-      "our_price": 6.99,
-      "regular_price": 6.99,
+      "barcodes": [],
+      "our_price": 699.0,
+      "regular_price": 699.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3808,11 +3411,9 @@
       "name": "מיקרופון אלחוטי DJI 3 זוגי",
       "brand": "DJI",
       "sku": "99999-954-12",
-      "barcodes": [
-        "9999995412"
-      ],
-      "our_price": 12.99,
-      "regular_price": 12.99,
+      "barcodes": [],
+      "our_price": 1299.0,
+      "regular_price": 1299.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3827,11 +3428,9 @@
       "name": "מיקרופון אלחוטי DJI 3 בודד",
       "brand": "DJI",
       "sku": "99999-954-11",
-      "barcodes": [
-        "9999995411"
-      ],
-      "our_price": 7.99,
-      "regular_price": 7.99,
+      "barcodes": [],
+      "our_price": 799.0,
+      "regular_price": 799.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3846,11 +3445,9 @@
       "name": "עדשה רחבה ל AIR 3 DJI",
       "brand": "DJI",
       "sku": "99999-600-57",
-      "barcodes": [
-        "9999960057"
-      ],
-      "our_price": 2.99,
-      "regular_price": 2.99,
+      "barcodes": [],
+      "our_price": 299.0,
+      "regular_price": 299.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -3865,11 +3462,9 @@
       "name": "DJI Osmo 360 Adventure Combo",
       "brand": "DJI",
       "sku": "99999-954-01",
-      "barcodes": [
-        "9999995401"
-      ],
-      "our_price": 23.49,
-      "regular_price": 23.49,
+      "barcodes": [],
+      "our_price": 2349.0,
+      "regular_price": 2349.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3884,11 +3479,9 @@
       "name": "DJI Osmo 360",
       "brand": "DJI",
       "sku": "99999-952-79",
-      "barcodes": [
-        "9999995279"
-      ],
-      "our_price": 17.49,
-      "regular_price": 17.49,
+      "barcodes": [],
+      "our_price": 1749.0,
+      "regular_price": 1749.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3903,11 +3496,9 @@
       "name": "D-RTK3",
       "brand": "DJI",
       "sku": "99999-330-30",
-      "barcodes": [
-        "9999933030"
-      ],
-      "our_price": 97.89,
-      "regular_price": 97.89,
+      "barcodes": [],
+      "our_price": 9789.0,
+      "regular_price": 9789.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -3922,11 +3513,9 @@
       "name": "מטען לרחפן DJI M400 BS100",
       "brand": "DJI",
       "sku": "99999-404-12",
-      "barcodes": [
-        "9999940412"
-      ],
-      "our_price": 81.69,
-      "regular_price": 81.69,
+      "barcodes": [],
+      "our_price": 8169.0,
+      "regular_price": 8169.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3941,11 +3530,9 @@
       "name": "סוללה לרחפן DJI M400 TB100",
       "brand": "DJI",
       "sku": "99999-404-13",
-      "barcodes": [
-        "9999940413"
-      ],
-      "our_price": 95.69,
-      "regular_price": 95.69,
+      "barcodes": [],
+      "our_price": 9569.0,
+      "regular_price": 9569.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3960,11 +3547,9 @@
       "name": "מצלמה לרחפן ZENMUSE H30T",
       "brand": "DJI",
       "sku": "99999-300-51",
-      "barcodes": [
-        "9999930051"
-      ],
-      "our_price": 522.19,
-      "regular_price": 522.19,
+      "barcodes": [],
+      "our_price": 52219.0,
+      "regular_price": 52219.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -3979,11 +3564,9 @@
       "name": "DJI Matrice 400",
       "brand": "DJI",
       "sku": "99999-404-14",
-      "barcodes": [
-        "9999940414"
-      ],
-      "our_price": 448.39,
-      "regular_price": 448.39,
+      "barcodes": [],
+      "our_price": 44839.0,
+      "regular_price": 44839.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -3998,11 +3581,9 @@
       "name": "Osmo Action Multifunctional Charging Handle",
       "brand": "DJI",
       "sku": "99999-951-83",
-      "barcodes": [
-        "9999995183"
-      ],
-      "our_price": 4.19,
-      "regular_price": 4.19,
+      "barcodes": [],
+      "our_price": 419.0,
+      "regular_price": 419.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4017,11 +3598,9 @@
       "name": "מיקרופון אלחוטי DJI בודד",
       "brand": "DJI",
       "sku": "99999-488-81",
-      "barcodes": [
-        "9999948881"
-      ],
-      "our_price": 11.49,
-      "regular_price": 11.49,
+      "barcodes": [],
+      "our_price": 1149.0,
+      "regular_price": 1149.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4036,11 +3615,9 @@
       "name": "מתאם אביזרים ל OSMO POCKET 3",
       "brand": "DJI",
       "sku": "99999-600-74",
-      "barcodes": [
-        "9999960074"
-      ],
-      "our_price": 0.99,
-      "regular_price": 0.99,
+      "barcodes": [],
+      "our_price": 99.0,
+      "regular_price": 99.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4055,11 +3632,9 @@
       "name": "Osmo Pocket 3 Battery Handle",
       "brand": "DJI",
       "sku": "99999-600-71",
-      "barcodes": [
-        "9999960071"
-      ],
-      "our_price": 2.59,
-      "regular_price": 2.59,
+      "barcodes": [],
+      "our_price": 259.0,
+      "regular_price": 259.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4074,11 +3649,9 @@
       "name": "רכזת טעינה לסוללות DJI NEO",
       "brand": "DJI",
       "sku": "99999-601-19",
-      "barcodes": [
-        "9999960119"
-      ],
-      "our_price": 1.99,
-      "regular_price": 1.99,
+      "barcodes": [],
+      "our_price": 199.0,
+      "regular_price": 199.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4093,11 +3666,9 @@
       "name": "DJI Mavic 4 Pro 512GB Creator Combo",
       "brand": "DJI",
       "sku": "99999-952-78",
-      "barcodes": [
-        "9999995278"
-      ],
-      "our_price": 159.99,
-      "regular_price": 159.99,
+      "barcodes": [],
+      "our_price": 15999.0,
+      "regular_price": 15999.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4112,11 +3683,9 @@
       "name": "DJI Mavic 4 Pro Fly More Combo",
       "brand": "DJI",
       "sku": "99999-952-77",
-      "barcodes": [
-        "9999995277"
-      ],
-      "our_price": 119.99,
-      "regular_price": 119.99,
+      "barcodes": [],
+      "our_price": 11999.0,
+      "regular_price": 11999.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4131,11 +3700,9 @@
       "name": "DJI Mavic 4 Pro (DJI RC 2)",
       "brand": "DJI",
       "sku": "99999-952-76",
-      "barcodes": [
-        "9999995276"
-      ],
-      "our_price": 92.99,
-      "regular_price": 92.99,
+      "barcodes": [],
+      "our_price": 9299.0,
+      "regular_price": 9299.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4150,11 +3717,9 @@
       "name": "Osmo Action GPS Bluetooth Remote Controller",
       "brand": "DJI",
       "sku": "99999-951-86",
-      "barcodes": [
-        "9999995186"
-      ],
-      "our_price": 3.29,
-      "regular_price": 3.29,
+      "barcodes": [],
+      "our_price": 329.0,
+      "regular_price": 329.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4169,11 +3734,9 @@
       "name": "תיק יומי DJI Everyday Backapck",
       "brand": "DJI",
       "sku": "99999-202-45",
-      "barcodes": [
-        "9999920245"
-      ],
-      "our_price": 1.69,
-      "regular_price": 1.69,
+      "barcodes": [],
+      "our_price": 169.0,
+      "regular_price": 169.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4188,11 +3751,9 @@
       "name": "שלט DJI RC-N3",
       "brand": "DJI",
       "sku": "99999-951-58",
-      "barcodes": [
-        "9999995158"
-      ],
-      "our_price": 5.49,
-      "regular_price": 5.49,
+      "barcodes": [],
+      "our_price": 549.0,
+      "regular_price": 549.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4207,11 +3768,9 @@
       "name": "שלט DJI RC Motion 3",
       "brand": "DJI",
       "sku": "99999-601-18",
-      "barcodes": [
-        "9999960118"
-      ],
-      "our_price": 4.49,
-      "regular_price": 4.49,
+      "barcodes": [],
+      "our_price": 449.0,
+      "regular_price": 449.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4226,11 +3785,9 @@
       "name": "יחידת DJI O4 Air Unit",
       "brand": "DJI",
       "sku": "99999-952-16",
-      "barcodes": [
-        "9999995216"
-      ],
-      "our_price": 5.99,
-      "regular_price": 5.99,
+      "barcodes": [],
+      "our_price": 599.0,
+      "regular_price": 599.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4245,11 +3802,9 @@
       "name": "יחידת DJI O4 Air Unit Pro",
       "brand": "DJI",
       "sku": "99999-951-90",
-      "barcodes": [
-        "9999995190"
-      ],
-      "our_price": 13.49,
-      "regular_price": 13.49,
+      "barcodes": [],
+      "our_price": 1349.0,
+      "regular_price": 1349.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4264,11 +3819,9 @@
       "name": "חיוב משלוח ללקוח – דו כיווני",
       "brand": "DJI",
       "sku": "99999-001-00",
-      "barcodes": [
-        "9999900100"
-      ],
-      "our_price": 1.0,
-      "regular_price": 1.0,
+      "barcodes": [],
+      "our_price": 100.0,
+      "regular_price": 100.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4283,11 +3836,9 @@
       "name": "דמי משלוח – חד כיווני",
       "brand": "DJI",
       "sku": "99999-001-01",
-      "barcodes": [
-        "9999900101"
-      ],
-      "our_price": 0.5,
-      "regular_price": 0.5,
+      "barcodes": [],
+      "our_price": 50.0,
+      "regular_price": 50.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4302,11 +3853,9 @@
       "name": "מצלמת ACTION 2 עם מסך קדמי",
       "brand": "DJI",
       "sku": "99999-020-91",
-      "barcodes": [
-        "9999902091"
-      ],
-      "our_price": 21.99,
-      "regular_price": 21.99,
+      "barcodes": [],
+      "our_price": 2199.0,
+      "regular_price": 2199.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4321,11 +3870,9 @@
       "name": "מצלמת ACTION 2 סוללה נוספת",
       "brand": "DJI",
       "sku": "99999-020-90",
-      "barcodes": [
-        "9999902090"
-      ],
-      "our_price": 16.99,
-      "regular_price": 16.99,
+      "barcodes": [],
+      "our_price": 1699.0,
+      "regular_price": 1699.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4340,11 +3887,9 @@
       "name": "DJI AVATA 2 with integra + motion remote",
       "brand": "DJI",
       "sku": "99999-951-99",
-      "barcodes": [
-        "9999995199"
-      ],
-      "our_price": 34.99,
-      "regular_price": 34.99,
+      "barcodes": [],
+      "our_price": 3499.0,
+      "regular_price": 3499.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4359,11 +3904,9 @@
       "name": "מייצב DJI RS 4 Mini Combo",
       "brand": "DJI",
       "sku": "99999-951-94",
-      "barcodes": [
-        "9999995194"
-      ],
-      "our_price": 15.49,
-      "regular_price": 15.49,
+      "barcodes": [],
+      "our_price": 1549.0,
+      "regular_price": 1549.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4378,11 +3921,9 @@
       "name": "מייצב DJI RS 4 Mini",
       "brand": "DJI",
       "sku": "99999-951-93",
-      "barcodes": [
-        "9999995193"
-      ],
-      "our_price": 12.99,
-      "regular_price": 12.99,
+      "barcodes": [],
+      "our_price": 1299.0,
+      "regular_price": 1299.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4397,11 +3938,9 @@
       "name": "מייצב Osmo Mobile 7P",
       "brand": "DJI",
       "sku": "99999-951-92",
-      "barcodes": [
-        "9999995192"
-      ],
-      "our_price": 4.29,
-      "regular_price": 4.29,
+      "barcodes": [],
+      "our_price": 429.0,
+      "regular_price": 429.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4416,11 +3955,9 @@
       "name": "מייצב Osmo Mobile 7",
       "brand": "DJI",
       "sku": "99999-951-91",
-      "barcodes": [
-        "9999995191"
-      ],
-      "our_price": 3.29,
-      "regular_price": 3.29,
+      "barcodes": [],
+      "our_price": 329.0,
+      "regular_price": 329.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4435,11 +3972,9 @@
       "name": "חפן באנדל DJI AVATA 2 INTEGRA + motion remote",
       "brand": "DJI",
       "sku": "99999-952-99",
-      "barcodes": [
-        "9999995299"
-      ],
-      "our_price": 34.99,
-      "regular_price": 34.99,
+      "barcodes": [],
+      "our_price": 3499.0,
+      "regular_price": 3499.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4454,11 +3989,9 @@
       "name": "Osmo Action Cold Shoe Expansion Kit",
       "brand": "DJI",
       "sku": "99999-951-89",
-      "barcodes": [
-        "9999995189"
-      ],
-      "our_price": 1.49,
-      "regular_price": 1.49,
+      "barcodes": [],
+      "our_price": 149.0,
+      "regular_price": 149.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4473,11 +4006,9 @@
       "name": "DJI Mic 2 Camera Adapter",
       "brand": "DJI",
       "sku": "99999-951-72",
-      "barcodes": [
-        "9999995172"
-      ],
-      "our_price": 1.59,
-      "regular_price": 1.59,
+      "barcodes": [],
+      "our_price": 159.0,
+      "regular_price": 159.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4492,11 +4023,9 @@
       "name": "Osmo Action 3.5mm Audio Adapter",
       "brand": "DJI",
       "sku": "99999-951-88",
-      "barcodes": [
-        "9999995188"
-      ],
-      "our_price": 2.49,
-      "regular_price": 2.49,
+      "barcodes": [],
+      "our_price": 249.0,
+      "regular_price": 249.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4511,11 +4040,9 @@
       "name": "Osmo Action Floating Case",
       "brand": "DJI",
       "sku": "99999-951-87",
-      "barcodes": [
-        "9999995187"
-      ],
-      "our_price": 1.99,
-      "regular_price": 1.99,
+      "barcodes": [],
+      "our_price": 199.0,
+      "regular_price": 199.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4530,11 +4057,9 @@
       "name": "Osmo Action ND Filter Set",
       "brand": "DJI",
       "sku": "99999-951-85",
-      "barcodes": [
-        "9999995185"
-      ],
-      "our_price": 2.59,
-      "regular_price": 2.59,
+      "barcodes": [],
+      "our_price": 259.0,
+      "regular_price": 259.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4549,11 +4074,9 @@
       "name": "מתאם Lightning למיקרופון DJI Mic Mini",
       "brand": "DJI",
       "sku": "99999-951-68",
-      "barcodes": [
-        "9999995168"
-      ],
-      "our_price": 0.79,
-      "regular_price": 0.79,
+      "barcodes": [],
+      "our_price": 79.0,
+      "regular_price": 79.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4568,11 +4091,9 @@
       "name": "מגן פרופלור לרחפן DJI M4T/E",
       "brand": "DJI",
       "sku": "99999-404-10",
-      "barcodes": [
-        "9999940410"
-      ],
-      "our_price": 3.39,
-      "regular_price": 3.39,
+      "barcodes": [],
+      "our_price": 339.0,
+      "regular_price": 339.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4587,11 +4108,9 @@
       "name": "פרופלורים לרחפן DJI M4T/E",
       "brand": "DJI",
       "sku": "99999-404-09",
-      "barcodes": [
-        "9999940409"
-      ],
-      "our_price": 1.59,
-      "regular_price": 1.59,
+      "barcodes": [],
+      "our_price": 159.0,
+      "regular_price": 159.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4606,11 +4125,9 @@
       "name": "פנס לרחפן DJI M4T/E AL1",
       "brand": "DJI",
       "sku": "99999-404-08",
-      "barcodes": [
-        "9999940408"
-      ],
-      "our_price": 17.39,
-      "regular_price": 17.39,
+      "barcodes": [],
+      "our_price": 1739.0,
+      "regular_price": 1739.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4625,11 +4142,9 @@
       "name": "DJI AS1 Speaker for DJI Matrice 4 Series",
       "brand": "DJI",
       "sku": "99999-404-07",
-      "barcodes": [
-        "9999940407"
-      ],
-      "our_price": 12.59,
-      "regular_price": 12.59,
+      "barcodes": [],
+      "our_price": 1259.0,
+      "regular_price": 1259.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4644,11 +4159,9 @@
       "name": "סוללה חכמה לרחפן DJI Matrice 4",
       "brand": "DJI",
       "sku": "99999-404-06",
-      "barcodes": [
-        "9999940406"
-      ],
-      "our_price": 13.09,
-      "regular_price": 13.09,
+      "barcodes": [],
+      "our_price": 1309.0,
+      "regular_price": 1309.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4663,11 +4176,9 @@
       "name": "רחפן DJI MATRICE 4T",
       "brand": "DJI",
       "sku": "99999-404-05",
-      "barcodes": [
-        "9999940405"
-      ],
-      "our_price": 368.69,
-      "regular_price": 368.69,
+      "barcodes": [],
+      "our_price": 36869.0,
+      "regular_price": 36869.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4682,11 +4193,9 @@
       "name": "רחפן DJI MATRICE 4E",
       "brand": "DJI",
       "sku": "99999-404-04",
-      "barcodes": [
-        "9999940404"
-      ],
-      "our_price": 251.79,
-      "regular_price": 251.79,
+      "barcodes": [],
+      "our_price": 25179.0,
+      "regular_price": 25179.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4701,11 +4210,9 @@
       "name": "באנדל Dji Avata 2 + Goggles Integra + RC Motion 2",
       "brand": "DJI",
       "sku": "99999-952-98",
-      "barcodes": [
-        "9999995298"
-      ],
-      "our_price": 29.99,
-      "regular_price": 29.99,
+      "barcodes": [],
+      "our_price": 2999.0,
+      "regular_price": 2999.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4720,11 +4227,9 @@
       "name": "רחפן DJI Flip",
       "brand": "DJI",
       "sku": "99999-951-67",
-      "barcodes": [
-        "9999995167"
-      ],
-      "our_price": 27.99,
-      "regular_price": 27.99,
+      "barcodes": [],
+      "our_price": 2799.0,
+      "regular_price": 2799.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4739,11 +4244,9 @@
       "name": "רחפן DJI Flip Fly More Combo",
       "brand": "DJI",
       "sku": "99999-951-66",
-      "barcodes": [
-        "9999995166"
-      ],
-      "our_price": 33.99,
-      "regular_price": 33.99,
+      "barcodes": [],
+      "our_price": 3399.0,
+      "regular_price": 3399.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4758,11 +4261,9 @@
       "name": "שלט חכם עם מסך RC 2",
       "brand": "DJI",
       "sku": "99999-951-59",
-      "barcodes": [
-        "9999995159"
-      ],
-      "our_price": 17.49,
-      "regular_price": 17.49,
+      "barcodes": [],
+      "our_price": 1749.0,
+      "regular_price": 1749.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4777,11 +4278,9 @@
       "name": "סוללה חכמה לרחפן Air 3S",
       "brand": "DJI",
       "sku": "99999-951-56",
-      "barcodes": [
-        "9999995156"
-      ],
-      "our_price": 6.99,
-      "regular_price": 6.99,
+      "barcodes": [],
+      "our_price": 699.0,
+      "regular_price": 699.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4796,11 +4295,9 @@
       "name": "סוללה DJI Neo Intelligent Flight Battery",
       "brand": "DJI",
       "sku": "99999-601-22",
-      "barcodes": [
-        "9999960122"
-      ],
-      "our_price": 1.99,
-      "regular_price": 1.99,
+      "barcodes": [],
+      "our_price": 199.0,
+      "regular_price": 199.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4815,11 +4312,9 @@
       "name": "משקף DJI Goggles N3",
       "brand": "DJI",
       "sku": "99999-601-21",
-      "barcodes": [
-        "9999960121"
-      ],
-      "our_price": 11.99,
-      "regular_price": 11.99,
+      "barcodes": [],
+      "our_price": 1199.0,
+      "regular_price": 1199.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4834,11 +4329,9 @@
       "name": "משקף DJI Goggles 3",
       "brand": "DJI",
       "sku": "99999-601-17",
-      "barcodes": [
-        "9999960117"
-      ],
-      "our_price": 24.99,
-      "regular_price": 24.99,
+      "barcodes": [],
+      "our_price": 2499.0,
+      "regular_price": 2499.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4853,11 +4346,9 @@
       "name": "רחפן DJI Air 3S Combo עם שלט חכם RC2",
       "brand": "DJI",
       "sku": "99999-601-16",
-      "barcodes": [
-        "9999960116"
-      ],
-      "our_price": 64.99,
-      "regular_price": 64.99,
+      "barcodes": [],
+      "our_price": 6499.0,
+      "regular_price": 6499.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4872,11 +4363,9 @@
       "name": "מיקרופון אלחוטי DJI Mic Mini זוגי",
       "brand": "DJI",
       "sku": "99999-951-20",
-      "barcodes": [
-        "9999995120"
-      ],
-      "our_price": 4.99,
-      "regular_price": 4.99,
+      "barcodes": [],
+      "our_price": 499.0,
+      "regular_price": 499.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4891,11 +4380,9 @@
       "name": "מיקרופון אלחוטי DJI Mic Mini",
       "brand": "DJI",
       "sku": "99999-951-19",
-      "barcodes": [
-        "9999995119"
-      ],
-      "our_price": 3.99,
-      "regular_price": 3.99,
+      "barcodes": [],
+      "our_price": 399.0,
+      "regular_price": 399.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4910,11 +4397,9 @@
       "name": "תיק קל עם רצועה למגוון רחפני Dji",
       "brand": "DJI",
       "sku": "99999-202-16",
-      "barcodes": [
-        "9999920216"
-      ],
-      "our_price": 1.49,
-      "regular_price": 1.49,
+      "barcodes": [],
+      "our_price": 149.0,
+      "regular_price": 149.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -4929,11 +4414,9 @@
       "name": "מארז קשיח עמיד למים עבור DJI Neo 1 Fly More Combo",
       "brand": "DJI",
       "sku": "99999-202-15",
-      "barcodes": [
-        "9999920215"
-      ],
-      "our_price": 1.99,
-      "regular_price": 1.99,
+      "barcodes": [],
+      "our_price": 199.0,
+      "regular_price": 199.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4948,11 +4431,9 @@
       "name": "תיק ל – Dji Neo ושלט RC-N2/3",
       "brand": "DJI",
       "sku": "99999-202-14",
-      "barcodes": [
-        "9999920214"
-      ],
-      "our_price": 0.99,
-      "regular_price": 0.99,
+      "barcodes": [],
+      "our_price": 99.0,
+      "regular_price": 99.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4967,11 +4448,9 @@
       "name": "משקף של DJI GOGGLES SE Integra",
       "brand": "DJI",
       "sku": "99999-488-88",
-      "barcodes": [
-        "9999948888"
-      ],
-      "our_price": 26.99,
-      "regular_price": 26.99,
+      "barcodes": [],
+      "our_price": 2699.0,
+      "regular_price": 2699.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -4986,11 +4465,9 @@
       "name": "Osmo Action 5 Pro Adventure Combo",
       "brand": "DJI",
       "sku": "99999-601-15",
-      "barcodes": [
-        "9999960115"
-      ],
-      "our_price": 16.99,
-      "regular_price": 16.99,
+      "barcodes": [],
+      "our_price": 1699.0,
+      "regular_price": 1699.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5005,11 +4482,9 @@
       "name": "Osmo Action 5 Pro Standard Combo",
       "brand": "DJI",
       "sku": "99999-601-14",
-      "barcodes": [
-        "9999960114"
-      ],
-      "our_price": 12.99,
-      "regular_price": 12.99,
+      "barcodes": [],
+      "our_price": 1299.0,
+      "regular_price": 1299.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5024,11 +4499,9 @@
       "name": "ללא שלט DJI Neo",
       "brand": "DJI",
       "sku": "99999-601-11",
-      "barcodes": [
-        "9999960111"
-      ],
-      "our_price": 8.99,
-      "regular_price": 8.99,
+      "barcodes": [],
+      "our_price": 899.0,
+      "regular_price": 899.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5043,11 +4516,9 @@
       "name": "DJI Neo Fly More Combo",
       "brand": "DJI",
       "sku": "99999-601-12",
-      "barcodes": [
-        "9999960112"
-      ],
-      "our_price": 15.49,
-      "regular_price": 15.49,
+      "barcodes": [],
+      "our_price": 1549.0,
+      "regular_price": 1549.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5062,11 +4533,9 @@
       "name": "שלט לרחפן FLYCART30 RC PLUS",
       "brand": "DJI",
       "sku": "99999-300-47",
-      "barcodes": [
-        "9999930047"
-      ],
-      "our_price": 116.69,
-      "regular_price": 116.69,
+      "barcodes": [],
+      "our_price": 11669.0,
+      "regular_price": 11669.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5081,11 +4550,9 @@
       "name": "כבל AC לרחפן DJI FLYCART30",
       "brand": "DJI",
       "sku": "99999-300-45",
-      "barcodes": [
-        "9999930045"
-      ],
-      "our_price": 1.49,
-      "regular_price": 1.49,
+      "barcodes": [],
+      "our_price": 149.0,
+      "regular_price": 149.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5100,11 +4567,9 @@
       "name": "מטען לרחפן DJI FLYCART30 C8000",
       "brand": "DJI",
       "sku": "99999-300-44",
-      "barcodes": [
-        "9999930044"
-      ],
-      "our_price": 93.39,
-      "regular_price": 93.39,
+      "barcodes": [],
+      "our_price": 9339.0,
+      "regular_price": 9339.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5119,11 +4584,9 @@
       "name": "סט תאורה ל -2 Avata מבית FoxFury",
       "brand": "DJI",
       "sku": "99999-210-06",
-      "barcodes": [
-        "9999921006"
-      ],
-      "our_price": 9.99,
-      "regular_price": 9.99,
+      "barcodes": [],
+      "our_price": 999.0,
+      "regular_price": 999.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5138,11 +4601,9 @@
       "name": "שלט DJI RC FPV 3",
       "brand": "DJI",
       "sku": "99999-601-03",
-      "barcodes": [
-        "9999960103"
-      ],
-      "our_price": 8.99,
-      "regular_price": 8.99,
+      "barcodes": [],
+      "our_price": 899.0,
+      "regular_price": 899.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5157,11 +4618,9 @@
       "name": "DJI GOOGLES TO G24 MOUNT ADAPTER",
       "brand": "DJI",
       "sku": "99999-600-85",
-      "barcodes": [
-        "9999960085"
-      ],
-      "our_price": 7.59,
-      "regular_price": 7.59,
+      "barcodes": [],
+      "our_price": 759.0,
+      "regular_price": 759.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5176,11 +4635,9 @@
       "name": "DJI AVATA 1 FAST DEPLOYMENT POUCH",
       "brand": "DJI",
       "sku": "99999-600-84",
-      "barcodes": [
-        "9999960084"
-      ],
-      "our_price": 22.19,
-      "regular_price": 22.19,
+      "barcodes": [],
+      "our_price": 2219.0,
+      "regular_price": 2219.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5195,11 +4652,9 @@
       "name": "DJI AVATA 1 DRONE DEPLOYMENT PACK",
       "brand": "DJI",
       "sku": "99999-600-83",
-      "barcodes": [
-        "9999960083"
-      ],
-      "our_price": 27.39,
-      "regular_price": 27.39,
+      "barcodes": [],
+      "our_price": 2739.0,
+      "regular_price": 2739.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5214,11 +4669,9 @@
       "name": "סט תאורה DJI AVATA 2 LED KIT",
       "brand": "DJI",
       "sku": "99999-600-82",
-      "barcodes": [
-        "9999960082"
-      ],
-      "our_price": 10.49,
-      "regular_price": 10.49,
+      "barcodes": [],
+      "our_price": 1049.0,
+      "regular_price": 1049.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5233,11 +4686,9 @@
       "name": "חצובה חילופי OM3",
       "brand": "DJI",
       "sku": "99999-487-45",
-      "barcodes": [
-        "9999948745"
-      ],
-      "our_price": 0.39,
-      "regular_price": 0.39,
+      "barcodes": [],
+      "our_price": 39.0,
+      "regular_price": 39.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5252,11 +4703,9 @@
       "name": "כרטיס זיכרון PROSSD 1TB DJI",
       "brand": "DJI",
       "sku": "99999-488-52",
-      "barcodes": [
-        "9999948852"
-      ],
-      "our_price": 26.99,
-      "regular_price": 26.99,
+      "barcodes": [],
+      "our_price": 2699.0,
+      "regular_price": 2699.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5271,11 +4720,9 @@
       "name": "רחפן DJI Tello",
       "brand": "DJI",
       "sku": "99999-002-33",
-      "barcodes": [
-        "9999900233"
-      ],
-      "our_price": 5.49,
-      "regular_price": 5.49,
+      "barcodes": [],
+      "our_price": 549.0,
+      "regular_price": 549.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5290,11 +4737,9 @@
       "name": "טאבלט מוקשח OUKITEL RT7 5G 12+256 10.1 שחור סוללה 32000mAh",
       "brand": "DJI",
       "sku": "99607-870-06",
-      "barcodes": [
-        "9960787006"
-      ],
-      "our_price": 26.99,
-      "regular_price": 26.99,
+      "barcodes": [],
+      "our_price": 2699.0,
+      "regular_price": 2699.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5309,11 +4754,9 @@
       "name": "טאבלט מוקשח OUKITEL RT5 4G 8+256 10.1 שחור סוללה 11000mAh",
       "brand": "DJI",
       "sku": "99607-870-05",
-      "barcodes": [
-        "9960787005"
-      ],
-      "our_price": 14.99,
-      "regular_price": 14.99,
+      "barcodes": [],
+      "our_price": 1499.0,
+      "regular_price": 1499.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5328,11 +4771,9 @@
       "name": "פאנל טעינה סולארית JACKERY 100W",
       "brand": "DJI",
       "sku": "99226-000-04",
-      "barcodes": [
-        "9922600004"
-      ],
-      "our_price": 19.9,
-      "regular_price": 19.9,
+      "barcodes": [],
+      "our_price": 1990.0,
+      "regular_price": 1990.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5347,11 +4788,9 @@
       "name": "כיסא בד אפור לבן CORSAIR T3 RUSH",
       "brand": "DJI",
       "sku": "90904-100-58",
-      "barcodes": [
-        "9090410058"
-      ],
-      "our_price": 15.0,
-      "regular_price": 15.0,
+      "barcodes": [],
+      "our_price": 1500.0,
+      "regular_price": 1500.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5366,11 +4805,9 @@
       "name": "כיסא בד פחם מלא CORSAIR T3 RUSH",
       "brand": "DJI",
       "sku": "90904-100-57",
-      "barcodes": [
-        "9090410057"
-      ],
-      "our_price": 15.0,
-      "regular_price": 15.0,
+      "barcodes": [],
+      "our_price": 1500.0,
+      "regular_price": 1500.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5385,11 +4822,9 @@
       "name": "כיסא בד אפור פחם CORSAIR T3 RUSH",
       "brand": "DJI",
       "sku": "90904-100-56",
-      "barcodes": [
-        "9090410056"
-      ],
-      "our_price": 15.0,
-      "regular_price": 15.0,
+      "barcodes": [],
+      "our_price": 1500.0,
+      "regular_price": 1500.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5404,11 +4839,9 @@
       "name": "כיסא בד אפור שחור CORSAIR TC100",
       "brand": "DJI",
       "sku": "90904-100-52",
-      "barcodes": [
-        "9090410052"
-      ],
-      "our_price": 15.0,
-      "regular_price": 15.0,
+      "barcodes": [],
+      "our_price": 1500.0,
+      "regular_price": 1500.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5423,11 +4856,9 @@
       "name": "כיסא בד שחור CORSAIR TC100",
       "brand": "DJI",
       "sku": "90904-100-51",
-      "barcodes": [
-        "9090410051"
-      ],
-      "our_price": 15.0,
-      "regular_price": 15.0,
+      "barcodes": [],
+      "our_price": 1500.0,
+      "regular_price": 1500.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5442,11 +4873,9 @@
       "name": "מסך 4K 86 מקצועי VIEWS CDE8600",
       "brand": "DJI",
       "sku": "70708-900-07",
-      "barcodes": [
-        "7070890007"
-      ],
-      "our_price": 17.35,
-      "regular_price": 17.35,
+      "barcodes": [],
+      "our_price": 1735.0,
+      "regular_price": 1735.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5461,11 +4890,9 @@
       "name": "מסך 49 קעור PH 2K Web+LAN+SP 499P9",
       "brand": "DJI",
       "sku": "36205-499-49",
-      "barcodes": [
-        "3620549949"
-      ],
-      "our_price": 47.94,
-      "regular_price": 47.94,
+      "barcodes": [],
+      "our_price": 4794.0,
+      "regular_price": 4794.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5480,11 +4907,9 @@
       "name": "סוללה לרחפן AIR 3 DJI",
       "brand": "DJI",
       "sku": "99999-600-63",
-      "barcodes": [
-        "9999960063"
-      ],
-      "our_price": 6.29,
-      "regular_price": 6.29,
+      "barcodes": [],
+      "our_price": 629.0,
+      "regular_price": 629.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5499,11 +4924,9 @@
       "name": "סוללה Avata 2 Intelligent Flight Battery",
       "brand": "DJI",
       "sku": "99999-600-94",
-      "barcodes": [
-        "9999960094"
-      ],
-      "our_price": 6.99,
-      "regular_price": 6.99,
+      "barcodes": [],
+      "our_price": 699.0,
+      "regular_price": 699.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5518,11 +4941,9 @@
       "name": "רחפן INSPIRE 3",
       "brand": "DJI",
       "sku": "99999-488-99",
-      "barcodes": [
-        "9999948899"
-      ],
-      "our_price": 790.0,
-      "regular_price": 790.0,
+      "barcodes": [],
+      "our_price": 79000.0,
+      "regular_price": 79000.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5537,11 +4958,9 @@
       "name": "פאנל טעינה סולארית IP68 JACKERY 80W דו-צדדי & רפלקטור",
       "brand": "DJI",
       "sku": "99226-000-36",
-      "barcodes": [
-        "9922600036"
-      ],
-      "our_price": 10.79,
-      "regular_price": 10.79,
+      "barcodes": [],
+      "our_price": 1079.0,
+      "regular_price": 1079.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5556,11 +4975,9 @@
       "name": "פאנל טעינה סולארית JACKERY 200W",
       "brand": "DJI",
       "sku": "99226-000-17",
-      "barcodes": [
-        "9922600017"
-      ],
-      "our_price": 39.9,
-      "regular_price": 39.9,
+      "barcodes": [],
+      "our_price": 3990.0,
+      "regular_price": 3990.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5575,11 +4992,9 @@
       "name": "קורא כרטיסים ImageMate A631 PRO USB-C",
       "brand": "DJI",
       "sku": "38110-631-00",
-      "barcodes": [
-        "3811063100"
-      ],
-      "our_price": 1.97,
-      "regular_price": 1.97,
+      "barcodes": [],
+      "our_price": 197.0,
+      "regular_price": 197.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5594,11 +5009,9 @@
       "name": "פאנל סולארי 120W דגם BLUETTI PV120S",
       "brand": "DJI",
       "sku": "99226-000-39",
-      "barcodes": [
-        "9922600039"
-      ],
-      "our_price": 13.9,
-      "regular_price": 13.9,
+      "barcodes": [],
+      "our_price": 1390.0,
+      "regular_price": 1390.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5613,11 +5026,9 @@
       "name": "פרופלורים ל – DJI Avata 2",
       "brand": "DJI",
       "sku": "99999-600-93",
-      "barcodes": [
-        "9999960093"
-      ],
-      "our_price": 0.99,
-      "regular_price": 0.99,
+      "barcodes": [],
+      "our_price": 99.0,
+      "regular_price": 99.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5632,11 +5043,9 @@
       "name": "תיק יעודי ל – DJI Avata 2",
       "brand": "DJI",
       "sku": "99999-600-92",
-      "barcodes": [
-        "9999960092"
-      ],
-      "our_price": 4.99,
-      "regular_price": 4.99,
+      "barcodes": [],
+      "our_price": 499.0,
+      "regular_price": 499.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5651,11 +5060,9 @@
       "name": "רכזת טעינה ל – DJI Avata 2",
       "brand": "DJI",
       "sku": "99999-600-91",
-      "barcodes": [
-        "9999960091"
-      ],
-      "our_price": 4.99,
-      "regular_price": 4.99,
+      "barcodes": [],
+      "our_price": 499.0,
+      "regular_price": 499.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5670,11 +5077,9 @@
       "name": "פילטרים ND ל – DJI Avata 2",
       "brand": "DJI",
       "sku": "99999-600-90",
-      "barcodes": [
-        "9999960090"
-      ],
-      "our_price": 2.99,
-      "regular_price": 2.99,
+      "barcodes": [],
+      "our_price": 299.0,
+      "regular_price": 299.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5689,11 +5094,9 @@
       "name": "DJI RS 4",
       "brand": "DJI",
       "sku": "99999-600-96",
-      "barcodes": [
-        "9999960096"
-      ],
-      "our_price": 16.99,
-      "regular_price": 16.99,
+      "barcodes": [],
+      "our_price": 1699.0,
+      "regular_price": 1699.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5708,11 +5111,9 @@
       "name": "DJI RS 4 Combo",
       "brand": "DJI",
       "sku": "99999-600-97",
-      "barcodes": [
-        "9999960097"
-      ],
-      "our_price": 25.99,
-      "regular_price": 25.99,
+      "barcodes": [],
+      "our_price": 2599.0,
+      "regular_price": 2599.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5727,11 +5128,9 @@
       "name": "DJI RS 4 Pro Combo",
       "brand": "DJI",
       "sku": "99999-600-99",
-      "barcodes": [
-        "9999960099"
-      ],
-      "our_price": 41.99,
-      "regular_price": 41.99,
+      "barcodes": [],
+      "our_price": 4199.0,
+      "regular_price": 4199.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5746,11 +5145,9 @@
       "name": "DJI RS 4 PRO",
       "brand": "DJI",
       "sku": "99999-600-98",
-      "barcodes": [
-        "9999960098"
-      ],
-      "our_price": 35.49,
-      "regular_price": 35.49,
+      "barcodes": [],
+      "our_price": 3549.0,
+      "regular_price": 3549.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5765,11 +5162,9 @@
       "name": "סוללת הרחבה Jackery 1000 Plus",
       "brand": "DJI",
       "sku": "99226-000-33",
-      "barcodes": [
-        "9922600033"
-      ],
-      "our_price": 42.9,
-      "regular_price": 42.9,
+      "barcodes": [],
+      "our_price": 4290.0,
+      "regular_price": 4290.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5784,11 +5179,9 @@
       "name": "תחנת כוח ניידת Jackery Explorer 1000 Plus",
       "brand": "DJI",
       "sku": "99226-000-32",
-      "barcodes": [
-        "9922600032"
-      ],
-      "our_price": 39.99,
-      "regular_price": 39.99,
+      "barcodes": [],
+      "our_price": 3999.0,
+      "regular_price": 3999.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5803,11 +5196,9 @@
       "name": "תחנת כוח ניידת Jackery Explorer 300 Plus",
       "brand": "DJI",
       "sku": "99226-000-31",
-      "barcodes": [
-        "9922600031"
-      ],
-      "our_price": 17.9,
-      "regular_price": 17.9,
+      "barcodes": [],
+      "our_price": 1790.0,
+      "regular_price": 1790.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5822,11 +5213,9 @@
       "name": "תחנת כח ניידת BLUETTI AC2P 230WH",
       "brand": "DJI",
       "sku": "99226-000-30",
-      "barcodes": [
-        "9922600030"
-      ],
-      "our_price": 14.79,
-      "regular_price": 14.79,
+      "barcodes": [],
+      "our_price": 1479.0,
+      "regular_price": 1479.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5841,11 +5230,9 @@
       "name": "כבל מתאם לתחנות כוח 1M MC4 to Anderson",
       "brand": "DJI",
       "sku": "99227-000-09",
-      "barcodes": [
-        "9922700009"
-      ],
-      "our_price": 0.69,
-      "regular_price": 0.69,
+      "barcodes": [],
+      "our_price": 69.0,
+      "regular_price": 69.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5860,11 +5247,9 @@
       "name": "כבל מתאם לתחנות כוח 1M MC4 to DC7909",
       "brand": "DJI",
       "sku": "99227-000-07",
-      "barcodes": [
-        "9922700007"
-      ],
-      "our_price": 0.49,
-      "regular_price": 0.49,
+      "barcodes": [],
+      "our_price": 49.0,
+      "regular_price": 49.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5879,11 +5264,9 @@
       "name": "פאנל טעינה סולארי BIGBLUE 28W PV",
       "brand": "DJI",
       "sku": "99227-000-05",
-      "barcodes": [
-        "9922700005"
-      ],
-      "our_price": 3.99,
-      "regular_price": 3.99,
+      "barcodes": [],
+      "our_price": 399.0,
+      "regular_price": 399.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5898,11 +5281,9 @@
       "name": "פאנל טעינה סולארי BIGBLUE 400W PV",
       "brand": "DJI",
       "sku": "99227-000-04",
-      "barcodes": [
-        "9922700004"
-      ],
-      "our_price": 36.99,
-      "regular_price": 36.99,
+      "barcodes": [],
+      "our_price": 3699.0,
+      "regular_price": 3699.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5917,11 +5298,9 @@
       "name": "פאנל טעינה סולארי BIGBLUE 150W PV",
       "brand": "DJI",
       "sku": "99227-000-02",
-      "barcodes": [
-        "9922700002"
-      ],
-      "our_price": 15.99,
-      "regular_price": 15.99,
+      "barcodes": [],
+      "our_price": 1599.0,
+      "regular_price": 1599.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -5936,11 +5315,9 @@
       "name": "פאנל טעינה סולארי BIGBLUE 100W PV",
       "brand": "DJI",
       "sku": "99227-000-01",
-      "barcodes": [
-        "9922700001"
-      ],
-      "our_price": 11.99,
-      "regular_price": 11.99,
+      "barcodes": [],
+      "our_price": 1199.0,
+      "regular_price": 1199.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5955,11 +5332,9 @@
       "name": "פילטרים למאביק AIR 2 DJI (ND4/8/32)",
       "brand": "DJI",
       "sku": "99999-020-24",
-      "barcodes": [
-        "9999902024"
-      ],
-      "our_price": 2.36,
-      "regular_price": 2.36,
+      "barcodes": [],
+      "our_price": 236.0,
+      "regular_price": 236.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5974,11 +5349,9 @@
       "name": "סוללה לרחפן Mini 4 Pro",
       "brand": "DJI",
       "sku": "99999-600-65",
-      "barcodes": [
-        "9999960065"
-      ],
-      "our_price": 2.49,
-      "regular_price": 2.49,
+      "barcodes": [],
+      "our_price": 249.0,
+      "regular_price": 249.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -5993,11 +5366,9 @@
       "name": "מיקרופון אלחוטי DJI 2 – בודד",
       "brand": "DJI",
       "sku": "99999-600-78",
-      "barcodes": [
-        "9999960078"
-      ],
-      "our_price": 8.49,
-      "regular_price": 8.49,
+      "barcodes": [],
+      "our_price": 849.0,
+      "regular_price": 849.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6012,11 +5383,9 @@
       "name": "מזוודה קשיחה לרחפן AVATA",
       "brand": "DJI",
       "sku": "99999-400-02",
-      "barcodes": [
-        "9999940002"
-      ],
-      "our_price": 4.99,
-      "regular_price": 4.99,
+      "barcodes": [],
+      "our_price": 499.0,
+      "regular_price": 499.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6031,11 +5400,9 @@
       "name": "באנדל ת.כח AC200MAX + סוללה BLUETTI B230",
       "brand": "DJI",
       "sku": "99226-000-99",
-      "barcodes": [
-        "9922600099"
-      ],
-      "our_price": 158.8,
-      "regular_price": 158.8,
+      "barcodes": [],
+      "our_price": 15880.0,
+      "regular_price": 15880.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6050,11 +5417,9 @@
       "name": "תחנת כח ניידת BLUETTI AC180P",
       "brand": "DJI",
       "sku": "99226-000-23",
-      "barcodes": [
-        "9922600023"
-      ],
-      "our_price": 55.99,
-      "regular_price": 55.99,
+      "barcodes": [],
+      "our_price": 5599.0,
+      "regular_price": 5599.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -6069,11 +5434,9 @@
       "name": "פאנל סולארי BLUETTI PV200",
       "brand": "DJI",
       "sku": "99226-000-21",
-      "barcodes": [
-        "9922600021"
-      ],
-      "our_price": 23.9,
-      "regular_price": 23.9,
+      "barcodes": [],
+      "our_price": 2390.0,
+      "regular_price": 2390.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -6088,11 +5451,9 @@
       "name": "זיכרון נייד SANDISK בצבע שחור USB 3.0 ULTRA 512GB Z48",
       "brand": "DJI",
       "sku": "38120-512-35",
-      "barcodes": [
-        "3812051235"
-      ],
-      "our_price": 2.82,
-      "regular_price": 2.82,
+      "barcodes": [],
+      "our_price": 282.0,
+      "regular_price": 282.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -6107,11 +5468,9 @@
       "name": "זיכרון נייד SANDISK ULTRA USB 3.0 Z48 256GB שחור",
       "brand": "DJI",
       "sku": "38120-256-35",
-      "barcodes": [
-        "3812025635"
-      ],
-      "our_price": 1.41,
-      "regular_price": 1.41,
+      "barcodes": [],
+      "our_price": 141.0,
+      "regular_price": 141.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -6126,11 +5485,9 @@
       "name": "זיכרון נייד SanDisk Cruzer Ultra 128GB USB 3.0 SDCZ48-128G-U46",
       "brand": "DJI",
       "sku": "38120-128-35",
-      "barcodes": [
-        "3812012835"
-      ],
-      "our_price": 0.71,
-      "regular_price": 0.71,
+      "barcodes": [],
+      "our_price": 71.0,
+      "regular_price": 71.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6145,11 +5502,9 @@
       "name": "זיכרון נייד SanDisk Cruzer Ultra 64GB USB 3.0 SDCZ48-064G-U46",
       "brand": "DJI",
       "sku": "38120-064-35",
-      "barcodes": [
-        "3812006435"
-      ],
-      "our_price": 0.5,
-      "regular_price": 0.5,
+      "barcodes": [],
+      "our_price": 50.0,
+      "regular_price": 50.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -6164,11 +5519,9 @@
       "name": "זיכרון נייד SanDisk Cruzer Ultra 32GB USB 3.0 SDCZ48-032G-U46",
       "brand": "DJI",
       "sku": "38120-032-35",
-      "barcodes": [
-        "3812003235"
-      ],
-      "our_price": 0.39,
-      "regular_price": 0.39,
+      "barcodes": [],
+      "our_price": 39.0,
+      "regular_price": 39.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -6183,11 +5536,9 @@
       "name": "כונן חיצוני 4T שחור SanDisk SSD E61 2.5",
       "brand": "DJI",
       "sku": "38168-004-61",
-      "barcodes": [
-        "3816800461"
-      ],
-      "our_price": 25.3,
-      "regular_price": 25.3,
+      "barcodes": [],
+      "our_price": 2530.0,
+      "regular_price": 2530.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6202,11 +5553,9 @@
       "name": "נתב סלולרי תעשייתי RUTX50 5G מבית TELTONIKA",
       "brand": "DJI",
       "sku": "99560-500-00",
-      "barcodes": [
-        "9956050000"
-      ],
-      "our_price": 24.99,
-      "regular_price": 24.99,
+      "barcodes": [],
+      "our_price": 2499.0,
+      "regular_price": 2499.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -6221,11 +5570,9 @@
       "name": "קומבו MATRICE 350 H20T",
       "brand": "DJI",
       "sku": "99999-300-40",
-      "barcodes": [
-        "9999930040"
-      ],
-      "our_price": 895.59,
-      "regular_price": 895.59,
+      "barcodes": [],
+      "our_price": 89559.0,
+      "regular_price": 89559.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6240,11 +5587,9 @@
       "name": "סוללה למשקף DJI Goggles 2 Battery",
       "brand": "DJI",
       "sku": "99999-020-38",
-      "barcodes": [
-        "9999902038"
-      ],
-      "our_price": 1.99,
-      "regular_price": 1.99,
+      "barcodes": [],
+      "our_price": 199.0,
+      "regular_price": 199.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -6259,11 +5604,9 @@
       "name": "פרופים ל DJI Avata",
       "brand": "DJI",
       "sku": "99999-488-31",
-      "barcodes": [
-        "9999948831"
-      ],
-      "our_price": 0.69,
-      "regular_price": 0.69,
+      "barcodes": [],
+      "our_price": 69.0,
+      "regular_price": 69.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6278,11 +5621,9 @@
       "name": "שלט FPV DJI MOTION CONTROLLER 2",
       "brand": "DJI",
       "sku": "99999-488-89",
-      "barcodes": [
-        "9999948889"
-      ],
-      "our_price": 4.99,
-      "regular_price": 4.99,
+      "barcodes": [],
+      "our_price": 499.0,
+      "regular_price": 499.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -6297,11 +5638,9 @@
       "name": "DJI Mini 3 Series Intelligent Flight Battery",
       "brand": "DJI",
       "sku": "99999-600-40",
-      "barcodes": [
-        "9999960040"
-      ],
-      "our_price": 1.49,
-      "regular_price": 1.49,
+      "barcodes": [],
+      "our_price": 149.0,
+      "regular_price": 149.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6316,11 +5655,9 @@
       "name": "מוצר משלים ל DJI Mavic 2 Smart Controller",
       "brand": "DJI",
       "sku": "99999-600-19",
-      "barcodes": [
-        "9999960019"
-      ],
-      "our_price": 10.7,
-      "regular_price": 10.7,
+      "barcodes": [],
+      "our_price": 1070.0,
+      "regular_price": 1070.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6335,11 +5672,9 @@
       "name": "שלט חכם לרחפן M30/T DJI RC Plus",
       "brand": "DJI",
       "sku": "99999-330-07",
-      "barcodes": [
-        "9999933007"
-      ],
-      "our_price": 95.79,
-      "regular_price": 95.79,
+      "barcodes": [],
+      "our_price": 9579.0,
+      "regular_price": 9579.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6354,11 +5689,9 @@
       "name": "סוללת ניידת MPB20PD22.5W מבית MIRACASE",
       "brand": "DJI",
       "sku": "99317-000-17",
-      "barcodes": [
-        "9931700017"
-      ],
-      "our_price": 1.49,
-      "regular_price": 1.49,
+      "barcodes": [],
+      "our_price": 149.0,
+      "regular_price": 149.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6373,11 +5706,9 @@
       "name": "תחנת כוח סולארית BLUETTI EP500Pro | 3000W 5100Wh",
       "brand": "DJI",
       "sku": "99226-000-05",
-      "barcodes": [
-        "9922600005"
-      ],
-      "our_price": 246.9,
-      "regular_price": 246.9,
+      "barcodes": [],
+      "our_price": 24690.0,
+      "regular_price": 24690.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6392,11 +5723,9 @@
       "name": "סוללת הרחבה BLUETTI B230 | 2048Wh",
       "brand": "DJI",
       "sku": "99226-000-11",
-      "barcodes": [
-        "9922600011"
-      ],
-      "our_price": 29.99,
-      "regular_price": 29.99,
+      "barcodes": [],
+      "our_price": 2999.0,
+      "regular_price": 2999.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -6411,11 +5740,9 @@
       "name": "M300 DJI X-PORT",
       "brand": "DJI",
       "sku": "99999-300-18",
-      "barcodes": [
-        "9999930018"
-      ],
-      "our_price": 30.09,
-      "regular_price": 30.09,
+      "barcodes": [],
+      "our_price": 3009.0,
+      "regular_price": 3009.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6430,11 +5757,9 @@
       "name": "קיט לרחפן M300 PAYLOADSDK KIT2.0",
       "brand": "DJI",
       "sku": "99999-300-17",
-      "barcodes": [
-        "9999930017"
-      ],
-      "our_price": 3.89,
-      "regular_price": 3.89,
+      "barcodes": [],
+      "our_price": 389.0,
+      "regular_price": 389.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6449,11 +5774,9 @@
       "name": "תחנת בסיס לרחפן D-RTK 2 GNSS EU",
       "brand": "DJI",
       "sku": "99999-006-88",
-      "barcodes": [
-        "9999900688"
-      ],
-      "our_price": 201.69,
-      "regular_price": 201.69,
+      "barcodes": [],
+      "our_price": 20169.0,
+      "regular_price": 20169.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6468,11 +5791,9 @@
       "name": "חצובה לרחפן TRIPOD D-RTK",
       "brand": "DJI",
       "sku": "99999-005-40",
-      "barcodes": [
-        "9999900540"
-      ],
-      "our_price": 13.79,
-      "regular_price": 13.79,
+      "barcodes": [],
+      "our_price": 1379.0,
+      "regular_price": 1379.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6487,11 +5808,9 @@
       "name": "כונן חיצוני SSD E61 2.5 1T",
       "brand": "DJI",
       "sku": "38168-001-61",
-      "barcodes": [
-        "3816800161"
-      ],
-      "our_price": 8.76,
-      "regular_price": 8.76,
+      "barcodes": [],
+      "our_price": 876.0,
+      "regular_price": 876.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6506,11 +5825,9 @@
       "name": "כונן חיצוני SSD E61 2.5 2T",
       "brand": "DJI",
       "sku": "38168-002-61",
-      "barcodes": [
-        "3816800261"
-      ],
-      "our_price": 17.52,
-      "regular_price": 17.52,
+      "barcodes": [],
+      "our_price": 1752.0,
+      "regular_price": 1752.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6525,11 +5842,9 @@
       "name": "סמארטפון לבן פנינה VIVO Y21 4+64",
       "brand": "DJI",
       "sku": "99365-001-22",
-      "barcodes": [
-        "9936500122"
-      ],
-      "our_price": 5.99,
-      "regular_price": 5.99,
+      "barcodes": [],
+      "our_price": 599.0,
+      "regular_price": 599.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6544,11 +5859,9 @@
       "name": "Osmo Pocket 3",
       "brand": "DJI",
       "sku": "99999-600-67",
-      "barcodes": [
-        "9999960067"
-      ],
-      "our_price": 13.59,
-      "regular_price": 16.99,
+      "barcodes": [],
+      "our_price": 1359.0,
+      "regular_price": 1699.0,
       "is_on_sale": true,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6563,11 +5876,9 @@
       "name": "Osmo Pocket 3 Combo",
       "brand": "DJI",
       "sku": "99999-600-68",
-      "barcodes": [
-        "9999960068"
-      ],
-      "our_price": 15.99,
-      "regular_price": 19.99,
+      "barcodes": [],
+      "our_price": 1599.0,
+      "regular_price": 1999.0,
       "is_on_sale": true,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -6582,11 +5893,9 @@
       "name": "ZENMUSE P1",
       "brand": "DJI",
       "sku": "99999-300-12",
-      "barcodes": [
-        "9999930012"
-      ],
-      "our_price": 295.39,
-      "regular_price": 295.39,
+      "barcodes": [],
+      "our_price": 29539.0,
+      "regular_price": 29539.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6601,11 +5910,9 @@
       "name": "ZENMUSE H20 מצלמה",
       "brand": "DJI",
       "sku": "99999-300-04",
-      "barcodes": [
-        "9999930004"
-      ],
-      "our_price": 142.49,
-      "regular_price": 142.49,
+      "barcodes": [],
+      "our_price": 14249.0,
+      "regular_price": 14249.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6620,11 +5927,9 @@
       "name": "עדשת ZENMUSE X7 35mm DJI",
       "brand": "DJI",
       "sku": "99999-488-80",
-      "barcodes": [
-        "9999948880"
-      ],
-      "our_price": 54.99,
-      "regular_price": 54.99,
+      "barcodes": [],
+      "our_price": 5499.0,
+      "regular_price": 5499.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6639,11 +5944,9 @@
       "name": "עדשת ZENMUSE X7 50mm DJI",
       "brand": "DJI",
       "sku": "99999-488-78",
-      "barcodes": [
-        "9999948878"
-      ],
-      "our_price": 54.99,
-      "regular_price": 54.99,
+      "barcodes": [],
+      "our_price": 5499.0,
+      "regular_price": 5499.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6658,11 +5961,9 @@
       "name": "Matrice M30T",
       "brand": "DJI",
       "sku": "99999-330-01",
-      "barcodes": [
-        "9999933001"
-      ],
-      "our_price": 415.19,
-      "regular_price": 415.19,
+      "barcodes": [],
+      "our_price": 41519.0,
+      "regular_price": 41519.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6677,11 +5978,9 @@
       "name": "MAVIC 3 ENTERPRISE M3T",
       "brand": "DJI",
       "sku": "99999-230-02",
-      "barcodes": [
-        "9999923002"
-      ],
-      "our_price": 265.59,
-      "regular_price": 265.59,
+      "barcodes": [],
+      "our_price": 26559.0,
+      "regular_price": 26559.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6696,11 +5995,9 @@
       "name": "MAVIC 3 ENTERPRISE M3E",
       "brand": "DJI",
       "sku": "99999-230-01",
-      "barcodes": [
-        "9999923001"
-      ],
-      "our_price": 224.79,
-      "regular_price": 224.79,
+      "barcodes": [],
+      "our_price": 22479.0,
+      "regular_price": 22479.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6715,11 +6012,9 @@
       "name": "גימבל כפול ל-MATRICE 300",
       "brand": "DJI",
       "sku": "99999-300-06",
-      "barcodes": [
-        "9999930006"
-      ],
-      "our_price": 14.59,
-      "regular_price": 14.59,
+      "barcodes": [],
+      "our_price": 1459.0,
+      "regular_price": 1459.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -6734,11 +6029,9 @@
       "name": "מטען לרחפן MATRICE 30 BS30",
       "brand": "DJI",
       "sku": "99999-330-05",
-      "barcodes": [
-        "9999933005"
-      ],
-      "our_price": 52.69,
-      "regular_price": 52.69,
+      "barcodes": [],
+      "our_price": 5269.0,
+      "regular_price": 5269.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6753,11 +6046,9 @@
       "name": "סוללה לרחפן MATRICE 30 TB30",
       "brand": "DJI",
       "sku": "99999-330-04",
-      "barcodes": [
-        "9999933004"
-      ],
-      "our_price": 29.09,
-      "regular_price": 29.09,
+      "barcodes": [],
+      "our_price": 2909.0,
+      "regular_price": 2909.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -6772,11 +6063,9 @@
       "name": "Mavic 3 Enterprise M3T/E רמקול",
       "brand": "DJI",
       "sku": "99999-230-04",
-      "barcodes": [
-        "9999923004"
-      ],
-      "our_price": 8.89,
-      "regular_price": 8.89,
+      "barcodes": [],
+      "our_price": 889.0,
+      "regular_price": 889.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6791,11 +6080,9 @@
       "name": "ערכת סוללות לרחפן M3E/M3T",
       "brand": "DJI",
       "sku": "99999-230-07",
-      "barcodes": [
-        "9999923007"
-      ],
-      "our_price": 43.39,
-      "regular_price": 43.39,
+      "barcodes": [],
+      "our_price": 4339.0,
+      "regular_price": 4339.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6810,11 +6097,9 @@
       "name": "פרופלורים לרחפן MATRICE 30 1671",
       "brand": "DJI",
       "sku": "99999-330-06",
-      "barcodes": [
-        "9999933006"
-      ],
-      "our_price": 2.49,
-      "regular_price": 2.49,
+      "barcodes": [],
+      "our_price": 249.0,
+      "regular_price": 249.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6829,11 +6114,9 @@
       "name": "מודולRTK לרחפן M3E/M3T",
       "brand": "DJI",
       "sku": "99999-230-03",
-      "barcodes": [
-        "9999923003"
-      ],
-      "our_price": 49.19,
-      "regular_price": 49.19,
+      "barcodes": [],
+      "our_price": 4919.0,
+      "regular_price": 4919.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6848,11 +6131,9 @@
       "name": "MINI 4 PRO שלט חכם",
       "brand": "DJI",
       "sku": "99999-600-60",
-      "barcodes": [
-        "9999960060"
-      ],
-      "our_price": 32.99,
-      "regular_price": 32.99,
+      "barcodes": [],
+      "our_price": 3299.0,
+      "regular_price": 3299.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6867,11 +6148,9 @@
       "name": "MINI 4 PRO COMBO PLUS",
       "brand": "DJI",
       "sku": "99999-600-59",
-      "barcodes": [
-        "9999960059"
-      ],
-      "our_price": 39.99,
-      "regular_price": 39.99,
+      "barcodes": [],
+      "our_price": 3999.0,
+      "regular_price": 3999.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -6886,11 +6165,9 @@
       "name": "ערכת רצועות לשלט DJI RC PLUS",
       "brand": "DJI",
       "sku": "99999-300-37",
-      "barcodes": [
-        "9999930037"
-      ],
-      "our_price": 1.79,
-      "regular_price": 1.79,
+      "barcodes": [],
+      "our_price": 179.0,
+      "regular_price": 179.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -6905,11 +6182,9 @@
       "name": "פרופלורים לרחפן MATRICE 350 2110S",
       "brand": "DJI",
       "sku": "99999-300-33",
-      "barcodes": [
-        "9999930033"
-      ],
-      "our_price": 2.59,
-      "regular_price": 2.59,
+      "barcodes": [],
+      "our_price": 259.0,
+      "regular_price": 259.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6924,11 +6199,9 @@
       "name": "תחנת טעינה חכמה BS65 ל – Matrice 350RTK",
       "brand": "DJI",
       "sku": "99999-300-31",
-      "barcodes": [
-        "9999930031"
-      ],
-      "our_price": 78.19,
-      "regular_price": 78.19,
+      "barcodes": [],
+      "our_price": 7819.0,
+      "regular_price": 7819.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6943,11 +6216,9 @@
       "name": "רחפן MATRICE 350 RTK",
       "brand": "DJI",
       "sku": "99999-300-30",
-      "barcodes": [
-        "9999930030"
-      ],
-      "our_price": 394.19,
-      "regular_price": 394.19,
+      "barcodes": [],
+      "our_price": 39419.0,
+      "regular_price": 39419.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6962,11 +6233,9 @@
       "name": "סוללה לרחפן MATRICE 350 TB65",
       "brand": "DJI",
       "sku": "99999-300-27",
-      "barcodes": [
-        "9999930027"
-      ],
-      "our_price": 58.09,
-      "regular_price": 58.09,
+      "barcodes": [],
+      "our_price": 5809.0,
+      "regular_price": 5809.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -6981,11 +6250,9 @@
       "name": "מטען לרכב 65W",
       "brand": "DJI",
       "sku": "99999-230-11",
-      "barcodes": [
-        "9999923011"
-      ],
-      "our_price": 3.49,
-      "regular_price": 3.49,
+      "barcodes": [],
+      "our_price": 349.0,
+      "regular_price": 349.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -7000,11 +6267,9 @@
       "name": "DJI FPV EXPLORER",
       "brand": "DJI",
       "sku": "99999-600-56",
-      "barcodes": [
-        "9999960056"
-      ],
-      "our_price": 49.99,
-      "regular_price": 49.99,
+      "barcodes": [],
+      "our_price": 4999.0,
+      "regular_price": 4999.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7019,11 +6284,9 @@
       "name": "DJI AIR 3 Fly More Combo (DJI RC 2)",
       "brand": "DJI",
       "sku": "99999-600-50",
-      "barcodes": [
-        "9999960050"
-      ],
-      "our_price": 77.49,
-      "regular_price": 77.49,
+      "barcodes": [],
+      "our_price": 7749.0,
+      "regular_price": 7749.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7038,11 +6301,9 @@
       "name": "רחפן AIR 3 שלט רגיל",
       "brand": "DJI",
       "sku": "99999-600-49",
-      "barcodes": [
-        "9999960049"
-      ],
-      "our_price": 39.99,
-      "regular_price": 39.99,
+      "barcodes": [],
+      "our_price": 3999.0,
+      "regular_price": 3999.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7057,11 +6318,9 @@
       "name": "סוללה לרחפן MAVIC AIR 2",
       "brand": "DJI",
       "sku": "99999-020-03",
-      "barcodes": [
-        "9999902003"
-      ],
-      "our_price": 5.99,
-      "regular_price": 5.99,
+      "barcodes": [],
+      "our_price": 599.0,
+      "regular_price": 599.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7076,11 +6335,9 @@
       "name": "DJI Goggles 2 & DJI RC Motion 2",
       "brand": "DJI",
       "sku": "99999-488-90",
-      "barcodes": [
-        "9999948890"
-      ],
-      "our_price": 19.99,
-      "regular_price": 19.99,
+      "barcodes": [],
+      "our_price": 1999.0,
+      "regular_price": 1999.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -7095,11 +6352,9 @@
       "name": "DJI Goggles Integra & DJI RC Motion 2",
       "brand": "DJI",
       "sku": "99999-488-91",
-      "barcodes": [
-        "9999948891"
-      ],
-      "our_price": 9.99,
-      "regular_price": 9.99,
+      "barcodes": [],
+      "our_price": 999.0,
+      "regular_price": 999.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -7114,11 +6369,9 @@
       "name": "DJI Mavic 3 Cine Premium Combo",
       "brand": "DJI",
       "sku": "99999-021-01",
-      "barcodes": [
-        "9999902101"
-      ],
-      "our_price": 189.99,
-      "regular_price": 189.99,
+      "barcodes": [],
+      "our_price": 18999.0,
+      "regular_price": 18999.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7133,11 +6386,9 @@
       "name": "Synology DS923+ – 4BAYS",
       "brand": "DJI",
       "sku": "35300-001-14",
-      "barcodes": [
-        "3530000114"
-      ],
-      "our_price": 36.0,
-      "regular_price": 36.0,
+      "barcodes": [],
+      "our_price": 3600.0,
+      "regular_price": 3600.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7152,11 +6403,9 @@
       "name": "תחנת כוח ניידת BLUETTI EB3A | 600W 268Wh",
       "brand": "DJI",
       "sku": "99226-000-08",
-      "barcodes": [
-        "9922600008"
-      ],
-      "our_price": 16.9,
-      "regular_price": 16.9,
+      "barcodes": [],
+      "our_price": 1690.0,
+      "regular_price": 1690.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7171,11 +6420,9 @@
       "name": "BLUETTI PV120 פאנל סולארי | 120W",
       "brand": "DJI",
       "sku": "99226-000-15",
-      "barcodes": [
-        "9922600015"
-      ],
-      "our_price": 14.9,
-      "regular_price": 14.9,
+      "barcodes": [],
+      "our_price": 1490.0,
+      "regular_price": 1490.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7190,11 +6437,9 @@
       "name": "BLUETTI PV350 פאנל סולארי | 350W",
       "brand": "DJI",
       "sku": "99226-000-16",
-      "barcodes": [
-        "9922600016"
-      ],
-      "our_price": 35.9,
-      "regular_price": 35.9,
+      "barcodes": [],
+      "our_price": 3590.0,
+      "regular_price": 3590.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7209,11 +6454,9 @@
       "name": "DJI Mavic 3 Pro Cine Premium Combo",
       "brand": "DJI",
       "sku": "99999-488-93",
-      "barcodes": [
-        "9999948893"
-      ],
-      "our_price": 249.0,
-      "regular_price": 249.0,
+      "barcodes": [],
+      "our_price": 24900.0,
+      "regular_price": 24900.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7228,11 +6471,9 @@
       "name": "DJI Mavic 3 Pro Fly More Combo",
       "brand": "DJI",
       "sku": "99999-488-94",
-      "barcodes": [
-        "9999948894"
-      ],
-      "our_price": 178.99,
-      "regular_price": 178.99,
+      "barcodes": [],
+      "our_price": 17899.0,
+      "regular_price": 17899.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7247,11 +6488,9 @@
       "name": "DJI MAVIC 3 PRO FLY MORE COMBO",
       "brand": "DJI",
       "sku": "99999-488-97",
-      "barcodes": [
-        "9999948897"
-      ],
-      "our_price": 149.99,
-      "regular_price": 149.99,
+      "barcodes": [],
+      "our_price": 14999.0,
+      "regular_price": 14999.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7266,11 +6505,9 @@
       "name": "DJI Avata Explorer Combo",
       "brand": "DJI",
       "sku": "99999-488-87",
-      "barcodes": [
-        "9999948887"
-      ],
-      "our_price": 67.99,
-      "regular_price": 67.99,
+      "barcodes": [],
+      "our_price": 6799.0,
+      "regular_price": 6799.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7285,11 +6522,9 @@
       "name": "DJI Avata Pro-View Combo (RC Motion 2)",
       "brand": "DJI",
       "sku": "99999-488-86",
-      "barcodes": [
-        "9999948886"
-      ],
-      "our_price": 74.99,
-      "regular_price": 74.99,
+      "barcodes": [],
+      "our_price": 7499.0,
+      "regular_price": 7499.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7304,11 +6539,9 @@
       "name": "משדר וידאו ל4D DJI",
       "brand": "DJI",
       "sku": "99999-488-51",
-      "barcodes": [
-        "9999948851"
-      ],
-      "our_price": 42.99,
-      "regular_price": 42.99,
+      "barcodes": [],
+      "our_price": 4299.0,
+      "regular_price": 4299.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -7323,11 +6556,9 @@
       "name": "ידיות החזקה ל RONIN 4D COMBO",
       "brand": "DJI",
       "sku": "99999-488-74",
-      "barcodes": [
-        "9999948874"
-      ],
-      "our_price": 24.99,
-      "regular_price": 24.99,
+      "barcodes": [],
+      "our_price": 2499.0,
+      "regular_price": 2499.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7342,11 +6573,9 @@
       "name": "Mini 3 Series Intelligent Flight Battery Plus",
       "brand": "DJI",
       "sku": "99999-488-75",
-      "barcodes": [
-        "9999948875"
-      ],
-      "our_price": 1.99,
-      "regular_price": 1.99,
+      "barcodes": [],
+      "our_price": 199.0,
+      "regular_price": 199.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -7361,11 +6590,9 @@
       "name": "ערכת בסיס מעמד DJI ACTION",
       "brand": "DJI",
       "sku": "99999-488-69",
-      "barcodes": [
-        "9999948869"
-      ],
-      "our_price": 0.79,
-      "regular_price": 0.79,
+      "barcodes": [],
+      "our_price": 79.0,
+      "regular_price": 79.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7380,11 +6607,9 @@
       "name": "מעמד כידון DJI ACTION",
       "brand": "DJI",
       "sku": "99999-488-65",
-      "barcodes": [
-        "9999948865"
-      ],
-      "our_price": 0.99,
-      "regular_price": 0.99,
+      "barcodes": [],
+      "our_price": 99.0,
+      "regular_price": 99.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7399,11 +6624,9 @@
       "name": "ערכת חזה DJI ACTION",
       "brand": "DJI",
       "sku": "99999-488-64",
-      "barcodes": [
-        "9999948864"
-      ],
-      "our_price": 1.79,
-      "regular_price": 1.79,
+      "barcodes": [],
+      "our_price": 179.0,
+      "regular_price": 179.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -7418,11 +6641,9 @@
       "name": "מעמד ואקום ל- DJI ACTION",
       "brand": "DJI",
       "sku": "99999-488-62",
-      "barcodes": [
-        "9999948862"
-      ],
-      "our_price": 1.49,
-      "regular_price": 1.49,
+      "barcodes": [],
+      "our_price": 149.0,
+      "regular_price": 149.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7437,11 +6658,9 @@
       "name": "ערכת מדבקות ל OSMO ACTION",
       "brand": "DJI",
       "sku": "99999-015-28",
-      "barcodes": [
-        "9999901528"
-      ],
-      "our_price": 0.49,
-      "regular_price": 0.49,
+      "barcodes": [],
+      "our_price": 49.0,
+      "regular_price": 49.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7456,11 +6675,9 @@
       "name": "עמדת טעינה לסוללות DJI AVATA",
       "brand": "DJI",
       "sku": "99999-488-32",
-      "barcodes": [
-        "9999948832"
-      ],
-      "our_price": 2.99,
-      "regular_price": 2.99,
+      "barcodes": [],
+      "our_price": 299.0,
+      "regular_price": 299.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -7475,11 +6692,9 @@
       "name": "משקף תעופה של DJI GOGGLES 2",
       "brand": "DJI",
       "sku": "99999-488-84",
-      "barcodes": [
-        "9999948884"
-      ],
-      "our_price": 14.99,
-      "regular_price": 14.99,
+      "barcodes": [],
+      "our_price": 1499.0,
+      "regular_price": 1499.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7494,11 +6709,9 @@
       "name": "כרטיס זיכרון EXPRO MICRO 32GB 100MB/S A1 מבית SANDISK",
       "brand": "DJI",
       "sku": "38142-032-31",
-      "barcodes": [
-        "3814203231"
-      ],
-      "our_price": 0.21,
-      "regular_price": 0.21,
+      "barcodes": [],
+      "our_price": 21.0,
+      "regular_price": 21.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -7513,11 +6726,9 @@
       "name": "SanDisk Extreme Pro A2 microSDXC 4K – 64 GB",
       "brand": "DJI",
       "sku": "38142-064-50",
-      "barcodes": [
-        "3814206450"
-      ],
-      "our_price": 1.35,
-      "regular_price": 1.35,
+      "barcodes": [],
+      "our_price": 135.0,
+      "regular_price": 135.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -7532,11 +6743,9 @@
       "name": "SanDisk Extreme Pro A2 microSDXC 4K – 1TB",
       "brand": "DJI",
       "sku": "38142-001-50",
-      "barcodes": [
-        "3814200150"
-      ],
-      "our_price": 12.33,
-      "regular_price": 12.33,
+      "barcodes": [],
+      "our_price": 1233.0,
+      "regular_price": 1233.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -7551,11 +6760,9 @@
       "name": "SanDisk Extreme Pro A2 microSDXC 4K – 512 GB",
       "brand": "DJI",
       "sku": "38142-512-50",
-      "barcodes": [
-        "3814251250"
-      ],
-      "our_price": 6.49,
-      "regular_price": 6.49,
+      "barcodes": [],
+      "our_price": 649.0,
+      "regular_price": 649.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -7570,11 +6777,9 @@
       "name": "מייצב RS 3 Mini",
       "brand": "DJI",
       "sku": "99999-488-85",
-      "barcodes": [
-        "9999948885"
-      ],
-      "our_price": 15.99,
-      "regular_price": 15.99,
+      "barcodes": [],
+      "our_price": 1599.0,
+      "regular_price": 1599.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7589,11 +6794,9 @@
       "name": "SYNOLOGY DS1621+ – 6BAYS",
       "brand": "DJI",
       "sku": "35300-001-13",
-      "barcodes": [
-        "3530000113"
-      ],
-      "our_price": 50.33,
-      "regular_price": 50.33,
+      "barcodes": [],
+      "our_price": 5033.0,
+      "regular_price": 5033.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7608,11 +6811,9 @@
       "name": "מארז עמיד במים למצלמת Action 2",
       "brand": "DJI",
       "sku": "99999-487-93",
-      "barcodes": [
-        "9999948793"
-      ],
-      "our_price": 2.99,
-      "regular_price": 2.99,
+      "barcodes": [],
+      "our_price": 299.0,
+      "regular_price": 299.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7627,11 +6828,9 @@
       "name": "DJI O3 Air Unit",
       "brand": "DJI",
       "sku": "99999-488-57",
-      "barcodes": [
-        "9999948857"
-      ],
-      "our_price": 12.99,
-      "regular_price": 12.99,
+      "barcodes": [],
+      "our_price": 1299.0,
+      "regular_price": 1299.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7646,11 +6845,9 @@
       "name": "MAVIC 3 ENTERPRISE M3T/E פרופלורים",
       "brand": "DJI",
       "sku": "99999-230-05",
-      "barcodes": [
-        "9999923005"
-      ],
-      "our_price": 1.69,
-      "regular_price": 1.69,
+      "barcodes": [],
+      "our_price": 169.0,
+      "regular_price": 169.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7665,11 +6862,9 @@
       "name": "ערכת טעינה 3 סוללות 4/ACTION 3",
       "brand": "DJI",
       "sku": "99999-488-70",
-      "barcodes": [
-        "9999948870"
-      ],
-      "our_price": 1.69,
-      "regular_price": 1.69,
+      "barcodes": [],
+      "our_price": 169.0,
+      "regular_price": 169.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -7684,11 +6879,9 @@
       "name": "מעמד כדורי ל – DJI ACTION",
       "brand": "DJI",
       "sku": "99999-488-66",
-      "barcodes": [
-        "9999948866"
-      ],
-      "our_price": 1.29,
-      "regular_price": 1.29,
+      "barcodes": [],
+      "our_price": 129.0,
+      "regular_price": 129.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -7703,11 +6896,9 @@
       "name": "ערכת רכיבה ל- 4/DJI ACTION 3",
       "brand": "DJI",
       "sku": "99999-488-61",
-      "barcodes": [
-        "9999948861"
-      ],
-      "our_price": 2.99,
-      "regular_price": 2.99,
+      "barcodes": [],
+      "our_price": 299.0,
+      "regular_price": 299.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7722,11 +6913,9 @@
       "name": "כבל קשירה לגלשן תואם Osmo Action",
       "brand": "DJI",
       "sku": "99999-488-60",
-      "barcodes": [
-        "9999948860"
-      ],
-      "our_price": 0.99,
-      "regular_price": 0.99,
+      "barcodes": [],
+      "our_price": 99.0,
+      "regular_price": 99.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -7741,11 +6930,9 @@
       "name": "ערכת צלילה ל- Osmo Action 4/3",
       "brand": "DJI",
       "sku": "99999-488-59",
-      "barcodes": [
-        "9999948859"
-      ],
-      "our_price": 2.99,
-      "regular_price": 2.99,
+      "barcodes": [],
+      "our_price": 299.0,
+      "regular_price": 299.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7760,11 +6947,9 @@
       "name": "ידית צפה למצלמות Action",
       "brand": "DJI",
       "sku": "99999-488-58",
-      "barcodes": [
-        "9999948858"
-      ],
-      "our_price": 1.09,
-      "regular_price": 1.09,
+      "barcodes": [],
+      "our_price": 109.0,
+      "regular_price": 109.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7779,11 +6964,9 @@
       "name": "ערכת Mavic 3 Classic Fly More",
       "brand": "DJI",
       "sku": "99999-488-56",
-      "barcodes": [
-        "9999948856"
-      ],
-      "our_price": 25.99,
-      "regular_price": 25.99,
+      "barcodes": [],
+      "our_price": 2599.0,
+      "regular_price": 2599.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7798,11 +6981,9 @@
       "name": "MAVIC 3 CLASSIC",
       "brand": "DJI",
       "sku": "99999-488-55",
-      "barcodes": [
-        "9999948855"
-      ],
-      "our_price": 91.99,
-      "regular_price": 91.99,
+      "barcodes": [],
+      "our_price": 9199.0,
+      "regular_price": 9199.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7817,11 +6998,9 @@
       "name": "3 פילטרים DJI AVATA",
       "brand": "DJI",
       "sku": "99999-488-29",
-      "barcodes": [
-        "9999948829"
-      ],
-      "our_price": 2.49,
-      "regular_price": 2.49,
+      "barcodes": [],
+      "our_price": 249.0,
+      "regular_price": 249.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -7836,11 +7015,9 @@
       "name": "שלט חכם RC",
       "brand": "DJI",
       "sku": "99999-488-34",
-      "barcodes": [
-        "9999948834"
-      ],
-      "our_price": 13.99,
-      "regular_price": 13.99,
+      "barcodes": [],
+      "our_price": 1399.0,
+      "regular_price": 1399.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7855,11 +7032,9 @@
       "name": "רחפן Avata Pro-View Combo",
       "brand": "DJI",
       "sku": "99999-488-27",
-      "barcodes": [
-        "9999948827"
-      ],
-      "our_price": 71.99,
-      "regular_price": 71.99,
+      "barcodes": [],
+      "our_price": 7199.0,
+      "regular_price": 7199.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7874,11 +7049,9 @@
       "name": "מזוודה קשיחה לרחפן AIR 2S",
       "brand": "DJI",
       "sku": "99999-487-86",
-      "barcodes": [
-        "9999948786"
-      ],
-      "our_price": 2.89,
-      "regular_price": 2.89,
+      "barcodes": [],
+      "our_price": 289.0,
+      "regular_price": 289.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -7893,11 +7066,9 @@
       "name": "תיק נשיאה קשיח לרחפן AIR 2",
       "brand": "DJI",
       "sku": "99999-487-83",
-      "barcodes": [
-        "9999948783"
-      ],
-      "our_price": 1.19,
-      "regular_price": 1.19,
+      "barcodes": [],
+      "our_price": 119.0,
+      "regular_price": 119.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7912,11 +7083,9 @@
       "name": "מזוודה קשיחה לרחפן מאביק 3",
       "brand": "DJI",
       "sku": "99999-487-80",
-      "barcodes": [
-        "9999948780"
-      ],
-      "our_price": 2.29,
-      "regular_price": 2.29,
+      "barcodes": [],
+      "our_price": 229.0,
+      "regular_price": 229.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -7931,11 +7100,9 @@
       "name": "כרטיס זיכרון SanDisk Extreme Pro A2 microSDXC 4K – בנפח 256G",
       "brand": "DJI",
       "sku": "38142-256-50",
-      "barcodes": [
-        "3814225650"
-      ],
-      "our_price": 3.28,
-      "regular_price": 3.28,
+      "barcodes": [],
+      "our_price": 328.0,
+      "regular_price": 328.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7950,11 +7117,9 @@
       "name": "כרטיס זיכרון SanDisk Extreme Pro A2 microSDXC 4K – בנפח 128G",
       "brand": "DJI",
       "sku": "38142-128-50",
-      "barcodes": [
-        "3814212850"
-      ],
-      "our_price": 1.8,
-      "regular_price": 1.8,
+      "barcodes": [],
+      "our_price": 180.0,
+      "regular_price": 180.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7969,11 +7134,9 @@
       "name": "DJI RS 3 Combo",
       "brand": "DJI",
       "sku": "99999-488-09",
-      "barcodes": [
-        "9999948809"
-      ],
-      "our_price": 29.99,
-      "regular_price": 29.99,
+      "barcodes": [],
+      "our_price": 2999.0,
+      "regular_price": 2999.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -7988,11 +7151,9 @@
       "name": "Mini 3 Pro Fly More Kit Plus",
       "brand": "DJI",
       "sku": "99999-488-04",
-      "barcodes": [
-        "9999948804"
-      ],
-      "our_price": 11.49,
-      "regular_price": 11.49,
+      "barcodes": [],
+      "our_price": 1149.0,
+      "regular_price": 1149.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -8007,11 +7168,9 @@
       "name": "Dji Mini 3 pro ערכה בסיסית",
       "brand": "DJI",
       "sku": "99999-488-01",
-      "barcodes": [
-        "9999948801"
-      ],
-      "our_price": 38.99,
-      "regular_price": 38.99,
+      "barcodes": [],
+      "our_price": 3899.0,
+      "regular_price": 3899.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -8026,11 +7185,9 @@
       "name": "סוללה לרחפן MAVIC 3 /CINE Flight Battery",
       "brand": "DJI",
       "sku": "99999-021-08",
-      "barcodes": [
-        "9999902108"
-      ],
-      "our_price": 9.99,
-      "regular_price": 9.99,
+      "barcodes": [],
+      "our_price": 999.0,
+      "regular_price": 999.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -8045,11 +7202,9 @@
       "name": "תיק נשיאה ל DJI OSMO POCKET",
       "brand": "DJI",
       "sku": "99999-015-51",
-      "barcodes": [
-        "9999901551"
-      ],
-      "our_price": 1.49,
-      "regular_price": 1.49,
+      "barcodes": [],
+      "our_price": 149.0,
+      "regular_price": 149.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -8064,11 +7219,9 @@
       "name": "שלט DJI Motion Controller",
       "brand": "DJI",
       "sku": "99999-020-34",
-      "barcodes": [
-        "9999902034"
-      ],
-      "our_price": 4.99,
-      "regular_price": 4.99,
+      "barcodes": [],
+      "our_price": 499.0,
+      "regular_price": 499.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -8083,11 +7236,9 @@
       "name": "רחפן DJI FPV COMBO ערכת קומבו",
       "brand": "DJI",
       "sku": "99999-020-30",
-      "barcodes": [
-        "9999902030"
-      ],
-      "our_price": 49.99,
-      "regular_price": 49.99,
+      "barcodes": [],
+      "our_price": 4999.0,
+      "regular_price": 4999.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -8102,11 +7253,9 @@
       "name": "מייצב DJI RSC2 PRO COMBO ערכת קומבו",
       "brand": "DJI",
       "sku": "99999-020-14",
-      "barcodes": [
-        "9999902014"
-      ],
-      "our_price": 29.99,
-      "regular_price": 29.99,
+      "barcodes": [],
+      "our_price": 2999.0,
+      "regular_price": 2999.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -8121,11 +7270,9 @@
       "name": "FPV Remote controller 2",
       "brand": "DJI",
       "sku": "99999-485-88",
-      "barcodes": [
-        "9999948588"
-      ],
-      "our_price": 8.99,
-      "regular_price": 8.99,
+      "barcodes": [],
+      "our_price": 899.0,
+      "regular_price": 899.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",
@@ -8140,11 +7287,9 @@
       "name": "סוללה לרחפן Avata 1",
       "brand": "DJI",
       "sku": "99999-488-33",
-      "barcodes": [
-        "9999948833"
-      ],
-      "our_price": 6.99,
-      "regular_price": 6.99,
+      "barcodes": [],
+      "our_price": 699.0,
+      "regular_price": 699.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -8159,11 +7304,9 @@
       "name": "Avata 1 fly more kit",
       "brand": "DJI",
       "sku": "99999-488-28",
-      "barcodes": [
-        "9999948828"
-      ],
-      "our_price": 13.99,
-      "regular_price": 13.99,
+      "barcodes": [],
+      "our_price": 1399.0,
+      "regular_price": 1399.0,
       "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
@@ -8178,11 +7321,9 @@
       "name": "סוללה WB37 ל CrystalSky/Cendence",
       "brand": "DJI",
       "sku": "99999-004-75",
-      "barcodes": [
-        "9999900475"
-      ],
-      "our_price": 6.79,
-      "regular_price": 6.79,
+      "barcodes": [],
+      "our_price": 679.0,
+      "regular_price": 679.0,
       "is_on_sale": false,
       "in_stock": false,
       "source_id": "dji_israel",

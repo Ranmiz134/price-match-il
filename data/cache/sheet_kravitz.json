@@ -1,7 +1,7 @@
 {
   "store_id": "sheet_kravitz",
   "store_name": "Kravitz",
-  "last_ok_at": "2026-11-22T10:36:03.615101+00:00",
+  "last_ok_at": "2026-11-22T11:23:43.276827+00:00",
   "count": 60,
   "items": [
     {
@@ -182,7 +182,7 @@
       "importer_text": "official",
       "sku": "99226-000-11",
       "barcodes": [],
-      "scraped_at": "2026-11-22 11:01"
+      "scraped_at": "2026-11-22 13:21"
     },
     {
       "store_id": "kravitz",

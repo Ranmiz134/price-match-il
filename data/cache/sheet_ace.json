@@ -1,7 +1,7 @@
 {
   "store_id": "sheet_ace",
   "store_name": "ACE",
-  "last_ok_at": "2026-11-22T10:36:03.614367+00:00",
+  "last_ok_at": "2026-11-22T11:23:43.275647+00:00",
   "count": 8,
   "items": [
     {
@@ -122,7 +122,7 @@
       "importer_text": "official",
       "sku": "99226-000-11",
       "barcodes": [],
-      "scraped_at": "2026-11-22 11:01"
+      "scraped_at": "2026-11-22 13:21"
     }
   ]
 }

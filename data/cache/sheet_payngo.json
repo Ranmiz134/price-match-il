@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_payngo",
   "store_name": "מחסני חשמל",
-  "last_ok_at": "2026-11-22T10:36:03.615735+00:00",
-  "count": 35,
+  "last_ok_at": "2026-11-22T11:23:43.277999+00:00",
+  "count": 36,
   "items": [
     {
       "store_id": "payngo",
@@ -528,6 +528,21 @@
       "sku": "41209-652-48",
       "barcodes": [],
       "scraped_at": "2026-11-22 10:39"
+    },
+    {
+      "store_id": "payngo",
+      "store_name": "מחסני חשמל",
+      "our_sku": "99226-000-11",
+      "our_product_name": "סוללה BLUETTI B230 – 2048WH (עבור AC200PL)",
+      "title": "סוללת הרחבה Bluetti B230 לתחנת כוח דגם AC200 - צבע שחור",
+      "price": 6990.0,
+      "url": "https://www.payngo.co.il/311123.html",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99226-000-11",
+      "barcodes": [],
+      "scraped_at": "2026-11-22 13:21"
     }
   ]
 }

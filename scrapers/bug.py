@@ -23,9 +23,10 @@ class BugScraper(ScraperBase):
     """
     Bug (bug.co.il) competitor scraper.
     CRITICAL RULES ENFORCED:
+    - Restricts links in DJI mode strictly to `/brand/dji/` (never scrapes unrelated nav links).
+    - Reads real full product title from <title> / og:title / h1 (Bug's JSON-LD name often holds only category).
     - Strips Eilat price elements explicitly before extracting VAT-included center price.
     - Classifies official importer vs parallel vs unverified from product details.
-    - Always stores direct canonical product URL.
     """
 
     store_id = "bug"
@@ -33,13 +34,13 @@ class BugScraper(ScraperBase):
     is_base_source = False
     BASE_URL = "https://www.bug.co.il"
 
-    def __init__(self, delay_sec: float = 0.5, max_products: int = 120) -> None:
+    def __init__(self, delay_sec: float = 0.4, max_products: int = 120) -> None:
         self.delay_sec = delay_sec
         self.max_products = max_products
 
     def fetch(self, mode: str = "dji", queries: list[str] | None = None) -> list[dict[str, Any]]:
         category_urls = (
-            [f"{self.BASE_URL}/dji/"]
+            [f"{self.BASE_URL}/dji/", f"{self.BASE_URL}/drones/"]
             if mode == "dji"
             else [f"{self.BASE_URL}/dji/", f"{self.BASE_URL}/drones/"]
         )
@@ -52,14 +53,17 @@ class BugScraper(ScraperBase):
                 continue
             soup = BeautifulSoup(html, "lxml")
             for a in soup.select("a[href*='/brand/']"):
-                href = a.get("href")
+                href = str(a.get("href") or "").split("?")[0].strip()
                 if not href:
                     continue
-                full_url = urljoin(self.BASE_URL, str(href).split("?")[0])
+                if mode == "dji" and "/brand/dji/" not in href.lower():
+                    continue
+                full_url = urljoin(self.BASE_URL, href)
                 if full_url not in seen:
                     seen.add(full_url)
                     product_urls.append(full_url)
 
+        print(f"[BUG] Discovered {len(product_urls)} product URLs")
         now_iso = datetime.now(timezone.utc).isoformat()
         offers: list[CompetitorOffer] = []
 
@@ -94,8 +98,9 @@ class BugScraper(ScraperBase):
     def _parse_product_page(self, html: str, url: str, scraped_at: str) -> CompetitorOffer | None:
         soup = BeautifulSoup(html, "lxml")
 
-        # 1) Try Schema.org JSON-LD first (Bug serves clean VAT-included regular price in JSON-LD)
-        title = ""
+        # 1) Extract REAL product title (og:title / <title> / h1) — Bug's JSON-LD name is often just category
+        title = _extract_best_title(soup)
+
         price_val = 0.0
         in_stock = True
         sku = ""
@@ -111,7 +116,8 @@ class BugScraper(ScraperBase):
                 nodes = [nodes]
             for node in nodes:
                 if isinstance(node, dict) and node.get("@type") == "Product":
-                    title = str(node.get("name") or "").strip()
+                    if not title:
+                        title = str(node.get("name") or "").strip()
                     sku = str(node.get("sku") or "").strip()
                     for k in ("gtin13", "gtin12", "gtin", "ean"):
                         nb = normalize_barcode(str(node.get(k) or ""))
@@ -125,13 +131,10 @@ class BugScraper(ScraperBase):
                     in_stock = "outofstock" not in avail
                     break
 
-        # 2) Fallback DOM parsing while STRICTLY removing Eilat price containers
-        if not title:
-            h1 = soup.find("h1")
-            title = h1.get_text(" ", strip=True) if h1 else ""
         if not title:
             return None
 
+        # 2) Fallback DOM price while STRICTLY removing Eilat price containers
         if price_val <= 0:
             clean_soup = BeautifulSoup(html, "lxml")
             for el in clean_soup.find_all(string=re.compile(r"אילת|ללא מע.?מ")):
@@ -171,6 +174,30 @@ class BugScraper(ScraperBase):
             barcodes=barcodes,
             scraped_at=scraped_at,
         )
+
+
+def _extract_best_title(soup: BeautifulSoup) -> str:
+    candidates: list[str] = []
+    og = soup.find("meta", attrs={"property": "og:title"})
+    if og and og.get("content"):
+        candidates.append(str(og["content"]))
+    if soup.title and soup.title.string:
+        candidates.append(str(soup.title.string))
+    h1 = soup.find("h1")
+    if h1:
+        candidates.append(h1.get_text(" ", strip=True))
+
+    cleaned: list[str] = []
+    for c in candidates:
+        t = re.sub(r"\s*[\-|–]\s*באג\s*$", "", c.strip()).strip()
+        if t:
+            cleaned.append(t)
+
+    # Prefer the longest title that contains Latin model characters (e.g. DJI / Neo / Mini 4 Pro)
+    latin_titles = [t for t in cleaned if re.search(r"[A-Za-z]{2,}", t)]
+    if latin_titles:
+        return max(latin_titles, key=len)
+    return max(cleaned, key=len) if cleaned else ""
 
 
 def _extract_warranty_snippet(text: str) -> str:

@@ -11,20 +11,10 @@ def match_catalog_to_competitors(
     base_products: list[dict[str, Any]],
     competitor_offers: list[dict[str, Any]],
 ) -> list[dict[str, Any]]:
-    """
-    Match each base product against competitor offers with strict business rules:
-    1. Reject parallel imports automatically.
-    2. Enforce variant/bundle/controller/storage compatibility (Price Match Guard).
-    3. Flag offers >30% cheaper as anomaly (never auto-selected as match price).
-    4. Flag unverified importer offers for seller verification (never auto-selected).
-    5. Surface BOTH cheapest overall (even if out of stock, clearly tagged) AND
-       cheapest approved in-stock price for immediate seller decision.
-    """
-    # Pre-compute signatures and barcode sets for competitor offers
     indexed_offers: list[tuple[dict[str, Any], VariantSignature, set[str]]] = []
     for offer in competitor_offers:
         if offer.get("importer_status") == "parallel":
-            continue  # Rule 2: Hard-reject parallel import / store warranty
+            continue
         if float(offer.get("price", 0)) <= 0:
             continue
         sig = extract_variant_signature(offer.get("title", ""))
@@ -45,7 +35,6 @@ def match_catalog_to_competitors(
         for bc in prod.get("barcodes") or []:
             prod_barcodes.update(barcode_variants(bc))
 
-        matched_offers: list[dict[str, Any]] = []
         best_per_store: dict[str, dict[str, Any]] = {}
 
         for offer, offer_sig, offer_barcodes in indexed_offers:
@@ -62,7 +51,6 @@ def match_catalog_to_competitors(
             importer_status = offer.get("importer_status", "unverified")
             needs_seller_check = importer_status != "official" or anomaly_flag
 
-            # Eligible as automatic approved match price ONLY if official importer + no >30% anomaly + in stock
             is_approved_match = (
                 importer_status == "official"
                 and not anomaly_flag
@@ -93,21 +81,23 @@ def match_catalog_to_competitors(
             }
 
             store_id = offer["store_id"]
-            # Keep the highest-confidence (or lowest valid price on tie) listing per store
             prev = best_per_store.get(store_id)
             if prev is None or (entry["match_score"], -entry["price"]) > (prev["match_score"], -prev["price"]):
                 best_per_store[store_id] = entry
 
         matched_offers = sorted(best_per_store.values(), key=lambda x: x["price"])
 
-        # Compute summary prices for seller UI
         approved_in_stock = [o for o in matched_offers if o["is_approved_match"]]
         official_any_stock = [
             o for o in matched_offers if o["importer_status"] == "official" and not o["anomaly_flag"]
         ]
 
         best_in_stock = approved_in_stock[0] if approved_in_stock else None
-        cheapest_overall = official_any_stock[0] if official_any_stock else (matched_offers[0] if matched_offers else None)
+        cheapest_overall = (
+            official_any_stock[0]
+            if official_any_stock
+            else (matched_offers[0] if matched_offers else None)
+        )
 
         enriched.append(
             {
@@ -138,19 +128,15 @@ def _evaluate_match(
     offer_barcodes: set[str],
 ) -> tuple[str, float]:
     """Return (match_type, score) or ('', 0.0) if rejected by Price Match Guard."""
-    # 1) Exact barcode match (highest confidence)
     if prod_barcodes and offer_barcodes and (prod_barcodes & offer_barcodes):
         return ("barcode", 1.0)
 
-    # 2) Strict variant guards (hard rejection on mismatch)
     if prod_sig.brand and offer_sig.brand and prod_sig.brand != offer_sig.brand:
         return ("", 0.0)
 
-    # Bundle guard: NEVER match Fly More Combo to Standard / Body Only, or Adventure to Standard
     if prod_sig.bundle != offer_sig.bundle:
         return ("", 0.0)
 
-    # Storage guard: if both specify storage, they MUST match
     if (
         prod_sig.storage != "unspecified"
         and offer_sig.storage != "unspecified"
@@ -158,7 +144,6 @@ def _evaluate_match(
     ):
         return ("", 0.0)
 
-    # Controller / Goggles guard: if both specify controller, they MUST match
     if (
         prod_sig.controller != "unspecified"
         and offer_sig.controller != "unspecified"
@@ -166,10 +151,10 @@ def _evaluate_match(
     ):
         return ("", 0.0)
 
-    # 3) Model token overlap (all numeric version tokens must match, e.g., Mini 4 != Mini 3, Action 5 != Action 4)
     if not prod_sig.model_tokens or not offer_sig.model_tokens:
         return ("", 0.0)
 
+    # All version numbers (e.g. 4, 3, 360, 2) must match strictly
     prod_nums = {t for t in prod_sig.model_tokens if any(ch.isdigit() for ch in t)}
     offer_nums = {t for t in offer_sig.model_tokens if any(ch.isdigit() for ch in t)}
     if prod_nums != offer_nums:
@@ -178,8 +163,10 @@ def _evaluate_match(
     intersection = prod_sig.model_tokens & offer_sig.model_tokens
     union = prod_sig.model_tokens | offer_sig.model_tokens
     jaccard = len(intersection) / len(union)
+    overlap = len(intersection) / min(len(prod_sig.model_tokens), len(offer_sig.model_tokens))
 
-    if jaccard >= 0.72 and len(intersection) >= 2:
+    # Require at least 2 matching model tokens (e.g. 'dji' + 'neo') and high precision
+    if len(intersection) >= 2 and (jaccard >= 0.70 or (overlap >= 0.90 and jaccard >= 0.60)):
         return ("variant_exact", jaccard)
 
     return ("", 0.0)

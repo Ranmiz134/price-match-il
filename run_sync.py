@@ -30,18 +30,20 @@ def run_scraper_with_cache(
         items = scraper.fetch(mode=mode)
         if items:
             health = cache.save_success(scraper.store_id, scraper.store_name, items)
+            print(f"[SYNC] {scraper.store_id}: OK ({len(items)} items)")
             return items, health
+        print(f"[SYNC] {scraper.store_id}: returned 0 items -> fallback to cache")
         return cache.fallback_on_failure(
             scraper.store_id,
             scraper.store_name,
             "הסריקה החזירה 0 פריטים (ייתכן חסימה זמנית)",
         )
     except Exception as exc:
+        print(f"[SYNC] {scraper.store_id}: ERROR ({exc}) -> fallback to cache")
         return cache.fallback_on_failure(scraper.store_id, scraper.store_name, str(exc))
 
 
 def build_demo_dataset() -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
-    """Offline demo dataset illustrating every business rule for instant UI verification."""
     now_iso = datetime.now(timezone.utc).isoformat()
     dji_demo = [
         {
@@ -61,115 +63,24 @@ def build_demo_dataset() -> tuple[list[dict[str, Any]], list[dict[str, Any]], li
             "image_url": "",
             "secondary_sources": [],
         },
-        {
-            "id": "dji_israel:mini4pro-rc2-fmc",
-            "name": "DJI Mini 4 Pro Fly More Combo (DJI RC 2)",
-            "brand": "DJI",
-            "sku": "CP.MA.00000735.01",
-            "barcodes": ["0190021094833"],
-            "our_price": 4699.0,
-            "regular_price": 4699.0,
-            "is_on_sale": False,
-            "in_stock": True,
-            "source_id": "dji_israel",
-            "source_name": "DJI ישראל",
-            "source_url": "https://www.djistore.benda.co.il/",
-            "category": "רחפנים",
-            "image_url": "",
-            "secondary_sources": [],
-        },
-        {
-            "id": "dji_israel:action5pro-adv",
-            "name": "DJI Osmo Action 5 Pro Adventure Combo",
-            "brand": "DJI",
-            "sku": "CP.OS.00000378.01",
-            "barcodes": ["0190021111219"],
-            "our_price": 1999.0,
-            "regular_price": 2149.0,
-            "is_on_sale": True,
-            "in_stock": True,
-            "source_id": "dji_israel",
-            "source_name": "DJI ישראל",
-            "source_url": "https://www.djistore.benda.co.il/",
-            "category": "מצלמות אקסטרים",
-            "image_url": "",
-            "secondary_sources": [],
-        },
     ]
-
     comp_demo = [
-        # KSP official in stock (cheaper than us -> approved match)
-        {
-            "store_id": "ksp",
-            "store_name": "KSP",
-            "title": "רחפן DJI Neo Fly More Combo",
-            "price": 1549.0,
-            "url": "https://ksp.co.il/web/item/330001",
-            "in_stock": True,
-            "importer_status": "official",
-            "importer_text": "אחריות יבואן רשמי בנדא",
-            "barcodes": ["190021114562"],  # UPC-A 12-digit (no leading 0) -> tests leading-zero match
-            "scraped_at": now_iso,
-        },
-        # Bug official OUT OF STOCK but cheaper -> must show out-of-stock tag while KSP stays best_in_stock
         {
             "store_id": "bug",
             "store_name": "באג (Bug)",
             "title": "רחפן Neo Fly More Combo די ג'יי איי - DJI",
             "price": 1499.0,
             "url": "https://www.bug.co.il/brand/dji/neo/fly/more/combo",
-            "in_stock": False,
-            "importer_status": "official",
-            "importer_text": "אחריות יבואן רשמי",
-            "barcodes": [],
-            "scraped_at": now_iso,
-        },
-        # Mini 4 Pro: KSP has >30% anomaly (should trigger warning and NOT auto-approve)
-        {
-            "store_id": "ksp",
-            "store_name": "KSP",
-            "title": "DJI Mini 4 Pro Fly More Combo (DJI RC 2)",
-            "price": 2990.0,
-            "url": "https://ksp.co.il/web/item/330002",
             "in_stock": True,
             "importer_status": "official",
             "importer_text": "אחריות יבואן רשמי",
-            "barcodes": [],
-            "scraped_at": now_iso,
-        },
-        # Mini 4 Pro: Bug standard (non-combo) -> must be REJECTED by Price Match Guard
-        {
-            "store_id": "bug",
-            "store_name": "באג (Bug)",
-            "title": "רחפן שלט חכם MINI 4 PRO די ג'יי איי - DJI",
-            "price": 3499.0,
-            "url": "https://www.bug.co.il/brand/dji/drone/mini/4/pro/standard",
-            "in_stock": True,
-            "importer_status": "official",
-            "importer_text": "אחריות יבואן רשמי",
-            "barcodes": [],
-            "scraped_at": now_iso,
-        },
-        # Action 5 Pro: Bug unverified importer -> must show "לבדיקת מוכר"
-        {
-            "store_id": "bug",
-            "store_name": "באג (Bug)",
-            "title": "מצלמת אקסטרים DJI Osmo Action 5 Pro Adventure Combo",
-            "price": 1949.0,
-            "url": "https://www.bug.co.il/dji/",
-            "in_stock": True,
-            "importer_status": "unverified",
-            "importer_text": "",
             "barcodes": [],
             "scraped_at": now_iso,
         },
     ]
-
     health = [
-        {"store_id": "dji_israel", "store_name": "DJI ישראל", "status": "ok", "status_label": "נתוני הדגמה", "last_ok_at": now_iso, "count": 3, "message": "הפעל GitHub Action לסריקה חיה"},
-        {"store_id": "benda_store", "store_name": "בנדא סטור", "status": "ok", "status_label": "נתוני הדגמה", "last_ok_at": now_iso, "count": 0, "message": ""},
-        {"store_id": "ksp", "store_name": "KSP", "status": "ok", "status_label": "נתוני הדגמה", "last_ok_at": now_iso, "count": 2, "message": ""},
-        {"store_id": "bug", "store_name": "באג (Bug)", "status": "stale", "status_label": "נתוני הדגמה", "last_ok_at": now_iso, "count": 3, "message": ""},
+        {"store_id": "dji_israel", "store_name": "DJI ישראל", "status": "ok", "status_label": "נתוני הדגמה", "last_ok_at": now_iso, "count": 1, "message": ""},
+        {"store_id": "bug", "store_name": "באג (Bug)", "status": "ok", "status_label": "נתוני הדגמה", "last_ok_at": now_iso, "count": 1, "message": ""},
     ]
     return dji_demo, comp_demo, health
 
@@ -211,6 +122,13 @@ def main() -> None:
 
     base_catalog = merge_base_catalog(dji_items, benda_items, overrides_dir=OVERRIDES_DIR)
     matched_products = match_catalog_to_competitors(base_catalog, comp_offers)
+    with_matches = sum(1 for p in matched_products if p["competitors"])
+
+    print(
+        f"[SUMMARY] base={len(base_catalog)} | comp_offers={len(comp_offers)} | matched_products={with_matches}"
+    )
+    if comp_offers:
+        print("[SAMPLE COMP OFFERS]", [o.get("title") for o in comp_offers[:5]])
 
     output_payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),

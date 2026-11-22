@@ -23,36 +23,7 @@ KNOWN_BRANDS = (
     "Apple",
 )
 
-STOPWORDS = {
-    "רחפן",
-    "מצלמת",
-    "מצלמה",
-    "אקסטרים",
-    "אקשן",
-    "גימבל",
-    "מייצב",
-    "מיקרופון",
-    "אלחוטי",
-    "דגם",
-    "צבע",
-    "שחור",
-    "אפור",
-    "לבן",
-    "פנינה",
-    "כסוף",
-    "כחול",
-    "מבית",
-    "די",
-    "גיי",
-    "איי",
-    "ג'יי",
-    "עם",
-    "שלט",
-    "חכם",
-    "ערכת",
-    "ערכה",
-    "סוללה",
-    "לרחפן",
+LATIN_STOPWORDS = {
     "drone",
     "camera",
     "action",
@@ -65,10 +36,21 @@ STOPWORDS = {
     "white",
     "pearl",
     "silver",
+    "blue",
+    "red",
     "official",
     "israel",
     "benda",
-    "בנדא",
+    "new",
+    "edition",
+    "series",
+    "kit",
+    "pack",
+    "set",
+    "for",
+    "the",
+    "and",
+    "by",
 }
 
 PARALLEL_PATTERNS = (
@@ -101,7 +83,6 @@ class VariantSignature:
 
 
 def normalize_barcode(raw: str) -> str:
-    """Normalize EAN-13 / UPC-A / Code-128 barcodes. Keeps numeric EAN/UPC or alphanumeric Code-128."""
     cleaned = re.sub(r"[\s\-]+", "", raw or "").strip().upper()
     if not cleaned:
         return ""
@@ -117,7 +98,6 @@ def normalize_barcode(raw: str) -> str:
 
 
 def barcode_variants(raw: str) -> set[str]:
-    """Return all equivalent representations (with/without leading zero for 12/13-digit codes)."""
     nb = normalize_barcode(raw)
     if not nb:
         return set()
@@ -130,7 +110,6 @@ def barcode_variants(raw: str) -> set[str]:
 
 
 def extract_barcodes_from_text(text: str) -> list[str]:
-    """Extract plausible EAN-13 / UPC-A barcodes embedded in text."""
     found: list[str] = []
     for match in re.findall(r"\b(\d{12,13})\b", text or ""):
         nb = normalize_barcode(match)
@@ -140,7 +119,6 @@ def extract_barcodes_from_text(text: str) -> list[str]:
 
 
 def classify_importer(text: str) -> ImporterStatus:
-    """Classify importer status strictly: parallel -> rejected, official -> approved, else unverified."""
     haystack = (text or "").lower()
     if any(re.search(pat, haystack) for pat in PARALLEL_PATTERNS):
         return "parallel"
@@ -154,13 +132,16 @@ def infer_brand(name: str, categories: list[str] | None = None) -> str:
     for brand in KNOWN_BRANDS:
         if brand.lower() in haystack:
             return brand
+    if "די ג'יי איי" in haystack or "די גיי איי" in haystack:
+        return "DJI"
     return "כללי"
 
 
 def extract_variant_signature(title: str, brand_hint: str = "") -> VariantSignature:
     """
-    Extract structured variant dimensions to enforce Price Match Guard:
-    prevents matching Fly More Combo to Standard, RC 2 to RC-N3, or 128GB to 256GB.
+    Extract structured variant dimensions + clean Latin/alphanumeric model tokens.
+    Ignoring Hebrew marketing filler ('רחפן', 'די ג'יי איי', 'מצלמת כיס', 'באג') prevents
+    false rejections while bundle/controller/storage/version guards prevent wrong matches.
     """
     low = (title or "").lower()
     low_clean = re.sub(r"[()\[\],/|\-]+", " ", low)
@@ -168,7 +149,7 @@ def extract_variant_signature(title: str, brand_hint: str = "") -> VariantSignat
 
     brand = (brand_hint or infer_brand(title)).lower()
 
-    # 1) Bundle / Kit type (Standard Combo == Standard base kit!)
+    # 1) Bundle / Kit type
     bundle = "standard"
     if "fly more combo plus" in low_clean or "fly more plus" in low_clean:
         bundle = "fly_more_plus"
@@ -216,7 +197,7 @@ def extract_variant_signature(title: str, brand_hint: str = "") -> VariantSignat
     if st_match:
         storage = re.sub(r"\s+", "", st_match.group(0))
 
-    # 4) Core model tokens (remove bundle/controller/storage/stopwords)
+    # 4) Strip bundle/controller/storage phrases before extracting core model tokens
     stripped = re.sub(
         r"\b(fly more combo plus|fly more plus|fly more combo|fly more|adventure combo|creator combo|"
         r"vlog combo|motion combo|pro combo|cine combo|standard combo|combo|drone only|body only|standard|"
@@ -225,8 +206,15 @@ def extract_variant_signature(title: str, brand_hint: str = "") -> VariantSignat
         " ",
         low_clean,
     )
-    raw_tokens = re.findall(r"[a-z0-9]+|[א-ת]+", stripped)
-    model_tokens = frozenset(t for t in raw_tokens if t not in STOPWORDS and len(t) >= 1)
+
+    # Prefer Latin + digit model tokens (universal across Israeli tech stores)
+    latin_tokens = [
+        t for t in re.findall(r"[a-z0-9]+", stripped) if t not in LATIN_STOPWORDS and len(t) >= 1
+    ]
+    if brand and brand != "כללי" and brand not in latin_tokens:
+        latin_tokens.append(brand)
+
+    model_tokens = frozenset(latin_tokens)
 
     return VariantSignature(
         brand=brand,

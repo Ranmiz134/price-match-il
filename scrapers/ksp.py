@@ -4,7 +4,6 @@ import re
 import time
 from datetime import datetime, timezone
 from typing import Any
-from urllib.parse import quote
 
 from core.normalizer import classify_importer, extract_barcodes_from_text, normalize_barcode
 from scrapers.base import CompetitorOffer, ScraperBase
@@ -19,10 +18,7 @@ import httpx
 
 class KspScraper(ScraperBase):
     """
-    KSP competitor scraper with two-stage resilient strategy:
-    1) Fast path: KSP internal JSON API with Chrome TLS impersonation.
-    2) Browser fallback: Real headless Chromium via Playwright navigating KSP search pages
-       and intercepting live API JSON responses (passes Cloudflare JS challenges).
+    KSP competitor scraper with real-browser Playwright search + recursive JSON interception.
     CRITICAL RULES ENFORCED:
     - Center price (VAT included) ONLY — explicitly ignores Eilat price fields.
     - Classifies official importer vs parallel vs unverified.
@@ -33,12 +29,8 @@ class KspScraper(ScraperBase):
     store_name = "KSP"
     is_base_source = False
 
-    SEARCH_API = "https://ksp.co.il/m_action/api/category"
-    ITEM_API = "https://ksp.co.il/m_action/api/item/{uin}"
-
-    def __init__(self, delay_sec: float = 0.6, max_pages_per_query: int = 6) -> None:
+    def __init__(self, delay_sec: float = 0.6) -> None:
         self.delay_sec = delay_sec
-        self.max_pages_per_query = max_pages_per_query
 
     def fetch(self, mode: str = "dji", queries: list[str] | None = None) -> list[dict[str, Any]]:
         search_terms = queries or (
@@ -46,51 +38,16 @@ class KspScraper(ScraperBase):
             if mode == "dji"
             else ["DJI", "Insta360", "GoPro", "Anker", "Logitech", "Razer", "Bluetti"]
         )
-        offers = self._fetch_via_http(search_terms)
+        offers = self._fetch_via_playwright(search_terms)
         if not offers:
-            offers = self._fetch_via_playwright(search_terms)
+            offers = self._fetch_via_http(search_terms)
         return [o.to_dict() for o in offers]
 
-    def _fetch_via_http(self, search_terms: list[str]) -> list[CompetitorOffer]:
-        seen_uins: set[str] = set()
-        offers: list[CompetitorOffer] = []
-        now_iso = datetime.now(timezone.utc).isoformat()
-
-        for term in search_terms:
-            page = 1
-            while page <= self.max_pages_per_query:
-                payload = self._get_json(self.SEARCH_API, params={"search": term, "page": page})
-                if not payload:
-                    break
-                items = _extract_items_list(payload)
-                if not items:
-                    break
-
-                new_in_page = 0
-                for raw in items:
-                    uin = str(raw.get("uin") or raw.get("id") or "").strip()
-                    if not uin or uin in seen_uins:
-                        continue
-                    seen_uins.add(uin)
-                    new_in_page += 1
-                    detail = self._get_json(self.ITEM_API.format(uin=uin)) or {}
-                    offer = self._parse_item(raw, detail, now_iso)
-                    if offer:
-                        offers.append(offer)
-                    time.sleep(self.delay_sec * 0.4)
-
-                if new_in_page == 0 or len(items) < 12:
-                    break
-                page += 1
-                time.sleep(self.delay_sec)
-
-        return offers
-
     def _fetch_via_playwright(self, search_terms: list[str]) -> list[CompetitorOffer]:
-        """Real headless Chromium fallback that passes JS/Cloudflare checks and captures KSP JSON responses."""
         try:
             from playwright.sync_api import sync_playwright
         except ImportError:
+            print("[KSP] Playwright not installed")
             return []
 
         now_iso = datetime.now(timezone.utc).isoformat()
@@ -99,85 +56,102 @@ class KspScraper(ScraperBase):
         with sync_playwright() as p:
             browser = p.chromium.launch(
                 headless=True,
-                args=["--disable-blink-features=AutomationControlled", "--no-sandbox"],
+                args=[
+                    "--disable-blink-features=AutomationControlled",
+                    "--no-sandbox",
+                    "--disable-dev-shm-usage",
+                ],
             )
             context = browser.new_context(
                 locale="he-IL",
                 timezone_id="Asia/Jerusalem",
+                viewport={"width": 1366, "height": 900},
                 user_agent=(
                     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
                 ),
             )
             page = context.new_page()
+            page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined});")
 
             def handle_response(resp: Any) -> None:
                 try:
-                    if "/m_action/api/" in resp.url and resp.status == 200:
-                        data = resp.json()
-                        for raw in _extract_items_list(data):
-                            uin = str(raw.get("uin") or raw.get("id") or "").strip()
-                            if uin:
-                                captured_items[uin] = {**captured_items.get(uin, {}), **raw}
+                    ct = (resp.headers.get("content-type") or "").lower()
+                    if "json" not in ct or resp.status != 200:
+                        return
+                    data = resp.json()
+                    for raw in _find_ksp_items_recursive(data):
+                        uin = str(raw.get("uin") or "").strip()
+                        if uin:
+                            captured_items[uin] = {**captured_items.get(uin, {}), **raw}
                 except Exception:
                     pass
 
             page.on("response", handle_response)
 
+            try:
+                page.goto("https://ksp.co.il/web/", wait_until="domcontentloaded", timeout=35000)
+                page.wait_for_timeout(3000)
+            except Exception as exc:
+                print(f"[KSP] Homepage load error: {exc}")
+
             for term in search_terms:
                 try:
-                    url = f"https://ksp.co.il/web/cat/-1..{quote(term)}"
-                    page.goto(url, wait_until="networkidle", timeout=35000)
-                    page.wait_for_timeout(2000)
-                    # Scroll down once to trigger lazy pages
-                    page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-                    page.wait_for_timeout(1500)
-                except Exception:
-                    continue
+                    search_box = page.locator("input[type='search'], input[placeholder*='חיפוש'], input[name*='search']").first
+                    if search_box.count() > 0:
+                        search_box.click()
+                        search_box.fill(term)
+                        search_box.press("Enter")
+                        page.wait_for_timeout(4000)
+                        for _ in range(3):
+                            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+                            page.wait_for_timeout(1500)
+                    else:
+                        print(f"[KSP] Search input not found on page (title={page.title()!r})")
+                except Exception as exc:
+                    print(f"[KSP] Search error for {term!r}: {exc}")
 
             browser.close()
 
+        print(f"[KSP] Playwright captured {len(captured_items)} raw items")
         offers: list[CompetitorOffer] = []
         for raw in captured_items.values():
-            offer = self._parse_item(raw, {}, now_iso)
+            offer = self._parse_item(raw, now_iso)
             if offer:
                 offers.append(offer)
         return offers
 
-    def _get_json(self, url: str, params: dict[str, Any] | None = None) -> dict[str, Any] | None:
+    def _fetch_via_http(self, search_terms: list[str]) -> list[CompetitorOffer]:
         headers = {
             "Accept": "application/json, text/plain, */*",
             "Accept-Language": "he-IL,he;q=0.9,en;q=0.8",
             "Referer": "https://ksp.co.il/web/",
-            "Origin": "https://ksp.co.il",
         }
-        try:
-            if cffi_requests is not None:
-                resp = cffi_requests.get(
-                    url,
-                    params=params,
-                    headers=headers,
-                    impersonate="chrome124",
-                    timeout=20,
-                )
-            else:
-                resp = httpx.get(url, params=params, headers=headers, timeout=20, follow_redirects=True)
-            if resp.status_code != 200:
-                return None
-            data = resp.json()
-            return data if isinstance(data, dict) else None
-        except Exception:
-            return None
+        now_iso = datetime.now(timezone.utc).isoformat()
+        offers: list[CompetitorOffer] = []
+        seen: set[str] = set()
+        for term in search_terms:
+            try:
+                url = "https://ksp.co.il/m_action/api/category"
+                if cffi_requests is not None:
+                    resp = cffi_requests.get(url, params={"search": term, "page": 1}, headers=headers, impersonate="chrome124", timeout=20)
+                else:
+                    resp = httpx.get(url, params={"search": term, "page": 1}, headers=headers, timeout=20, follow_redirects=True)
+                print(f"[KSP] HTTP fallback status={resp.status_code} for {term!r}")
+                if resp.status_code != 200:
+                    continue
+                for raw in _find_ksp_items_recursive(resp.json()):
+                    uin = str(raw.get("uin") or "").strip()
+                    if uin and uin not in seen:
+                        seen.add(uin)
+                        offer = self._parse_item(raw, now_iso)
+                        if offer:
+                            offers.append(offer)
+            except Exception as exc:
+                print(f"[KSP] HTTP fallback error: {exc}")
+        return offers
 
-    def _parse_item(
-        self,
-        summary: dict[str, Any],
-        detail: dict[str, Any],
-        scraped_at: str,
-    ) -> CompetitorOffer | None:
-        item_data = detail.get("result", {}).get("data", {}) if isinstance(detail.get("result"), dict) else {}
-        merged = {**summary, **item_data}
-
+    def _parse_item(self, merged: dict[str, Any], scraped_at: str) -> CompetitorOffer | None:
         uin = str(merged.get("uin") or merged.get("id") or "").strip()
         title = str(merged.get("name") or merged.get("title") or "").strip()
         if not uin or not title:
@@ -194,7 +168,7 @@ class KspScraper(ScraperBase):
 
         warranty_blob = " ".join(
             str(merged.get(k) or "")
-            for k in ("warranty", "importer", "warranty_text", "sub_title", "description", "brand_warranty")
+            for k in ("warranty", "importer", "warranty_text", "sub_title", "description", "brand_warranty", "tags")
         )
         importer_status = classify_importer(warranty_blob)
 
@@ -233,16 +207,21 @@ class KspScraper(ScraperBase):
         )
 
 
-def _extract_items_list(payload: Any) -> list[dict[str, Any]]:
-    if not isinstance(payload, dict):
-        return []
-    result = payload.get("result")
-    if isinstance(result, dict):
-        items = result.get("items") or result.get("data") or []
-        if isinstance(items, list):
-            return [i for i in items if isinstance(i, dict)]
-    items = payload.get("items") or []
-    return [i for i in items if isinstance(i, dict)]
+def _find_ksp_items_recursive(obj: Any, out: list[dict[str, Any]] | None = None) -> list[dict[str, Any]]:
+    if out is None:
+        out = []
+    if isinstance(obj, dict):
+        if "uin" in obj and ("price" in obj or "name" in obj or "title" in obj):
+            out.append(obj)
+        else:
+            for v in obj.values():
+                if isinstance(v, (dict, list)):
+                    _find_ksp_items_recursive(v, out)
+    elif isinstance(obj, list):
+        for item in obj:
+            if isinstance(item, (dict, list)):
+                _find_ksp_items_recursive(item, out)
+    return out
 
 
 def _to_float(value: Any) -> float:

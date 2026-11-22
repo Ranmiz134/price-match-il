@@ -135,8 +135,10 @@ def _evaluate_match(
     offer_barcodes: set[str],
 ) -> tuple[str, float]:
     """Return (match_type, score) or ('', 0.0) if rejected by Price Match Guard."""
-    if prod_sku and linked_sku and prod_sku == linked_sku:
-        return ("sku_exact", 1.0)
+    # Explicit Sheet linkage must never fall through to fuzzy matching for
+    # another SKU, including a different color or bundle with similar words.
+    if linked_sku:
+        return ("sku_exact", 1.0) if prod_sku and prod_sku == linked_sku else ("", 0.0)
 
     if prod_barcodes and offer_barcodes and (prod_barcodes & offer_barcodes):
         return ("barcode", 1.0)

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>השוואת מחירי שוק | סניף הרצליה</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- html5-qrcode for fast EAN-13 / UPC-A / Code-128 camera scanning over HTTPS -->
+  <script src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-main">
+      <div>
+        <h1>השוואת מחירים — מרכז (כולל מע"מ)</h1>
+        <p id="syncMeta" class="sync-meta">טוען נתוני שוק...</p>
+      </div>
+      <span id="modeBadge" class="mode-badge">MVP</span>
+    </div>
+    <div id="storeHealthBar" class="health-bar" aria-label="סטטוס בריאות סריקה לפי חנות"></div>
+  </header>
+
+  <main class="container">
+    <section class="search-panel">
+      <div class="search-row">
+        <input
+          id="searchInput"
+          type="search"
+          inputmode="search"
+          autocomplete="off"
+          placeholder="חפש שם דגם, מילים לא צמודות, מק״ט או ברקוד..."
+          aria-label="חיפוש מוצר"
+        />
+        <button id="clearBtn" class="btn-icon hidden" type="button" title="נקה חיפוש">✕</button>
+        <button id="scanBtn" class="btn-scan" type="button">
+          <span aria-hidden="true">📷</span>
+          <span>סרוק ברקוד</span>
+        </button>
+      </div>
+      <div class="filter-row">
+        <span id="resultCount" class="result-count"></span>
+        <label class="toggle-chip">
+          <input id="onlyCheaperToggle" type="checkbox" />
+          <span>רק מוצרים עם מתחרה זול יותר</span>
+        </label>
+      </div>
+    </section>
+
+    <section id="scannerModal" class="scanner-modal hidden" role="dialog" aria-modal="true">
+      <div class="scanner-box">
+        <div class="scanner-header">
+          <strong>סריקת ברקוד (EAN-13 / UPC-A / Code-128)</strong>
+          <button id="closeScannerBtn" class="btn-close" type="button">סגור</button>
+        </div>
+        <div id="qrReader"></div>
+        <p id="scannerStatus" class="scanner-status">כוון את המצלמה אל הברקוד שעל האריזה</p>
+      </div>
+    </section>
+
+    <section id="resultsGrid" class="results-grid" aria-live="polite"></section>
+  </main>
+
+  <script src="scanner.js" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-23T11:33:30.546Z",
-  "scope": "Known product-page checks only. Added two exact Bug Elgato offers. Other source timestamps retained. Not a full market sweep.",
+  "checked_at": "2026-11-23T11:53:22.036Z",
+  "scope": "Known product-page checks only. Added four exact Bug AOC offers. Other source timestamps retained. Not a full market sweep.",
   "checks": [
     {
       "our_sku": "99999-955-09",
@@ -2199,6 +2199,50 @@
       "comparison_scraped_at": "2026-11-23 13:33",
       "checked_at": "2026-11-23T11:33:30.546Z",
       "date_result": "found_on_checked_product_page"
+    },
+    {
+      "our_sku": "36603-280-34",
+      "name": "מסך מחשב 24 אינץ' דגם 24E4U מבית AOC",
+      "store_name": "Bug",
+      "store_id": "bug",
+      "price_vat": 549,
+      "product_url": "https://www.bug.co.il/brand/aoc/24e4u",
+      "comparison_scraped_at": "2026-11-23 13:52",
+      "checked_at": "2026-11-23T11:52:36.856Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "36603-280-32",
+      "name": "מסך מחשב 27 אינץ' דגם Q27B35E מבית AOC",
+      "store_name": "Bug",
+      "store_id": "bug",
+      "price_vat": 579,
+      "product_url": "https://www.bug.co.il/brand/aoc/q27b35e",
+      "comparison_scraped_at": "2026-11-23 13:52",
+      "checked_at": "2026-11-23T11:52:44.465Z",
+      "date_result": "found_on_checked_product_page"
+    },
+    {
+      "our_sku": "36302-240-23",
+      "name": "מסך \"23.8 דגם 24B15H3 FHD 120Hz IPS מבית AOC",
+      "store_name": "Bug",
+      "store_id": "bug",
+      "price_vat": 349,
+      "product_url": "https://www.bug.co.il/brand/aoc/24b15h3",
+      "comparison_scraped_at": "2026-11-23 13:53",
+      "checked_at": "2026-11-23T11:53:14.780Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "36603-272-27",
+      "name": "מסך גיימינג קעור AOC C27G42E – קצב רענון 180Hz",
+      "store_name": "Bug",
+      "store_id": "bug",
+      "price_vat": 549,
+      "product_url": "https://www.bug.co.il/brand/aoc/27/c27g42e",
+      "comparison_scraped_at": "2026-11-23 13:53",
+      "checked_at": "2026-11-23T11:53:22.036Z",
+      "date_result": "not_found_on_checked_product_page"
     }
   ],
   "offers": [
@@ -3131,6 +3175,20 @@
       "checked_at": "2026-11-23T11:33:30.546Z",
       "source_url": "https://www.bug.co.il/brand/elgato/stream/deck/xl",
       "terms": "מחיר מבצע ₪899 במקום ₪1,249. בתוקף עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם. תחילת המבצע לא צוינה."
+    },
+    {
+      "our_sku": "36603-280-32",
+      "store_id": "bug",
+      "url": "https://www.bug.co.il/brand/aoc/q27b35e",
+      "price_ils": 579,
+      "regular_price_ils": 639,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-12-03",
+      "date_status": "end_stated",
+      "checked_at": "2026-11-23T11:52:44.465Z",
+      "source_url": "https://www.bug.co.il/brand/aoc/q27b35e",
+      "terms": "מחיר מבצע ₪579 במקום ₪639. בתוקף עד 2026-12-03 או עד גמר המלאי, המוקדם מביניהם. תחילת המבצע לא צוינה."
     }
   ]
-    }
+}

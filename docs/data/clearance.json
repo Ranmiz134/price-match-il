@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-22T12:34:55.697252+00:00",
-  "source_checked_on": "2026-11-22",
+  "generated_at": "2026-11-23T04:31:18.388120+02:00",
+  "source_checked_on": "2026-11-23",
   "source_urls": [
     "https://www.bendastore.co.il/wp-json/wc/store/v1/products?search=%D7%9E%D7%A6%D7%99%D7%90%D7%95%D7%9F&per_page=100&page=1",
     "https://www.bendastore.co.il/wp-json/wc/store/v1/products?search=%D7%9E%D7%A6%D7%99%D7%90%D7%95%D7%9F&per_page=100&page=2"
   ],
-  "product_count": 100,
+  "product_count": 106,
   "barcode_status": "awaiting_price_list",
   "products": [
     {
@@ -746,6 +746,17 @@
       "label_evidence": "product_title"
     },
     {
+      "id": "BENDA-CLEARANCE-WC-43540",
+      "source_product_id": 43540,
+      "sku": "77001-003-08",
+      "name": "מציאון – סאפ יחיד Vibrant דגם BT-24VIP מבית AQUA MARINA",
+      "barcodes": [],
+      "source_name": "סימון מפורש באתר בנדא",
+      "source_url": "https://www.bendastore.co.il/product/77001-003-08/",
+      "is_clearance": true,
+      "label_evidence": "product_title"
+    },
+    {
       "id": "BENDA-CLEARANCE-WC-43170",
       "source_product_id": 43170,
       "sku": "90903-011-31",
@@ -933,6 +944,17 @@
       "label_evidence": "product_title"
     },
     {
+      "id": "BENDA-CLEARANCE-WC-35955",
+      "source_product_id": 35955,
+      "sku": "77000-001-62",
+      "name": "מציאון – קיאק זוגי BE-412 BETTA",
+      "barcodes": [],
+      "source_name": "סימון מפורש באתר בנדא",
+      "source_url": "https://www.bendastore.co.il/product/77000-001-62/",
+      "is_clearance": true,
+      "label_evidence": "product_title"
+    },
+    {
       "id": "BENDA-CLEARANCE-WC-33481",
       "source_product_id": 33481,
       "sku": "91000-002-18",
@@ -1021,6 +1043,17 @@
       "label_evidence": "product_title"
     },
     {
+      "id": "BENDA-CLEARANCE-WC-17057",
+      "source_product_id": 17057,
+      "sku": "77001-001-91",
+      "name": "מציאון – סאפ+משוט    BT-23BRP BREEZE 3.0M חדש",
+      "barcodes": [],
+      "source_name": "סימון מפורש באתר בנדא",
+      "source_url": "https://www.bendastore.co.il/product/%d7%a1%d7%90%d7%a4%d7%9e%d7%a9%d7%95%d7%98-bt-23brp-breeze-3-0m-%d7%97%d7%93%d7%a9/",
+      "is_clearance": true,
+      "label_evidence": "product_title"
+    },
+    {
       "id": "BENDA-CLEARANCE-WC-13861",
       "source_product_id": 13861,
       "sku": "90902-807-50",
@@ -1098,6 +1131,39 @@
       "label_evidence": "product_title"
     },
     {
+      "id": "BENDA-CLEARANCE-WC-10053",
+      "source_product_id": 10053,
+      "sku": "77001-001-72",
+      "name": "מציאון – סאפ+משוט CORAL דגם BT-23COPR מבית AQUA MARINA",
+      "barcodes": [],
+      "source_name": "סימון מפורש באתר בנדא",
+      "source_url": "https://www.bendastore.co.il/product/77001-001-72/",
+      "is_clearance": true,
+      "label_evidence": "product_title"
+    },
+    {
+      "id": "BENDA-CLEARANCE-WC-10029",
+      "source_product_id": 10029,
+      "sku": "77000-001-33",
+      "name": "מציאון – קיאק BETTA דגם BE475",
+      "barcodes": [],
+      "source_name": "סימון מפורש באתר בנדא",
+      "source_url": "https://www.bendastore.co.il/product/77000-001-33/",
+      "is_clearance": true,
+      "label_evidence": "product_title"
+    },
+    {
+      "id": "BENDA-CLEARANCE-WC-10021",
+      "source_product_id": 10021,
+      "sku": "77000-000-85",
+      "name": "מציאון – קיאק BETTA דגם BE312",
+      "barcodes": [],
+      "source_name": "סימון מפורש באתר בנדא",
+      "source_url": "https://www.bendastore.co.il/product/%d7%a7%d7%99%d7%90%d7%a7-%d7%99%d7%97%d7%99%d7%93%d7%9e%d7%a9%d7%95%d7%98-be-312-betta22/",
+      "is_clearance": true,
+      "label_evidence": "product_title"
+    },
+    {
       "id": "BENDA-CLEARANCE-WC-7092",
       "source_product_id": 7092,
       "sku": "77000-000-89",
@@ -1109,5 +1175,5 @@
       "label_evidence": "product_title"
     }
   ],
-  "source_checked_at": "2026-11-22T12:34:55.630215+00:00"
+  "source_checked_at": "2026-11-23T04:31:18.388120+02:00"
 }

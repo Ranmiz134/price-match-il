@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T14:30:12.977779+00:00",
-  "count": 117,
+  "last_ok_at": "2026-11-23T14:51:18.564637+00:00",
+  "count": 122,
   "items": [
     {
       "store_id": "bug",
@@ -1758,6 +1758,81 @@
       "sku": "99914-014-17",
       "barcodes": [],
       "scraped_at": "2026-11-23 16:26"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "99700-901-27",
+      "our_product_name": "מקלדת מכנית חוטית צבע לבן MMCK300 עם כפתור שליטה ותאורת RGB מבית Miracase",
+      "title": "מקלדת גיימינג מכאנית חוטית עם כפתור שליטה MMCK300 - לבן - סוויץ' אדום לינארי מיראקייס - Miracase",
+      "price": 249.0,
+      "url": "https://www.bug.co.il/brand/miracase/mmck300/white/redswitch",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99700-901-27",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 16:46"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "99700-901-26",
+      "our_product_name": "מקלדת מכנית חוטית MMCK300 עם כפתור שליטה ותאורת RGB מבית Miracase",
+      "title": "מקלדת גיימינג מכאנית חוטית עם כפתור שליטה MMCK300 - שחור - סוויץ' אדום לינארי מיראקייס - Miracase",
+      "price": 249.0,
+      "url": "https://www.bug.co.il/brand/miracase/mmck300/black/redswitch",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99700-901-26",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 16:46"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "99700-901-25",
+      "our_product_name": "מקלדת מכנית חוטית עם משענת יד MMCK200 מבית Miracase",
+      "title": "מקלדת גיימינג מכאנית חוטית עם משענת יד MMCK200 - שחור - סוויץ' אדום לינארי מיראקייס - Miracase",
+      "price": 229.0,
+      "url": "https://www.bug.co.il/brand/miracase/mmck200/black/redswitch",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99700-901-25",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 16:46"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "99700-901-24",
+      "our_product_name": "מקלדת מכנית חוטית לבנה MMCK100 עם תאורת RGB מבית Miracase",
+      "title": "מקלדת גיימינג מכאנית חוטית MMCK100 - לבן - סוויץ' אדום לינארי מיראקייס - Miracase",
+      "price": 199.0,
+      "url": "https://www.bug.co.il/brand/miracase/mmck100/white/redswitch",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99700-901-24",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 16:46"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "99700-901-23",
+      "our_product_name": "מקלדת מכנית חוטית MMCK100 עם תאורת RGB מבית Miracase",
+      "title": "מקלדת גיימינג מכאנית חוטית עם תאורת RGB MMCK100 - שחור - סוויץ' אדום לינארי מיראקייס - Miracase",
+      "price": 199.0,
+      "url": "https://www.bug.co.il/brand/miracase/mmck100/black/redswitch",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99700-901-23",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 16:46"
     }
   ]
 }

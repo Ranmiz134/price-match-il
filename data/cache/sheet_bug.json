@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T21:24:40.683591+00:00",
-  "count": 178,
+  "last_ok_at": "2026-11-23T21:41:18.529434+00:00",
+  "count": 182,
   "items": [
     {
       "store_id": "bug",
@@ -2673,6 +2673,66 @@
       "sku": "90903-003-55",
       "barcodes": [],
       "scraped_at": "2026-11-23 23:23"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-001-57",
+      "our_product_name": "אוזניות אלחוטיות Razer BlackShark V3 – שחור",
+      "title": "אוזניות אלחוטיות Razer BlackShark V3 – שחור",
+      "price": 675.0,
+      "url": "https://www.bug.co.il/brand/razer/blackshark/v3/pc/black",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-001-57",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 23:39"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-001-58",
+      "our_product_name": "אוזניות לבן RAZER BLACKSHARK V3",
+      "title": "אוזניות גיימינג אלחוטיות Blackshark V3 PC - לבן",
+      "price": 649.0,
+      "url": "https://www.bug.co.il/brand/razer/blackshark/v3/pc/white",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-001-58",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 23:39"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-002-20",
+      "our_product_name": "Razer BlackShark V3 for Xbox – אוזניות אלחוטיות שחור",
+      "title": "אוזניות גיימינג אלחוטיות Blackshark V3 Xbox",
+      "price": 675.0,
+      "url": "https://www.bug.co.il/brand/razer/blackshark/v3/xbox",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-002-20",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 23:39"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-001-69",
+      "our_product_name": "מקלדת גיימינג Razer BlackWidow V4 Low-Profile HyperSpeed מבית Razer",
+      "title": "מקלדת גיימינג מכאנית אלחוטית Blackwidow V4 Low-Profile HyperSpeed - סוויץ' כתום",
+      "price": 749.0,
+      "url": "https://www.bug.co.il/brand/razer/blackwidow/v4/low/profile/orange/switch",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-001-69",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 23:39"
     }
   ]
 }

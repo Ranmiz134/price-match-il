@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-23T15:08:00+00:00",
+  "checked_at": "2026-11-23T15:28:00+00:00",
   "checks": [
     {
       "checked_at": "2026-11-22T12:47:48.109393+00:00",
@@ -2652,6 +2652,96 @@
       "checked_at": "2026-11-23T15:08:00+00:00",
       "comparison_scraped_at": "2026-11-23 17:08",
       "date_result": "no_sale_or_dates_on_checked_product_page"
+    },
+    {
+      "our_sku": "90904-003-32",
+      "store_id": "bug",
+      "store_name": "Bug",
+      "price_vat": 369,
+      "product_url": "https://www.bug.co.il/brand/corsair/k70/core/rgb",
+      "checked_at": "2026-11-23T15:28:00+00:00",
+      "comparison_scraped_at": "2026-11-23 17:28",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90904-003-36",
+      "store_id": "bug",
+      "store_name": "Bug",
+      "price_vat": 799,
+      "product_url": "https://www.bug.co.il/brand/corsair/vanguard/96/mlx/plasma/wireless",
+      "checked_at": "2026-11-23T15:28:00+00:00",
+      "comparison_scraped_at": "2026-11-23 17:28",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90904-911-46",
+      "store_id": "bug",
+      "store_name": "Bug",
+      "price_vat": 509,
+      "product_url": "https://www.bug.co.il/brand/corsair/vanguard/96",
+      "checked_at": "2026-11-23T15:28:00+00:00",
+      "comparison_scraped_at": "2026-11-23 17:28",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90904-911-34",
+      "store_id": "bug",
+      "store_name": "Bug",
+      "price_vat": 145,
+      "product_url": "https://www.bug.co.il/brand/corsair/m55/wireless",
+      "checked_at": "2026-11-23T15:28:00+00:00",
+      "comparison_scraped_at": "2026-11-23 17:28",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90904-911-33",
+      "store_id": "bug",
+      "store_name": "Bug",
+      "price_vat": 109,
+      "product_url": "https://www.bug.co.il/brand/corsair/m55/lightweight",
+      "checked_at": "2026-11-23T15:28:00+00:00",
+      "comparison_scraped_at": "2026-11-23 17:28",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90904-003-35",
+      "store_id": "bug",
+      "store_name": "Bug",
+      "price_vat": 179,
+      "product_url": "https://www.bug.co.il/brand/corsair/k55/core/tkl",
+      "checked_at": "2026-11-23T15:28:00+00:00",
+      "comparison_scraped_at": "2026-11-23 17:28",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90904-112-95",
+      "store_id": "bug",
+      "store_name": "Bug",
+      "price_vat": 699,
+      "product_url": "https://www.bug.co.il/brand/corsair/hs80/max/wireless/black",
+      "checked_at": "2026-11-23T15:28:00+00:00",
+      "comparison_scraped_at": "2026-11-23 17:28",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90904-112-96",
+      "store_id": "bug",
+      "store_name": "Bug",
+      "price_vat": 699,
+      "product_url": "https://www.bug.co.il/brand/corsair/hs80/max/wireless/",
+      "checked_at": "2026-11-23T15:28:00+00:00",
+      "comparison_scraped_at": "2026-11-23 17:28",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90904-100-58",
+      "store_id": "bug",
+      "store_name": "Bug",
+      "price_vat": 1249,
+      "product_url": "https://www.bug.co.il/brand/corsair/color/white/grey/t3/rush/fabric",
+      "checked_at": "2026-11-23T15:28:00+00:00",
+      "comparison_scraped_at": "2026-11-23 17:28",
+      "date_result": "explicit_end_date_with_stock_limit"
     }
   ],
   "offers": [
@@ -3752,8 +3842,134 @@
       "terms": "מחיר מבצע ₪223.20 במקום ₪279. תחילת המבצע ותוקפו לא צוינו בעמוד המוצר.",
       "url": "https://www.kravitz.co.il/products/%D7%A1%D7%95%D7%9C%D7%9C%D7%AA-%D7%98%D7%A2%D7%99%D7%A0%D7%94-%D7%9E%D7%92%D7%A0%D7%98%D7%99%D7%AA-%D7%91%D7%A6%D7%91%D7%A2-%D7%90%D7%A4%D7%95%D7%A8-%D7%9B%D7%94%D7%94-%D7%93%D7%92%D7%9D-mwpb45w-%D7%9E%D7%91%D7%99%D7%AA-miracase?variant=51742570774824",
       "verified": true
+    },
+    {
+      "our_sku": "90904-003-32",
+      "store_id": "bug",
+      "price_ils": 369,
+      "regular_price_ils": 549,
+      "source_url": "https://www.bug.co.il/brand/corsair/k70/core/rgb",
+      "url": "https://www.bug.co.il/brand/corsair/k70/core/rgb",
+      "checked_at": "2026-11-23T15:28:00+00:00",
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_date_only",
+      "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
+      "verified": true
+    },
+    {
+      "our_sku": "90904-003-36",
+      "store_id": "bug",
+      "price_ils": 799,
+      "regular_price_ils": 899,
+      "source_url": "https://www.bug.co.il/brand/corsair/vanguard/96/mlx/plasma/wireless",
+      "url": "https://www.bug.co.il/brand/corsair/vanguard/96/mlx/plasma/wireless",
+      "checked_at": "2026-11-23T15:28:00+00:00",
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_date_only",
+      "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
+      "verified": true
+    },
+    {
+      "our_sku": "90904-911-46",
+      "store_id": "bug",
+      "price_ils": 509,
+      "regular_price_ils": 799,
+      "source_url": "https://www.bug.co.il/brand/corsair/vanguard/96",
+      "url": "https://www.bug.co.il/brand/corsair/vanguard/96",
+      "checked_at": "2026-11-23T15:28:00+00:00",
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_date_only",
+      "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
+      "verified": true
+    },
+    {
+      "our_sku": "90904-911-34",
+      "store_id": "bug",
+      "price_ils": 145,
+      "regular_price_ils": 319,
+      "source_url": "https://www.bug.co.il/brand/corsair/m55/wireless",
+      "url": "https://www.bug.co.il/brand/corsair/m55/wireless",
+      "checked_at": "2026-11-23T15:28:00+00:00",
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_date_only",
+      "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
+      "verified": true
+    },
+    {
+      "our_sku": "90904-911-33",
+      "store_id": "bug",
+      "price_ils": 109,
+      "regular_price_ils": 229,
+      "source_url": "https://www.bug.co.il/brand/corsair/m55/lightweight",
+      "url": "https://www.bug.co.il/brand/corsair/m55/lightweight",
+      "checked_at": "2026-11-23T15:28:00+00:00",
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_date_only",
+      "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
+      "verified": true
+    },
+    {
+      "our_sku": "90904-003-35",
+      "store_id": "bug",
+      "price_ils": 179,
+      "regular_price_ils": 299,
+      "source_url": "https://www.bug.co.il/brand/corsair/k55/core/tkl",
+      "url": "https://www.bug.co.il/brand/corsair/k55/core/tkl",
+      "checked_at": "2026-11-23T15:28:00+00:00",
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_date_only",
+      "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
+      "verified": true
+    },
+    {
+      "our_sku": "90904-112-95",
+      "store_id": "bug",
+      "price_ils": 699,
+      "regular_price_ils": 1099,
+      "source_url": "https://www.bug.co.il/brand/corsair/hs80/max/wireless/black",
+      "url": "https://www.bug.co.il/brand/corsair/hs80/max/wireless/black",
+      "checked_at": "2026-11-23T15:28:00+00:00",
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_date_only",
+      "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
+      "verified": true
+    },
+    {
+      "our_sku": "90904-112-96",
+      "store_id": "bug",
+      "price_ils": 699,
+      "regular_price_ils": 1099,
+      "source_url": "https://www.bug.co.il/brand/corsair/hs80/max/wireless/",
+      "url": "https://www.bug.co.il/brand/corsair/hs80/max/wireless/",
+      "checked_at": "2026-11-23T15:28:00+00:00",
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_date_only",
+      "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
+      "verified": true
+    },
+    {
+      "our_sku": "90904-100-58",
+      "store_id": "bug",
+      "price_ils": 1249,
+      "regular_price_ils": 1699,
+      "source_url": "https://www.bug.co.il/brand/corsair/color/white/grey/t3/rush/fabric",
+      "url": "https://www.bug.co.il/brand/corsair/color/white/grey/t3/rush/fabric",
+      "checked_at": "2026-11-23T15:28:00+00:00",
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_date_only",
+      "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
+      "verified": true
     }
   ],
   "schema_version": 2,
-  "scope": "Known individual product-page checks. Fourteen exact Bug Miracase offers added. Prior source timestamps retained. Not a full sweep."
+  "scope": "Known individual product-page checks. Nine exact Bug Corsair official Benda sale offers added. Prior timestamps retained. Not a full sweep."
     }

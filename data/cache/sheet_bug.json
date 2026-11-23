@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T11:17:15.916186+00:00",
-  "count": 99,
+  "last_ok_at": "2026-11-23T11:37:13.462405+00:00",
+  "count": 101,
   "items": [
     {
       "store_id": "bug",
@@ -1488,6 +1488,36 @@
       "sku": "90902-815-42",
       "barcodes": [],
       "scraped_at": "2026-11-23 13:13"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90904-130-02",
+      "our_product_name": "מיקרופון CORS ELGATO WAVE 3",
+      "title": "מיקרופון Wave 3",
+      "price": 349.0,
+      "url": "https://www.bug.co.il/brand/elgato/wave/3",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90904-130-02",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 13:33"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90904-110-03",
+      "our_product_name": "שלט CORSAIR ELGATO STREAM DECK XL",
+      "title": "שלט Stream Deck XL",
+      "price": 899.0,
+      "url": "https://www.bug.co.il/brand/elgato/stream/deck/xl",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90904-110-03",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 13:33"
     }
   ]
 }

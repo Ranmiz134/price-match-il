@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T23:08:50.660598+00:00",
-  "count": 198,
+  "last_ok_at": "2026-11-23T23:24:29.575455+00:00",
+  "count": 200,
   "items": [
     {
       "store_id": "bug",
@@ -2973,6 +2973,36 @@
       "sku": "90903-011-38",
       "barcodes": [],
       "scraped_at": "2026-11-24 01:07"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-011-42",
+      "our_product_name": "אוזניות RAZER BLACKSHARK V2 PRO FOR PLAYSTATION בצבע לבן",
+      "title": "אוזניות RAZER BLACKSHARK V2 PRO FOR PLAYSTATION בצבע לבן",
+      "price": 999.0,
+      "url": "https://www.bug.co.il/brand/razer/headphones/wireless/blackshark/v2/pro/for/playstation/rz04/04530600/r3g",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-011-42",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 01:23"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-001-35",
+      "our_product_name": "אוזניות – RAZER Blackshark V2 HyperSpeed",
+      "title": "אוזניות – RAZER Blackshark V2 HyperSpeed",
+      "price": 299.0,
+      "url": "https://www.bug.co.il/brand/razer/color/black/blackshark/v2/hyperspeed",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-001-35",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 01:23"
     }
   ]
 }

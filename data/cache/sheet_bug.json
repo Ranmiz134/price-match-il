@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T21:41:18.529434+00:00",
-  "count": 182,
+  "last_ok_at": "2026-11-23T22:00:20.016482+00:00",
+  "count": 186,
   "items": [
     {
       "store_id": "bug",
@@ -2733,6 +2733,66 @@
       "sku": "90903-001-69",
       "barcodes": [],
       "scraped_at": "2026-11-23 23:39"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-001-26",
+      "our_product_name": "אוזניות גיימינג RAZER Kraken V3 X – חיבור USB",
+      "title": "אוזניות גיימינג חוטיות Kraken V3 X USB",
+      "price": 219.0,
+      "url": "https://www.bug.co.il/brand/razer/kraken/v3/x/black",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-001-26",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 23:58"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-005-49",
+      "our_product_name": "RAZER BASILISK MOBILE – עכבר אלחוטי",
+      "title": "עכבר גיימינג אלחוטי Basilisk Mobile",
+      "price": 219.0,
+      "url": "https://www.bug.co.il/brand/razer/basilisk",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-005-49",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 23:58"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-011-48",
+      "our_product_name": "RAZER BARRACUDA X CHROMA  אוזניות צבע לבן",
+      "title": "אוזניות גיימינג אלחוטיות Barracuda X Chroma - לבן",
+      "price": 325.0,
+      "url": "https://www.bug.co.il/brand/razer/barracuda/xchroma/white",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-011-48",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 23:58"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-005-37",
+      "our_product_name": "עכבר גיימינג אלחוטי Razer Basilisk V3 Pro צבע לבן",
+      "title": "עכבר אלחוטי Basilisk V3 PRO",
+      "price": 559.0,
+      "url": "https://www.bug.co.il/brand/razer/rz01/04630200/r3g1/basilisk/v3/pro/white",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-005-37",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 23:58"
     }
   ]
 }

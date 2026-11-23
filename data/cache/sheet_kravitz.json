@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_kravitz",
   "store_name": "Kravitz",
-  "last_ok_at": "2026-11-23T08:18:57.885554+00:00",
-  "count": 145,
+  "last_ok_at": "2026-11-23T08:42:35.422229+00:00",
+  "count": 150,
   "items": [
     {
       "store_id": "kravitz",
@@ -2178,6 +2178,81 @@
       "sku": "90905-801-36",
       "barcodes": [],
       "scraped_at": "2026-11-23 10:13"
+    },
+    {
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "our_sku": "90905-801-27",
+      "our_product_name": "בקר חוטי לגיימינג Turtle Beach Afterglow Wave תאורת RGB – תואם Xbox ו‑PC לבן",
+      "title": "בקר חוטי לגיימינג Turtle Beach Afterglow Wave תאורת RGB תואם Xbox ו‑PC",
+      "price": 119.0,
+      "url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%97%D7%95%D7%98%D7%99-tb-afterglow-rgb-wave-xbox",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90905-801-27",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 10:34"
+    },
+    {
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "our_sku": "90905-005-01",
+      "our_product_name": "מקלדת גיימינג מכנית קומפקטית Turtle Beach Vulcan TKL",
+      "title": "מקלדת גיימינג חוטית מכנית קצרה Turtle Beach Vulkan TKL RED-S",
+      "price": 499.0,
+      "url": "https://www.kravitz.co.il/products/tb-vulcan-tkl-red-s",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90905-005-01",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 10:35"
+    },
+    {
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "our_sku": "90905-802-11",
+      "our_product_name": "מקלדת גיימינג אלחוטית דגם Vulcan II Mini Air מבית Turtle Beach",
+      "title": "מקלדת מיני אלחוטית Turtle Beach Vulcan II Mini Air שחור",
+      "price": 649.0,
+      "url": "https://www.kravitz.co.il/products/%D7%9E%D7%A7%D7%9C%D7%93%D7%AA-%D7%A9%D7%97%D7%95%D7%A8%D7%94-%D7%9E%D7%99%D7%A0%D7%99-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99%D7%AA-tb-vulcan-ii-mini-air",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90905-802-11",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 10:35"
+    },
+    {
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "our_sku": "90905-801-60",
+      "our_product_name": "מקלדת גיימינג דגם Vulcan II TKL מבית Turtle Beach",
+      "title": "מקלדת גיימינג חוטית מכנית Turtle Beach Vulcan Ii TKL",
+      "price": 399.0,
+      "url": "https://www.kravitz.co.il/products/%D7%9E%D7%A7%D7%9C%D7%93%D7%AA-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%97%D7%95%D7%98%D7%99%D7%AA-%D7%9E%D7%9B%D7%A0%D7%99%D7%AA-turtle-beach-vulcan-ii-tkl",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90905-801-60",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 10:36"
+    },
+    {
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "our_sku": "90905-003-04",
+      "our_product_name": "עכבר גיימינג אלחוטי Turtle Beach Pure Air לבן",
+      "title": "עכבר גיימינג אלחוטי Turtle Beach Pure Air",
+      "price": 399.0,
+      "url": "https://www.kravitz.co.il/products/%D7%A2%D7%9B%D7%91%D7%A8-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-turtle-beach-pure-air?variant=51414264086824",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90905-003-04",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 10:38"
     }
   ]
 }

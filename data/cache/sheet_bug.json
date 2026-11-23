@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T16:27:36.266299+00:00",
-  "count": 157,
+  "last_ok_at": "2026-11-23T16:46:42.848591+00:00",
+  "count": 159,
   "items": [
     {
       "store_id": "bug",
@@ -2358,6 +2358,36 @@
       "sku": "90902-800-09",
       "barcodes": [],
       "scraped_at": "2026-11-23 18:06"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "70708-901-22",
+      "our_product_name": "VA272-MH VIEWS מסך 100HZ 27",
+      "title": "מסך מחשב ''27 VA272-MH ויוסוניק - ViewSonic",
+      "price": 429.0,
+      "url": "https://www.bug.co.il/brand/viewsonic/27/va272/mh",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "70708-901-22",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 18:44"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "70708-901-11",
+      "our_product_name": "מסך גיימינג VX2479A-HD-PRO בגודל 24\" מבית VIEWSONIC",
+      "title": "מסך מחשב גיימינג '23.8 VX2479A-HD-PRO ויוסוניק - ViewSonic",
+      "price": 469.0,
+      "url": "https://www.bug.co.il/brand/viewsonic/23/8/vx2479a/hd/pro",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "70708-901-11",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 18:44"
     }
   ]
 }

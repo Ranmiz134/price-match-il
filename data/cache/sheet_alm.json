@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_alm",
   "store_name": "ALM",
-  "last_ok_at": "2026-11-22T15:58:15.464082+00:00",
-  "count": 9,
+  "last_ok_at": "2026-11-23T02:33:52.107056+00:00",
+  "count": 6,
   "items": [
     {
       "store_id": "alm",
@@ -17,37 +17,7 @@
       "importer_text": "official",
       "sku": "99999-600-68",
       "barcodes": [],
-      "scraped_at": "2026-11-22 10:39"
-    },
-    {
-      "store_id": "alm",
-      "store_name": "ALM",
-      "our_sku": "99999-600-67",
-      "our_product_name": "Osmo Pocket 3",
-      "title": "מייצב DJI OSMO POCKET 3",
-      "price": 1359.0,
-      "url": "https://www.alm.co.il/659002321.html",
-      "in_stock": false,
-      "importer_status": "official",
-      "importer_text": "official",
-      "sku": "99999-600-67",
-      "barcodes": [],
-      "scraped_at": "2026-11-22 10:39"
-    },
-    {
-      "store_id": "alm",
-      "store_name": "ALM",
-      "our_sku": "99999-958-91",
-      "our_product_name": "מצלמת גימבל דגם Osmo Pocket 4P Vlog Combo מבית DJI",
-      "title": "מצלמת גימבל דגם DJI Osmo Pocket 4P Vlog Combo",
-      "price": 2899.0,
-      "url": "https://www.alm.co.il/659002352.html",
-      "in_stock": false,
-      "importer_status": "official",
-      "importer_text": "official",
-      "sku": "99999-958-91",
-      "barcodes": [],
-      "scraped_at": "2026-11-22 10:39"
+      "scraped_at": "2026-11-23 04:27"
     },
     {
       "store_id": "alm",
@@ -62,22 +32,7 @@
       "importer_text": "official",
       "sku": "99999-958-72",
       "barcodes": [],
-      "scraped_at": "2026-11-22 10:39"
-    },
-    {
-      "store_id": "alm",
-      "store_name": "ALM",
-      "our_sku": "99999-951-91",
-      "our_product_name": "מייצב Osmo Mobile 7",
-      "title": "מייצב דגם DJI Osmo Mobile 7",
-      "price": 329.0,
-      "url": "https://www.alm.co.il/891000591.html",
-      "in_stock": false,
-      "importer_status": "official",
-      "importer_text": "official",
-      "sku": "99999-951-91",
-      "barcodes": [],
-      "scraped_at": "2026-11-22 10:39"
+      "scraped_at": "2026-11-23 04:27"
     },
     {
       "store_id": "alm",
@@ -92,7 +47,7 @@
       "importer_text": "official",
       "sku": "41209-652-52",
       "barcodes": [],
-      "scraped_at": "2026-11-22 10:39"
+      "scraped_at": "2026-11-23 04:27"
     },
     {
       "store_id": "alm",
@@ -107,7 +62,7 @@
       "importer_text": "official",
       "sku": "41209-652-61",
       "barcodes": [],
-      "scraped_at": "2026-11-22 10:39"
+      "scraped_at": "2026-11-23 04:27"
     },
     {
       "store_id": "alm",
@@ -122,7 +77,7 @@
       "importer_text": "official",
       "sku": "41209-652-60",
       "barcodes": [],
-      "scraped_at": "2026-11-22 10:39"
+      "scraped_at": "2026-11-23 04:28"
     },
     {
       "store_id": "alm",
@@ -137,7 +92,7 @@
       "importer_text": "official",
       "sku": "99226-010-30",
       "barcodes": [],
-      "scraped_at": "2026-11-22T16:31:32+02:00"
+      "scraped_at": "2026-11-23 04:28"
     }
   ]
 }

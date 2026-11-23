@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_ace",
   "store_name": "ACE",
-  "last_ok_at": "2026-11-23T09:28:09.909174+00:00",
-  "count": 14,
+  "last_ok_at": "2026-11-23T09:48:54.592895+00:00",
+  "count": 18,
   "items": [
     {
       "store_id": "ace",
@@ -213,6 +213,66 @@
       "sku": "90902-801-65",
       "barcodes": [],
       "scraped_at": "2026-11-23 08:55"
+    },
+    {
+      "store_id": "ace",
+      "store_name": "ACE",
+      "our_sku": "30212-002-05",
+      "our_product_name": "שעון כושר Polar Ignite 3 חום-שנהב",
+      "title": "שעון כושר Polar Ignite 3 חום-שנהב",
+      "price": 1669.0,
+      "url": "https://www.ace.co.il/4454931",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "30212-002-05",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 11:43"
+    },
+    {
+      "store_id": "ace",
+      "store_name": "ACE",
+      "our_sku": "30212-002-15",
+      "our_product_name": "שעון חכם POLAR             PACER BLK/BLK S-L",
+      "title": "GPS שעון ריצה עם Polar Pacer",
+      "price": 719.0,
+      "url": "https://www.ace.co.il/4454934",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "30212-002-15",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 11:44"
+    },
+    {
+      "store_id": "ace",
+      "store_name": "ACE",
+      "our_sku": "30212-002-02",
+      "our_product_name": "שעון חכם POLAR          IGNITE 3 BLK/BLK S-L",
+      "title": "שעון כושר Polar Ignite 3 שחור",
+      "price": 985.0,
+      "url": "https://www.ace.co.il/4454929",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "30212-002-02",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 11:44"
+    },
+    {
+      "store_id": "ace",
+      "store_name": "ACE",
+      "our_sku": "30212-002-13",
+      "our_product_name": "שעון מולטי-ספורט פרימיום Polar Vantage V3 בצבע אפרסק-כסף",
+      "title": "שעון מולטי-ספורט פרימיום Polar Vantage V3 בצבע אפרסק-כסף",
+      "price": 2423.0,
+      "url": "https://www.ace.co.il/4454933",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "30212-002-13",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 11:45"
     }
   ]
 }

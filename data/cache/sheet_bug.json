@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T10:35:32.980365+00:00",
-  "count": 93,
+  "last_ok_at": "2026-11-23T10:55:28.501887+00:00",
+  "count": 94,
   "items": [
     {
       "store_id": "bug",
@@ -1398,6 +1398,21 @@
       "sku": "90904-120-21",
       "barcodes": [],
       "scraped_at": "2026-11-23 12:30"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "99226-000-32",
+      "our_product_name": "תחנת טעינה JACKERY EXPLORER 1000 Plus 1264WH",
+      "title": "תחנת כוח ניידת Explorer 1000 Plus",
+      "price": 7589.0,
+      "url": "https://www.bug.co.il/brand/jackery/protable/charging/station/explorer/1000/plus",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99226-000-32",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 12:50"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_ace",
   "store_name": "ACE",
-  "last_ok_at": "2026-11-23T10:35:32.979774+00:00",
-  "count": 18,
+  "last_ok_at": "2026-11-23T10:55:28.481577+00:00",
+  "count": 20,
   "items": [
     {
       "store_id": "ace",
@@ -273,6 +273,36 @@
       "sku": "30212-002-13",
       "barcodes": [],
       "scraped_at": "2026-11-23 11:45"
+    },
+    {
+      "store_id": "ace",
+      "store_name": "ACE",
+      "our_sku": "99226-000-32",
+      "our_product_name": "תחנת טעינה JACKERY EXPLORER 1000 Plus 1264WH",
+      "title": "Jackery Explorer 1000 Plus תחנת כוח ניידת",
+      "price": 2799.0,
+      "url": "https://www.ace.co.il/4455978",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99226-000-32",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 12:49"
+    },
+    {
+      "store_id": "ace",
+      "store_name": "ACE",
+      "our_sku": "99226-000-36",
+      "our_product_name": "פאנל סולארי Jackery solarsaga 80W",
+      "title": "Jackery solarsaga 80W פאנל סולארי",
+      "price": 1199.0,
+      "url": "https://www.ace.co.il/4455980",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "99226-000-36",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 12:50"
     }
   ]
 }

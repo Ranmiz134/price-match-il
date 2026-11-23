@@ -1,7 +1,7 @@
 {
   "store_id": "sheet_catalog",
   "store_name": "DJI / בנדא (Sheets)",
-  "last_ok_at": "2026-11-23T13:19:02.449061+00:00",
+  "last_ok_at": "2026-11-23T13:30:10.068675+00:00",
   "count": 1431,
   "items": [
     {
@@ -762,7 +762,7 @@
       "barcodes": [
         "0619659227968"
       ],
-      "our_price": 599.0,
+      "our_price": 626.83,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -781,7 +781,7 @@
       "barcodes": [
         "0619659227951"
       ],
-      "our_price": 259.0,
+      "our_price": 264.25,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -800,7 +800,7 @@
       "barcodes": [
         "0619659221751"
       ],
-      "our_price": 1349.0,
+      "our_price": 1370.43,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -819,7 +819,7 @@
       "barcodes": [
         "0619659221737"
       ],
-      "our_price": 349.0,
+      "our_price": 344.14,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -838,7 +838,7 @@
       "barcodes": [
         "0619659221775"
       ],
-      "our_price": 199.0,
+      "our_price": 190.5,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -857,7 +857,7 @@
       "barcodes": [
         "0619659223410"
       ],
-      "our_price": 139.0,
+      "our_price": 135.19,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -1743,7 +1743,7 @@
       "barcodes": [
         "0619659188467"
       ],
-      "our_price": 135.0,
+      "our_price": 135.19,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -1762,7 +1762,7 @@
       "barcodes": [
         "0619659193416"
       ],
-      "our_price": 99.0,
+      "our_price": 99.87,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -1781,7 +1781,7 @@
       "barcodes": [
         "0619659154189"
       ],
-      "our_price": 199.0,
+      "our_price": 149.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -1800,7 +1800,7 @@
       "barcodes": [
         "0619659136710"
       ],
-      "our_price": 102.0,
+      "our_price": 74.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -3333,7 +3333,7 @@
       "barcodes": [
         "6941565981059"
       ],
-      "our_price": 1699.0,
+      "our_price": 2016.09,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -3352,7 +3352,7 @@
       "barcodes": [
         "6941565981066"
       ],
-      "our_price": 1299.0,
+      "our_price": 1612.67,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -3388,7 +3388,7 @@
       "barcodes": [
         "6941565988294"
       ],
-      "our_price": 1549.0,
+      "our_price": 1799.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -3942,9 +3942,9 @@
       "barcodes": [
         "6941565969873"
       ],
-      "our_price": 1359.0,
+      "our_price": 1699.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
       "source_name": "DJI ישראל",
@@ -3961,9 +3961,9 @@
       "barcodes": [
         "6941565969903"
       ],
-      "our_price": 1599.0,
+      "our_price": 2149.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "dji_israel",
       "source_name": "DJI ישראל",
@@ -4645,7 +4645,7 @@
       "barcodes": [
         "0619659155414"
       ],
-      "our_price": 21.0,
+      "our_price": 115.71,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -4664,7 +4664,7 @@
       "barcodes": [
         "0619659188573"
       ],
-      "our_price": 135.0,
+      "our_price": 135.19,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -4683,7 +4683,7 @@
       "barcodes": [
         "0619659188535"
       ],
-      "our_price": 1233.0,
+      "our_price": 1358.14,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -4702,7 +4702,7 @@
       "barcodes": [
         "0619659188566"
       ],
-      "our_price": 649.0,
+      "our_price": 446.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -4942,7 +4942,7 @@
       "barcodes": [
         "0619659188542"
       ],
-      "our_price": 328.0,
+      "our_price": 331.85,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -4961,7 +4961,7 @@
       "barcodes": [
         "0619659188528"
       ],
-      "our_price": 180.0,
+      "our_price": 178.21,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -5218,9 +5218,9 @@
       "barcodes": [
         "0840440403319"
       ],
-      "our_price": 799.0,
+      "our_price": 899.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -5237,9 +5237,9 @@
       "barcodes": [
         "0840440421573"
       ],
-      "our_price": 155.0,
+      "our_price": 199.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -5256,9 +5256,9 @@
       "barcodes": [
         "0840440421566"
       ],
-      "our_price": 155.0,
+      "our_price": 199.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -5404,9 +5404,9 @@
       "barcodes": [
         "8886419334347"
       ],
-      "our_price": 249.0,
+      "our_price": 439.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -5423,9 +5423,9 @@
       "barcodes": [
         "0093573458675"
       ],
-      "our_price": 749.0,
+      "our_price": 999.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -5461,9 +5461,9 @@
       "barcodes": [
         "0093573868559"
       ],
-      "our_price": 119.0,
+      "our_price": 199.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -5480,9 +5480,9 @@
       "barcodes": [
         "0093573625794"
       ],
-      "our_price": 95.0,
+      "our_price": 159.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -5575,9 +5575,9 @@
       "barcodes": [
         "3362934404512"
       ],
-      "our_price": 699.0,
+      "our_price": 799.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -5594,9 +5594,9 @@
       "barcodes": [
         "3362934113551"
       ],
-      "our_price": 699.0,
+      "our_price": 799.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -5632,9 +5632,9 @@
       "barcodes": [
         "3362934112370"
       ],
-      "our_price": 1799.0,
+      "our_price": 2999.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -5651,9 +5651,9 @@
       "barcodes": [
         "3362934112554"
       ],
-      "our_price": 999.0,
+      "our_price": 1599.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -5670,9 +5670,9 @@
       "barcodes": [
         "3362934404062"
       ],
-      "our_price": 449.0,
+      "our_price": 549.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -5689,9 +5689,9 @@
       "barcodes": [
         "3362934113223"
       ],
-      "our_price": 1199.0,
+      "our_price": 1899.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -5708,9 +5708,9 @@
       "barcodes": [
         "3362934112677"
       ],
-      "our_price": 449.0,
+      "our_price": 549.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -5727,9 +5727,9 @@
       "barcodes": [
         "3362934113575"
       ],
-      "our_price": 449.0,
+      "our_price": 589.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -6732,9 +6732,9 @@
       "barcodes": [
         "3362934404048"
       ],
-      "our_price": 449.0,
+      "our_price": 599.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -6770,9 +6770,9 @@
       "barcodes": [
         "3362932915553"
       ],
-      "our_price": 399.0,
+      "our_price": 659.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -6808,9 +6808,9 @@
       "barcodes": [
         "3362934403089"
       ],
-      "our_price": 699.0,
+      "our_price": 999.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -7034,9 +7034,9 @@
       "brand": "Cricut",
       "sku": "90909-121-28",
       "barcodes": [],
-      "our_price": 77.0,
+      "our_price": 129.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -7053,9 +7053,9 @@
       "barcodes": [
         "0093573071812"
       ],
-      "our_price": 47.0,
+      "our_price": 79.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -7072,9 +7072,9 @@
       "barcodes": [
         "0093573978746"
       ],
-      "our_price": 65.0,
+      "our_price": 109.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -7091,9 +7091,9 @@
       "barcodes": [
         "0093573355066"
       ],
-      "our_price": 59.0,
+      "our_price": 99.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -7110,9 +7110,9 @@
       "barcodes": [
         "0093573187889"
       ],
-      "our_price": 53.0,
+      "our_price": 89.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -7129,9 +7129,9 @@
       "barcodes": [
         "0093573415340"
       ],
-      "our_price": 65.0,
+      "our_price": 109.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -7148,9 +7148,9 @@
       "barcodes": [
         "0093573796456"
       ],
-      "our_price": 35.0,
+      "our_price": 59.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -7165,9 +7165,9 @@
       "brand": "Cricut",
       "sku": "90909-121-30",
       "barcodes": [],
-      "our_price": 83.0,
+      "our_price": 139.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -7184,9 +7184,9 @@
       "barcodes": [
         "0093573926228"
       ],
-      "our_price": 101.0,
+      "our_price": 169.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -7203,9 +7203,9 @@
       "barcodes": [
         "0093573453717"
       ],
-      "our_price": 95.0,
+      "our_price": 159.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -7222,9 +7222,9 @@
       "barcodes": [
         "0093573227110"
       ],
-      "our_price": 59.0,
+      "our_price": 99.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -7241,9 +7241,9 @@
       "barcodes": [
         "0093573471902"
       ],
-      "our_price": 107.0,
+      "our_price": 179.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -7260,9 +7260,9 @@
       "barcodes": [
         "0093573945663"
       ],
-      "our_price": 119.0,
+      "our_price": 199.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -7279,9 +7279,9 @@
       "barcodes": [
         "0093573897207"
       ],
-      "our_price": 1959.0,
+      "our_price": 2799.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -7298,9 +7298,9 @@
       "barcodes": [
         "0093573589980"
       ],
-      "our_price": 674.0,
+      "our_price": 899.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -7317,9 +7317,9 @@
       "barcodes": [
         "0093573371790"
       ],
-      "our_price": 1259.0,
+      "our_price": 1799.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -7336,9 +7336,9 @@
       "barcodes": [
         "0093573060663"
       ],
-      "our_price": 664.0,
+      "our_price": 949.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -13188,7 +13188,7 @@
       "barcodes": [
         "7290111749872"
       ],
-      "our_price": 30.0,
+      "our_price": 29.9,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -14461,7 +14461,7 @@
       "barcodes": [
         "7290111749865"
       ],
-      "our_price": 40.0,
+      "our_price": 39.9,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -14594,9 +14594,9 @@
       "barcodes": [
         "0093573756566"
       ],
-      "our_price": 29.0,
+      "our_price": 49.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -14613,9 +14613,9 @@
       "barcodes": [
         "0093573181832"
       ],
-      "our_price": 131.0,
+      "our_price": 219.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -14632,9 +14632,9 @@
       "barcodes": [
         "0093573713200"
       ],
-      "our_price": 71.0,
+      "our_price": 119.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -14651,9 +14651,9 @@
       "barcodes": [
         "0093573353246"
       ],
-      "our_price": 39.0,
+      "our_price": 65.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -14670,9 +14670,9 @@
       "barcodes": [
         "0093573219665"
       ],
-      "our_price": 23.0,
+      "our_price": 39.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -14689,9 +14689,9 @@
       "barcodes": [
         "0093573411885"
       ],
-      "our_price": 30.0,
+      "our_price": 69.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -14708,9 +14708,9 @@
       "barcodes": [
         "0093573489907"
       ],
-      "our_price": 27.0,
+      "our_price": 45.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -14727,9 +14727,9 @@
       "barcodes": [
         "0093573075728"
       ],
-      "our_price": 41.0,
+      "our_price": 69.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -14746,9 +14746,9 @@
       "barcodes": [
         "0093573507168"
       ],
-      "our_price": 59.0,
+      "our_price": 99.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -14765,9 +14765,9 @@
       "barcodes": [
         "0093573278150"
       ],
-      "our_price": 10.0,
+      "our_price": 79.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -14784,9 +14784,9 @@
       "barcodes": [
         "0093573948589"
       ],
-      "our_price": 10.0,
+      "our_price": 79.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -14803,9 +14803,9 @@
       "barcodes": [
         "0093573779237"
       ],
-      "our_price": 10.0,
+      "our_price": 79.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -14822,9 +14822,9 @@
       "barcodes": [
         "0093573924903"
       ],
-      "our_price": 10.0,
+      "our_price": 79.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -14841,9 +14841,9 @@
       "barcodes": [
         "0093573936319"
       ],
-      "our_price": 27.0,
+      "our_price": 45.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -14860,9 +14860,9 @@
       "barcodes": [
         "0093573928611"
       ],
-      "our_price": 71.0,
+      "our_price": 119.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -15734,9 +15734,9 @@
       "barcodes": [
         "0840006678441"
       ],
-      "our_price": 1699.0,
+      "our_price": 2499.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -16152,9 +16152,9 @@
       "barcodes": [
         "0093573949531"
       ],
-      "our_price": 224.0,
+      "our_price": 299.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -16302,9 +16302,9 @@
       "brand": "GLAMP",
       "sku": "99702-001-97",
       "barcodes": [],
-      "our_price": 969.0,
+      "our_price": 999.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -16340,7 +16340,7 @@
       "barcodes": [
         "7290111746512"
       ],
-      "our_price": 10.0,
+      "our_price": 9.9,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -17860,9 +17860,9 @@
       "barcodes": [
         "0840006616016"
       ],
-      "our_price": 299.0,
+      "our_price": 549.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -17879,9 +17879,9 @@
       "barcodes": [
         "0840440490470"
       ],
-      "our_price": 179.0,
+      "our_price": 299.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -17898,9 +17898,9 @@
       "barcodes": [
         "0840006678939"
       ],
-      "our_price": 599.0,
+      "our_price": 799.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -17917,9 +17917,9 @@
       "barcodes": [
         "0840006695820"
       ],
-      "our_price": 1249.0,
+      "our_price": 1699.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -17974,9 +17974,9 @@
       "barcodes": [
         "8886419334026"
       ],
-      "our_price": 559.0,
+      "our_price": 719.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18069,9 +18069,9 @@
       "barcodes": [
         "8886419333487"
       ],
-      "our_price": 179.0,
+      "our_price": 339.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18162,9 +18162,9 @@
       "barcodes": [
         "0093573685552"
       ],
-      "our_price": 53.0,
+      "our_price": 89.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18181,9 +18181,9 @@
       "barcodes": [
         "0093573439698"
       ],
-      "our_price": 53.0,
+      "our_price": 89.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18200,9 +18200,9 @@
       "barcodes": [
         "0093573986321"
       ],
-      "our_price": 53.0,
+      "our_price": 89.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18219,9 +18219,9 @@
       "barcodes": [
         "0093573913341"
       ],
-      "our_price": 53.0,
+      "our_price": 89.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18238,9 +18238,9 @@
       "barcodes": [
         "0093573276828"
       ],
-      "our_price": 59.0,
+      "our_price": 99.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18257,9 +18257,9 @@
       "barcodes": [
         "0093573137303"
       ],
-      "our_price": 29.0,
+      "our_price": 49.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18276,9 +18276,9 @@
       "barcodes": [
         "0093573738173"
       ],
-      "our_price": 29.0,
+      "our_price": 49.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18295,9 +18295,9 @@
       "barcodes": [
         "0093573846182"
       ],
-      "our_price": 29.0,
+      "our_price": 49.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18314,9 +18314,9 @@
       "barcodes": [
         "0093573875083"
       ],
-      "our_price": 27.0,
+      "our_price": 45.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18333,9 +18333,9 @@
       "barcodes": [
         "0093573254321"
       ],
-      "our_price": 29.0,
+      "our_price": 49.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18352,9 +18352,9 @@
       "barcodes": [
         "0093573985744"
       ],
-      "our_price": 59.0,
+      "our_price": 99.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18371,9 +18371,9 @@
       "barcodes": [
         "0093573665912"
       ],
-      "our_price": 35.0,
+      "our_price": 59.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18390,9 +18390,9 @@
       "barcodes": [
         "0093573745300"
       ],
-      "our_price": 59.0,
+      "our_price": 99.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18409,9 +18409,9 @@
       "barcodes": [
         "0093573896224"
       ],
-      "our_price": 29.0,
+      "our_price": 49.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18428,9 +18428,9 @@
       "barcodes": [
         "0093573338939"
       ],
-      "our_price": 29.0,
+      "our_price": 49.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18447,9 +18447,9 @@
       "barcodes": [
         "0093573388507"
       ],
-      "our_price": 71.0,
+      "our_price": 119.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18466,9 +18466,9 @@
       "barcodes": [
         "0093573349089"
       ],
-      "our_price": 53.0,
+      "our_price": 89.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18485,9 +18485,9 @@
       "barcodes": [
         "0093573413261"
       ],
-      "our_price": 35.0,
+      "our_price": 59.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18504,9 +18504,9 @@
       "barcodes": [
         "0093573071768"
       ],
-      "our_price": 10.0,
+      "our_price": 45.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18523,9 +18523,9 @@
       "barcodes": [
         "0093573674914"
       ],
-      "our_price": 33.0,
+      "our_price": 55.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18542,9 +18542,9 @@
       "barcodes": [
         "0093573039324"
       ],
-      "our_price": 125.0,
+      "our_price": 209.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18561,9 +18561,9 @@
       "barcodes": [
         "0093573840999"
       ],
-      "our_price": 125.0,
+      "our_price": 209.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18580,9 +18580,9 @@
       "barcodes": [
         "0093573633263"
       ],
-      "our_price": 77.0,
+      "our_price": 129.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18599,9 +18599,9 @@
       "barcodes": [
         "0093573239502"
       ],
-      "our_price": 27.0,
+      "our_price": 45.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18618,9 +18618,9 @@
       "barcodes": [
         "0093573866395"
       ],
-      "our_price": 77.0,
+      "our_price": 129.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18637,9 +18637,9 @@
       "barcodes": [
         "0093573648809"
       ],
-      "our_price": 47.0,
+      "our_price": 79.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18656,9 +18656,9 @@
       "barcodes": [
         "0093573859823"
       ],
-      "our_price": 77.0,
+      "our_price": 129.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18675,9 +18675,9 @@
       "barcodes": [
         "0093573836343"
       ],
-      "our_price": 27.0,
+      "our_price": 45.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18694,9 +18694,9 @@
       "barcodes": [
         "0093573651212"
       ],
-      "our_price": 209.0,
+      "our_price": 349.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18713,9 +18713,9 @@
       "barcodes": [
         "0093573272974"
       ],
-      "our_price": 909.0,
+      "our_price": 1299.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18732,9 +18732,9 @@
       "barcodes": [
         "0093573877629"
       ],
-      "our_price": 1819.0,
+      "our_price": 2599.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18751,9 +18751,9 @@
       "barcodes": [
         "0093573622144"
       ],
-      "our_price": 1119.0,
+      "our_price": 1599.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -18770,9 +18770,9 @@
       "barcodes": [
         "0093573686290"
       ],
-      "our_price": 944.0,
+      "our_price": 1349.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -19112,9 +19112,9 @@
       "barcodes": [
         "0840006666547"
       ],
-      "our_price": 149.0,
+      "our_price": 299.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -19131,9 +19131,9 @@
       "barcodes": [
         "0840006678786"
       ],
-      "our_price": 319.0,
+      "our_price": 589.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -19150,9 +19150,9 @@
       "barcodes": [
         "0840006666707"
       ],
-      "our_price": 369.0,
+      "our_price": 549.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -19169,9 +19169,9 @@
       "barcodes": [
         "0840006695806"
       ],
-      "our_price": 1249.0,
+      "our_price": 1699.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -19188,9 +19188,9 @@
       "barcodes": [
         "0840006695783"
       ],
-      "our_price": 1249.0,
+      "our_price": 1699.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -19207,9 +19207,9 @@
       "barcodes": [
         "0840440484219"
       ],
-      "our_price": 329.0,
+      "our_price": 699.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -19226,9 +19226,9 @@
       "barcodes": [
         "0840440484196"
       ],
-      "our_price": 329.0,
+      "our_price": 699.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -19245,9 +19245,9 @@
       "barcodes": [
         "0840006643661"
       ],
-      "our_price": 179.0,
+      "our_price": 399.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -19264,9 +19264,9 @@
       "barcodes": [
         "0840006643623"
       ],
-      "our_price": 179.0,
+      "our_price": 399.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -19283,9 +19283,9 @@
       "barcodes": [
         "0840006693802"
       ],
-      "our_price": 699.0,
+      "our_price": 1099.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -19302,9 +19302,9 @@
       "barcodes": [
         "0840006693840"
       ],
-      "our_price": 699.0,
+      "our_price": 1099.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -19321,9 +19321,9 @@
       "barcodes": [
         "0840006688013"
       ],
-      "our_price": 349.0,
+      "our_price": 649.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -19378,9 +19378,9 @@
       "barcodes": [
         "8886419334552"
       ],
-      "our_price": 319.0,
+      "our_price": 479.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -19435,9 +19435,9 @@
       "barcodes": [
         "8887910061336"
       ],
-      "our_price": 319.0,
+      "our_price": 479.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -19454,9 +19454,9 @@
       "barcodes": [
         "8886419334606"
       ],
-      "our_price": 625.0,
+      "our_price": 719.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -19473,9 +19473,9 @@
       "barcodes": [
         "8886419334644"
       ],
-      "our_price": 625.0,
+      "our_price": 719.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -19492,9 +19492,9 @@
       "barcodes": [
         "8886419333937"
       ],
-      "our_price": 559.0,
+      "our_price": 719.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -19511,9 +19511,9 @@
       "barcodes": [
         "8886419333975"
       ],
-      "our_price": 215.0,
+      "our_price": 399.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -19606,7 +19606,7 @@
       "barcodes": [
         "8886419354758"
       ],
-      "our_price": 719.0,
+      "our_price": 899.0,
       "regular_price": null,
       "is_on_sale": true,
       "in_stock": true,
@@ -20195,9 +20195,9 @@
       "barcodes": [
         "8886419345732"
       ],
-      "our_price": 519.0,
+      "our_price": 479.0,
       "regular_price": null,
-      "is_on_sale": false,
+      "is_on_sale": true,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -20214,9 +20214,9 @@
       "barcodes": [
         "8886419378235"
       ],
-      "our_price": 599.0,
+      "our_price": 285.0,
       "regular_price": null,
-      "is_on_sale": false,
+      "is_on_sale": true,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -20461,7 +20461,7 @@
       "barcodes": [
         "7290117623862"
       ],
-      "our_price": 30.0,
+      "our_price": 29.9,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -20632,7 +20632,7 @@
       "barcodes": [
         "7290117628539"
       ],
-      "our_price": 50.0,
+      "our_price": 49.9,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -20651,7 +20651,7 @@
       "barcodes": [
         "7290117628522"
       ],
-      "our_price": 20.0,
+      "our_price": 19.9,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -20670,7 +20670,7 @@
       "barcodes": [
         "7290117628515"
       ],
-      "our_price": 40.0,
+      "our_price": 39.9,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -21274,9 +21274,9 @@
       "barcodes": [
         "4895252500141"
       ],
-      "our_price": 840.0,
+      "our_price": 1120.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -21293,7 +21293,7 @@
       "barcodes": [
         "6935364089689"
       ],
-      "our_price": 284.0,
+      "our_price": 251.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -21312,9 +21312,9 @@
       "barcodes": [
         "4895252500134"
       ],
-      "our_price": 154.0,
+      "our_price": 205.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -21331,9 +21331,9 @@
       "barcodes": [
         "6935364099862"
       ],
-      "our_price": 53.0,
+      "our_price": 70.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -22430,9 +22430,9 @@
       "barcodes": [
         "8887910000489"
       ],
-      "our_price": 639.0,
+      "our_price": 485.0,
       "regular_price": null,
-      "is_on_sale": false,
+      "is_on_sale": true,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -22449,9 +22449,9 @@
       "barcodes": [
         "8887910060834"
       ],
-      "our_price": 319.0,
+      "our_price": 559.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -22487,9 +22487,9 @@
       "barcodes": [
         "8887910000465"
       ],
-      "our_price": 639.0,
+      "our_price": 485.0,
       "regular_price": null,
-      "is_on_sale": false,
+      "is_on_sale": true,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -22618,9 +22618,9 @@
       "barcodes": [
         "8886419334576"
       ],
-      "our_price": 215.0,
+      "our_price": 359.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -22656,7 +22656,7 @@
       "barcodes": [
         "8886419334491"
       ],
-      "our_price": 395.0,
+      "our_price": 465.0,
       "regular_price": null,
       "is_on_sale": true,
       "in_stock": true,
@@ -22732,7 +22732,7 @@
       "barcodes": [
         "8886419334521"
       ],
-      "our_price": 395.0,
+      "our_price": 465.0,
       "regular_price": null,
       "is_on_sale": true,
       "in_stock": true,
@@ -22751,9 +22751,9 @@
       "barcodes": [
         "8886419379645"
       ],
-      "our_price": 319.0,
+      "our_price": 479.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -22808,9 +22808,9 @@
       "barcodes": [
         "8886419334316"
       ],
-      "our_price": 179.0,
+      "our_price": 319.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -22827,9 +22827,9 @@
       "barcodes": [
         "8886419334163"
       ],
-      "our_price": 639.0,
+      "our_price": 439.0,
       "regular_price": null,
-      "is_on_sale": false,
+      "is_on_sale": true,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -22884,9 +22884,9 @@
       "barcodes": [
         "8887910072691"
       ],
-      "our_price": 599.0,
+      "our_price": 359.0,
       "regular_price": null,
-      "is_on_sale": false,
+      "is_on_sale": true,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -22922,9 +22922,9 @@
       "barcodes": [
         "8886419349815"
       ],
-      "our_price": 125.0,
+      "our_price": 199.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -22941,9 +22941,9 @@
       "barcodes": [
         "8886419345749"
       ],
-      "our_price": 559.0,
+      "our_price": 479.0,
       "regular_price": null,
-      "is_on_sale": false,
+      "is_on_sale": true,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -22960,9 +22960,9 @@
       "barcodes": [
         "8886419345763"
       ],
-      "our_price": 559.0,
+      "our_price": 479.0,
       "regular_price": null,
-      "is_on_sale": false,
+      "is_on_sale": true,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -22998,9 +22998,9 @@
       "barcodes": [
         "7290117627044"
       ],
-      "our_price": 990.0,
+      "our_price": 700.0,
       "regular_price": null,
-      "is_on_sale": false,
+      "is_on_sale": true,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -23264,7 +23264,7 @@
       "barcodes": [
         "8886419354734"
       ],
-      "our_price": 719.0,
+      "our_price": 899.0,
       "regular_price": null,
       "is_on_sale": true,
       "in_stock": true,
@@ -23283,9 +23283,9 @@
       "barcodes": [
         "8887910060889"
       ],
-      "our_price": 319.0,
+      "our_price": 559.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -23429,7 +23429,7 @@
       "barcodes": [
         "0856277006302"
       ],
-      "our_price": 99.0,
+      "our_price": 129.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -23448,7 +23448,7 @@
       "barcodes": [
         "0856277006371"
       ],
-      "our_price": 99.0,
+      "our_price": 129.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -23467,7 +23467,7 @@
       "barcodes": [
         "0856277006319"
       ],
-      "our_price": 99.0,
+      "our_price": 129.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -23486,7 +23486,7 @@
       "barcodes": [
         "7290117627143"
       ],
-      "our_price": 99.0,
+      "our_price": 49.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -23638,7 +23638,7 @@
       "barcodes": [
         "6954521607801"
       ],
-      "our_price": 1199.0,
+      "our_price": 1299.0,
       "regular_price": null,
       "is_on_sale": true,
       "in_stock": true,
@@ -23657,7 +23657,7 @@
       "barcodes": [
         "7290117626351"
       ],
-      "our_price": 399.0,
+      "our_price": 402.41,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -23693,7 +23693,7 @@
       "barcodes": [
         "6972147071554"
       ],
-      "our_price": 1058.0,
+      "our_price": 1057.97,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -23712,7 +23712,7 @@
       "barcodes": [
         "3362934003791"
       ],
-      "our_price": 433.0,
+      "our_price": 432.67,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -23750,7 +23750,7 @@
       "barcodes": [
         "7290117625934"
       ],
-      "our_price": 564.0,
+      "our_price": 563.78,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -23788,9 +23788,9 @@
       "barcodes": [
         "3362934003319"
       ],
-      "our_price": 239.0,
+      "our_price": 449.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -23807,9 +23807,9 @@
       "barcodes": [
         "3362934111564"
       ],
-      "our_price": 599.0,
+      "our_price": 999.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -23845,7 +23845,7 @@
       "barcodes": [
         "3362934002848"
       ],
-      "our_price": 765.0,
+      "our_price": 765.49,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -23864,7 +23864,7 @@
       "barcodes": [
         "3362934001490"
       ],
-      "our_price": 413.0,
+      "our_price": 412.5,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -23959,9 +23959,9 @@
       "barcodes": [
         "3362934110420"
       ],
-      "our_price": 1399.0,
+      "our_price": 2299.0,
       "regular_price": null,
-      "is_on_sale": true,
+      "is_on_sale": false,
       "in_stock": true,
       "source_id": "benda_store",
       "source_name": "בנדא סטור",
@@ -23978,7 +23978,7 @@
       "barcodes": [
         "7290117625798"
       ],
-      "our_price": 201.0,
+      "our_price": 199.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -24016,7 +24016,7 @@
       "barcodes": [
         "7290117624319"
       ],
-      "our_price": 463.0,
+      "our_price": 349.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -24282,7 +24282,7 @@
       "barcodes": [
         "6949312309415"
       ],
-      "our_price": 140.0,
+      "our_price": 119.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -24301,7 +24301,7 @@
       "barcodes": [
         "6949312309408"
       ],
-      "our_price": 130.0,
+      "our_price": 109.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -24320,7 +24320,7 @@
       "barcodes": [
         "6949312309392"
       ],
-      "our_price": 187.0,
+      "our_price": 199.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -24358,7 +24358,7 @@
       "barcodes": [
         "6949312312033"
       ],
-      "our_price": 140.0,
+      "our_price": 129.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -24510,7 +24510,7 @@
       "barcodes": [
         "7290111746949"
       ],
-      "our_price": 100.0,
+      "our_price": 99.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -24548,7 +24548,7 @@
       "barcodes": [
         "7290117624012"
       ],
-      "our_price": 60.0,
+      "our_price": 59.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -24624,7 +24624,7 @@
       "barcodes": [
         "7290117621080"
       ],
-      "our_price": 65.0,
+      "our_price": 64.9,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -24643,7 +24643,7 @@
       "barcodes": [
         "7290111748899"
       ],
-      "our_price": 201.0,
+      "our_price": 199.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -24662,7 +24662,7 @@
       "barcodes": [
         "7290117620946"
       ],
-      "our_price": 100.0,
+      "our_price": 99.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -24681,7 +24681,7 @@
       "barcodes": [
         "7290117620861"
       ],
-      "our_price": 120.0,
+      "our_price": 119.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -24700,7 +24700,7 @@
       "barcodes": [
         "7290117620854"
       ],
-      "our_price": 120.0,
+      "our_price": 119.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -24966,7 +24966,7 @@
       "barcodes": [
         "7290111743276"
       ],
-      "our_price": 60.0,
+      "our_price": 59.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -24985,7 +24985,7 @@
       "barcodes": [
         "7290111743269"
       ],
-      "our_price": 60.0,
+      "our_price": 59.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -25213,7 +25213,7 @@
       "barcodes": [
         "4716873840228"
       ],
-      "our_price": 1390.0,
+      "our_price": 1906.15,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -25251,7 +25251,7 @@
       "barcodes": [
         "4716873840198"
       ],
-      "our_price": 1690.0,
+      "our_price": 1704.44,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -25327,7 +25327,7 @@
       "barcodes": [
         "0725882051291"
       ],
-      "our_price": 459.0,
+      "our_price": 462.92,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -25650,7 +25650,7 @@
       "barcodes": [
         "7290117623800"
       ],
-      "our_price": 150.0,
+      "our_price": 199.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -25669,7 +25669,7 @@
       "barcodes": [
         "7290117623787"
       ],
-      "our_price": 201.0,
+      "our_price": 199.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -25688,7 +25688,7 @@
       "barcodes": [
         "7290117623770"
       ],
-      "our_price": 150.0,
+      "our_price": 149.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -25802,7 +25802,7 @@
       "barcodes": [
         "6971636403623"
       ],
-      "our_price": 1512.0,
+      "our_price": 1511.81,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -25878,7 +25878,7 @@
       "barcodes": [
         "7290117621868"
       ],
-      "our_price": 201.0,
+      "our_price": 199.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -25897,7 +25897,7 @@
       "barcodes": [
         "7290117621851"
       ],
-      "our_price": 201.0,
+      "our_price": 199.0,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -25916,7 +25916,7 @@
       "barcodes": [
         "6972147071547"
       ],
-      "our_price": 947.0,
+      "our_price": 947.03,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -25935,7 +25935,7 @@
       "barcodes": [
         "6972147070489"
       ],
-      "our_price": 382.0,
+      "our_price": 382.24,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -25954,7 +25954,7 @@
       "barcodes": [
         "6975715190008"
       ],
-      "our_price": 329.0,
+      "our_price": 281.39,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -26011,7 +26011,7 @@
       "barcodes": [
         "6954521639284"
       ],
-      "our_price": 402.0,
+      "our_price": 402.41,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -26030,7 +26030,7 @@
       "barcodes": [
         "7290117621844"
       ],
-      "our_price": 503.0,
+      "our_price": 503.27,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -26068,7 +26068,7 @@
       "barcodes": [
         "6954521630168"
       ],
-      "our_price": 1512.0,
+      "our_price": 1511.81,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -26163,7 +26163,7 @@
       "barcodes": [
         "6954521629766"
       ],
-      "our_price": 150.0,
+      "our_price": 150.27,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -26182,7 +26182,7 @@
       "barcodes": [
         "6954521639222"
       ],
-      "our_price": 252.0,
+      "our_price": 252.14,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -26201,7 +26201,7 @@
       "barcodes": [
         "6954521630151"
       ],
-      "our_price": 1704.0,
+      "our_price": 1704.44,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -26277,7 +26277,7 @@
       "barcodes": [
         "6954521629438"
       ],
-      "our_price": 998.0,
+      "our_price": 998.46,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -26296,7 +26296,7 @@
       "barcodes": [
         "6954521630786"
       ],
-      "our_price": 302.0,
+      "our_price": 301.56,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -26387,7 +26387,7 @@
       "barcodes": [
         "6954521636733"
       ],
-      "our_price": 150.0,
+      "our_price": 150.27,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -26406,7 +26406,7 @@
       "barcodes": [
         "6954521617558"
       ],
-      "our_price": 150.0,
+      "our_price": 150.27,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -26425,7 +26425,7 @@
       "barcodes": [
         "6954521613505"
       ],
-      "our_price": 402.0,
+      "our_price": 402.41,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -26444,7 +26444,7 @@
       "barcodes": [
         "6954521629230"
       ],
-      "our_price": 302.0,
+      "our_price": 301.56,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -26463,7 +26463,7 @@
       "barcodes": [
         "6954521613680"
       ],
-      "our_price": 150.0,
+      "our_price": 150.27,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -26482,7 +26482,7 @@
       "barcodes": [
         "6954521619705"
       ],
-      "our_price": 291.0,
+      "our_price": 291.47,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,
@@ -26520,7 +26520,7 @@
       "barcodes": [
         "6954521619767"
       ],
-      "our_price": 291.0,
+      "our_price": 291.47,
       "regular_price": null,
       "is_on_sale": false,
       "in_stock": true,

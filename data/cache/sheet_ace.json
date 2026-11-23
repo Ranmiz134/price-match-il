@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_ace",
   "store_name": "ACE",
-  "last_ok_at": "2026-11-23T06:21:02.296120+00:00",
-  "count": 8,
+  "last_ok_at": "2026-11-23T06:39:59.987450+00:00",
+  "count": 13,
   "items": [
     {
       "store_id": "ace",
@@ -32,7 +32,7 @@
       "importer_text": "unverified",
       "sku": "90903-011-44",
       "barcodes": [],
-      "scraped_at": "2026-11-22 10:39"
+      "scraped_at": "2026-11-23 08:34"
     },
     {
       "store_id": "ace",
@@ -123,6 +123,81 @@
       "sku": "99226-000-11",
       "barcodes": [],
       "scraped_at": "2026-11-22 13:21"
+    },
+    {
+      "store_id": "ace",
+      "store_name": "ACE",
+      "our_sku": "90903-011-51",
+      "our_product_name": "אוזניות גיימינג לXBOX דגם BlackShark V2 X בצבע לבן מבית Razer",
+      "title": "Razer בצבע לבן מבית BlackShark V2 X דגם XBOXאוזניות גיימינג ל",
+      "price": 239.0,
+      "url": "https://www.ace.co.il/4502465",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "90903-011-51",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 08:36"
+    },
+    {
+      "store_id": "ace",
+      "store_name": "ACE",
+      "our_sku": "90903-001-36",
+      "our_product_name": "אוזניות גיימינג Blackshark V2x בצבע לבן מבית RAZER",
+      "title": "RAZER בצבע לבן מבית Blackshark V2x אוזניות גיימינג",
+      "price": 319.0,
+      "url": "https://www.ace.co.il/4502467",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "90903-001-36",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 08:32"
+    },
+    {
+      "store_id": "ace",
+      "store_name": "ACE",
+      "our_sku": "90903-007-16",
+      "our_product_name": "כיסא אפור בהיר RAZER ISKUR V2 X  FABRIC",
+      "title": "כיסא Razer Iskur V2 X – אפור בהיר",
+      "price": 719.0,
+      "url": "https://www.ace.co.il/4500393",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "90903-007-16",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 08:32"
+    },
+    {
+      "store_id": "ace",
+      "store_name": "ACE",
+      "our_sku": "90903-001-37",
+      "our_product_name": "אוזניות גיימינג Blackshark V2x בצבע ורוד מבית RAZER",
+      "title": "RAZER בצבע ורוד מבית Blackshark V2x אוזניות גיימינג",
+      "price": 319.0,
+      "url": "https://www.ace.co.il/4502466",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "90903-001-37",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 08:33"
+    },
+    {
+      "store_id": "ace",
+      "store_name": "ACE",
+      "our_sku": "90903-007-15",
+      "our_product_name": "כיסא גיימינג בד שחור RAZER ISKUR V2 X",
+      "title": "Razer Iskur V2 X כיסא גיימינג",
+      "price": 719.0,
+      "url": "https://www.ace.co.il/4500394",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "90903-007-15",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 08:34"
     }
   ]
 }

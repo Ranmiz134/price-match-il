@@ -756,6 +756,12 @@
       data.catalog.forEach(r => { const p=products.get(r.our_sku); if(p && Number.isFinite(r.regular_price_ils) && r.regular_price_ils>0) p.supplier_regular_price=r.regular_price_ils; });
       const validDate = v => v === null || typeof v==='string' && /^\d{4}-\d{2}-\d{2}$/.test(v) && new Date(v).toISOString().slice(0,10)===v;
       data.offers.forEach(r => { const p=products.get(r.our_sku); if(!p || r.verified!==true || !Number.isFinite(r.price_ils) || r.price_ils<=0 || !validDate(r.starts_on) || !validDate(r.ends_on) || !r.ends_on || r.starts_on && r.starts_on>r.ends_on) return; (p.supplier_promotions ||= []).push(r); p.promotion=r; });
+      const today = new Intl.DateTimeFormat('en-CA', {timeZone:'Asia/Jerusalem',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+      allProducts.forEach(p => {
+        const active=(p.supplier_promotions || []).filter(r => (!r.starts_on || r.starts_on<=today) && today<=r.ends_on);
+        if(p.supplier_regular_price) {p.our_price=active.length ? active[0].price_ils : p.supplier_regular_price; p.is_on_sale=active.length>0;}
+        p.promotion=active[0] || (p.supplier_promotions || [])[0];
+      });
     } catch(error) {
       const note=document.createElement('div');note.className='price-sub';note.textContent='מידע מבצעי בנדא אינו זמין. המחיר המוצג נשמר, יש לבדוק מול המחירון.';document.querySelector('.search-panel').appendChild(note);
     }

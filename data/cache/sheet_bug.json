@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T23:39:10.273517+00:00",
-  "count": 202,
+  "last_ok_at": "2026-11-23T23:55:32.791255+00:00",
+  "count": 203,
   "items": [
     {
       "store_id": "bug",
@@ -3033,6 +3033,21 @@
       "sku": "90903-003-24",
       "barcodes": [],
       "scraped_at": "2026-11-24 01:37"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-001-24",
+      "our_product_name": "אוזניות גיימינג Razer BlackShark V2 X- צבע ירוק",
+      "title": "אוזניות גיימינג חוטיות בצבע ירוק Blackshrak V2 X",
+      "price": 315.0,
+      "url": "https://www.bug.co.il/brand/razer/headphones/blackshark/v2/x/for/pc/rz04/03241300/r3g1/green",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-001-24",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 01:54"
     }
   ]
 }

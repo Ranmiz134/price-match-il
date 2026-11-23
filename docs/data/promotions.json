@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-23T16:06:00+00:00",
+  "checked_at": "2026-11-23T16:25:00+00:00",
   "checks": [
     {
       "checked_at": "2026-11-22T12:47:48.109393+00:00",
@@ -2862,6 +2862,26 @@
       "checked_at": "2026-11-23T16:06:00+00:00",
       "comparison_scraped_at": "2026-11-23 18:06",
       "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "88100-388-00",
+      "store_id": "ace",
+      "store_name": "ACE",
+      "price_vat": 799,
+      "product_url": "https://www.ace.co.il/4402352",
+      "checked_at": "2026-11-23T16:25:00+00:00",
+      "comparison_scraped_at": "2026-11-23 18:25",
+      "date_result": "explicit_end_date"
+    },
+    {
+      "our_sku": "88100-388-11",
+      "store_id": "ace",
+      "store_name": "ACE",
+      "price_vat": 920,
+      "product_url": "https://www.ace.co.il/4418307",
+      "checked_at": "2026-11-23T16:25:00+00:00",
+      "comparison_scraped_at": "2026-11-23 18:25",
+      "date_result": "not_found_on_checked_product_page"
     }
   ],
   "offers": [
@@ -4256,8 +4276,22 @@
       "date_status": "end_date_only",
       "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
       "verified": true
+    },
+    {
+      "our_sku": "88100-388-00",
+      "store_id": "ace",
+      "price_ils": 799,
+      "regular_price_ils": 1290,
+      "source_url": "https://www.ace.co.il/4402352",
+      "url": "https://www.ace.co.il/4402352",
+      "checked_at": "2026-11-23T16:25:00+00:00",
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_date_only",
+      "terms": "תחילת המבצע לא צוינה. בתוקף עד 2026-11-30.",
+      "verified": true
     }
   ],
   "schema_version": 2,
-  "scope": "Known individual product-page checks. Five exact Bug Thrustmaster official Benda sale offers added. Prior timestamps retained. Not a full sweep."
+  "scope": "Known individual product-page checks. Two exact ACE Hobot models added; importer unnamed, unverified. Prior timestamps retained. Not a full sweep."
     }

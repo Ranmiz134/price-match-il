@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_ace",
   "store_name": "ACE",
-  "last_ok_at": "2026-11-23T16:08:45.644993+00:00",
-  "count": 24,
+  "last_ok_at": "2026-11-23T16:27:36.265705+00:00",
+  "count": 26,
   "items": [
     {
       "store_id": "ace",
@@ -363,6 +363,36 @@
       "sku": "80803-001-03",
       "barcodes": [],
       "scraped_at": "2026-11-23 14:32"
+    },
+    {
+      "store_id": "ace",
+      "store_name": "ACE",
+      "our_sku": "88100-388-00",
+      "our_product_name": "מנקה חלונות רובוטי     HOBOT 388",
+      "title": "מנקה חלונות רובוטי דגם HOBOT - 388",
+      "price": 799.0,
+      "url": "https://www.ace.co.il/4402352",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "88100-388-00",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 18:25"
+    },
+    {
+      "store_id": "ace",
+      "store_name": "ACE",
+      "our_sku": "88100-388-11",
+      "our_product_name": "מנקה חלונות רובוטי HOBOT 368",
+      "title": "מנקה חלונות רובוטי דגם Hobot 368",
+      "price": 920.0,
+      "url": "https://www.ace.co.il/4418307",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "88100-388-11",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 18:25"
     }
   ]
 }

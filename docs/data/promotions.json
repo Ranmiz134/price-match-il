@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-23T10:30:48.701Z",
-  "scope": "Known product-page checks only. Added four exact Bug Elgato offers. Other source timestamps retained. Not a full market sweep.",
+  "checked_at": "2026-11-23T10:50:45.507Z",
+  "scope": "Known product-page checks only. Added three exact Jackery offers. Other source timestamps retained. Not a full market sweep.",
   "checks": [
     {
       "our_sku": "99999-955-09",
@@ -2089,6 +2089,39 @@
       "comparison_scraped_at": "2026-11-23 12:30",
       "checked_at": "2026-11-23T10:30:48.701Z",
       "date_result": "found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99226-000-32",
+      "name": "תחנת טעינה JACKERY EXPLORER 1000 Plus 1264WH",
+      "store_name": "ACE",
+      "store_id": "ace",
+      "price_vat": 2799,
+      "product_url": "https://www.ace.co.il/4455978",
+      "comparison_scraped_at": "2026-11-23 12:49",
+      "checked_at": "2026-11-23T10:49:54.863Z",
+      "date_result": "found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99226-000-36",
+      "name": "פאנל סולארי Jackery solarsaga 80W",
+      "store_name": "ACE",
+      "store_id": "ace",
+      "price_vat": 1199,
+      "product_url": "https://www.ace.co.il/4455980",
+      "comparison_scraped_at": "2026-11-23 12:50",
+      "checked_at": "2026-11-23T10:50:12.970Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99226-000-32",
+      "name": "תחנת טעינה JACKERY EXPLORER 1000 Plus 1264WH",
+      "store_name": "Bug",
+      "store_id": "bug",
+      "price_vat": 7589,
+      "product_url": "https://www.bug.co.il/brand/jackery/protable/charging/station/explorer/1000/plus",
+      "comparison_scraped_at": "2026-11-23 12:50",
+      "checked_at": "2026-11-23T10:50:45.507Z",
+      "date_result": "not_found_on_checked_product_page"
     }
   ],
   "offers": [
@@ -2951,6 +2984,20 @@
       "checked_at": "2026-11-23T10:30:48.701Z",
       "source_url": "https://www.bug.co.il/brand/elgato/controller/keyboard/steam/deck/neo",
       "terms": "מחיר מבצע ₪279 במקום ₪649. בתוקף עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם. תחילת המבצע לא צוינה."
+    },
+    {
+      "our_sku": "99226-000-32",
+      "store_id": "ace",
+      "url": "https://www.ace.co.il/4455978",
+      "price_ils": 2799,
+      "regular_price_ils": 7450,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_stated",
+      "checked_at": "2026-11-23T10:49:54.863Z",
+      "source_url": "https://www.ace.co.il/4455978",
+      "terms": "Displayed product sale price valid through November 30, 2026. Start date not stated."
     }
   ]
     }

@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_ace",
   "store_name": "ACE",
-  "last_ok_at": "2026-11-23T12:15:42.623653+00:00",
-  "count": 20,
+  "last_ok_at": "2026-11-23T12:37:34.367734+00:00",
+  "count": 24,
   "items": [
     {
       "store_id": "ace",
@@ -303,6 +303,66 @@
       "sku": "99226-000-36",
       "barcodes": [],
       "scraped_at": "2026-11-23 12:50"
+    },
+    {
+      "store_id": "ace",
+      "store_name": "ACE",
+      "our_sku": "80803-001-01",
+      "our_product_name": "מדפסת תלת מימד CREALITY ENDER-3 V3 SE",
+      "title": "Creality מבית Ender-3 V3 SE מדפסת תלת מימד דגם",
+      "price": 1274.0,
+      "url": "https://www.ace.co.il/4439753",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "80803-001-01",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 14:31"
+    },
+    {
+      "store_id": "ace",
+      "store_name": "ACE",
+      "our_sku": "80803-001-06",
+      "our_product_name": "CR-Scan Raptorסורק תלת מימד",
+      "title": "Creality מבית CR-Scan Raptor סורק תלת מימד",
+      "price": 5479.0,
+      "url": "https://www.ace.co.il/4467375",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "80803-001-06",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 14:31"
+    },
+    {
+      "store_id": "ace",
+      "store_name": "ACE",
+      "our_sku": "80803-001-05",
+      "our_product_name": "CR-Scan Otter סורק תלת מימד",
+      "title": "Creality מבית CR-Scan Otter סורק תלת-ממד",
+      "price": 3444.0,
+      "url": "https://www.ace.co.il/4467374",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "80803-001-05",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 14:31"
+    },
+    {
+      "store_id": "ace",
+      "store_name": "ACE",
+      "our_sku": "80803-001-03",
+      "our_product_name": "מדפסת תלת מימד CREALITY K1",
+      "title": "Creality מבית K1 מדפסת תלת מימד דגם",
+      "price": 3299.0,
+      "url": "https://www.ace.co.il/4439755",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "80803-001-03",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 14:32"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-23T15:28:00+00:00",
+  "checked_at": "2026-11-23T15:48:00+00:00",
   "checks": [
     {
       "checked_at": "2026-11-22T12:47:48.109393+00:00",
@@ -2742,6 +2742,76 @@
       "checked_at": "2026-11-23T15:28:00+00:00",
       "comparison_scraped_at": "2026-11-23 17:28",
       "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90904-111-01",
+      "store_id": "bug",
+      "store_name": "Bug",
+      "price_vat": 349,
+      "product_url": "https://www.bug.co.il/brand/corsair/4/in/1/gaming/bundle",
+      "checked_at": "2026-11-23T15:48:00+00:00",
+      "comparison_scraped_at": "2026-11-23 17:48",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90904-001-22",
+      "store_id": "bug",
+      "store_name": "Bug",
+      "price_vat": 119,
+      "product_url": "https://www.bug.co.il/brand/corsair/gaming/headphones/wired/hs35/v2/multiplatform/black",
+      "checked_at": "2026-11-23T15:48:00+00:00",
+      "comparison_scraped_at": "2026-11-23 17:48",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90904-003-34",
+      "store_id": "bug",
+      "store_name": "Bug",
+      "price_vat": 149,
+      "product_url": "https://www.bug.co.il/brand/corsair/gaming/keyboard/k55/core/rgb/color/black",
+      "checked_at": "2026-11-23T15:48:00+00:00",
+      "comparison_scraped_at": "2026-11-23 17:48",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90904-112-60",
+      "store_id": "bug",
+      "store_name": "Bug",
+      "price_vat": 179,
+      "product_url": "https://www.bug.co.il/brand/corsair/hs55/black",
+      "checked_at": "2026-11-23T15:48:00+00:00",
+      "comparison_scraped_at": "2026-11-23 17:48",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90904-112-61",
+      "store_id": "bug",
+      "store_name": "Bug",
+      "price_vat": 179,
+      "product_url": "https://www.bug.co.il/brand/corsair/hs55/white",
+      "checked_at": "2026-11-23T15:48:00+00:00",
+      "comparison_scraped_at": "2026-11-23 17:48",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90904-005-01",
+      "store_id": "bug",
+      "store_name": "Bug",
+      "price_vat": 79,
+      "product_url": "https://www.bug.co.il/brand/corsair/katar/pro",
+      "checked_at": "2026-11-23T15:48:00+00:00",
+      "comparison_scraped_at": "2026-11-23 17:48",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90904-005-39",
+      "store_id": "bug",
+      "store_name": "Bug",
+      "price_vat": 299,
+      "product_url": "https://www.bug.co.il/brand/corsair/dark/core/rgb/pro/wireless",
+      "checked_at": "2026-11-23T15:48:00+00:00",
+      "comparison_scraped_at": "2026-11-23 17:48",
+      "date_result": "explicit_end_date_with_stock_limit"
     }
   ],
   "offers": [
@@ -3968,8 +4038,106 @@
       "date_status": "end_date_only",
       "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
       "verified": true
+    },
+    {
+      "our_sku": "90904-111-01",
+      "store_id": "bug",
+      "price_ils": 349,
+      "regular_price_ils": 649,
+      "source_url": "https://www.bug.co.il/brand/corsair/4/in/1/gaming/bundle",
+      "url": "https://www.bug.co.il/brand/corsair/4/in/1/gaming/bundle",
+      "checked_at": "2026-11-23T15:48:00+00:00",
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_date_only",
+      "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
+      "verified": true
+    },
+    {
+      "our_sku": "90904-001-22",
+      "store_id": "bug",
+      "price_ils": 119,
+      "regular_price_ils": 239,
+      "source_url": "https://www.bug.co.il/brand/corsair/gaming/headphones/wired/hs35/v2/multiplatform/black",
+      "url": "https://www.bug.co.il/brand/corsair/gaming/headphones/wired/hs35/v2/multiplatform/black",
+      "checked_at": "2026-11-23T15:48:00+00:00",
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_date_only",
+      "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
+      "verified": true
+    },
+    {
+      "our_sku": "90904-003-34",
+      "store_id": "bug",
+      "price_ils": 149,
+      "regular_price_ils": 299,
+      "source_url": "https://www.bug.co.il/brand/corsair/gaming/keyboard/k55/core/rgb/color/black",
+      "url": "https://www.bug.co.il/brand/corsair/gaming/keyboard/k55/core/rgb/color/black",
+      "checked_at": "2026-11-23T15:48:00+00:00",
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_date_only",
+      "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
+      "verified": true
+    },
+    {
+      "our_sku": "90904-112-60",
+      "store_id": "bug",
+      "price_ils": 179,
+      "regular_price_ils": 399,
+      "source_url": "https://www.bug.co.il/brand/corsair/hs55/black",
+      "url": "https://www.bug.co.il/brand/corsair/hs55/black",
+      "checked_at": "2026-11-23T15:48:00+00:00",
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_date_only",
+      "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
+      "verified": true
+    },
+    {
+      "our_sku": "90904-112-61",
+      "store_id": "bug",
+      "price_ils": 179,
+      "regular_price_ils": 399,
+      "source_url": "https://www.bug.co.il/brand/corsair/hs55/white",
+      "url": "https://www.bug.co.il/brand/corsair/hs55/white",
+      "checked_at": "2026-11-23T15:48:00+00:00",
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_date_only",
+      "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
+      "verified": true
+    },
+    {
+      "our_sku": "90904-005-01",
+      "store_id": "bug",
+      "price_ils": 79,
+      "regular_price_ils": 129,
+      "source_url": "https://www.bug.co.il/brand/corsair/katar/pro",
+      "url": "https://www.bug.co.il/brand/corsair/katar/pro",
+      "checked_at": "2026-11-23T15:48:00+00:00",
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_date_only",
+      "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
+      "verified": true
+    },
+    {
+      "our_sku": "90904-005-39",
+      "store_id": "bug",
+      "price_ils": 299,
+      "regular_price_ils": 499,
+      "source_url": "https://www.bug.co.il/brand/corsair/dark/core/rgb/pro/wireless",
+      "url": "https://www.bug.co.il/brand/corsair/dark/core/rgb/pro/wireless",
+      "checked_at": "2026-11-23T15:48:00+00:00",
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_date_only",
+      "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
+      "verified": true
     }
   ],
   "schema_version": 2,
-  "scope": "Known individual product-page checks. Nine exact Bug Corsair official Benda sale offers added. Prior timestamps retained. Not a full sweep."
+  "scope": "Known individual product-page checks. Seven exact Bug Corsair official Benda sale offers added. Prior timestamps retained. Not a full sweep."
     }

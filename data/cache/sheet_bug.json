@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T21:06:55.375717+00:00",
-  "count": 174,
+  "last_ok_at": "2026-11-23T21:24:40.683591+00:00",
+  "count": 178,
   "items": [
     {
       "store_id": "bug",
@@ -2613,6 +2613,66 @@
       "sku": "90905-010-01",
       "barcodes": [],
       "scraped_at": "2026-11-23 23:05"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-001-78",
+      "our_product_name": "עכבר אלחוטי דגם Viper V3 Pro SE מבית Razer",
+      "title": "עכבר גיימינג אלחוטי Viper V3 Pro SE",
+      "price": 249.0,
+      "url": "https://www.bug.co.il/brand/razer/viper/v3/pro",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-001-78",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 23:23"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-001-59",
+      "our_product_name": "אוזניות אלחוטיות Razer BlackShark V3 X HyperSpeed – שחור",
+      "title": "אוזניות גיימינג אלחוטיות Blackshark V3 X HyperSpeed PC - שחור",
+      "price": 325.0,
+      "url": "https://www.bug.co.il/brand/razer/blackshark/v3/x/hyperspeed/pc/",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-001-59",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 23:23"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-001-60",
+      "our_product_name": "אוזניות שחור RAZER BLACKSHARK V3 X HYPERSPEED FOR XBOX",
+      "title": "אוזניות גיימינג אלחוטיות Blackshark V3 X HyperSpeed Xbox - שחור",
+      "price": 325.0,
+      "url": "https://www.bug.co.il/brand/razer/blackshark/v3/x/hyperspeed/xbox",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-001-60",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 23:23"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-003-55",
+      "our_product_name": "מקלדת אלח RAZER BLACKWIDOW V4 LOW-P TKL HYPERSPEED YELLOW.S",
+      "title": "מקלדת גיימינג מכאנית אלחוטית Blackwidow V4 Low-Profile TKL - סוויץ' צהוב",
+      "price": 759.0,
+      "url": "https://www.bug.co.il/brand/razer/blackwidow/v4/low/profile/tenkeyless/yellow/switch",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-003-55",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 23:23"
     }
   ]
 }

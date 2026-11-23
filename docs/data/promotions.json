@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-23T10:09:54.602Z",
-  "scope": "Known product-page checks only. Added two exact Ivory Thrustmaster offers. Other source timestamps retained. Not a full market sweep.",
+  "checked_at": "2026-11-23T10:30:48.701Z",
+  "scope": "Known product-page checks only. Added four exact Bug Elgato offers. Other source timestamps retained. Not a full market sweep.",
   "checks": [
     {
       "our_sku": "99999-955-09",
@@ -2045,6 +2045,50 @@
       "comparison_scraped_at": "2026-11-23 12:09",
       "checked_at": "2026-11-23T10:09:28.334Z",
       "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90904-120-18",
+      "name": "מצלמת רשת ELGATO FACECAM MK2",
+      "store_name": "Bug",
+      "store_id": "bug",
+      "price_vat": 579,
+      "product_url": "https://www.bug.co.il/brand/elgato/internet/camera/facecam/mk2",
+      "comparison_scraped_at": "2026-11-23 12:30",
+      "checked_at": "2026-11-23T10:30:16.991Z",
+      "date_result": "found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90904-100-04",
+      "name": "מתאם למצלמה Elgato Cam Link 4K",
+      "store_name": "Bug",
+      "store_id": "bug",
+      "price_vat": 249,
+      "product_url": "https://www.bug.co.il/brand/elgato/cam/link/4",
+      "comparison_scraped_at": "2026-11-23 12:30",
+      "checked_at": "2026-11-23T10:30:35.532Z",
+      "date_result": "found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90904-110-04",
+      "name": "בקר שליטה ELGATO STREAM DECK MK2",
+      "store_name": "Bug",
+      "store_id": "bug",
+      "price_vat": 419,
+      "product_url": "https://www.bug.co.il/brand/elgato/stream/deck/mk2",
+      "comparison_scraped_at": "2026-11-23 12:30",
+      "checked_at": "2026-11-23T10:30:42.125Z",
+      "date_result": "found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90904-120-21",
+      "name": "Elgato Stream Deck Neo – בקר שליטה חכם",
+      "store_name": "Bug",
+      "store_id": "bug",
+      "price_vat": 279,
+      "product_url": "https://www.bug.co.il/brand/elgato/controller/keyboard/steam/deck/neo",
+      "comparison_scraped_at": "2026-11-23 12:30",
+      "checked_at": "2026-11-23T10:30:48.701Z",
+      "date_result": "found_on_checked_product_page"
     }
   ],
   "offers": [
@@ -2847,6 +2891,66 @@
       "checked_at": "2026-11-23T09:45:08.219Z",
       "source_url": "https://www.ace.co.il/4454933",
       "terms": "Displayed product sale price valid through December 8, 2026. No start date stated."
+    },
+    {
+      "our_sku": "90904-120-18",
+      "store_id": "bug",
+      "url": "https://www.bug.co.il/brand/elgato/internet/camera/facecam/mk2",
+      "price_ils": 579,
+      "regular_price_ils": 699,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "explicit_end_stock_limited",
+      "conditions": "או עד גמר המלאי, המוקדם מביניהם",
+      "checked_at": "2026-11-23T10:30:16.991Z",
+      "source_url": "https://www.bug.co.il/brand/elgato/internet/camera/facecam/mk2",
+      "terms": "מחיר מבצע ₪579 במקום ₪699. בתוקף עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם. תחילת המבצע לא צוינה."
+    },
+    {
+      "our_sku": "90904-100-04",
+      "store_id": "bug",
+      "url": "https://www.bug.co.il/brand/elgato/cam/link/4",
+      "price_ils": 249,
+      "regular_price_ils": 599,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "explicit_end_stock_limited",
+      "conditions": "או עד גמר המלאי, המוקדם מביניהם",
+      "checked_at": "2026-11-23T10:30:35.532Z",
+      "source_url": "https://www.bug.co.il/brand/elgato/cam/link/4",
+      "terms": "מחיר מבצע ₪249 במקום ₪599. בתוקף עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם. תחילת המבצע לא צוינה."
+    },
+    {
+      "our_sku": "90904-110-04",
+      "store_id": "bug",
+      "url": "https://www.bug.co.il/brand/elgato/stream/deck/mk2",
+      "price_ils": 419,
+      "regular_price_ils": 709,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "explicit_end_stock_limited",
+      "conditions": "או עד גמר המלאי, המוקדם מביניהם",
+      "checked_at": "2026-11-23T10:30:42.125Z",
+      "source_url": "https://www.bug.co.il/brand/elgato/stream/deck/mk2",
+      "terms": "מחיר מבצע ₪419 במקום ₪709. בתוקף עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם. תחילת המבצע לא צוינה."
+    },
+    {
+      "our_sku": "90904-120-21",
+      "store_id": "bug",
+      "url": "https://www.bug.co.il/brand/elgato/controller/keyboard/steam/deck/neo",
+      "price_ils": 279,
+      "regular_price_ils": 649,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "explicit_end_stock_limited",
+      "conditions": "או עד גמר המלאי, המוקדם מביניהם",
+      "checked_at": "2026-11-23T10:30:48.701Z",
+      "source_url": "https://www.bug.co.il/brand/elgato/controller/keyboard/steam/deck/neo",
+      "terms": "מחיר מבצע ₪279 במקום ₪649. בתוקף עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם. תחילת המבצע לא צוינה."
     }
   ]
-}
+    }

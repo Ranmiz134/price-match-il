@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-23T12:32:00.357Z",
-  "scope": "Known product-page checks only. Added four exact ACE Creality offers. Other source timestamps retained. Not a full market sweep.",
+  "checked_at": "2026-11-23T12:55:10.718Z",
+  "scope": "Known product-page checks only. Added five exact Kravitz Miracase offers. Other source timestamps retained. Not a full market sweep.",
   "checks": [
     {
       "our_sku": "99999-955-09",
@@ -2331,6 +2331,61 @@
       "comparison_scraped_at": "2026-11-23 14:32",
       "checked_at": "2026-11-23T12:32:00.357Z",
       "date_result": "found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99317-000-63",
+      "name": "סוללה ניידת Miracase MPB20RC165W – טעינה חכמה עם מסך מידע וממשק מתקדם",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 319.2,
+      "product_url": "https://www.kravitz.co.il/products/%D7%A1%D7%95%D7%9C%D7%9C%D7%94-%D7%A0%D7%99%D7%99%D7%93%D7%AA-miracase-mpb20rc165w?variant=51742581129512",
+      "comparison_scraped_at": "2026-11-23 14:53",
+      "checked_at": "2026-11-23T12:53:17.360Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99914-014-17",
+      "name": "רינג לייט מקצועי בקוטר 54 ס״מ MSSL21 מבית Miracase",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 239.2,
+      "product_url": "https://www.kravitz.co.il/products/%D7%A8%D7%99%D7%A0%D7%92%D7%9C%D7%99%D7%99%D7%98-%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99-21-%D7%90%D7%99%D7%A0%D7%A5-miracase-mssl21-55w?variant=51633455989032",
+      "comparison_scraped_at": "2026-11-23 14:54",
+      "checked_at": "2026-11-23T12:54:23.156Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99914-014-16",
+      "name": "רינגלייט מקצועי 18 אינץ' MIR MSSL18 45W",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 199.2,
+      "product_url": "https://www.kravitz.co.il/products/%D7%A8%D7%99%D7%A0%D7%92%D7%9C%D7%99%D7%99%D7%98-%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99-18-%D7%90%D7%99%D7%A0%D7%A5-miracase-mssl18-45w?variant=51633389044008",
+      "comparison_scraped_at": "2026-11-23 14:54",
+      "checked_at": "2026-11-23T12:54:31.664Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99317-000-64",
+      "name": "סוללת גיבוי MPB10PD45WRC מבית Miracase",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 199.2,
+      "product_url": "https://www.kravitz.co.il/products/%D7%A1%D7%95%D7%9C%D7%9C%D7%AA-%D7%92%D7%99%D7%91%D7%95%D7%99-%D7%93%D7%92%D7%9D-mpb10pd45wrc-%D7%9E%D7%91%D7%99%D7%AA-miracase?variant=51742589190440",
+      "comparison_scraped_at": "2026-11-23 14:54",
+      "checked_at": "2026-11-23T12:54:47.324Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "99317-000-65",
+      "name": "סוללת טעינה  MWPB45W QI2.2 10000 אפור כהה MIR",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 223.2,
+      "product_url": "https://www.kravitz.co.il/products/%D7%A1%D7%95%D7%9C%D7%9C%D7%AA-%D7%98%D7%A2%D7%99%D7%A0%D7%94-%D7%9E%D7%92%D7%A0%D7%98%D7%99%D7%AA-%D7%91%D7%A6%D7%91%D7%A2-%D7%90%D7%A4%D7%95%D7%A8-%D7%9B%D7%94%D7%94-%D7%93%D7%92%D7%9D-mwpb45w-%D7%9E%D7%91%D7%99%D7%AA-miracase?variant=51742570774824",
+      "comparison_scraped_at": "2026-11-23 14:55",
+      "checked_at": "2026-11-23T12:55:10.718Z",
+      "date_result": "not_found_on_checked_product_page"
     }
   ],
   "offers": [
@@ -3361,6 +3416,76 @@
       "checked_at": "2026-11-23T12:32:00.357Z",
       "source_url": "https://www.ace.co.il/4439755",
       "terms": "מחיר מבצע ₪3,299 במקום ₪3,890. בתוקף עד 2026-12-08. תחילת המבצע לא צוינה."
+    },
+    {
+      "our_sku": "99317-000-63",
+      "store_id": "kravitz",
+      "url": "https://www.kravitz.co.il/products/%D7%A1%D7%95%D7%9C%D7%9C%D7%94-%D7%A0%D7%99%D7%99%D7%93%D7%AA-miracase-mpb20rc165w?variant=51742581129512",
+      "price_ils": 319.2,
+      "regular_price_ils": 399,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": null,
+      "date_status": "not_stated",
+      "checked_at": "2026-11-23T12:53:17.360Z",
+      "source_url": "https://www.kravitz.co.il/products/%D7%A1%D7%95%D7%9C%D7%9C%D7%94-%D7%A0%D7%99%D7%99%D7%93%D7%AA-miracase-mpb20rc165w",
+      "terms": "מחיר מבצע ₪319.20 במקום ₪399. תחילת המבצע ותוקפו לא צוינו בעמוד המוצר."
+    },
+    {
+      "our_sku": "99914-014-17",
+      "store_id": "kravitz",
+      "url": "https://www.kravitz.co.il/products/%D7%A8%D7%99%D7%A0%D7%92%D7%9C%D7%99%D7%99%D7%98-%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99-21-%D7%90%D7%99%D7%A0%D7%A5-miracase-mssl21-55w?variant=51633455989032",
+      "price_ils": 239.2,
+      "regular_price_ils": 299,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": null,
+      "date_status": "not_stated",
+      "checked_at": "2026-11-23T12:54:23.156Z",
+      "source_url": "https://www.kravitz.co.il/products/%D7%A8%D7%99%D7%A0%D7%92%D7%9C%D7%99%D7%99%D7%98-%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99-21-%D7%90%D7%99%D7%A0%D7%A5-miracase-mssl21-55w",
+      "terms": "מחיר מבצע ₪239.20 במקום ₪299. תחילת המבצע ותוקפו לא צוינו בעמוד המוצר."
+    },
+    {
+      "our_sku": "99914-014-16",
+      "store_id": "kravitz",
+      "url": "https://www.kravitz.co.il/products/%D7%A8%D7%99%D7%A0%D7%92%D7%9C%D7%99%D7%99%D7%98-%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99-18-%D7%90%D7%99%D7%A0%D7%A5-miracase-mssl18-45w?variant=51633389044008",
+      "price_ils": 199.2,
+      "regular_price_ils": 249,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": null,
+      "date_status": "not_stated",
+      "checked_at": "2026-11-23T12:54:31.664Z",
+      "source_url": "https://www.kravitz.co.il/products/%D7%A8%D7%99%D7%A0%D7%92%D7%9C%D7%99%D7%99%D7%98-%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99-18-%D7%90%D7%99%D7%A0%D7%A5-miracase-mssl18-45w",
+      "terms": "מחיר מבצע ₪199.20 במקום ₪249. תחילת המבצע ותוקפו לא צוינו בעמוד המוצר."
+    },
+    {
+      "our_sku": "99317-000-64",
+      "store_id": "kravitz",
+      "url": "https://www.kravitz.co.il/products/%D7%A1%D7%95%D7%9C%D7%9C%D7%AA-%D7%92%D7%99%D7%91%D7%95%D7%99-%D7%93%D7%92%D7%9D-mpb10pd45wrc-%D7%9E%D7%91%D7%99%D7%AA-miracase?variant=51742589190440",
+      "price_ils": 199.2,
+      "regular_price_ils": 249,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": null,
+      "date_status": "not_stated",
+      "checked_at": "2026-11-23T12:54:47.324Z",
+      "source_url": "https://www.kravitz.co.il/products/%D7%A1%D7%95%D7%9C%D7%9C%D7%AA-%D7%92%D7%99%D7%91%D7%95%D7%99-%D7%93%D7%92%D7%9D-mpb10pd45wrc-%D7%9E%D7%91%D7%99%D7%AA-miracase",
+      "terms": "מחיר מבצע ₪199.20 במקום ₪249. תחילת המבצע ותוקפו לא צוינו בעמוד המוצר."
+    },
+    {
+      "our_sku": "99317-000-65",
+      "store_id": "kravitz",
+      "url": "https://www.kravitz.co.il/products/%D7%A1%D7%95%D7%9C%D7%9C%D7%AA-%D7%98%D7%A2%D7%99%D7%A0%D7%94-%D7%9E%D7%92%D7%A0%D7%98%D7%99%D7%AA-%D7%91%D7%A6%D7%91%D7%A2-%D7%90%D7%A4%D7%95%D7%A8-%D7%9B%D7%94%D7%94-%D7%93%D7%92%D7%9D-mwpb45w-%D7%9E%D7%91%D7%99%D7%AA-miracase?variant=51742570774824",
+      "price_ils": 223.2,
+      "regular_price_ils": 279,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": null,
+      "date_status": "not_stated",
+      "checked_at": "2026-11-23T12:55:10.718Z",
+      "source_url": "https://www.kravitz.co.il/products/%D7%A1%D7%95%D7%9C%D7%9C%D7%AA-%D7%98%D7%A2%D7%99%D7%A0%D7%94-%D7%9E%D7%92%D7%A0%D7%98%D7%99%D7%AA-%D7%91%D7%A6%D7%91%D7%A2-%D7%90%D7%A4%D7%95%D7%A8-%D7%9B%D7%94%D7%94-%D7%93%D7%92%D7%9D-mwpb45w-%D7%9E%D7%91%D7%99%D7%AA-miracase",
+      "terms": "מחיר מבצע ₪223.20 במקום ₪279. תחילת המבצע ותוקפו לא צוינו בעמוד המוצר."
     }
   ]
-    }
+}

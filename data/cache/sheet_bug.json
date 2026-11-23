@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T08:42:35.421023+00:00",
-  "count": 87,
+  "last_ok_at": "2026-11-23T09:05:02.903035+00:00",
+  "count": 89,
   "items": [
     {
       "store_id": "bug",
@@ -1308,6 +1308,36 @@
       "sku": "99999-958-69",
       "barcodes": [],
       "scraped_at": "2026-11-23 04:24"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "30212-002-14",
+      "our_product_name": "שעון חכם POLAR         PACER PRO GRY/BLK S-L",
+      "title": "פולאר - Polar שעון חכם Pacer Pro",
+      "price": 1669.0,
+      "url": "https://www.bug.co.il/brand/polar/black/gray/pacer/pro/s/l",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "30212-002-14",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 10:59"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "30212-002-16",
+      "our_product_name": "רצועת דופק POLAR H10 HR SENSOR BLE BLK M-XXL",
+      "title": "פולאר - Polar רצועת דופק H10",
+      "price": 459.0,
+      "url": "https://www.bug.co.il/brand/polar/black/h10",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "30212-002-16",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 11:02"
     }
   ]
 }

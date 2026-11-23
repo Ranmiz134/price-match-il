@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-23T09:02:23.445Z",
-  "scope": "Known product-page checks only. Added2exactPolaroffers with displayed current prices and sold-out state. Other source timestamps retained. Not a full market sweep.",
+  "checked_at": "2026-11-23T09:25:39.682Z",
+  "scope": "Known product-page checks only. Added 11 exact Polar offers from slow single rendered-page checks. Other source timestamps retained. Not a full market sweep.",
   "checks": [
     {
       "our_sku": "99999-955-09",
@@ -1857,6 +1857,127 @@
       "product_url": "https://www.bug.co.il/brand/polar/black/h10",
       "comparison_scraped_at": "2026-11-23 11:02",
       "checked_at": "2026-11-23T09:02:23.445Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "30212-002-22",
+      "name": "Polar Grit X2 Pro שעון ריצה מתקדם עם GPS בצבע שחור",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 3399,
+      "product_url": "https://www.kravitz.co.il/products/%D7%A9%D7%A2%D7%95%D7%9F-%D7%97%D7%9B%D7%9D-polar-grit-x2-pro-s-l-%D7%9B%D7%95%D7%9C%D7%9C-gps",
+      "comparison_scraped_at": "2026-11-23 11:21",
+      "checked_at": "2026-11-23T09:21:04.182Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "30212-002-23",
+      "name": "Polar Grit X2 Pro שעון ריצה מתקדם עם GPS בצבע אפור\\כסף",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 3399,
+      "product_url": "https://www.kravitz.co.il/products/%D7%A9%D7%A2%D7%95%D7%9F-%D7%97%D7%9B%D7%9D-polar-grit-x2-pro-s-l-%D7%9B%D7%95%D7%9C%D7%9C-gps?variant=49752687640872",
+      "comparison_scraped_at": "2026-11-23 11:24",
+      "checked_at": "2026-11-23T09:24:57.063Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "30212-002-06",
+      "name": "שעון חכם POLAR       IGNITE 3 TI SIL BLK S-L",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 1869,
+      "product_url": "https://www.kravitz.co.il/products/%d7%a9%d7%a2%d7%95%d7%9f-%d7%97%d7%9b%d7%9d-polar-ignite-3-s-l-%d7%98%d7%99%d7%98%d7%a0%d7%99%d7%95%d7%9d-%d7%a9%d7%97%d7%95%d7%a8-%d7%9b%d7%a1%d7%a3",
+      "comparison_scraped_at": "2026-11-23 11:21",
+      "checked_at": "2026-11-23T09:21:24.784Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "30212-002-01",
+      "name": "שעון חכם POLAR               UNITE BLK S-L T",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 759,
+      "product_url": "https://www.kravitz.co.il/products/%D7%A9%D7%A2%D7%95%D7%9F-%D7%9B%D7%95%D7%A9%D7%A8-polar-unite-%D7%A9%D7%97%D7%95%D7%A8",
+      "comparison_scraped_at": "2026-11-23 11:21",
+      "checked_at": "2026-11-23T09:21:38.703Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "30212-002-15",
+      "name": "שעון חכם POLAR             PACER BLK/BLK S-L",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 1199,
+      "product_url": "https://www.kravitz.co.il/products/%D7%A9%D7%A2%D7%95%D7%9F-%D7%A8%D7%99%D7%A6%D7%94-polar-pacer-s-l-%D7%9B%D7%95%D7%9C%D7%9C-gps",
+      "comparison_scraped_at": "2026-11-23 11:22",
+      "checked_at": "2026-11-23T09:22:21.200Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "30212-002-13",
+      "name": "שעון מולטי-ספורט פרימיום Polar Vantage V3 בצבע אפרסק-כסף",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 3029,
+      "product_url": "https://www.kravitz.co.il/products/%D7%A9%D7%A2%D7%95%D7%9F-%D7%9E%D7%95%D7%9C%D7%98%D7%99-%D7%A1%D7%A4%D7%95%D7%A8%D7%98-%D7%A4%D7%A8%D7%99%D7%9E%D7%99%D7%95%D7%9D-polar-vantage-v3",
+      "comparison_scraped_at": "2026-11-23 11:22",
+      "checked_at": "2026-11-23T09:22:41.810Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "30212-002-02",
+      "name": "שעון חכם POLAR          IGNITE 3 BLK/BLK S-L",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 1669,
+      "product_url": "https://www.kravitz.co.il/products/%d7%a9%d7%a2%d7%95%d7%9f-%d7%9b%d7%95%d7%a9%d7%a8-polar-ignite-3",
+      "comparison_scraped_at": "2026-11-23 11:23",
+      "checked_at": "2026-11-23T09:23:40.486Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "30212-002-03",
+      "name": "שעון כושר Polar Ignite 3 חול-זהב",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 1669,
+      "product_url": "https://www.kravitz.co.il/products/%D7%A9%D7%A2%D7%95%D7%9F-%D7%9B%D7%95%D7%A9%D7%A8-polar-ignite-3?variant=49732590928168",
+      "comparison_scraped_at": "2026-11-23 11:25",
+      "checked_at": "2026-11-23T09:25:14.368Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "30212-002-05",
+      "name": "שעון כושר Polar Ignite 3 חום-שנהב",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 1669,
+      "product_url": "https://www.kravitz.co.il/products/%D7%A9%D7%A2%D7%95%D7%9F-%D7%9B%D7%95%D7%A9%D7%A8-polar-ignite-3?variant=49732590960936",
+      "comparison_scraped_at": "2026-11-23 11:25",
+      "checked_at": "2026-11-23T09:25:22.318Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "30212-002-28",
+      "name": "Polar Pacer Pro שעון ריצה מתקדם עם GPS זהב/לבן",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 1699,
+      "product_url": "https://www.kravitz.co.il/products/%D7%A9%D7%A2%D7%95%D7%9F-%D7%97%D7%9B%D7%9D-polar-pacer-pro-s-l-%D7%9B%D7%95%D7%9C%D7%9C-gps?variant=49755014791464",
+      "comparison_scraped_at": "2026-11-23 11:25",
+      "checked_at": "2026-11-23T09:25:39.682Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "30212-002-16",
+      "name": "רצועת דופק POLAR H10 HR SENSOR BLE BLK M-XXL",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 459,
+      "product_url": "https://www.kravitz.co.il/products/%D7%A8%D7%A6%D7%95%D7%A2%D7%AA-%D7%93%D7%95%D7%A4%D7%A7-polar-h10-heart-rate-sensor-m-xxl-%D7%A9%D7%97%D7%95%D7%A8",
+      "comparison_scraped_at": "2026-11-23 11:24",
+      "checked_at": "2026-11-23T09:24:12.900Z",
       "date_result": "not_found_on_checked_product_page"
     }
   ],

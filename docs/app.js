@@ -379,7 +379,7 @@
   }
 
   function renderCard(p) {
-    const saleBadge = p.is_on_sale ? `<span class="badge badge-sale">מחיר מבצע באתר</span>` : "";
+    const saleBadge = p.is_on_sale ? `<span class="badge badge-sale">מחיר מבצע</span>` : "";
     const best = p.best_in_stock_match;
     const cheapest = p.cheapest_overall;
 
@@ -759,7 +759,7 @@
       const today = new Intl.DateTimeFormat('en-CA', {timeZone:'Asia/Jerusalem',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
       allProducts.forEach(p => {
         const active=(p.supplier_promotions || []).filter(r => (!r.starts_on || r.starts_on<=today) && today<=r.ends_on);
-        if(p.supplier_regular_price) {p.our_price=active.length ? active[0].price_ils : p.supplier_regular_price; p.is_on_sale=active.length>0;}
+        if(p.supplier_regular_price) {p.our_price=active.length ? active[0].price_ils : p.supplier_regular_price; p.regular_price=p.supplier_regular_price; p.is_on_sale=active.length>0;}
         p.promotion=active[0] || (p.supplier_promotions || [])[0];
       });
     } catch(error) {

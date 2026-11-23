@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-23T09:25:39.682Z",
-  "scope": "Known product-page checks only. Added 11 exact Polar offers from slow single rendered-page checks. Other source timestamps retained. Not a full market sweep.",
+  "checked_at": "2026-11-23T09:45:08.219Z",
+  "scope": "Known product-page checks only. Added four exact Polar ACE offers from slow single rendered-page checks. Other source timestamps retained. Not a full market sweep.",
   "checks": [
     {
       "our_sku": "99999-955-09",
@@ -1979,6 +1979,50 @@
       "comparison_scraped_at": "2026-11-23 11:24",
       "checked_at": "2026-11-23T09:24:12.900Z",
       "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "30212-002-05",
+      "name": "שעון כושר Polar Ignite 3 חום-שנהב",
+      "store_name": "ACE",
+      "store_id": "ace",
+      "price_vat": 1669,
+      "product_url": "https://www.ace.co.il/4454931",
+      "comparison_scraped_at": "2026-11-23 11:43",
+      "checked_at": "2026-11-23T09:43:44.483Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "30212-002-15",
+      "name": "שעון חכם POLAR             PACER BLK/BLK S-L",
+      "store_name": "ACE",
+      "store_id": "ace",
+      "price_vat": 719,
+      "product_url": "https://www.ace.co.il/4454934",
+      "comparison_scraped_at": "2026-11-23 11:44",
+      "checked_at": "2026-11-23T09:44:12.573Z",
+      "date_result": "found_on_checked_product_page"
+    },
+    {
+      "our_sku": "30212-002-02",
+      "name": "שעון חכם POLAR          IGNITE 3 BLK/BLK S-L",
+      "store_name": "ACE",
+      "store_id": "ace",
+      "price_vat": 985,
+      "product_url": "https://www.ace.co.il/4454929",
+      "comparison_scraped_at": "2026-11-23 11:44",
+      "checked_at": "2026-11-23T09:44:58.532Z",
+      "date_result": "found_on_checked_product_page"
+    },
+    {
+      "our_sku": "30212-002-13",
+      "name": "שעון מולטי-ספורט פרימיום Polar Vantage V3 בצבע אפרסק-כסף",
+      "store_name": "ACE",
+      "store_id": "ace",
+      "price_vat": 2423,
+      "product_url": "https://www.ace.co.il/4454933",
+      "comparison_scraped_at": "2026-11-23 11:45",
+      "checked_at": "2026-11-23T09:45:08.219Z",
+      "date_result": "found_on_checked_product_page"
     }
   ],
   "offers": [
@@ -2739,6 +2783,48 @@
       "checked_at": "2026-11-23T08:34:54.990Z",
       "source_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%97%D7%95%D7%98%D7%99-tb-afterglow-rgb-wave-xbox",
       "terms": "Displayed product sale price. No start or end date stated on checked page."
+    },
+    {
+      "our_sku": "30212-002-15",
+      "store_id": "ace",
+      "url": "https://www.ace.co.il/4454934",
+      "price_ils": 719,
+      "regular_price_ils": 1199,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-12-08",
+      "date_status": "end_stated",
+      "checked_at": "2026-11-23T09:44:12.573Z",
+      "source_url": "https://www.ace.co.il/4454934",
+      "terms": "Displayed product sale price valid through December 8, 2026. No start date stated."
+    },
+    {
+      "our_sku": "30212-002-02",
+      "store_id": "ace",
+      "url": "https://www.ace.co.il/4454929",
+      "price_ils": 985,
+      "regular_price_ils": 1669,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-12-08",
+      "date_status": "end_stated",
+      "checked_at": "2026-11-23T09:44:58.532Z",
+      "source_url": "https://www.ace.co.il/4454929",
+      "terms": "Displayed product sale price valid through December 8, 2026. No start date stated."
+    },
+    {
+      "our_sku": "30212-002-13",
+      "store_id": "ace",
+      "url": "https://www.ace.co.il/4454933",
+      "price_ils": 2423,
+      "regular_price_ils": 3029,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-12-08",
+      "date_status": "end_stated",
+      "checked_at": "2026-11-23T09:45:08.219Z",
+      "source_url": "https://www.ace.co.il/4454933",
+      "terms": "Displayed product sale price valid through December 8, 2026. No start date stated."
     }
   ]
 }

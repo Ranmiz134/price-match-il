@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-23T11:53:22.036Z",
-  "scope": "Known product-page checks only. Added four exact Bug AOC offers. Other source timestamps retained. Not a full market sweep.",
+  "checked_at": "2026-11-23T12:12:29.777Z",
+  "scope": "Known product-page checks only. Added four exact Bug Philips offers. Other source timestamps retained. Not a full market sweep.",
   "checks": [
     {
       "our_sku": "99999-955-09",
@@ -2243,6 +2243,50 @@
       "comparison_scraped_at": "2026-11-23 13:53",
       "checked_at": "2026-11-23T11:53:22.036Z",
       "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "36208-498-53",
+      "name": "מסך מחשב עסקי 24 אינץ' דגם 24B2U3301 מבית Philips",
+      "store_name": "Bug",
+      "store_id": "bug",
+      "price_vat": 799,
+      "product_url": "https://www.bug.co.il/brand/philips/24b2u3301",
+      "comparison_scraped_at": "2026-11-23 14:11",
+      "checked_at": "2026-11-23T12:11:59.286Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "36208-498-52",
+      "name": "מסך מחשב 24 אינץ' דגם 24B2N2200 מבית Philips",
+      "store_name": "Bug",
+      "store_id": "bug",
+      "price_vat": 419,
+      "product_url": "https://www.bug.co.il/brand/philips/24b2n2200",
+      "comparison_scraped_at": "2026-11-23 14:12",
+      "checked_at": "2026-11-23T12:12:01.936Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "36208-273-27",
+      "name": "מסך 4K‏ אולטרה \"HD 27E1N1800A/00 27 מבית PHILIPS",
+      "store_name": "Bug",
+      "store_id": "bug",
+      "price_vat": 849,
+      "product_url": "https://www.bug.co.il/brand/philips/27e1n1800a",
+      "comparison_scraped_at": "2026-11-23 14:12",
+      "checked_at": "2026-11-23T12:12:26.975Z",
+      "date_result": "found_on_checked_product_page"
+    },
+    {
+      "our_sku": "36206-346-34",
+      "name": "מסך מחשב PHILIPS 346E2CUAE 34\" LED",
+      "store_name": "Bug",
+      "store_id": "bug",
+      "price_vat": 1099,
+      "product_url": "https://www.bug.co.il/brand/philips/curved/monitor/32inch/346e2cuae",
+      "comparison_scraped_at": "2026-11-23 14:12",
+      "checked_at": "2026-11-23T12:12:29.777Z",
+      "date_result": "found_on_checked_product_page"
     }
   ],
   "offers": [
@@ -3189,6 +3233,34 @@
       "checked_at": "2026-11-23T11:52:44.465Z",
       "source_url": "https://www.bug.co.il/brand/aoc/q27b35e",
       "terms": "מחיר מבצע ₪579 במקום ₪639. בתוקף עד 2026-12-03 או עד גמר המלאי, המוקדם מביניהם. תחילת המבצע לא צוינה."
+    },
+    {
+      "our_sku": "36208-273-27",
+      "store_id": "bug",
+      "url": "https://www.bug.co.il/brand/philips/27e1n1800a",
+      "price_ils": 849,
+      "regular_price_ils": 890,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-12-03",
+      "date_status": "end_stated",
+      "checked_at": "2026-11-23T12:12:26.975Z",
+      "source_url": "https://www.bug.co.il/brand/philips/27e1n1800a",
+      "terms": "מחיר מבצע ₪849 במקום ₪890. בתוקף עד 2026-12-03 או עד גמר המלאי, המוקדם מביניהם. תחילת המבצע לא צוינה."
+    },
+    {
+      "our_sku": "36206-346-34",
+      "store_id": "bug",
+      "url": "https://www.bug.co.il/brand/philips/curved/monitor/32inch/346e2cuae",
+      "price_ils": 1099,
+      "regular_price_ils": 1190,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-12-03",
+      "date_status": "end_stated",
+      "checked_at": "2026-11-23T12:12:29.777Z",
+      "source_url": "https://www.bug.co.il/brand/philips/curved/monitor/32inch/346e2cuae",
+      "terms": "מחיר מבצע ₪1,099 במקום ₪1,190. בתוקף עד 2026-12-03 או עד גמר המלאי, המוקדם מביניהם. תחילת המבצע לא צוינה."
     }
   ]
-}
+    }

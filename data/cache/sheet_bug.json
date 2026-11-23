@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T22:53:52.998295+00:00",
-  "count": 195,
+  "last_ok_at": "2026-11-23T23:08:50.660598+00:00",
+  "count": 198,
   "items": [
     {
       "store_id": "bug",
@@ -2928,6 +2928,51 @@
       "sku": "90903-001-48",
       "barcodes": [],
       "scraped_at": "2026-11-24 00:52"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-007-03",
+      "our_product_name": "כיסא גיימינג RAZER ENKI X",
+      "title": "כיסא גיימינג RAZER ENKI X",
+      "price": 1449.0,
+      "url": "https://www.bug.co.il/brand/razer/enki/x",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-007-03",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 01:07"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-011-37",
+      "our_product_name": "אוזניות RAZER BLACKSHARK V2 X (XBOX LICENSED) שחור",
+      "title": "אוזניות חוטיות BlackShark V2 X for Xbox",
+      "price": 234.0,
+      "url": "https://www.bug.co.il/brand/razer/headphones/blackshark/v2/x/for/playstation/rz04/03240900/r3m",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-011-37",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 01:07"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-011-38",
+      "our_product_name": "אוזניות RAZER BLACKSHARK V2 X (PlayStation LICENSED) שחור",
+      "title": "אוזניות גיימינג חוטיות בצבע שחור BlackShark V2 X for Playstation",
+      "price": 159.0,
+      "url": "https://www.bug.co.il/brand/razer/blackshark/v2/x/for/playstation",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-011-38",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 01:07"
     }
   ]
 }

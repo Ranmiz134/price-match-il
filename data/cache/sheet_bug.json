@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T18:37:14.502375+00:00",
-  "count": 161,
+  "last_ok_at": "2026-11-23T18:57:55.772484+00:00",
+  "count": 162,
   "items": [
     {
       "store_id": "bug",
@@ -2418,6 +2418,21 @@
       "sku": "99917-001-39",
       "barcodes": [],
       "scraped_at": "2026-11-23 20:35"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "37000-119-01",
+      "our_product_name": "VIOFO A119 V3 2K      מצלמת דרך",
+      "title": "מצלמת רכב A119 QHD+ 2K ויופו - VIOFO",
+      "price": 499.0,
+      "url": "https://www.bug.co.il/brand/viofo/a119/qhd/2k",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "37000-119-01",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 20:55"
     }
   ]
 }

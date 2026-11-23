@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T23:24:29.575455+00:00",
-  "count": 200,
+  "last_ok_at": "2026-11-23T23:39:10.273517+00:00",
+  "count": 202,
   "items": [
     {
       "store_id": "bug",
@@ -3003,6 +3003,36 @@
       "sku": "90903-001-35",
       "barcodes": [],
       "scraped_at": "2026-11-24 01:23"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-003-29",
+      "our_product_name": "מקל מכאנ RAZER HUNTSM MINI RED.S",
+      "title": "מקל מכאנ RAZER HUNTSM MINI RED.S",
+      "price": 499.0,
+      "url": "https://www.bug.co.il/brand/razer/huntsman/mini/60/p/color/black",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-003-29",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 01:37"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-003-24",
+      "our_product_name": "מקלדת אופטית צבע לבן RAZER HUNTSM MINI RED.S",
+      "title": "מקלדת אופטית צבע לבן RAZER HUNTSM MINI RED.S",
+      "price": 559.0,
+      "url": "https://www.bug.co.il/brand/razer/huntsman/mini/60/percent",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-003-24",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 01:37"
     }
   ]
 }

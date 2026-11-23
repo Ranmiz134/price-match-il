@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_kravitz",
   "store_name": "Kravitz",
-  "last_ok_at": "2026-11-23T12:37:34.370077+00:00",
-  "count": 161,
+  "last_ok_at": "2026-11-23T12:58:20.655078+00:00",
+  "count": 166,
   "items": [
     {
       "store_id": "kravitz",
@@ -2418,6 +2418,81 @@
       "sku": "30212-002-16",
       "barcodes": [],
       "scraped_at": "2026-11-23 11:24"
+    },
+    {
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "our_sku": "99317-000-63",
+      "our_product_name": "סוללה ניידת Miracase MPB20RC165W – טעינה חכמה עם מסך מידע וממשק מתקדם",
+      "title": "סוללת טעינה ניידת חכמה עם מסך מידע וממשק מתקדם Miracase MPB20RC165W",
+      "price": 319.2,
+      "url": "https://www.kravitz.co.il/products/%D7%A1%D7%95%D7%9C%D7%9C%D7%94-%D7%A0%D7%99%D7%99%D7%93%D7%AA-miracase-mpb20rc165w?variant=51742581129512",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99317-000-63",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 14:53"
+    },
+    {
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "our_sku": "99914-014-17",
+      "our_product_name": "רינג לייט מקצועי בקוטר 54 ס״מ MSSL21 מבית Miracase",
+      "title": "רינגלייט מקצועי 21 אינץ' Miracase MSSL21 55W",
+      "price": 239.2,
+      "url": "https://www.kravitz.co.il/products/%D7%A8%D7%99%D7%A0%D7%92%D7%9C%D7%99%D7%99%D7%98-%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99-21-%D7%90%D7%99%D7%A0%D7%A5-miracase-mssl21-55w?variant=51633455989032",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99914-014-17",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 14:54"
+    },
+    {
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "our_sku": "99914-014-16",
+      "our_product_name": "רינגלייט מקצועי 18 אינץ' MIR MSSL18 45W",
+      "title": "רינגלייט מקצועי 18 אינץ' Miracase MSSL18 45W",
+      "price": 199.2,
+      "url": "https://www.kravitz.co.il/products/%D7%A8%D7%99%D7%A0%D7%92%D7%9C%D7%99%D7%99%D7%98-%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99-18-%D7%90%D7%99%D7%A0%D7%A5-miracase-mssl18-45w?variant=51633389044008",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99914-014-16",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 14:54"
+    },
+    {
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "our_sku": "99317-000-64",
+      "our_product_name": "סוללת גיבוי MPB10PD45WRC מבית Miracase",
+      "title": "סוללת גיבוי דגם MPB10PD45WRC Miracase",
+      "price": 199.2,
+      "url": "https://www.kravitz.co.il/products/%D7%A1%D7%95%D7%9C%D7%9C%D7%AA-%D7%92%D7%99%D7%91%D7%95%D7%99-%D7%93%D7%92%D7%9D-mpb10pd45wrc-%D7%9E%D7%91%D7%99%D7%AA-miracase?variant=51742589190440",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99317-000-64",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 14:54"
+    },
+    {
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "our_sku": "99317-000-65",
+      "our_product_name": "סוללת טעינה  MWPB45W QI2.2 10000 אפור כהה MIR",
+      "title": "סוללת טעינה מגנטית דגם MWPB45W Miracase אפור כהה",
+      "price": 223.2,
+      "url": "https://www.kravitz.co.il/products/%D7%A1%D7%95%D7%9C%D7%9C%D7%AA-%D7%98%D7%A2%D7%99%D7%A0%D7%94-%D7%9E%D7%92%D7%A0%D7%98%D7%99%D7%AA-%D7%91%D7%A6%D7%91%D7%A2-%D7%90%D7%A4%D7%95%D7%A8-%D7%9B%D7%94%D7%94-%D7%93%D7%92%D7%9D-mwpb45w-%D7%9E%D7%91%D7%99%D7%AA-miracase?variant=51742570774824",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99317-000-65",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 14:55"
     }
   ]
 }

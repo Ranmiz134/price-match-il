@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T22:18:47.439652+00:00",
-  "count": 191,
+  "last_ok_at": "2026-11-23T22:36:38.463749+00:00",
+  "count": 192,
   "items": [
     {
       "store_id": "bug",
@@ -2868,6 +2868,21 @@
       "sku": "90903-001-28",
       "barcodes": [],
       "scraped_at": "2026-11-24 00:17"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-011-29",
+      "our_product_name": "Razer Barracuda X אוזניות אלחוטיות",
+      "title": "אוזניות גיימינג אלחוטיות Barracuda X 2022",
+      "price": 385.0,
+      "url": "https://www.bug.co.il/brand/razer/color/black/barracuda/x/2022/edit/gaming/headset",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-011-29",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 00:34"
     }
   ]
 }

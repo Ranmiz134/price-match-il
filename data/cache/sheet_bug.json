@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T22:00:20.016482+00:00",
-  "count": 186,
+  "last_ok_at": "2026-11-23T22:18:47.439652+00:00",
+  "count": 191,
   "items": [
     {
       "store_id": "bug",
@@ -2793,6 +2793,81 @@
       "sku": "90903-005-37",
       "barcodes": [],
       "scraped_at": "2026-11-23 23:58"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-001-39",
+      "our_product_name": "Seiren V3 Mini מיקרופון מבית RAZER",
+      "title": "מיקרופון גיימינג Seiren V3 Mini Ultra Compact",
+      "price": 149.0,
+      "url": "https://www.bug.co.il/brand/razer/black/seiren/v3/mini/ultra/compact/usb/rz19/05050100/r3m",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-001-39",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 00:17"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-005-38",
+      "our_product_name": "עכבר RAZ BASILISK V3 X HYPERSPEED",
+      "title": "עכבר גיימינג אלחוטי Basilisk V3 X HyperSpeed",
+      "price": 179.0,
+      "url": "https://www.bug.co.il/brand/razer/color/black/wireless/gaming/mouse/basilisk/v3/x/hyperspeed",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-005-38",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 00:17"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-005-36",
+      "our_product_name": "עכבר גיימינג אלחוטי Razer Basilisk V3 Pro",
+      "title": "עכבר אלחוטי Basilisk V3 PRO",
+      "price": 559.0,
+      "url": "https://www.bug.co.il/brand/razer/rz01/04630200/r3g1/basilisk/v3/pro/black",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-005-36",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 00:17"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-005-32",
+      "our_product_name": "עכבר גיימינג חוטי RAZER DEATHADDER V3 – שחור",
+      "title": "עכבר גיימינג Deathadder V3",
+      "price": 179.0,
+      "url": "https://www.bug.co.il/brand/razer/deathadder/v3/mouse",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-005-32",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 00:17"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-001-28",
+      "our_product_name": "Razer Kaira HyperSpeed – אוזניות גיימינג אלחוטיות",
+      "title": "אוזניות אלחוטיות Kaira HyperSpeed PS5",
+      "price": 269.0,
+      "url": "https://www.bug.co.il/brand/razer/color/white/kaira/hyperspeed/ps5/wireless/headset",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-001-28",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 00:17"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-23T06:55:55.210Z",
-  "scope": "Known product-page checks only. Added two Ivory exact fabric chairs and ACE Life red. Other source timestamps retained. Not a full market sweep.",
+  "checked_at": "2026-11-23T07:18:27.301Z",
+  "scope": "Known product-page checks only. Added 18 exact Turtle Beach offers from slow single rendered-page checks. Other source timestamps retained. Not a full market sweep.",
   "checks": [
     {
       "our_sku": "99999-955-09",
@@ -1198,6 +1198,204 @@
       "comparison_scraped_at": "2026-11-23 08:55",
       "checked_at": "2026-11-23T06:55:55.210Z",
       "date_result": "found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-34",
+      "name": "Turtle Beach Stealth 600 XBOX – אוזניות גיימינג אלחוטיות Turtle Beach – סגול",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 269,
+      "product_url": "https://www.kravitz.co.il/products/%D7%90%D7%95%D7%96%D7%A0%D7%99%D7%95%D7%AA-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99%D7%95%D7%AA-%D7%A1%D7%92%D7%95%D7%9C-tb-stealth-600-gen-3-xbox",
+      "comparison_scraped_at": "2026-11-23 09:09",
+      "checked_at": "2026-11-23T07:09:35.054Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-67",
+      "name": "אוזניות גיימינג דגם Atlas 200 Multiplatform בצבע שחור מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 229,
+      "product_url": "https://www.kravitz.co.il/products/%D7%90%D7%95%D7%96%D7%A0%D7%99%D7%95%D7%AA-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%93%D7%92%D7%9D-atlas-200-multiplatform-%D7%91%D7%A6%D7%91%D7%A2-%D7%A9%D7%97%D7%95%D7%A8-%D7%9E%D7%91%D7%99%D7%AA-turtle-beach",
+      "comparison_scraped_at": "2026-11-23 09:10",
+      "checked_at": "2026-11-23T07:10:15.307Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-61",
+      "name": "עכבר גיימינג אלחוטי דגם Burst II Pro שחור מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 499,
+      "product_url": "https://www.kravitz.co.il/products/tb-burst-ii-pro-wireless",
+      "comparison_scraped_at": "2026-11-23 09:10",
+      "checked_at": "2026-11-23T07:10:54.744Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-003-07",
+      "name": "עכבר גיימינג אלחוטי Turtle Beach Burst II Air שחור",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 435,
+      "product_url": "https://www.kravitz.co.il/products/%D7%A2%D7%9B%D7%91%D7%A8-%D7%90%D7%9C%D7%97-%D7%A9%D7%97%D7%95%D7%A8-tb-burst-ii-air-ultra-light",
+      "comparison_scraped_at": "2026-11-23 09:11",
+      "checked_at": "2026-11-23T07:11:52.628Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-802-12",
+      "name": "מקלדת גיימינג מכנית-אופטית דגם Vulcan II Mini מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 499,
+      "product_url": "https://www.kravitz.co.il/products/%D7%9E%D7%A7%D7%9C%D7%93%D7%AA-%D7%A9%D7%97%D7%95%D7%A8%D7%94-%D7%9E%D7%99%D7%A0%D7%99-tb-vulcan-ii-mini",
+      "comparison_scraped_at": "2026-11-23 09:12",
+      "checked_at": "2026-11-23T07:12:12.509Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-005-05",
+      "name": "מקלדת גיימינג Turtle Beach Vulcan II Max תאורת RGB",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 879,
+      "product_url": "https://www.kravitz.co.il/products/tb-vulcan-ii-max-red-s",
+      "comparison_scraped_at": "2026-11-23 09:12",
+      "checked_at": "2026-11-23T07:12:32.369Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-96",
+      "name": "בקר גיימינג אלחוטי ל-Nintendo Switch 2 דגם Rematch Wireless Controller – Mario Kart World מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 269,
+      "product_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-tb-rematch-ns2-mario-kart",
+      "comparison_scraped_at": "2026-11-23 09:12",
+      "checked_at": "2026-11-23T07:12:52.895Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-802-10",
+      "name": "אוזניות גיימינג חוטיות דגם Atlas 200 (PC) בצבע שחור מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 229,
+      "product_url": "https://www.kravitz.co.il/products/tb-atlas-200-pc-usb",
+      "comparison_scraped_at": "2026-11-23 09:14",
+      "checked_at": "2026-11-23T07:14:36.742Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-700-01",
+      "name": "אוזניות גיימינג אלחוטיות Turtle Beach Stealth™ 700 Gen 3 PC",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 769,
+      "product_url": "https://www.kravitz.co.il/products/%D7%90%D7%95%D7%96%D7%A0%D7%99%D7%95%D7%AA-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99%D7%95%D7%AA-turtle-beach-stealth-700-gen-3-pc-%D7%A9%D7%97%D7%95%D7%A8",
+      "comparison_scraped_at": "2026-11-23 09:14",
+      "checked_at": "2026-11-23T07:14:56.530Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-700-02",
+      "name": "אוזניות גיימינג אלחוטיות – לבן Turtle Beach Stealth™ 700 Gen 3 PS",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 769,
+      "product_url": "https://www.kravitz.co.il/products/%D7%90%D7%95%D7%96%D7%A0%D7%99%D7%95%D7%AA-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99%D7%95%D7%AA-turtle-beach-stealth-700-gen-3-ps-%D7%9C%D7%91%D7%9F",
+      "comparison_scraped_at": "2026-11-23 09:15",
+      "checked_at": "2026-11-23T07:15:22.549Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-802-08",
+      "name": "בקר גיימינג אלחוטי ל-XBOX דגם Victrix Pro BFG Reloaded בצבע לבן מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 799,
+      "product_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-%D7%9C%D7%91%D7%9F-tb-victrix-pro-bfg-re-x",
+      "comparison_scraped_at": "2026-11-23 09:15",
+      "checked_at": "2026-11-23T07:15:42.508Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-93",
+      "name": "הגה מרוצים אלחוטי Racer Wireless Racing Wheel מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 599,
+      "product_url": "https://www.kravitz.co.il/products/%D7%94%D7%92%D7%94-%D7%9E%D7%A8%D7%95%D7%A6%D7%99%D7%9D-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-tb-racer-wheel-xbox-pc",
+      "comparison_scraped_at": "2026-11-23 09:16",
+      "checked_at": "2026-11-23T07:16:02.353Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-802-03",
+      "name": "מקלדת גיימינג מכנית Vulcan II בצבע שחור מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 599,
+      "product_url": "https://www.kravitz.co.il/products/%D7%9E%D7%A7%D7%9C%D7%93%D7%AA-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%97%D7%95%D7%98%D7%99%D7%AA-%D7%9E%D7%9B%D7%A0%D7%99%D7%AA-tb-vulcan-ii",
+      "comparison_scraped_at": "2026-11-23 09:16",
+      "checked_at": "2026-11-23T07:16:21.970Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-82",
+      "name": "בקר גיימינג אלחוטי ל-Nintendo Switch 2 דגם Rematch Wireless Controller Super Mario Jump מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 259,
+      "product_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-tb-rematch-mario-jump-ns2",
+      "comparison_scraped_at": "2026-11-23 09:16",
+      "checked_at": "2026-11-23T07:16:41.833Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-59",
+      "name": "בקר גיימינג אלחוטי דגם Rematch™ Wireless Controller – Mario Bricks עבור Nintendo Switch, מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 229,
+      "product_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-tb-rematch-nintendo-mario-bricks",
+      "comparison_scraped_at": "2026-11-23 09:17",
+      "checked_at": "2026-11-23T07:17:07.536Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-64",
+      "name": "אוזניות גיימינג דגם Atlas 200 בצבע שחור מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 229,
+      "product_url": "https://www.kravitz.co.il/products/%D7%90%D7%95%D7%96%D7%A0%D7%99%D7%95%D7%AA-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%97%D7%95%D7%98%D7%99%D7%95%D7%AA-turtle-beach-atlas-200-for-ps4-ps5-%D7%A9%D7%97%D7%95%D7%A8",
+      "comparison_scraped_at": "2026-11-23 09:17",
+      "checked_at": "2026-11-23T07:17:27.300Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-65",
+      "name": "אוזניות גיימינג דגם Atlas 200 בצבע לבן מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 229,
+      "product_url": "https://www.kravitz.co.il/products/%D7%90%D7%95%D7%96%D7%A0%D7%99%D7%95%D7%AA-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%97%D7%95%D7%98%D7%99%D7%95%D7%AA-turtle-beach-atlas-200-for-ps4-ps5",
+      "comparison_scraped_at": "2026-11-23 09:17",
+      "checked_at": "2026-11-23T07:17:47.313Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-005-02",
+      "name": "מקלדת גיימינג חוטית Turtle Beach Vulcan II TKL Pro",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 599,
+      "product_url": "https://www.kravitz.co.il/products/%D7%9E%D7%A7%D7%9C%D7%93%D7%AA-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%9E%D7%9B%D7%A0%D7%99%D7%AA-turtle-beach-vulcan-ii-tkl-pro",
+      "comparison_scraped_at": "2026-11-23 09:18",
+      "checked_at": "2026-11-23T07:18:27.301Z",
+      "date_result": "not_found_on_checked_product_page"
     }
   ],
   "offers": [
@@ -1706,6 +1904,20 @@
       "checked_at": "2026-11-23T06:55:55.210Z",
       "source_url": "https://www.ace.co.il/4438134",
       "terms": "מחיר מבצע ₪399 במקום ₪899. בתוקף עד 30.11.26 לפי עמוד המוצר. תאריך תחילה לא צוין."
+    },
+    {
+      "our_sku": "90905-801-34",
+      "store_id": "kravitz",
+      "url": "https://www.kravitz.co.il/products/%D7%90%D7%95%D7%96%D7%A0%D7%99%D7%95%D7%AA-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99%D7%95%D7%AA-%D7%A1%D7%92%D7%95%D7%9C-tb-stealth-600-gen-3-xbox",
+      "price_ils": 269,
+      "regular_price_ils": 419.0,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": null,
+      "date_status": "not_stated",
+      "checked_at": "2026-11-23T07:09:35.054Z",
+      "source_url": "https://www.kravitz.co.il/products/%D7%90%D7%95%D7%96%D7%A0%D7%99%D7%95%D7%AA-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99%D7%95%D7%AA-%D7%A1%D7%92%D7%95%D7%9C-tb-stealth-600-gen-3-xbox",
+      "terms": "Displayed product sale price. No start or end date stated on checked page."
     }
   ]
 }

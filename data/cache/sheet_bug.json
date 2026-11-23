@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T20:31:01.835784+00:00",
-  "count": 170,
+  "last_ok_at": "2026-11-23T20:49:07.674594+00:00",
+  "count": 173,
   "items": [
     {
       "store_id": "bug",
@@ -2553,6 +2553,51 @@
       "sku": "90905-072-40",
       "barcodes": [],
       "scraped_at": "2026-11-23 22:29"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90905-005-03",
+      "our_product_name": "מקלדת גיימינג מכנית Turtle Beach Vulcan II – תאורת AIMO RGB לבן",
+      "title": "מקלדת גיימינג מכנית Turtle Beach Vulcan II – תאורת AIMO RGB לבן",
+      "price": 599.0,
+      "url": "https://www.bug.co.il/brand/turtlebeach/vulcan/ii/tbk/1002/01/us/white",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90905-005-03",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 22:47"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90905-802-14",
+      "our_product_name": "אוזניות גיימינג אלחוטיות דגם Stealth Pro II – PC / PlayStation מבית Turtle Beach",
+      "title": "אוזניות גיימינג אלחוטיות Stealth Pro II PC - שחור טרטל ביצ' - Turtle Beach",
+      "price": 1199.0,
+      "url": "https://www.bug.co.il/brand/turtlebeach/stealth/pro/ii/pc/black",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90905-802-14",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 22:47"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90905-802-15",
+      "our_product_name": "אוזניות גיימינג אלחוטיות דגם Stealth Pro II – XBOX מבית Turtle Beach",
+      "title": "אוזניות גיימינג אלחוטיות Stealth Pro II Xbox - שחור טרטל ביצ' - Turtle Beach",
+      "price": 1199.0,
+      "url": "https://www.bug.co.il/brand/turtlebeach/stealth/pro/ii/xbox/black",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90905-802-15",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 22:47"
     }
   ]
 }

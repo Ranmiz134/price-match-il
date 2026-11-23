@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-23T06:16:31.444Z",
-  "scope": "Known source checks only. Added31 individually rendered Kravitz variants on November23. Other records retain actual prior source times; not an exhaustive market promotion sweep.",
+  "checked_at": "2026-11-23T06:36:17.377Z",
+  "scope": "Known product-page checks only. ACE batch adds five exact products and refreshes one known offer. Other sources retain actual prior timestamps. Not a full market sweep.",
   "checks": [
     {
       "our_sku": "99999-955-09",
@@ -1099,6 +1099,72 @@
       "comparison_scraped_at": "2026-11-23 08:16",
       "checked_at": "2026-11-23T06:16:31.444Z",
       "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90903-011-51",
+      "name": "אוזניות גיימינג לXBOX דגם BlackShark V2 X בצבע לבן מבית Razer",
+      "store_name": "ACE",
+      "store_id": "ace",
+      "price_vat": 239,
+      "product_url": "https://www.ace.co.il/4502465",
+      "comparison_scraped_at": "2026-11-23 08:36",
+      "checked_at": "2026-11-23T06:36:17.377Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90903-001-36",
+      "name": "אוזניות גיימינג Blackshark V2x בצבע לבן מבית RAZER",
+      "store_name": "ACE",
+      "store_id": "ace",
+      "price_vat": 319,
+      "product_url": "https://www.ace.co.il/4502467",
+      "comparison_scraped_at": "2026-11-23 08:32",
+      "checked_at": "2026-11-23T06:32:18.884Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90903-007-16",
+      "name": "כיסא אפור בהיר RAZER ISKUR V2 X  FABRIC",
+      "store_name": "ACE",
+      "store_id": "ace",
+      "price_vat": 719,
+      "product_url": "https://www.ace.co.il/4500393",
+      "comparison_scraped_at": "2026-11-23 08:32",
+      "checked_at": "2026-11-23T06:32:41.580Z",
+      "date_result": "found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90903-001-37",
+      "name": "אוזניות גיימינג Blackshark V2x בצבע ורוד מבית RAZER",
+      "store_name": "ACE",
+      "store_id": "ace",
+      "price_vat": 319,
+      "product_url": "https://www.ace.co.il/4502466",
+      "comparison_scraped_at": "2026-11-23 08:33",
+      "checked_at": "2026-11-23T06:33:25.782Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90903-011-44",
+      "name": "עכבר – RAZER VIPER V3 PRO לבן",
+      "store_name": "ACE",
+      "store_id": "ace",
+      "price_vat": 395,
+      "product_url": "https://www.ace.co.il/4502471",
+      "comparison_scraped_at": "2026-11-23 08:34",
+      "checked_at": "2026-11-23T06:34:37.052Z",
+      "date_result": "found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90903-007-15",
+      "name": "כיסא גיימינג בד שחור RAZER ISKUR V2 X",
+      "store_name": "ACE",
+      "store_id": "ace",
+      "price_vat": 719,
+      "product_url": "https://www.ace.co.il/4500394",
+      "comparison_scraped_at": "2026-11-23 08:34",
+      "checked_at": "2026-11-23T06:34:59.231Z",
+      "date_result": "found_on_checked_product_page"
     }
   ],
   "offers": [
@@ -1551,6 +1617,48 @@
       "checked_at": "2026-11-23T06:16:31.444Z",
       "source_url": "https://www.kravitz.co.il/products/%D7%A2%D7%9B%D7%91%D7%A8-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-razer-basilisk-v3-rgb?variant=47227845738792",
       "terms": "מחיר מבצע ₪179 במקום ₪289. תוקף לא צוין בעמוד המוצר שנבדק. בדיקת מידע המבצע: 2026-11-23T06:16:31.444Z"
+    },
+    {
+      "our_sku": "90903-007-16",
+      "store_id": "ace",
+      "url": "https://www.ace.co.il/4500393",
+      "price_ils": 719,
+      "regular_price_ils": 1199,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "stated",
+      "checked_at": "2026-11-23T06:32:41.580Z",
+      "source_url": "https://www.ace.co.il/4500393",
+      "terms": "מחיר מבצע ₪719 במקום ₪1199. בתוקף עד 30.11.26 לפי עמוד המוצר. תאריך תחילה לא צוין."
+    },
+    {
+      "our_sku": "90903-011-44",
+      "store_id": "ace",
+      "url": "https://www.ace.co.il/4502471",
+      "price_ils": 395,
+      "regular_price_ils": 719,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "stated",
+      "checked_at": "2026-11-23T06:34:37.052Z",
+      "source_url": "https://www.ace.co.il/4502471",
+      "terms": "מחיר מבצע ₪395 במקום ₪719. בתוקף עד 30.11.26 לפי עמוד המוצר. תאריך תחילה לא צוין."
+    },
+    {
+      "our_sku": "90903-007-15",
+      "store_id": "ace",
+      "url": "https://www.ace.co.il/4500394",
+      "price_ils": 719,
+      "regular_price_ils": 1199,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "stated",
+      "checked_at": "2026-11-23T06:34:59.231Z",
+      "source_url": "https://www.ace.co.il/4500394",
+      "terms": "מחיר מבצע ₪719 במקום ₪1199. בתוקף עד 30.11.26 לפי עמוד המוצר. תאריך תחילה לא צוין."
     }
   ]
 }

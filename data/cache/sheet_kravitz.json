@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_kravitz",
   "store_name": "Kravitz",
-  "last_ok_at": "2026-11-23T17:58:59.782367+00:00",
-  "count": 170,
+  "last_ok_at": "2026-11-23T18:19:25.814070+00:00",
+  "count": 171,
   "items": [
     {
       "store_id": "kravitz",
@@ -2553,6 +2553,21 @@
       "sku": "90902-807-48",
       "barcodes": [],
       "scraped_at": "2026-11-23 19:55"
+    },
+    {
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "our_sku": "90902-807-51",
+      "our_product_name": "שולחן גיימינג RGB 140 Lumi spaceXL",
+      "title": "שולחן גיימינג מקצועי - LUMI GMD08-2 RGB",
+      "price": 449.0,
+      "url": "https://www.kravitz.co.il/products/%D7%A9%D7%95%D7%9C%D7%97%D7%9F-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99-lumi-gmd08-2-rgb",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90902-807-51",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 20:16"
     }
   ]
 }

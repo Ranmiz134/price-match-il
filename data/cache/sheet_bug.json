@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T11:37:13.462405+00:00",
-  "count": 101,
+  "last_ok_at": "2026-11-23T11:56:04.014996+00:00",
+  "count": 105,
   "items": [
     {
       "store_id": "bug",
@@ -1518,6 +1518,66 @@
       "sku": "90904-110-03",
       "barcodes": [],
       "scraped_at": "2026-11-23 13:33"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "36603-280-34",
+      "our_product_name": "מסך מחשב 24 אינץ' דגם 24E4U מבית AOC",
+      "title": "מסך מחשב \"23.8 24E4U",
+      "price": 549.0,
+      "url": "https://www.bug.co.il/brand/aoc/24e4u",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "36603-280-34",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 13:52"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "36603-280-32",
+      "our_product_name": "מסך מחשב 27 אינץ' דגם Q27B35E מבית AOC",
+      "title": "מסך מחשב \"27 Q27B35E",
+      "price": 579.0,
+      "url": "https://www.bug.co.il/brand/aoc/q27b35e",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "36603-280-32",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 13:52"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "36302-240-23",
+      "our_product_name": "מסך \"23.8 דגם 24B15H3 FHD 120Hz IPS מבית AOC",
+      "title": "מסך מחשב \"24 24B15H3",
+      "price": 349.0,
+      "url": "https://www.bug.co.il/brand/aoc/24b15h3",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "36302-240-23",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 13:53"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "36603-272-27",
+      "our_product_name": "מסך גיימינג קעור AOC C27G42E – קצב רענון 180Hz",
+      "title": "מסך מחשב גיימינג קעור \"27 C27G42E",
+      "price": 549.0,
+      "url": "https://www.bug.co.il/brand/aoc/27/c27g42e",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "36603-272-27",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 13:53"
     }
   ]
 }

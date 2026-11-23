@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-23T12:12:29.777Z",
-  "scope": "Known product-page checks only. Added four exact Bug Philips offers. Other source timestamps retained. Not a full market sweep.",
+  "checked_at": "2026-11-23T12:32:00.357Z",
+  "scope": "Known product-page checks only. Added four exact ACE Creality offers. Other source timestamps retained. Not a full market sweep.",
   "checks": [
     {
       "our_sku": "99999-955-09",
@@ -2287,6 +2287,50 @@
       "comparison_scraped_at": "2026-11-23 14:12",
       "checked_at": "2026-11-23T12:12:29.777Z",
       "date_result": "found_on_checked_product_page"
+    },
+    {
+      "our_sku": "80803-001-01",
+      "name": "מדפסת תלת מימד CREALITY ENDER-3 V3 SE",
+      "store_name": "ACE",
+      "store_id": "ace",
+      "price_vat": 1274,
+      "product_url": "https://www.ace.co.il/4439753",
+      "comparison_scraped_at": "2026-11-23 14:31",
+      "checked_at": "2026-11-23T12:31:12.165Z",
+      "date_result": "found_on_checked_product_page"
+    },
+    {
+      "our_sku": "80803-001-06",
+      "name": "CR-Scan Raptorסורק תלת מימד",
+      "store_name": "ACE",
+      "store_id": "ace",
+      "price_vat": 5479,
+      "product_url": "https://www.ace.co.il/4467375",
+      "comparison_scraped_at": "2026-11-23 14:31",
+      "checked_at": "2026-11-23T12:31:23.354Z",
+      "date_result": "found_on_checked_product_page"
+    },
+    {
+      "our_sku": "80803-001-05",
+      "name": "CR-Scan Otter סורק תלת מימד",
+      "store_name": "ACE",
+      "store_id": "ace",
+      "price_vat": 3444,
+      "product_url": "https://www.ace.co.il/4467374",
+      "comparison_scraped_at": "2026-11-23 14:31",
+      "checked_at": "2026-11-23T12:31:45.130Z",
+      "date_result": "found_on_checked_product_page"
+    },
+    {
+      "our_sku": "80803-001-03",
+      "name": "מדפסת תלת מימד CREALITY K1",
+      "store_name": "ACE",
+      "store_id": "ace",
+      "price_vat": 3299,
+      "product_url": "https://www.ace.co.il/4439755",
+      "comparison_scraped_at": "2026-11-23 14:32",
+      "checked_at": "2026-11-23T12:32:00.357Z",
+      "date_result": "found_on_checked_product_page"
     }
   ],
   "offers": [
@@ -3261,6 +3305,62 @@
       "checked_at": "2026-11-23T12:12:29.777Z",
       "source_url": "https://www.bug.co.il/brand/philips/curved/monitor/32inch/346e2cuae",
       "terms": "מחיר מבצע ₪1,099 במקום ₪1,190. בתוקף עד 2026-12-03 או עד גמר המלאי, המוקדם מביניהם. תחילת המבצע לא צוינה."
+    },
+    {
+      "our_sku": "80803-001-01",
+      "store_id": "ace",
+      "url": "https://www.ace.co.il/4439753",
+      "price_ils": 1274,
+      "regular_price_ils": 1499,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-12-08",
+      "date_status": "end_stated",
+      "checked_at": "2026-11-23T12:31:12.165Z",
+      "source_url": "https://www.ace.co.il/4439753",
+      "terms": "מחיר מבצע ₪1,274 במקום ₪1,499. בתוקף עד 2026-12-08. תחילת המבצע לא צוינה."
+    },
+    {
+      "our_sku": "80803-001-06",
+      "store_id": "ace",
+      "url": "https://www.ace.co.il/4467375",
+      "price_ils": 5479,
+      "regular_price_ils": 8429,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-12-08",
+      "date_status": "end_stated",
+      "checked_at": "2026-11-23T12:31:23.354Z",
+      "source_url": "https://www.ace.co.il/4467375",
+      "terms": "מחיר מבצע ₪5,479 במקום ₪8,429. בתוקף עד 2026-12-08. תחילת המבצע לא צוינה."
+    },
+    {
+      "our_sku": "80803-001-05",
+      "store_id": "ace",
+      "url": "https://www.ace.co.il/4467374",
+      "price_ils": 3444,
+      "regular_price_ils": 5299,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-12-08",
+      "date_status": "end_stated",
+      "checked_at": "2026-11-23T12:31:45.130Z",
+      "source_url": "https://www.ace.co.il/4467374",
+      "terms": "מחיר מבצע ₪3,444 במקום ₪5,299. בתוקף עד 2026-12-08. תחילת המבצע לא צוינה."
+    },
+    {
+      "our_sku": "80803-001-03",
+      "store_id": "ace",
+      "url": "https://www.ace.co.il/4439755",
+      "price_ils": 3299,
+      "regular_price_ils": 3890,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-12-08",
+      "date_status": "end_stated",
+      "checked_at": "2026-11-23T12:32:00.357Z",
+      "source_url": "https://www.ace.co.il/4439755",
+      "terms": "מחיר מבצע ₪3,299 במקום ₪3,890. בתוקף עד 2026-12-08. תחילת המבצע לא צוינה."
     }
   ]
     }

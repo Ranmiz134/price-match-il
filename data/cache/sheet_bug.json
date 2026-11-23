@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T20:49:07.674594+00:00",
-  "count": 173,
+  "last_ok_at": "2026-11-23T21:06:55.375717+00:00",
+  "count": 174,
   "items": [
     {
       "store_id": "bug",
@@ -2598,6 +2598,21 @@
       "sku": "90905-802-15",
       "barcodes": [],
       "scraped_at": "2026-11-23 22:47"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90905-010-01",
+      "our_product_name": "ידית הילוכים TB VELOCITY ONE Multi-Shift",
+      "title": "ידית הילוכים + בלם יד VelocityOne Turtle Beach",
+      "price": 559.0,
+      "url": "https://www.bug.co.il/brand/turtlebeach/velocityone",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90905-010-01",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 23:05"
     }
   ]
 }

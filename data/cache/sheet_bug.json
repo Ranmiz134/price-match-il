@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T13:52:22.282228+00:00",
-  "count": 109,
+  "last_ok_at": "2026-11-23T14:11:05.465170+00:00",
+  "count": 110,
   "items": [
     {
       "store_id": "bug",
@@ -1638,6 +1638,21 @@
       "sku": "36206-346-34",
       "barcodes": [],
       "scraped_at": "2026-11-23 14:12"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "36208-300-27",
+      "our_product_name": "מסך \"PHILIPS IPS+PI+USB-C+SP 27E1N1300AE 27",
+      "title": "מסך מחשב \"27 27E1N1300AE",
+      "price": 899.0,
+      "url": "https://www.bug.co.il/brand/philips/27/27e1n1300ae",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "36208-300-27",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 16:07"
     }
   ]
 }

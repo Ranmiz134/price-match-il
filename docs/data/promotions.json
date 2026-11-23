@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-23T11:13:56.517Z",
-  "scope": "Known product-page checks only. Added five exact Bug Thrustmaster offers. Other source timestamps retained. Not a full market sweep.",
+  "checked_at": "2026-11-23T11:33:30.546Z",
+  "scope": "Known product-page checks only. Added two exact Bug Elgato offers. Other source timestamps retained. Not a full market sweep.",
   "checks": [
     {
       "our_sku": "99999-955-09",
@@ -2177,6 +2177,28 @@
       "comparison_scraped_at": "2026-11-23 13:13",
       "checked_at": "2026-11-23T11:13:56.517Z",
       "date_result": "found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90904-130-02",
+      "name": "מיקרופון CORS ELGATO WAVE 3",
+      "store_name": "Bug",
+      "store_id": "bug",
+      "price_vat": 349,
+      "product_url": "https://www.bug.co.il/brand/elgato/wave/3",
+      "comparison_scraped_at": "2026-11-23 13:33",
+      "checked_at": "2026-11-23T11:33:17.038Z",
+      "date_result": "found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90904-110-03",
+      "name": "שלט CORSAIR ELGATO STREAM DECK XL",
+      "store_name": "Bug",
+      "store_id": "bug",
+      "price_vat": 899,
+      "product_url": "https://www.bug.co.il/brand/elgato/stream/deck/xl",
+      "comparison_scraped_at": "2026-11-23 13:33",
+      "checked_at": "2026-11-23T11:33:30.546Z",
+      "date_result": "found_on_checked_product_page"
     }
   ],
   "offers": [
@@ -3081,6 +3103,34 @@
       "checked_at": "2026-11-23T11:13:56.517Z",
       "source_url": "https://www.bug.co.il/brand/thrustmaster/ace/combat/8/xbox",
       "terms": "מחיר מבצע ₪699 במקום ₪799. בתוקף עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם. תחילת המבצע לא צוינה."
+    },
+    {
+      "our_sku": "90904-130-02",
+      "store_id": "bug",
+      "url": "https://www.bug.co.il/brand/elgato/wave/3",
+      "price_ils": 349,
+      "regular_price_ils": 749,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_stated",
+      "checked_at": "2026-11-23T11:33:17.038Z",
+      "source_url": "https://www.bug.co.il/brand/elgato/wave/3",
+      "terms": "מחיר מבצע ₪349 במקום ₪749. בתוקף עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם. תחילת המבצע לא צוינה."
+    },
+    {
+      "our_sku": "90904-110-03",
+      "store_id": "bug",
+      "url": "https://www.bug.co.il/brand/elgato/stream/deck/xl",
+      "price_ils": 899,
+      "regular_price_ils": 1249,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_stated",
+      "checked_at": "2026-11-23T11:33:30.546Z",
+      "source_url": "https://www.bug.co.il/brand/elgato/stream/deck/xl",
+      "terms": "מחיר מבצע ₪899 במקום ₪1,249. בתוקף עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם. תחילת המבצע לא צוינה."
     }
   ]
-}
+    }

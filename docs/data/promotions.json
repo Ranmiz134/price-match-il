@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-23T15:48:00+00:00",
+  "checked_at": "2026-11-23T16:06:00+00:00",
   "checks": [
     {
       "checked_at": "2026-11-22T12:47:48.109393+00:00",
@@ -2812,6 +2812,56 @@
       "checked_at": "2026-11-23T15:48:00+00:00",
       "comparison_scraped_at": "2026-11-23 17:48",
       "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90902-815-15",
+      "store_id": "bug",
+      "store_name": "Bug",
+      "price_vat": 1799,
+      "product_url": "https://www.bug.co.il/brand/thrustmaster/t598",
+      "checked_at": "2026-11-23T16:06:00+00:00",
+      "comparison_scraped_at": "2026-11-23 18:06",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90902-815-29",
+      "store_id": "bug",
+      "store_name": "Bug",
+      "price_vat": 449,
+      "product_url": "https://www.bug.co.il/brand/thrustmaster/t98/ferrari/296/gts",
+      "checked_at": "2026-11-23T16:06:00+00:00",
+      "comparison_scraped_at": "2026-11-23 18:06",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90902-801-47",
+      "store_id": "bug",
+      "store_name": "Bug",
+      "price_vat": 699,
+      "product_url": "https://www.bug.co.il/brand/thrustmaster/officer/pack/airbus/edition",
+      "checked_at": "2026-11-23T16:06:00+00:00",
+      "comparison_scraped_at": "2026-11-23 18:06",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90902-801-55",
+      "store_id": "bug",
+      "store_name": "Bug",
+      "price_vat": 799,
+      "product_url": "https://www.bug.co.il/brand/thrustmaster/f/a/18c",
+      "checked_at": "2026-11-23T16:06:00+00:00",
+      "comparison_scraped_at": "2026-11-23 18:06",
+      "date_result": "explicit_end_date_with_stock_limit"
+    },
+    {
+      "our_sku": "90902-800-09",
+      "store_id": "bug",
+      "store_name": "Bug",
+      "price_vat": 1399,
+      "product_url": "https://www.bug.co.il/brand/thrustmaster/t300rs/gtedition/wheel/set/",
+      "checked_at": "2026-11-23T16:06:00+00:00",
+      "comparison_scraped_at": "2026-11-23 18:06",
+      "date_result": "explicit_end_date_with_stock_limit"
     }
   ],
   "offers": [
@@ -4136,8 +4186,78 @@
       "date_status": "end_date_only",
       "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
       "verified": true
+    },
+    {
+      "our_sku": "90902-815-15",
+      "store_id": "bug",
+      "price_ils": 1799,
+      "regular_price_ils": 2999,
+      "source_url": "https://www.bug.co.il/brand/thrustmaster/t598",
+      "url": "https://www.bug.co.il/brand/thrustmaster/t598",
+      "checked_at": "2026-11-23T16:06:00+00:00",
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_date_only",
+      "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
+      "verified": true
+    },
+    {
+      "our_sku": "90902-815-29",
+      "store_id": "bug",
+      "price_ils": 449,
+      "regular_price_ils": 549,
+      "source_url": "https://www.bug.co.il/brand/thrustmaster/t98/ferrari/296/gts",
+      "url": "https://www.bug.co.il/brand/thrustmaster/t98/ferrari/296/gts",
+      "checked_at": "2026-11-23T16:06:00+00:00",
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_date_only",
+      "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
+      "verified": true
+    },
+    {
+      "our_sku": "90902-801-47",
+      "store_id": "bug",
+      "price_ils": 699,
+      "regular_price_ils": 1169,
+      "source_url": "https://www.bug.co.il/brand/thrustmaster/officer/pack/airbus/edition",
+      "url": "https://www.bug.co.il/brand/thrustmaster/officer/pack/airbus/edition",
+      "checked_at": "2026-11-23T16:06:00+00:00",
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_date_only",
+      "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
+      "verified": true
+    },
+    {
+      "our_sku": "90902-801-55",
+      "store_id": "bug",
+      "price_ils": 799,
+      "regular_price_ils": 1199,
+      "source_url": "https://www.bug.co.il/brand/thrustmaster/f/a/18c",
+      "url": "https://www.bug.co.il/brand/thrustmaster/f/a/18c",
+      "checked_at": "2026-11-23T16:06:00+00:00",
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_date_only",
+      "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
+      "verified": true
+    },
+    {
+      "our_sku": "90902-800-09",
+      "store_id": "bug",
+      "price_ils": 1399,
+      "regular_price_ils": 2299,
+      "source_url": "https://www.bug.co.il/brand/thrustmaster/t300rs/gtedition/wheel/set/",
+      "url": "https://www.bug.co.il/brand/thrustmaster/t300rs/gtedition/wheel/set/",
+      "checked_at": "2026-11-23T16:06:00+00:00",
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_date_only",
+      "terms": "מבצע ברשת. תחילת המבצע לא צוינה. עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם.",
+      "verified": true
     }
   ],
   "schema_version": 2,
-  "scope": "Known individual product-page checks. Seven exact Bug Corsair official Benda sale offers added. Prior timestamps retained. Not a full sweep."
+  "scope": "Known individual product-page checks. Five exact Bug Thrustmaster official Benda sale offers added. Prior timestamps retained. Not a full sweep."
     }

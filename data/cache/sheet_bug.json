@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T10:55:28.501887+00:00",
-  "count": 94,
+  "last_ok_at": "2026-11-23T11:17:15.916186+00:00",
+  "count": 99,
   "items": [
     {
       "store_id": "bug",
@@ -1413,6 +1413,81 @@
       "sku": "99226-000-32",
       "barcodes": [],
       "scraped_at": "2026-11-23 12:50"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90902-815-04",
+      "our_product_name": "VIPER PANEL WORLDWIDE VERSION",
+      "title": "לוח בקרה Viper Panel",
+      "price": 1169.0,
+      "url": "https://www.bug.co.il/brand/thrustmaster/viper/panel/worldwide/version",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90902-815-04",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 13:12"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90902-815-20",
+      "our_product_name": "TM AVA FA18 HORNET FLIGHT STICK",
+      "title": "ג'ויסטיק טיסה AVA F/A-18 Super Hornet",
+      "price": 3299.0,
+      "url": "https://www.bug.co.il/brand/thrustmaster/ava/f/a/18",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90902-815-20",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 13:13"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90902-815-21",
+      "our_product_name": "TM AVA BASE",
+      "title": "בסיס לג'ויסטיק טיסה AVA",
+      "price": 1609.0,
+      "url": "https://www.bug.co.il/brand/thrustmaster/ava/base",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90902-815-21",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 13:13"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90902-815-35",
+      "our_product_name": "חבילת הגה, דוושות וידית הילוכים דגם T248R Shifter Pack מבית Thrustmaster",
+      "title": "מארז הגה ודוושות עם שיפטר T248R + TH8S",
+      "price": 1199.0,
+      "url": "https://www.bug.co.il/brand/thrustmaster/t248r/th8s",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90902-815-35",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 13:13"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90902-815-42",
+      "our_product_name": "ג'ויסטיק טיסה T.Flight Hotas Neo ל-Xbox מבית Thrustmaster",
+      "title": "ג'ויסטיק טיסה T.Flight Hotas Neo ל-Xbox ACE COMBAT 8",
+      "price": 699.0,
+      "url": "https://www.bug.co.il/brand/thrustmaster/ace/combat/8/xbox",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90902-815-42",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 13:13"
     }
   ]
 }

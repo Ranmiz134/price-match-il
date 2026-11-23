@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T22:36:38.463749+00:00",
-  "count": 192,
+  "last_ok_at": "2026-11-23T22:53:52.998295+00:00",
+  "count": 195,
   "items": [
     {
       "store_id": "bug",
@@ -2883,6 +2883,51 @@
       "sku": "90903-011-29",
       "barcodes": [],
       "scraped_at": "2026-11-24 00:34"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-003-56",
+      "our_product_name": "RAZER BLACKWIDOW V4 LOW-PROFILE TENKEYLESS HYPERSPEED – מקלדת מכנית אלחוטית",
+      "title": "RAZER BLACKWIDOW V4 LOW-PROFILE TENKEYLESS HYPERSPEED – מקלדת מכנית אלחוטית",
+      "price": 759.0,
+      "url": "https://www.bug.co.il/brand/razer/blackwidow/v4/low/profile/tenkeyless/orange/switch",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-003-56",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 00:52"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-001-70",
+      "our_product_name": "Razer BlackShark V2 HyperSpeed – אוזניות אלחוטיות לבן",
+      "title": "אוזניות גיימינג Blackshark V2 HyperSpeed",
+      "price": 296.0,
+      "url": "https://www.bug.co.il/brand/razer/color/white/blackshark/v2/hyperspeed",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-001-70",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 00:52"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-001-48",
+      "our_product_name": "אוזניות אלחוטיות RAZER BARRACUDA X Chroma",
+      "title": "אוזניות גיימינג אלחוטיות Barracuda X Chroma - שחור",
+      "price": 449.0,
+      "url": "https://www.bug.co.il/brand/razer/barracuda/xchroma/black",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-001-48",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 00:52"
     }
   ]
 }

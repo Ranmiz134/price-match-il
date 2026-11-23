@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T19:37:37.287808+00:00",
-  "count": 163,
+  "last_ok_at": "2026-11-23T19:54:39.768641+00:00",
+  "count": 164,
   "items": [
     {
       "store_id": "bug",
@@ -2448,6 +2448,21 @@
       "sku": "41209-652-47",
       "barcodes": [],
       "scraped_at": "2026-11-23 21:16"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "99999-600-67",
+      "our_product_name": "Osmo Pocket 3",
+      "title": "מייצב Osmo Pocket 3 די ג'יי איי - DJI",
+      "price": 1699.0,
+      "url": "https://www.bug.co.il/brand/dji/osmo/pocket/3",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99999-600-67",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 21:53"
     }
   ]
 }

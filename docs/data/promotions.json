@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-23T10:50:45.507Z",
-  "scope": "Known product-page checks only. Added three exact Jackery offers. Other source timestamps retained. Not a full market sweep.",
+  "checked_at": "2026-11-23T11:13:56.517Z",
+  "scope": "Known product-page checks only. Added five exact Bug Thrustmaster offers. Other source timestamps retained. Not a full market sweep.",
   "checks": [
     {
       "our_sku": "99999-955-09",
@@ -2122,6 +2122,61 @@
       "comparison_scraped_at": "2026-11-23 12:50",
       "checked_at": "2026-11-23T10:50:45.507Z",
       "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90902-815-04",
+      "name": "VIPER PANEL WORLDWIDE VERSION",
+      "store_name": "Bug",
+      "store_id": "bug",
+      "price_vat": 1169,
+      "product_url": "https://www.bug.co.il/brand/thrustmaster/viper/panel/worldwide/version",
+      "comparison_scraped_at": "2026-11-23 13:12",
+      "checked_at": "2026-11-23T11:12:54.243Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90902-815-20",
+      "name": "TM AVA FA18 HORNET FLIGHT STICK",
+      "store_name": "Bug",
+      "store_id": "bug",
+      "price_vat": 3299,
+      "product_url": "https://www.bug.co.il/brand/thrustmaster/ava/f/a/18",
+      "comparison_scraped_at": "2026-11-23 13:13",
+      "checked_at": "2026-11-23T11:13:33.323Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90902-815-21",
+      "name": "TM AVA BASE",
+      "store_name": "Bug",
+      "store_id": "bug",
+      "price_vat": 1609,
+      "product_url": "https://www.bug.co.il/brand/thrustmaster/ava/base",
+      "comparison_scraped_at": "2026-11-23 13:13",
+      "checked_at": "2026-11-23T11:13:34.553Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90902-815-35",
+      "name": "חבילת הגה, דוושות וידית הילוכים דגם T248R Shifter Pack מבית Thrustmaster",
+      "store_name": "Bug",
+      "store_id": "bug",
+      "price_vat": 1199,
+      "product_url": "https://www.bug.co.il/brand/thrustmaster/t248r/th8s",
+      "comparison_scraped_at": "2026-11-23 13:13",
+      "checked_at": "2026-11-23T11:13:50.593Z",
+      "date_result": "found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90902-815-42",
+      "name": "ג'ויסטיק טיסה T.Flight Hotas Neo ל-Xbox מבית Thrustmaster",
+      "store_name": "Bug",
+      "store_id": "bug",
+      "price_vat": 699,
+      "product_url": "https://www.bug.co.il/brand/thrustmaster/ace/combat/8/xbox",
+      "comparison_scraped_at": "2026-11-23 13:13",
+      "checked_at": "2026-11-23T11:13:56.517Z",
+      "date_result": "found_on_checked_product_page"
     }
   ],
   "offers": [
@@ -2998,6 +3053,34 @@
       "checked_at": "2026-11-23T10:49:54.863Z",
       "source_url": "https://www.ace.co.il/4455978",
       "terms": "Displayed product sale price valid through November 30, 2026. Start date not stated."
+    },
+    {
+      "our_sku": "90902-815-35",
+      "store_id": "bug",
+      "url": "https://www.bug.co.il/brand/thrustmaster/t248r/th8s",
+      "price_ils": 1199,
+      "regular_price_ils": 1899,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_stated",
+      "checked_at": "2026-11-23T11:13:50.593Z",
+      "source_url": "https://www.bug.co.il/brand/thrustmaster/t248r/th8s",
+      "terms": "מחיר מבצע ₪1,199 במקום ₪1,899. בתוקף עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם. תחילת המבצע לא צוינה."
+    },
+    {
+      "our_sku": "90902-815-42",
+      "store_id": "bug",
+      "url": "https://www.bug.co.il/brand/thrustmaster/ace/combat/8/xbox",
+      "price_ils": 699,
+      "regular_price_ils": 799,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": "2026-11-30",
+      "date_status": "end_stated",
+      "checked_at": "2026-11-23T11:13:56.517Z",
+      "source_url": "https://www.bug.co.il/brand/thrustmaster/ace/combat/8/xbox",
+      "terms": "מחיר מבצע ₪699 במקום ₪799. בתוקף עד 2026-11-30 או עד גמר המלאי, המוקדם מביניהם. תחילת המבצע לא צוינה."
     }
   ]
-    }
+}

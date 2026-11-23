@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_ace",
   "store_name": "ACE",
-  "last_ok_at": "2026-11-23T06:39:59.987450+00:00",
-  "count": 13,
+  "last_ok_at": "2026-11-23T06:58:12.592187+00:00",
+  "count": 14,
   "items": [
     {
       "store_id": "ace",
@@ -198,6 +198,21 @@
       "sku": "90903-007-15",
       "barcodes": [],
       "scraped_at": "2026-11-23 08:34"
+    },
+    {
+      "store_id": "ace",
+      "store_name": "ACE",
+      "our_sku": "90902-801-65",
+      "our_product_name": "מושב גיימינג SCORPIUS LIFE אדום",
+      "title": "Scorpius מבית Life כסא גיימינג איכותי דגם",
+      "price": 399.0,
+      "url": "https://www.ace.co.il/4438134",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "90902-801-65",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 08:55"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_ksp",
   "store_name": "KSP",
-  "last_ok_at": "2026-11-23T19:18:15.412018+00:00",
-  "count": 14,
+  "last_ok_at": "2026-11-23T19:37:37.291097+00:00",
+  "count": 15,
   "items": [
     {
       "store_id": "ksp",
@@ -213,6 +213,21 @@
       "sku": "99999-600-97",
       "barcodes": [],
       "scraped_at": "2026-11-22 10:39"
+    },
+    {
+      "store_id": "ksp",
+      "store_name": "KSP",
+      "our_sku": "38168-001-34",
+      "our_product_name": "כונן SSD נייד SanDisk Portable SSD V3 1TB",
+      "title": "כונן קשיח SSD חיצוני נייד Sandisk Portable External 1TB SSD USB 3.2 Type-C SDSSDE31-1T00-G25",
+      "price": 715.0,
+      "url": "https://ksp.co.il/web/item/488319",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "38168-001-34",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 21:36"
     }
   ]
 }

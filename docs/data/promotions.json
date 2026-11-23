@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-23T12:55:10.718Z",
-  "scope": "Known product-page checks only. Added five exact Kravitz Miracase offers. Other source timestamps retained. Not a full market sweep.",
+  "checked_at": "2026-11-23T14:07:32.341Z",
+  "scope": "Known checked pages only. Added one Philips 27E1N1300AE official Benda offer. Other source timestamps retained. Not full sweep.",
   "checks": [
     {
       "our_sku": "99999-955-09",
@@ -2386,6 +2386,17 @@
       "comparison_scraped_at": "2026-11-23 14:55",
       "checked_at": "2026-11-23T12:55:10.718Z",
       "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "36208-300-27",
+      "name": "מסך \"PHILIPS IPS+PI+USB-C+SP 27E1N1300AE 27",
+      "store_name": "Bug",
+      "store_id": "bug",
+      "price_vat": 899,
+      "product_url": "https://www.bug.co.il/brand/philips/27/27e1n1300ae",
+      "comparison_scraped_at": "2026-11-23 16:07",
+      "checked_at": "2026-11-23T14:07:32.341Z",
+      "date_result": "no_sale_or_dates_on_checked_product_page"
     }
   ],
   "offers": [

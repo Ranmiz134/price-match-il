@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T18:57:55.772484+00:00",
-  "count": 162,
+  "last_ok_at": "2026-11-23T19:18:15.407875+00:00",
+  "count": 163,
   "items": [
     {
       "store_id": "bug",
@@ -2433,6 +2433,21 @@
       "sku": "37000-119-01",
       "barcodes": [],
       "scraped_at": "2026-11-23 20:55"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "41209-652-47",
+      "our_product_name": "אוז עצםMP3+שחיה SHOKZ OPENSWIM PRO אפור",
+      "title": "אוזניות אלחוטיות OpenSwim Pro שוקז - shokz",
+      "price": 799.0,
+      "url": "https://www.bug.co.il/brand/shokz/earphones/wireless/openswim/pro/color/grey",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "41209-652-47",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 21:16"
     }
   ]
 }

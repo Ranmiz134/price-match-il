@@ -488,6 +488,7 @@
         </div>
 
         ${clearanceCollisionHtml(p)}
+        ${supplierPromotionHtml(p)}
         <div class="price-grid">
           <div class="price-box ours">
             <div class="price-label">
@@ -623,6 +624,7 @@
       <div class="card-meta"><span>מק"ט: <bdi>${escapeHtml(product.sku)}</bdi></span>${product.brand ? `<span>${escapeHtml(product.brand)}</span>` : ""}
         ${(product.barcodes || []).length ? `<span>ברקוד: <bdi>${escapeHtml(product.barcodes.join(", "))}</bdi></span>` : ""}</div>
       ${clearanceCollisionHtml(product)}
+      ${supplierPromotionHtml(product)}
       <div class="manager-prices"><div class="manager-price"><span>המחיר שלנו, כולל מע״מ</span><strong>${formatPreciseILS(product.our_price)}</strong></div>
         <div class="manager-price"><span>רשתות שעוברות את הסינון</span><strong>${new Set(displayedOffers.map((offer) => offer.store_id || offer.store_name)).size}</strong></div></div>
       <div class="manager-offers" aria-label="כל המתחרים המתאימים לסינון">
@@ -731,6 +733,34 @@
   }
 
 
+
+  function supplierPromotionHtml(product) {
+    const items = product.supplier_promotions || [];
+    const today = new Intl.DateTimeFormat('en-CA', {timeZone:'Asia/Jerusalem',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+    const regular = product.supplier_regular_price;
+    if (!items.length && !regular) return '';
+    return `<div class="price-sub" style="margin:10px 0;padding:12px;background:#eff6ff;border-radius:9px;color:#1e3a8a">${regular ? `<div>מחיר קטלוג רגיל כולל מע״מ: <strong>${formatPreciseILS(regular)}</strong></div>` : ''}${items.map(p => {
+      const upcoming = p.starts_on && p.starts_on > today;
+      const expired = p.ends_on && p.ends_on < today;
+      const label = upcoming ? 'מבצע בנדא עתידי, אינו המחיר עכשיו' : expired ? 'מבצע בנדא הסתיים, המחיר דורש בדיקה' : 'מבצע בנדא בתוקף כעת';
+      return `<div style="margin-top:8px"><strong>${label}: ${formatPreciseILS(p.price_ils)} כולל מע״מ</strong><div>${p.starts_on ? 'מ-'+escapeHtml(p.starts_on)+' · ' : 'תחילה לא צוינה · '}עד ${escapeHtml(p.ends_on)}</div><div>${escapeHtml(p.source_label)}${p.vat_note ? ' · '+escapeHtml(p.vat_note) : ''}${p.date_note ? ' · '+escapeHtml(p.date_note) : ''}</div></div>`;
+    }).join('')}</div>`;
+  }
+  async function loadSupplierPromotions() {
+    try {
+      const response = await fetch('supplier-promotions.json', {cache:'no-store'});
+      if (!response.ok) throw new Error('Supplier data unavailable');
+      const data = await response.json();
+      if (data.schema_version !== 1 || !Array.isArray(data.catalog) || !Array.isArray(data.offers)) throw new Error('Invalid supplier data');
+      const products = new Map(allProducts.map(p => [p.sku,p]));
+      data.catalog.forEach(r => { const p=products.get(r.our_sku); if(p && Number.isFinite(r.regular_price_ils) && r.regular_price_ils>0) p.supplier_regular_price=r.regular_price_ils; });
+      const validDate = v => v === null || typeof v==='string' && /^\d{4}-\d{2}-\d{2}$/.test(v) && new Date(v).toISOString().slice(0,10)===v;
+      data.offers.forEach(r => { const p=products.get(r.our_sku); if(!p || r.verified!==true || !Number.isFinite(r.price_ils) || r.price_ils<=0 || !validDate(r.starts_on) || !validDate(r.ends_on) || !r.ends_on || r.starts_on && r.starts_on>r.ends_on) return; (p.supplier_promotions ||= []).push(r); p.promotion=r; });
+    } catch(error) {
+      const note=document.createElement('div');note.className='price-sub';note.textContent='מידע מבצעי בנדא אינו זמין. המחיר המוצג נשמר, יש לבדוק מול המחירון.';document.querySelector('.search-panel').appendChild(note);
+    }
+  }
+
   let promotionInfoStatus = null;
   function promotionText(promotion) {
     if (!promotion || promotion.verified !== true) return "";
@@ -797,6 +827,7 @@
 
       allProducts = (payload.products || []).map(buildSearchIndex);
       await loadPromotions();
+      await loadSupplierPromotions();
       renderCategoryHome();
       applyFilter();
     } catch (err) {

@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-23T08:38:37.714Z",
-  "scope": "Known product-page checks only. Added 5 exact Turtle Beach offers from slow single rendered-page checks. Other source timestamps retained. Not a full market sweep.",
+  "checked_at": "2026-11-23T09:02:23.445Z",
+  "scope": "Known product-page checks only. Added2exactPolaroffers with displayed current prices and sold-out state. Other source timestamps retained. Not a full market sweep.",
   "checks": [
     {
       "our_sku": "99999-955-09",
@@ -1835,6 +1835,28 @@
       "product_url": "https://www.kravitz.co.il/products/%D7%A2%D7%9B%D7%91%D7%A8-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-turtle-beach-pure-air?variant=51414264086824",
       "comparison_scraped_at": "2026-11-23 10:38",
       "checked_at": "2026-11-23T08:38:37.714Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "30212-002-14",
+      "name": "שעון חכם POLAR         PACER PRO GRY/BLK S-L",
+      "store_name": "Bug",
+      "store_id": "bug",
+      "price_vat": 1669.0,
+      "product_url": "https://www.bug.co.il/brand/polar/black/gray/pacer/pro/s/l",
+      "comparison_scraped_at": "2026-11-23 10:59",
+      "checked_at": "2026-11-23T08:59:04.958Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "30212-002-16",
+      "name": "רצועת דופק POLAR H10 HR SENSOR BLE BLK M-XXL",
+      "store_name": "Bug",
+      "store_id": "bug",
+      "price_vat": 459.0,
+      "product_url": "https://www.bug.co.il/brand/polar/black/h10",
+      "comparison_scraped_at": "2026-11-23 11:02",
+      "checked_at": "2026-11-23T09:02:23.445Z",
       "date_result": "not_found_on_checked_product_page"
     }
   ],

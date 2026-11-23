@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T19:54:39.768641+00:00",
-  "count": 164,
+  "last_ok_at": "2026-11-23T20:12:58.248576+00:00",
+  "count": 167,
   "items": [
     {
       "store_id": "bug",
@@ -2463,6 +2463,51 @@
       "sku": "99999-600-67",
       "barcodes": [],
       "scraped_at": "2026-11-23 21:53"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90905-801-98",
+      "our_product_name": "בקר גיימינג אלחוטי דגם Stealth Pivot מבית Turtle Beach",
+      "title": "בקר חכם אלחוטי למחשב Stealth Pivot טרטל ביצ' - Turtle Beach",
+      "price": 499.0,
+      "url": "https://www.bug.co.il/brand/turtlebeach/stealth/pivot",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90905-801-98",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 22:11"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90905-072-20",
+      "our_product_name": "ג'ויסטיק טיסה TURTLE BEACH® VelocityOne Flightstick",
+      "title": "בקר שליטה VelocityOne Flightstick טרטל ביצ' - Turtle Beach",
+      "price": 489.0,
+      "url": "https://www.bug.co.il/brand/turtle/beach/tbs/0722/05/velocityone/flightstick",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90905-072-20",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 22:11"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90905-071-50",
+      "our_product_name": "מערכת מקצועית לבקרת טיסה TURTLE BEACH VelocityOne Flight Universal",
+      "title": "מערכת בקרת טיסה VelocityOne טרטל ביצ' - Turtle Beach",
+      "price": 1529.0,
+      "url": "https://www.bug.co.il/brand/turtle/beach/tbs/0715/02/velocityone/flight/control/system",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90905-071-50",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 22:11"
     }
   ]
 }

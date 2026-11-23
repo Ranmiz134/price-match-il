@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T18:19:25.812447+00:00",
-  "count": 159,
+  "last_ok_at": "2026-11-23T18:37:14.502375+00:00",
+  "count": 161,
   "items": [
     {
       "store_id": "bug",
@@ -2388,6 +2388,36 @@
       "sku": "70708-901-11",
       "barcodes": [],
       "scraped_at": "2026-11-23 18:44"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "99917-001-43",
+      "our_product_name": "מצלמת דרך קדמית דגם M60S Dash Camera מבית SJCAM",
+      "title": "מצלמת דרך M60S Dash Camera אס ג'יי קאם - SJCAM",
+      "price": 219.0,
+      "url": "https://www.bug.co.il/brand/sjcam/m60s/dash/camera",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99917-001-43",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 20:35"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "99917-001-39",
+      "our_product_name": "מצלמת אקשן דגם SJ20 עם עדשה כפולה מבית SJCAM",
+      "title": "מצלמת אקשן SJ20 אס ג'יי קאם - SJCAM",
+      "price": 499.0,
+      "url": "https://www.bug.co.il/brand/sjcam/sj20",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99917-001-39",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 20:35"
     }
   ]
 }

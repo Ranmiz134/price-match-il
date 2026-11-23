@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-23T16:44:00+00:00",
+  "checked_at": "2026-11-23T17:55:00+00:00",
   "checks": [
     {
       "checked_at": "2026-11-22T12:47:48.109393+00:00",
@@ -2902,6 +2902,46 @@
       "checked_at": "2026-11-23T16:44:00+00:00",
       "comparison_scraped_at": "2026-11-23 18:44",
       "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "81000-001-27",
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "price_vat": 304,
+      "product_url": "https://www.kravitz.co.il/products/%D7%9E%D7%A1%D7%9A-%D7%92%D7%9C%D7%99%D7%9C%D7%94-%D7%9C%D7%94%D7%A7%D7%A8%D7%A0%D7%94lumi-esbb96",
+      "checked_at": "2026-11-23T17:55:00+00:00",
+      "comparison_scraped_at": "2026-11-23 19:55",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90902-817-40",
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "price_vat": 312,
+      "product_url": "https://www.kravitz.co.il/products/%D7%9C%D7%95%D7%97-%D7%9E%D7%97%D7%99%D7%A7-%D7%9E%D7%92%D7%A0%D7%98%D7%99-%D7%93%D7%95-%D7%A6%D7%93%D7%93%D7%99-%D7%A0%D7%99%D7%99%D7%93-%D7%93%D7%92%D7%9D-wb03-2-%D7%9E%D7%91%D7%99%D7%AA-lumi",
+      "checked_at": "2026-11-23T17:55:00+00:00",
+      "comparison_scraped_at": "2026-11-23 19:55",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90902-807-49",
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "price_vat": 449,
+      "product_url": "https://www.kravitz.co.il/products/%D7%A9%D7%95%D7%9C%D7%97%D7%9F-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%91%D7%A6%D7%95%D7%A8%D7%AA-lumi-gmd09-2-l",
+      "checked_at": "2026-11-23T17:55:00+00:00",
+      "comparison_scraped_at": "2026-11-23 19:55",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90902-807-48",
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "price_vat": 649,
+      "product_url": "https://www.kravitz.co.il/products/%D7%A9%D7%95%D7%9C%D7%97%D7%9F-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%A2%D7%9D-%D7%92%D7%95%D7%91%D7%94-%D7%A6%D7%92-lumi-gmd10-1d",
+      "checked_at": "2026-11-23T17:55:00+00:00",
+      "comparison_scraped_at": "2026-11-23 19:55",
+      "date_result": "not_found_on_checked_product_page"
     }
   ],
   "offers": [
@@ -4310,8 +4350,50 @@
       "date_status": "end_date_only",
       "terms": "תחילת המבצע לא צוינה. בתוקף עד 2026-11-30.",
       "verified": true
+    },
+    {
+      "our_sku": "81000-001-27",
+      "store_id": "kravitz",
+      "price_ils": 304,
+      "regular_price_ils": 380,
+      "source_url": "https://www.kravitz.co.il/products/%D7%9E%D7%A1%D7%9A-%D7%92%D7%9C%D7%99%D7%9C%D7%94-%D7%9C%D7%94%D7%A7%D7%A8%D7%A0%D7%94lumi-esbb96",
+      "url": "https://www.kravitz.co.il/products/%D7%9E%D7%A1%D7%9A-%D7%92%D7%9C%D7%99%D7%9C%D7%94-%D7%9C%D7%94%D7%A7%D7%A8%D7%A0%D7%94lumi-esbb96",
+      "checked_at": "2026-11-23T17:55:00+00:00",
+      "starts_on": null,
+      "ends_on": null,
+      "date_status": "unknown",
+      "terms": "מחיר מבצע מוצג. תאריכי תחילה וסיום לא צוינו.",
+      "verified": true
+    },
+    {
+      "our_sku": "90902-817-40",
+      "store_id": "kravitz",
+      "price_ils": 312,
+      "regular_price_ils": 390,
+      "source_url": "https://www.kravitz.co.il/products/%D7%9C%D7%95%D7%97-%D7%9E%D7%97%D7%99%D7%A7-%D7%9E%D7%92%D7%A0%D7%98%D7%99-%D7%93%D7%95-%D7%A6%D7%93%D7%93%D7%99-%D7%A0%D7%99%D7%99%D7%93-%D7%93%D7%92%D7%9D-wb03-2-%D7%9E%D7%91%D7%99%D7%AA-lumi",
+      "url": "https://www.kravitz.co.il/products/%D7%9C%D7%95%D7%97-%D7%9E%D7%97%D7%99%D7%A7-%D7%9E%D7%92%D7%A0%D7%98%D7%99-%D7%93%D7%95-%D7%A6%D7%93%D7%93%D7%99-%D7%A0%D7%99%D7%99%D7%93-%D7%93%D7%92%D7%9D-wb03-2-%D7%9E%D7%91%D7%99%D7%AA-lumi",
+      "checked_at": "2026-11-23T17:55:00+00:00",
+      "starts_on": null,
+      "ends_on": null,
+      "date_status": "unknown",
+      "terms": "מחיר מבצע מוצג. תאריכי תחילה וסיום לא צוינו.",
+      "verified": true
+    },
+    {
+      "our_sku": "90902-807-49",
+      "store_id": "kravitz",
+      "price_ils": 449,
+      "regular_price_ils": 749,
+      "source_url": "https://www.kravitz.co.il/products/%D7%A9%D7%95%D7%9C%D7%97%D7%9F-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%91%D7%A6%D7%95%D7%A8%D7%AA-lumi-gmd09-2-l",
+      "url": "https://www.kravitz.co.il/products/%D7%A9%D7%95%D7%9C%D7%97%D7%9F-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%91%D7%A6%D7%95%D7%A8%D7%AA-lumi-gmd09-2-l",
+      "checked_at": "2026-11-23T17:55:00+00:00",
+      "starts_on": null,
+      "ends_on": null,
+      "date_status": "unknown",
+      "terms": "מחיר מבצע מוצג. תאריכי תחילה וסיום לא צוינו.",
+      "verified": true
     }
   ],
   "schema_version": 2,
-  "scope": "Known individual product-page checks. Two exact Bug ViewSonic official Benda offers added, no product-specific promotion dates. Prior timestamps retained. Not a full sweep."
+  "scope": "Known individual product-page checks. Four exact Kravitz Lumi offers added, product-specific promotion dates not stated. Prior timestamps retained. Not a full sweep."
     }

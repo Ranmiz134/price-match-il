@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-23T08:16:38.095Z",
-  "scope": "Known product-page checks only. Added 16 exact Turtle Beach offers from slow single rendered-page checks. Other source timestamps retained. Not a full market sweep.",
+  "checked_at": "2026-11-23T08:38:37.714Z",
+  "scope": "Known product-page checks only. Added 5 exact Turtle Beach offers from slow single rendered-page checks. Other source timestamps retained. Not a full market sweep.",
   "checks": [
     {
       "our_sku": "99999-955-09",
@@ -1781,6 +1781,61 @@
       "comparison_scraped_at": "2026-11-23 10:13",
       "checked_at": "2026-11-23T08:13:24.191Z",
       "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-27",
+      "name": "בקר חוטי לגיימינג Turtle Beach Afterglow Wave תאורת RGB – תואם Xbox ו‑PC לבן",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 119,
+      "product_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%97%D7%95%D7%98%D7%99-tb-afterglow-rgb-wave-xbox",
+      "comparison_scraped_at": "2026-11-23 10:34",
+      "checked_at": "2026-11-23T08:34:54.990Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-005-01",
+      "name": "מקלדת גיימינג מכנית קומפקטית Turtle Beach Vulcan TKL",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 499,
+      "product_url": "https://www.kravitz.co.il/products/tb-vulcan-tkl-red-s",
+      "comparison_scraped_at": "2026-11-23 10:35",
+      "checked_at": "2026-11-23T08:35:38.939Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-802-11",
+      "name": "מקלדת גיימינג אלחוטית דגם Vulcan II Mini Air מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 649,
+      "product_url": "https://www.kravitz.co.il/products/%D7%9E%D7%A7%D7%9C%D7%93%D7%AA-%D7%A9%D7%97%D7%95%D7%A8%D7%94-%D7%9E%D7%99%D7%A0%D7%99-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99%D7%AA-tb-vulcan-ii-mini-air",
+      "comparison_scraped_at": "2026-11-23 10:35",
+      "checked_at": "2026-11-23T08:35:50.518Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-60",
+      "name": "מקלדת גיימינג דגם Vulcan II TKL מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 399,
+      "product_url": "https://www.kravitz.co.il/products/%D7%9E%D7%A7%D7%9C%D7%93%D7%AA-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%97%D7%95%D7%98%D7%99%D7%AA-%D7%9E%D7%9B%D7%A0%D7%99%D7%AA-turtle-beach-vulcan-ii-tkl",
+      "comparison_scraped_at": "2026-11-23 10:36",
+      "checked_at": "2026-11-23T08:36:34.896Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-003-04",
+      "name": "עכבר גיימינג אלחוטי Turtle Beach Pure Air לבן",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 399,
+      "product_url": "https://www.kravitz.co.il/products/%D7%A2%D7%9B%D7%91%D7%A8-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-turtle-beach-pure-air?variant=51414264086824",
+      "comparison_scraped_at": "2026-11-23 10:38",
+      "checked_at": "2026-11-23T08:38:37.714Z",
+      "date_result": "not_found_on_checked_product_page"
     }
   ],
   "offers": [
@@ -2526,6 +2581,20 @@
       "date_status": "not_stated",
       "checked_at": "2026-11-23T08:13:24.191Z",
       "source_url": "https://www.kravitz.co.il/products/%D7%90%D7%95%D7%96%D7%A0%D7%99%D7%95%D7%AA-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%97%D7%95%D7%98%D7%99%D7%95%D7%AA-%D7%9C%D7%91%D7%9F-nintendo-switch-tb-recon-70",
+      "terms": "Displayed product sale price. No start or end date stated on checked page."
+    },
+    {
+      "our_sku": "90905-801-27",
+      "store_id": "kravitz",
+      "url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%97%D7%95%D7%98%D7%99-tb-afterglow-rgb-wave-xbox",
+      "price_ils": 119,
+      "regular_price_ils": 179.0,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": null,
+      "date_status": "not_stated",
+      "checked_at": "2026-11-23T08:34:54.990Z",
+      "source_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%97%D7%95%D7%98%D7%99-tb-afterglow-rgb-wave-xbox",
       "terms": "Displayed product sale price. No start or end date stated on checked page."
     }
   ]

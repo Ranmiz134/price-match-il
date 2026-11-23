@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T20:12:58.248576+00:00",
-  "count": 167,
+  "last_ok_at": "2026-11-23T20:31:01.835784+00:00",
+  "count": 170,
   "items": [
     {
       "store_id": "bug",
@@ -2508,6 +2508,51 @@
       "sku": "90905-071-50",
       "barcodes": [],
       "scraped_at": "2026-11-23 22:11"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90905-801-62",
+      "our_product_name": "עכבר גיימינג אלחוטי דגם Burst II Pro לבן מבית Turtle Beach",
+      "title": "עכבר גיימינג אלחוטי Burst II Pro Wireless - לבן Turtle Beach",
+      "price": 499.0,
+      "url": "https://www.bug.co.il/brand/turtlebeach/burst/ii/pro/wireless/white",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90905-801-62",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 22:29"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90905-801-40",
+      "our_product_name": "סט הגה ודוושות VelocityOne™ Race – תואם Xbox ו־PC – מבית Turtle Beach",
+      "title": "הגה מירוצים + פדלים VelocityOne Turtle Beach",
+      "price": 2799.0,
+      "url": "https://www.bug.co.il/brand/turtlebeach/velocityone/wheel/pedals",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90905-801-40",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 22:29"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90905-072-40",
+      "our_product_name": "סט שליטה מתקדם לטיסות VelocityOne™ Flightdeck Turtle Beach",
+      "title": "ג'ויסטיק ומצערת VelocityOne Flightdeck Turtle Beach",
+      "price": 1599.0,
+      "url": "https://www.bug.co.il/brand/turtlebeach/velocityone/flightdeck",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90905-072-40",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 22:29"
     }
   ]
 }

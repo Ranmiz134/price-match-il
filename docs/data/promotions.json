@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-23T09:45:08.219Z",
-  "scope": "Known product-page checks only. Added four exact Polar ACE offers from slow single rendered-page checks. Other source timestamps retained. Not a full market sweep.",
+  "checked_at": "2026-11-23T10:09:54.602Z",
+  "scope": "Known product-page checks only. Added two exact Ivory Thrustmaster offers. Other source timestamps retained. Not a full market sweep.",
   "checks": [
     {
       "our_sku": "99999-955-09",
@@ -2023,6 +2023,28 @@
       "comparison_scraped_at": "2026-11-23 11:45",
       "checked_at": "2026-11-23T09:45:08.219Z",
       "date_result": "found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90902-815-20",
+      "name": "TM AVA FA18 HORNET FLIGHT STICK",
+      "store_name": "Ivory",
+      "store_id": "ivory",
+      "price_vat": 3250,
+      "product_url": "https://www.ivory.co.il/catalog.php?id=144908",
+      "comparison_scraped_at": "2026-11-23 12:09",
+      "checked_at": "2026-11-23T10:09:54.602Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90902-805-35",
+      "name": "מוט הילוכים TH8S SHIFTER ADD-ON WW",
+      "store_name": "Ivory",
+      "store_id": "ivory",
+      "price_vat": 390,
+      "product_url": "https://www.ivory.co.il/catalog.php?id=139817",
+      "comparison_scraped_at": "2026-11-23 12:09",
+      "checked_at": "2026-11-23T10:09:28.334Z",
+      "date_result": "not_found_on_checked_product_page"
     }
   ],
   "offers": [

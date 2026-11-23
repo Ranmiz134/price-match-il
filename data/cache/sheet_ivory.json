@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_ivory",
   "store_name": "אייבורי (Ivory)",
-  "last_ok_at": "2026-11-23T09:48:54.594560+00:00",
-  "count": 2,
+  "last_ok_at": "2026-11-23T10:13:24.971200+00:00",
+  "count": 4,
   "items": [
     {
       "store_id": "ivory",
@@ -33,6 +33,36 @@
       "sku": "90903-007-15",
       "barcodes": [],
       "scraped_at": "2026-11-23 08:53"
+    },
+    {
+      "store_id": "ivory",
+      "store_name": "אייבורי (Ivory)",
+      "our_sku": "90902-815-20",
+      "our_product_name": "TM AVA FA18 HORNET FLIGHT STICK",
+      "title": "ג&#39;ויסטיק טיסה למחשב Thrustmaster AVA FA18 SUPER HORNET FLIGHT STICK",
+      "price": 3250.0,
+      "url": "https://www.ivory.co.il/catalog.php?id=144908",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "90902-815-20",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 12:09"
+    },
+    {
+      "store_id": "ivory",
+      "store_name": "אייבורי (Ivory)",
+      "our_sku": "90902-805-35",
+      "our_product_name": "מוט הילוכים TH8S SHIFTER ADD-ON WW",
+      "title": "ידית הילוכים Thrustmaster TH8S Shifter Add-On – משלוח חינם",
+      "price": 390.0,
+      "url": "https://www.ivory.co.il/catalog.php?id=139817",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "90902-805-35",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 12:09"
     }
   ]
 }

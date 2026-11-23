@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_kravitz",
   "store_name": "Kravitz",
-  "last_ok_at": "2026-11-23T16:46:42.850566+00:00",
-  "count": 166,
+  "last_ok_at": "2026-11-23T17:58:59.782367+00:00",
+  "count": 170,
   "items": [
     {
       "store_id": "kravitz",
@@ -2493,6 +2493,66 @@
       "sku": "99317-000-65",
       "barcodes": [],
       "scraped_at": "2026-11-23 14:55"
+    },
+    {
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "our_sku": "81000-001-27",
+      "our_product_name": "מסך גלילה מכני למקרן LUMI ESBB112",
+      "title": "מסך גלילה להקרנה Lumi ESBB112",
+      "price": 304.0,
+      "url": "https://www.kravitz.co.il/products/%D7%9E%D7%A1%D7%9A-%D7%92%D7%9C%D7%99%D7%9C%D7%94-%D7%9C%D7%94%D7%A7%D7%A8%D7%A0%D7%94lumi-esbb96",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "81000-001-27",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 19:55"
+    },
+    {
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "our_sku": "90902-817-40",
+      "our_product_name": "LUMI WB03-2 – לוח מחיק נייד שני צדדים",
+      "title": "לוח מחיק מגנטי דו-צדדי נייד WB03-2 Lumi",
+      "price": 312.0,
+      "url": "https://www.kravitz.co.il/products/%D7%9C%D7%95%D7%97-%D7%9E%D7%97%D7%99%D7%A7-%D7%9E%D7%92%D7%A0%D7%98%D7%99-%D7%93%D7%95-%D7%A6%D7%93%D7%93%D7%99-%D7%A0%D7%99%D7%99%D7%93-%D7%93%D7%92%D7%9D-wb03-2-%D7%9E%D7%91%D7%99%D7%AA-lumi",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90902-817-40",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 19:55"
+    },
+    {
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "our_sku": "90902-807-49",
+      "our_product_name": "שולחן גיימינג בצורת GMD09-2 L מבית LUMI",
+      "title": "שולחן גיימינג בצורת - LUMI GMD09-2 L",
+      "price": 449.0,
+      "url": "https://www.kravitz.co.il/products/%D7%A9%D7%95%D7%9C%D7%97%D7%9F-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%91%D7%A6%D7%95%D7%A8%D7%AA-lumi-gmd09-2-l",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90902-807-49",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 19:55"
+    },
+    {
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "our_sku": "90902-807-48",
+      "our_product_name": "שולחן גיימינג   140 Lumi spaceR XL",
+      "title": "שולחן גיימינג עם גובה צג - LUMI GMD10-1D",
+      "price": 649.0,
+      "url": "https://www.kravitz.co.il/products/%D7%A9%D7%95%D7%9C%D7%97%D7%9F-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%A2%D7%9D-%D7%92%D7%95%D7%91%D7%94-%D7%A6%D7%92-lumi-gmd10-1d",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90902-807-48",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 19:55"
     }
   ]
 }

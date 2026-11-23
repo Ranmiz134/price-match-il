@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T10:16:01.827321+00:00",
-  "count": 89,
+  "last_ok_at": "2026-11-23T10:34:25.005163+00:00",
+  "count": 93,
   "items": [
     {
       "store_id": "bug",
@@ -1338,6 +1338,66 @@
       "sku": "30212-002-16",
       "barcodes": [],
       "scraped_at": "2026-11-23 11:02"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90904-120-18",
+      "our_product_name": "מצלמת רשת ELGATO FACECAM MK2",
+      "title": "1\n2\n3\n4",
+      "price": 579.0,
+      "url": "https://www.bug.co.il/brand/elgato/internet/camera/facecam/mk2",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90904-120-18",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 12:30"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90904-100-04",
+      "our_product_name": "מתאם למצלמה Elgato Cam Link 4K",
+      "title": "1\n2\n3\n4",
+      "price": 249.0,
+      "url": "https://www.bug.co.il/brand/elgato/cam/link/4",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90904-100-04",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 12:30"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90904-110-04",
+      "our_product_name": "בקר שליטה ELGATO STREAM DECK MK2",
+      "title": "1\n2",
+      "price": 419.0,
+      "url": "https://www.bug.co.il/brand/elgato/stream/deck/mk2",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90904-110-04",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 12:30"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90904-120-21",
+      "our_product_name": "Elgato Stream Deck Neo – בקר שליטה חכם",
+      "title": "1\n2\n3",
+      "price": 279.0,
+      "url": "https://www.bug.co.il/brand/elgato/controller/keyboard/steam/deck/neo",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90904-120-21",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 12:30"
     }
   ]
 }

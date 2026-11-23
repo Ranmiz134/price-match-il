@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-11-23T07:18:27.301Z",
-  "scope": "Known product-page checks only. Added 18 exact Turtle Beach offers from slow single rendered-page checks. Other source timestamps retained. Not a full market sweep.",
+  "checked_at": "2026-11-23T07:49:32.099Z",
+  "scope": "Known product-page checks only. Added 19 exact Turtle Beach offers from slow single rendered-page checks. Other source timestamps retained. Not a full market sweep.",
   "checks": [
     {
       "our_sku": "99999-955-09",
@@ -1396,6 +1396,215 @@
       "comparison_scraped_at": "2026-11-23 09:18",
       "checked_at": "2026-11-23T07:18:27.301Z",
       "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-89",
+      "name": "בקר גיימינג אלחוטי ל-PS דגם Victrix Pro BFG Reloaded בצבע לבן מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 799,
+      "product_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-%D7%9C%D7%91%D7%9F-tb-victrix-pro-bfg-re-ps",
+      "comparison_scraped_at": "2026-11-23 09:39",
+      "checked_at": "2026-11-23T07:39:13.123Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-88",
+      "name": "בקר גיימינג אלחוטי ל-PS דגם Victrix Pro BFG Reloaded בצבע שחור מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 799,
+      "product_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-%D7%9C%D7%91%D7%9F-tb-victrix-pro-bfg-re-ps?variant=51964087435560",
+      "comparison_scraped_at": "2026-11-23 09:49",
+      "checked_at": "2026-11-23T07:49:32.099Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-83",
+      "name": "בקר גיימינג אלחוטי ל-Nintendo Switch 2 דגם Afterglow Wave Wireless Controller בצבע כחול מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 259,
+      "product_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-%D7%9B%D7%97%D7%95%D7%9C-tb-afterglow-wave-ns2",
+      "comparison_scraped_at": "2026-11-23 09:39",
+      "checked_at": "2026-11-23T07:39:46.076Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-85",
+      "name": "בקר גיימינג אלחוטי ל-Nintendo Switch 2 דגם Afterglow Wave Wireless Controller בצבע לבן מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 259,
+      "product_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-%D7%9B%D7%97%D7%95%D7%9C-tb-afterglow-wave-ns2?variant=51926257664296",
+      "comparison_scraped_at": "2026-11-23 09:47",
+      "checked_at": "2026-11-23T07:47:55.540Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-84",
+      "name": "בקר גיימינג אלחוטי ל-Nintendo Switch 2 דגם Afterglow Wave Wireless Controller בצבע סגול מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 259,
+      "product_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-%D7%9B%D7%97%D7%95%D7%9C-tb-afterglow-wave-ns2?variant=51926257697064",
+      "comparison_scraped_at": "2026-11-23 09:47",
+      "checked_at": "2026-11-23T07:47:46.175Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-51",
+      "name": "בקר גיימינג חוטי דגם Rematch™ Advanced Wired בצבע כחול מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 159,
+      "product_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%97%D7%95%D7%98%D7%99-%D7%93%D7%92%D7%9D-rematch-advanced-wired-%D7%91%D7%A6%D7%91%D7%A2-%D7%9B%D7%97%D7%95%D7%9C-%D7%9E%D7%91%D7%99%D7%AA-turtle-beach",
+      "comparison_scraped_at": "2026-11-23 09:40",
+      "checked_at": "2026-11-23T07:40:06.468Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-54",
+      "name": "בקר גיימינג חוטי דגם PDP Rematch™ Glow Advanced Wired בצבע ירוק/טורקיז מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 159,
+      "product_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%97%D7%95%D7%98%D7%99-%D7%93%D7%92%D7%9D-pdp-rematch%E2%84%A2-glow-advanced-wired-%D7%91%D7%A6%D7%91%D7%A2-%D7%99%D7%A8%D7%95%D7%A7-%D7%98%D7%95%D7%A8%D7%A7%D7%99%D7%96-%D7%9E%D7%91%D7%99%D7%AA-turtle-beach",
+      "comparison_scraped_at": "2026-11-23 09:40",
+      "checked_at": "2026-11-23T07:40:27.500Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-86",
+      "name": "בקר גיימינג אלחוטי ל-Nintendo Switch 2 דגם Rematch Wireless Controller בצבע שחור מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 149,
+      "product_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-%D7%A9%D7%97%D7%95%D7%A8-tb-rematch-ns2",
+      "comparison_scraped_at": "2026-11-23 09:40",
+      "checked_at": "2026-11-23T07:40:47.919Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-58",
+      "name": "בקר גיימינג אלחוטי דגם Rematch™ Wireless Controller – Donkey Kong עבור Nintendo Switch, מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 149,
+      "product_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-tb-rematch-nintendo-donkey-kong",
+      "comparison_scraped_at": "2026-11-23 09:41",
+      "checked_at": "2026-11-23T07:41:07.785Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-003-13",
+      "name": "עכבר גיימינג חוטי Turtle Beach Pure SEL שחור – סופר־קל, מדויק ומואר",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 159,
+      "product_url": "https://www.kravitz.co.il/products/%D7%A2%D7%9B%D7%91%D7%A8-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%97%D7%95%D7%98%D7%99-turtle-beach-pure-sel-ultra-light",
+      "comparison_scraped_at": "2026-11-23 09:41",
+      "checked_at": "2026-11-23T07:41:53.696Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-42",
+      "name": "אוזניות גיימינג חוטיות Airlite™ Fit ל-Nintendo Switch™ 2 בצבע שחור/לבן מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 69,
+      "product_url": "https://www.kravitz.co.il/products/%D7%90%D7%95%D7%96%D7%A0%D7%99%D7%95%D7%AA-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%97%D7%95%D7%98%D7%99%D7%95%D7%AA-tb-airlite-nintendo-switch2",
+      "comparison_scraped_at": "2026-11-23 09:42",
+      "checked_at": "2026-11-23T07:42:13.423Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-003-11",
+      "name": "עכבר גיימינג אלחוטי Turtle Beach Kone II Air שחור",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 499,
+      "product_url": "https://www.kravitz.co.il/products/tb-kone-ii-rgb-wireless?variant=52298629579048",
+      "comparison_scraped_at": "2026-11-23 09:48",
+      "checked_at": "2026-11-23T07:48:47.109Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-91",
+      "name": "בקר גיימינג חוטי ל-Nintendo Switch 2 דגם Rematch בעיצוב Zelda מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 119,
+      "product_url": "https://www.kravitz.co.il/products/tb-rematch-ns2-legend-of-zelda",
+      "comparison_scraped_at": "2026-11-23 09:42",
+      "checked_at": "2026-11-23T07:42:53.742Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-52",
+      "name": "בקר גיימינג חוטי דגם PDP Rematch™ Glow Advanced Wired בצבע תכלת/ורוד מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 159,
+      "product_url": "https://www.kravitz.co.il/products/tb-rematch-android-dreams-pc-xbox",
+      "comparison_scraped_at": "2026-11-23 09:43",
+      "checked_at": "2026-11-23T07:43:19.299Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-53",
+      "name": "בקר גיימינג חוטי דגם PDP Rematch™ Glow Advanced Wired בצבע סגול מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 159,
+      "product_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%97%D7%95%D7%98%D7%99-%D7%A1%D7%92%D7%95%D7%9C-tb-rematch-purple-fade-pc-xbox",
+      "comparison_scraped_at": "2026-11-23 09:43",
+      "checked_at": "2026-11-23T07:43:59.698Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-72",
+      "name": "בקר גיימינג חוטי ל-Nintendo Switch 2 דגם Afterglow™ Wired Controller בצבע שקוף מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 79,
+      "product_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%97%D7%95%D7%98%D7%99-turtle-beach-afterglow-nintendo-switch-2-%D7%A9%D7%A7%D7%95%D7%A3",
+      "comparison_scraped_at": "2026-11-23 09:44",
+      "checked_at": "2026-11-23T07:44:19.907Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-73",
+      "name": "בקר גיימינג חוטי ל-Nintendo Switch 2 דגם Rematch Wired Controller מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 119,
+      "product_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%97%D7%95%D7%98%D7%99-%D7%A9%D7%97%D7%95%D7%A8-tb-rematch-ns-2-black",
+      "comparison_scraped_at": "2026-11-23 09:44",
+      "checked_at": "2026-11-23T07:44:40.209Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-49",
+      "name": "בקר גיימינג חוטי דגם Rematch Advanced Wired בצבע ורוד/לבן מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 159,
+      "product_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%97%D7%95%D7%98%D7%99-%D7%93%D7%92%D7%9D-rematch-advanced-wired-%D7%91%D7%A6%D7%91%D7%A2-%D7%95%D7%A8%D7%95%D7%93-%D7%9C%D7%91%D7%9F-%D7%9E%D7%91%D7%99%D7%AA-turtle-beach",
+      "comparison_scraped_at": "2026-11-23 09:45",
+      "checked_at": "2026-11-23T07:45:25.920Z",
+      "date_result": "not_found_on_checked_product_page"
+    },
+    {
+      "our_sku": "90905-801-50",
+      "name": "בקר גיימינג חוטי דגם PDP Rematch™ Glow Advanced Wired בצבע אפור מבית Turtle Beach",
+      "store_name": "Kravitz",
+      "store_id": "kravitz",
+      "price_vat": 159,
+      "product_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%97%D7%95%D7%98%D7%99-%D7%93%D7%92%D7%9D-pdp-rematch-glow-advanced-wired-%D7%91%D7%A6%D7%91%D7%A2-%D7%90%D7%A4%D7%95%D7%A8-%D7%9E%D7%91%D7%99%D7%AA-turtle-beach",
+      "comparison_scraped_at": "2026-11-23 09:45",
+      "checked_at": "2026-11-23T07:45:46.171Z",
+      "date_result": "not_found_on_checked_product_page"
     }
   ],
   "offers": [
@@ -1918,6 +2127,62 @@
       "checked_at": "2026-11-23T07:09:35.054Z",
       "source_url": "https://www.kravitz.co.il/products/%D7%90%D7%95%D7%96%D7%A0%D7%99%D7%95%D7%AA-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99%D7%95%D7%AA-%D7%A1%D7%92%D7%95%D7%9C-tb-stealth-600-gen-3-xbox",
       "terms": "Displayed product sale price. No start or end date stated on checked page."
+    },
+    {
+      "our_sku": "90905-801-86",
+      "store_id": "kravitz",
+      "url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-%D7%A9%D7%97%D7%95%D7%A8-tb-rematch-ns2",
+      "price_ils": 149,
+      "regular_price_ils": 229.0,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": null,
+      "date_status": "not_stated",
+      "checked_at": "2026-11-23T07:40:47.919Z",
+      "source_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-%D7%A9%D7%97%D7%95%D7%A8-tb-rematch-ns2",
+      "terms": "Displayed product sale price. No start or end date stated on checked page."
+    },
+    {
+      "our_sku": "90905-801-58",
+      "store_id": "kravitz",
+      "url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-tb-rematch-nintendo-donkey-kong",
+      "price_ils": 149,
+      "regular_price_ils": 229.0,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": null,
+      "date_status": "not_stated",
+      "checked_at": "2026-11-23T07:41:07.785Z",
+      "source_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-tb-rematch-nintendo-donkey-kong",
+      "terms": "Displayed product sale price. No start or end date stated on checked page."
+    },
+    {
+      "our_sku": "90905-801-42",
+      "store_id": "kravitz",
+      "url": "https://www.kravitz.co.il/products/%D7%90%D7%95%D7%96%D7%A0%D7%99%D7%95%D7%AA-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%97%D7%95%D7%98%D7%99%D7%95%D7%AA-tb-airlite-nintendo-switch2",
+      "price_ils": 69,
+      "regular_price_ils": 99.0,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": null,
+      "date_status": "not_stated",
+      "checked_at": "2026-11-23T07:42:13.423Z",
+      "source_url": "https://www.kravitz.co.il/products/%D7%90%D7%95%D7%96%D7%A0%D7%99%D7%95%D7%AA-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%97%D7%95%D7%98%D7%99%D7%95%D7%AA-tb-airlite-nintendo-switch2",
+      "terms": "Displayed product sale price. No start or end date stated on checked page."
+    },
+    {
+      "our_sku": "90905-801-72",
+      "store_id": "kravitz",
+      "url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%97%D7%95%D7%98%D7%99-turtle-beach-afterglow-nintendo-switch-2-%D7%A9%D7%A7%D7%95%D7%A3",
+      "price_ils": 79,
+      "regular_price_ils": 119.0,
+      "verified": true,
+      "starts_on": null,
+      "ends_on": null,
+      "date_status": "not_stated",
+      "checked_at": "2026-11-23T07:44:19.907Z",
+      "source_url": "https://www.kravitz.co.il/products/%D7%91%D7%A7%D7%A8-%D7%92%D7%99%D7%99%D7%9E%D7%99%D7%A0%D7%92-%D7%97%D7%95%D7%98%D7%99-turtle-beach-afterglow-nintendo-switch-2-%D7%A9%D7%A7%D7%95%D7%A3",
+      "terms": "Displayed product sale price. No start or end date stated on checked page."
     }
   ]
-}
+    }

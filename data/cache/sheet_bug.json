@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T15:50:58.708932+00:00",
-  "count": 152,
+  "last_ok_at": "2026-11-23T16:08:45.645584+00:00",
+  "count": 157,
   "items": [
     {
       "store_id": "bug",
@@ -2283,6 +2283,81 @@
       "sku": "90904-005-39",
       "barcodes": [],
       "scraped_at": "2026-11-23 17:48"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90902-815-15",
+      "our_product_name": "הגה סימולציה THRUSTMASTER T598 – תואם PlayStation ו־PC",
+      "title": "הגה T598 תראסטמאסטר - Thrustmaster",
+      "price": 1799.0,
+      "url": "https://www.bug.co.il/brand/thrustmaster/t598",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90902-815-15",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 18:06"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90902-815-29",
+      "our_product_name": "הגה מרוצים דגם T98 Ferrari 296 GTS מבית Thrustmaster",
+      "title": "הגה מרוצים ודוושות T98X Ferrari 296 GTS תראסטמאסטר - Thrustmaster",
+      "price": 449.0,
+      "url": "https://www.bug.co.il/brand/thrustmaster/t98/ferrari/296/gts",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90902-815-29",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 18:06"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90902-801-47",
+      "our_product_name": "ג'ויס TM OFFICER PACK AIRBUS PC",
+      "title": "ג'ויסטיק ומצערת טיסה Officer Pack Airbus Edition תראסטמאסטר - Thrustmaster",
+      "price": 699.0,
+      "url": "https://www.bug.co.il/brand/thrustmaster/officer/pack/airbus/edition",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90902-801-47",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 18:06"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90902-801-55",
+      "our_product_name": "F/A-18C HORNET HOTAS ADD-ON GRIP",
+      "title": "ג'ויסטיק סימולטור טיסה ThrustMaster F/A-18C Hotas תראסטמאסטר - Thrustmaster",
+      "price": 799.0,
+      "url": "https://www.bug.co.il/brand/thrustmaster/f/a/18c",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90902-801-55",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 18:06"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90902-800-09",
+      "our_product_name": "הגה TM T300 RS GT ED PS-4/5/PC",
+      "title": "הגה מירוצים עם דוושות T300 RS GT Edition תראסטמאסטר - Thrustmaster",
+      "price": 1399.0,
+      "url": "https://www.bug.co.il/brand/thrustmaster/t300rs/gtedition/wheel/set/",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90902-800-09",
+      "barcodes": [],
+      "scraped_at": "2026-11-23 18:06"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_ivory",
   "store_name": "אייבורי (Ivory)",
-  "last_ok_at": "2026-11-24T00:42:22.902997+00:00",
-  "count": 4,
+  "last_ok_at": "2026-11-24T00:59:02.858478+00:00",
+  "count": 5,
   "items": [
     {
       "store_id": "ivory",
@@ -63,6 +63,21 @@
       "sku": "90902-805-35",
       "barcodes": [],
       "scraped_at": "2026-11-23 12:09"
+    },
+    {
+      "store_id": "ivory",
+      "store_name": "אייבורי (Ivory)",
+      "our_sku": "90905-801-92",
+      "our_product_name": "בקר גיימינג אלחוטי ל-PC דגם Victrix Pro BFG Reloaded בצבע שחור מבית Turtle Beach",
+      "title": "בקר גיימינג אלחוטי ל-PC דגם Victrix Pro BFG Reloaded בצבע שחור מבית Turtle Beach",
+      "price": 799.0,
+      "url": "https://www.ivory.co.il/catalog.php?id=163819",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "90905-801-92",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 02:57"
     }
   ]
 }

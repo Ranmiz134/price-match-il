@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-24T02:48:57.262626+00:00",
-  "count": 209,
+  "last_ok_at": "2026-11-24T03:07:42.348081+00:00",
+  "count": 210,
   "items": [
     {
       "store_id": "bug",
@@ -3138,6 +3138,21 @@
       "sku": "90909-120-74",
       "barcodes": [],
       "scraped_at": "2026-11-24 04:47"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90904-110-06",
+      "our_product_name": "בקר שליטה ELGATO Stream Deck Plus",
+      "title": "בקר שליטה ELGATO Stream Deck Plus",
+      "price": 559.0,
+      "url": "https://www.bug.co.il/brand/elgato/controller/keyboard/steam/deck/plus/black/edition",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90904-110-06",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 05:06"
     }
   ]
 }

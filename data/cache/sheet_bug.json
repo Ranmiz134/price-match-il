@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-24T03:07:42.348081+00:00",
-  "count": 210,
+  "last_ok_at": "2026-11-24T03:25:06.298800+00:00",
+  "count": 211,
   "items": [
     {
       "store_id": "bug",
@@ -3153,6 +3153,21 @@
       "sku": "90904-110-06",
       "barcodes": [],
       "scraped_at": "2026-11-24 05:06"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90909-068-35",
+      "our_product_name": "ראשי החלפה מהירה QuickSwap Tools",
+      "title": "Fine Debossing Tip + QuickSwap 21",
+      "price": 146.0,
+      "url": "https://www.bug.co.il/brand/cricut/fine/debossing/tip/quickswap/tools/21",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90909-068-35",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 05:23"
     }
   ]
 }

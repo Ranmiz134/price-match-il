@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_ivory",
   "store_name": "אייבורי (Ivory)",
-  "last_ok_at": "2026-11-24T01:19:46.694691+00:00",
-  "count": 8,
+  "last_ok_at": "2026-11-24T01:39:06.078595+00:00",
+  "count": 9,
   "items": [
     {
       "store_id": "ivory",
@@ -123,6 +123,21 @@
       "sku": "90905-072-40",
       "barcodes": [],
       "scraped_at": "2026-11-24 03:17"
+    },
+    {
+      "store_id": "ivory",
+      "store_name": "אייבורי (Ivory)",
+      "our_sku": "90905-801-40",
+      "our_product_name": "סט הגה ודוושות VelocityOne™ Race – תואם Xbox ו־PC – מבית Turtle Beach",
+      "title": "סט הגה ודוושות VelocityOne™ Race – תואם Xbox ו־PC – מבית Turtle Beach",
+      "price": 2690.0,
+      "url": "https://www.ivory.co.il/catalog.php?id=159379",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "90905-801-40",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 03:37"
     }
   ]
 }

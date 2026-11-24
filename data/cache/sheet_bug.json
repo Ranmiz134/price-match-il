@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-23T23:55:32.791255+00:00",
-  "count": 203,
+  "last_ok_at": "2026-11-24T00:25:43.874010+00:00",
+  "count": 205,
   "items": [
     {
       "store_id": "bug",
@@ -3048,6 +3048,36 @@
       "sku": "90903-001-24",
       "barcodes": [],
       "scraped_at": "2026-11-24 01:54"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "30212-002-25",
+      "our_product_name": "Polar Pacer שעון ריצה עם GPS בצבע סגול",
+      "title": "Polar Pacer שעון ריצה עם GPS בצבע סגול",
+      "price": 1199.0,
+      "url": "https://www.bug.co.il/brand/polar/purp/pacer",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "30212-002-25",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 02:23"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "30212-002-17",
+      "our_product_name": "Polar H9 רצועת דופק לחזה בצבע שחור",
+      "title": "Polar H9 רצועת דופק לחזה בצבע שחור",
+      "price": 279.0,
+      "url": "https://www.bug.co.il/brand/polar/black/h9",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "30212-002-17",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 02:23"
     }
   ]
 }

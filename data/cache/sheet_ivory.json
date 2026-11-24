@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_ivory",
   "store_name": "אייבורי (Ivory)",
-  "last_ok_at": "2026-11-24T21:18:26.340742+00:00",
-  "count": 9,
+  "last_ok_at": "2026-11-24T21:22:12.168594+00:00",
+  "count": 11,
   "items": [
     {
       "store_id": "ivory",
@@ -138,6 +138,36 @@
       "sku": "90905-801-40",
       "barcodes": [],
       "scraped_at": "2026-11-24 03:37"
+    },
+    {
+      "store_id": "ivory",
+      "store_name": "אייבורי (Ivory)",
+      "our_sku": "90904-100-57",
+      "our_product_name": "כיסא גיימינג בד CORSAIR T3 RUSH 2023 Fabric Charcoal",
+      "title": "כיסא גיימינג בד שחור קורסייר T3 Rush Corsair – משלוח חינם",
+      "price": 1699.0,
+      "url": "https://www.ivory.co.il/catalog.php?id=147520",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "90904-100-57",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 06:35"
+    },
+    {
+      "store_id": "ivory",
+      "store_name": "אייבורי (Ivory)",
+      "our_sku": "90904-100-56",
+      "our_product_name": "כיסא גיימינג בד CORSAIR T3 RUSH 2023 Fabric Charcoal/Grey",
+      "title": "כיסא גיימינג בד אפור קורסייר T3 Rush Corsair – משלוח חינם",
+      "price": 1699.0,
+      "url": "https://www.ivory.co.il/catalog.php?id=147517",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "90904-100-56",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 06:35"
     }
   ]
 }

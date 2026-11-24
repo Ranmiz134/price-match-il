@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-24T00:25:43.874010+00:00",
-  "count": 205,
+  "last_ok_at": "2026-11-24T00:42:22.901077+00:00",
+  "count": 206,
   "items": [
     {
       "store_id": "bug",
@@ -3078,6 +3078,21 @@
       "sku": "30212-002-17",
       "barcodes": [],
       "scraped_at": "2026-11-24 02:23"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "30212-002-24",
+      "our_product_name": "Polar Grit X2 Pro Titan שעון ריצה מתקדם עם GPS",
+      "title": "Polar Grit X2 Pro Titan שעון ריצה מתקדם עם GPS",
+      "price": 3949.0,
+      "url": "https://www.bug.co.il/brand/polar/tit/brw/gray/grit/x2/pro",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "30212-002-24",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 02:40"
     }
   ]
 }

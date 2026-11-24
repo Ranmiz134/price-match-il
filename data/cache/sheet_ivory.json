@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_ivory",
   "store_name": "אייבורי (Ivory)",
-  "last_ok_at": "2026-11-24T00:59:02.858478+00:00",
-  "count": 5,
+  "last_ok_at": "2026-11-24T01:19:46.694691+00:00",
+  "count": 8,
   "items": [
     {
       "store_id": "ivory",
@@ -78,6 +78,51 @@
       "sku": "90905-801-92",
       "barcodes": [],
       "scraped_at": "2026-11-24 02:57"
+    },
+    {
+      "store_id": "ivory",
+      "store_name": "אייבורי (Ivory)",
+      "our_sku": "90905-801-89",
+      "our_product_name": "בקר גיימינג אלחוטי ל-PS דגם Victrix Pro BFG Reloaded בצבע לבן מבית Turtle Beach",
+      "title": "בקר גיימינג אלחוטי ל-PS דגם Victrix Pro BFG Reloaded בצבע לבן מבית Turtle Beach",
+      "price": 799.0,
+      "url": "https://www.ivory.co.il/catalog.php?id=163828",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "90905-801-89",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 03:17"
+    },
+    {
+      "store_id": "ivory",
+      "store_name": "אייבורי (Ivory)",
+      "our_sku": "90905-801-93",
+      "our_product_name": "הגה מרוצים אלחוטי Racer Wireless Racing Wheel מבית Turtle Beach",
+      "title": "הגה מרוצים אלחוטי Racer Wireless Racing Wheel מבית Turtle Beach",
+      "price": 599.0,
+      "url": "https://www.ivory.co.il/catalog.php?id=171304",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "90905-801-93",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 03:17"
+    },
+    {
+      "store_id": "ivory",
+      "store_name": "אייבורי (Ivory)",
+      "our_sku": "90905-072-40",
+      "our_product_name": "סט שליטה מתקדם לטיסות VelocityOne™ Flightdeck Turtle Beach",
+      "title": "סט שליטה מתקדם לטיסות VelocityOne™ Flightdeck Turtle Beach",
+      "price": 1520.0,
+      "url": "https://www.ivory.co.il/catalog.php?id=159367",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "90905-072-40",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 03:17"
     }
   ]
 }

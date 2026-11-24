@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-24T03:25:06.298800+00:00",
-  "count": 211,
+  "last_ok_at": "2026-11-24T03:42:31.851502+00:00",
+  "count": 213,
   "items": [
     {
       "store_id": "bug",
@@ -3168,6 +3168,36 @@
       "sku": "90909-068-35",
       "barcodes": [],
       "scraped_at": "2026-11-24 05:23"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90909-108-98",
+      "our_product_name": "מארז גווני איירון און  – 20 י'ח V/P",
+      "title": "מארז גווני איירון און  – 20 י'ח V/P",
+      "price": 125.0,
+      "url": "https://www.bug.co.il/brand/cricut/value/iron/on/rainbow/sampler/20/units",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "90909-108-98",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 05:40"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90909-108-87",
+      "our_product_name": "מארז גווני ויניל – 50 י'ח V/P",
+      "title": "מארז גווני ויניל – 50 י'ח V/P",
+      "price": 139.0,
+      "url": "https://www.bug.co.il/brand/cricut/value/vinyl/rainbow/sampler/50/units",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "90909-108-87",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 05:40"
     }
   ]
 }

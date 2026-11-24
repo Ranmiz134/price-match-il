@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-24T02:30:45.253244+00:00",
-  "count": 206,
+  "last_ok_at": "2026-11-24T02:48:57.262626+00:00",
+  "count": 209,
   "items": [
     {
       "store_id": "bug",
@@ -3093,6 +3093,51 @@
       "sku": "30212-002-24",
       "barcodes": [],
       "scraped_at": "2026-11-24 02:40"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90909-131-58",
+      "our_product_name": "מארז CARDSTOCK  (75 י\"ח )",
+      "title": "מארז CARDSTOCK  (75 י\"ח )",
+      "price": 69.0,
+      "url": "https://www.bug.co.il/brand/cricut/value/cardstock/rainbow/sampler/75/units",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "90909-131-58",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 04:47"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90909-123-48",
+      "our_product_name": "מארז גווני ויניל  PERMANENT הולוגרפי  -10 י'ח",
+      "title": "מארז גווני ויניל  PERMANENT הולוגרפי  -10 י'ח",
+      "price": 76.0,
+      "url": "https://www.bug.co.il/brand/cricut/holographic/vinyl/mythical/sampler/10/units",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "90909-123-48",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 04:47"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90909-120-74",
+      "our_product_name": "מארז גווני איירון און נצנצים   – 6 י'ח V/P",
+      "title": "מארז גווני איירון און נצנצים   – 6 י'ח V/P",
+      "price": 69.0,
+      "url": "https://www.bug.co.il/brand/cricut/value/glitter/iron/on/party/sampler/6/units",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "90909-120-74",
+      "barcodes": [],
+      "scraped_at": "2026-11-24 04:47"
     }
   ]
 }

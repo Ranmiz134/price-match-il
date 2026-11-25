@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_alm",
   "store_name": "ALM",
-  "last_ok_at": "2026-11-24T21:22:12.165815+00:00",
-  "count": 6,
+  "last_ok_at": "2026-11-25T02:28:55.245456+00:00",
+  "count": 12,
   "items": [
     {
       "store_id": "alm",
@@ -93,6 +93,96 @@
       "sku": "99226-010-30",
       "barcodes": [],
       "scraped_at": "2026-11-23 04:28"
+    },
+    {
+      "store_id": "alm",
+      "store_name": "ALM",
+      "our_sku": "99999-958-39",
+      "our_product_name": "רחפן – (DJI Avata 360(DJI RC 2",
+      "title": "רחפן DJI Avata 360 (DJI RC 2)",
+      "price": 3149.0,
+      "url": "https://www.alm.co.il/891500019.html",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99999-958-39",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 00:32"
+    },
+    {
+      "store_id": "alm",
+      "store_name": "ALM",
+      "our_sku": "99999-958-40",
+      "our_product_name": "רחפן – (DJI Avata 360 Motion Fly More Combo (DJI Goggles N3",
+      "title": "רחפן DJI Avata 360 Motion Fly More Combo (DJI Goggles N3)",
+      "price": 4399.0,
+      "url": "https://www.alm.co.il/891500020.html",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99999-958-40",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 00:32"
+    },
+    {
+      "store_id": "alm",
+      "store_name": "ALM",
+      "our_sku": "99999-958-41",
+      "our_product_name": "רחפן – (DJI Avata 360 Fly More Combo (DJI RC 2",
+      "title": "רחפן DJI Avata 360 Fly More Combo (DJI RC 2)",
+      "price": 4399.0,
+      "url": "https://www.alm.co.il/891500021.html",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99999-958-41",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 00:32"
+    },
+    {
+      "store_id": "alm",
+      "store_name": "ALM",
+      "our_sku": "99999-958-42",
+      "our_product_name": "רחפן – (DJI Lito X1 Fly More Combo (DJI RC 2",
+      "title": "רחפן DJI Lito X1 Fly More Combo (DJI RC 2)",
+      "price": 2949.0,
+      "url": "https://www.alm.co.il/891500022.html",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99999-958-42",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 00:32"
+    },
+    {
+      "store_id": "alm",
+      "store_name": "ALM",
+      "our_sku": "99999-958-44",
+      "our_product_name": "רחפן – DJI Lito 1",
+      "title": "רחפן DJI Lito 1",
+      "price": 1449.0,
+      "url": "https://www.alm.co.il/891500024.html",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99999-958-44",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 00:32"
+    },
+    {
+      "store_id": "alm",
+      "store_name": "ALM",
+      "our_sku": "99999-958-45",
+      "our_product_name": "רחפן -(DJI Lito 1 Fly More Combo (DJI RC-RN3",
+      "title": "רחפן (DJI Lito 1 Fly More Combo (DJI RC-N3",
+      "price": 2149.0,
+      "url": "https://www.alm.co.il/891500025.html",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99999-958-45",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 00:32"
     }
   ]
 }

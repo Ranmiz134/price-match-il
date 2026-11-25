@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-25T02:28:55.245705+00:00",
-  "count": 213,
+  "last_ok_at": "2026-11-25T13:43:40.641873+00:00",
+  "count": 215,
   "items": [
     {
       "store_id": "bug",
@@ -3198,6 +3198,36 @@
       "sku": "90909-108-87",
       "barcodes": [],
       "scraped_at": "2026-11-24 05:40"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "99999-600-49",
+      "our_product_name": "רחפן AIR 3 שלט רגיל",
+      "title": "די ג'יי איי - DJI רחפן Air 3",
+      "price": 3999.0,
+      "url": "https://www.bug.co.il/brand/dji/drone/air/3",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99999-600-49",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 05:24"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "90903-005-25",
+      "our_product_name": "עכבר חוטי לבן RAZER DEATHADDER ESSENTIAL",
+      "title": "רייזר - Razer עכבר גיימינג DeathAdder Essential לבן",
+      "price": 155.0,
+      "url": "https://www.bug.co.il/brand/razer/deathadder/essential/white",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-005-25",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 11:27"
     }
   ]
 }

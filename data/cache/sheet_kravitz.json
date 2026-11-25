@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_kravitz",
   "store_name": "Kravitz",
-  "last_ok_at": "2026-11-25T02:28:55.248424+00:00",
-  "count": 171,
+  "last_ok_at": "2026-11-25T13:43:40.644034+00:00",
+  "count": 175,
   "items": [
     {
       "store_id": "kravitz",
@@ -2568,6 +2568,66 @@
       "sku": "90902-807-51",
       "barcodes": [],
       "scraped_at": "2026-11-23 20:16"
+    },
+    {
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "our_sku": "99226-010-20",
+      "our_product_name": "תחנת כוח ניידת BLUETTI AC200PL 2304Wh עם שקע 3 פינים",
+      "title": "תחנת כוח ניידת Bluetti AC200PL 2304Wh",
+      "price": 9999.0,
+      "url": "https://www.kravitz.co.il/products/bluetti-ac200pl-2304wh",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99226-010-20",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 06:24"
+    },
+    {
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "our_sku": "99226-010-07",
+      "our_product_name": "תחנת כוח ניידת BLUETTI AC70P – 1000W 864Wh עם שקע 3 פינים",
+      "title": "תחנת כוח ניידת BLUETTI AC70P– 1000W 864Wh עם שקע 3 פינים",
+      "price": 2599.0,
+      "url": "https://www.kravitz.co.il/products/bluetti-ac70p-864wh-copy",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99226-010-07",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 06:24"
+    },
+    {
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "our_sku": "99227-300-20",
+      "our_product_name": "תחנת כוח ניידת Jackery Explorer 2000 V2, 2042Wh, 2200W / 4400W",
+      "title": "תחנת כוח ניידת Jackery E2000V2-2200W-2042Wh",
+      "price": 6999.0,
+      "url": "https://www.kravitz.co.il/products/%d7%aa%d7%97%d7%a0%d7%aa-%d7%9b%d7%95%d7%97-%d7%a0%d7%99%d7%99%d7%93%d7%aa-jackery-e2000v2-2200w-2042wh",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99227-300-20",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 12:29"
+    },
+    {
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "our_sku": "99227-300-30",
+      "our_product_name": "תחנת כוח ניידת Jackery Explorer 3000 V2, 3072Wh, 3600W / 7200W",
+      "title": "תחנת כוח ניידת - Jackery E3000V2-3600W-3072Wh",
+      "price": 7999.0,
+      "url": "https://www.kravitz.co.il/products/%d7%aa%d7%97%d7%a0%d7%aa-%d7%9b%d7%95%d7%97-%d7%a0%d7%99%d7%99%d7%93%d7%aa-jackery-e3000v2-3600w-3072wh",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99227-300-30",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 12:29"
     }
   ]
 }

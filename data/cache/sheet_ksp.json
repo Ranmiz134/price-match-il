@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_ksp",
   "store_name": "KSP",
-  "last_ok_at": "2026-11-25T02:28:55.250498+00:00",
-  "count": 15,
+  "last_ok_at": "2026-11-25T13:43:40.645659+00:00",
+  "count": 19,
   "items": [
     {
       "store_id": "ksp",
@@ -228,6 +228,66 @@
       "sku": "38168-001-34",
       "barcodes": [],
       "scraped_at": "2026-11-23 21:36"
+    },
+    {
+      "store_id": "ksp",
+      "store_name": "KSP",
+      "our_sku": "99999-958-91",
+      "our_product_name": "מצלמת גימבל דגם Osmo Pocket 4P Vlog Combo מבית DJI",
+      "title": "מצלמת כיס עם גימבל מקצועי DJI Osmo Pocket 4P Vlog Combo",
+      "price": 2859.0,
+      "url": "https://ksp.co.il/web/item/502477",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99999-958-91",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 04:31"
+    },
+    {
+      "store_id": "ksp",
+      "store_name": "KSP",
+      "our_sku": "90903-005-26",
+      "our_product_name": "עכבר חוטי שחור RAZER DEATHADDER ESSENTIAL",
+      "title": "עכבר גיימינג חוטי Razer DeathAdder Essential - שחור",
+      "price": 69.0,
+      "url": "https://ksp.co.il/web/item/414188",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-005-26",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 10:27"
+    },
+    {
+      "store_id": "ksp",
+      "store_name": "KSP",
+      "our_sku": "90903-011-26",
+      "our_product_name": "אוזניות גיימינג RAZER KRAKEN X LITE",
+      "title": "אוזניות גיימינג Razer Kraken X Lite - צבע שחור",
+      "price": 105.0,
+      "url": "https://ksp.co.il/web/item/415597",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-011-26",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 10:27"
+    },
+    {
+      "store_id": "ksp",
+      "store_name": "KSP",
+      "our_sku": "90903-011-49",
+      "our_product_name": "אוזניות לבן RAZER BLACKSHARK V2 X PS",
+      "title": "אוזניות גיימינג Razer BlackShark V2 X - תואמת PlayStation - צבע לבן",
+      "price": 159.0,
+      "url": "https://ksp.co.il/web/item/415580",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-011-49",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 10:27"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_ace",
   "store_name": "ACE",
-  "last_ok_at": "2026-11-25T02:28:55.244981+00:00",
-  "count": 26,
+  "last_ok_at": "2026-11-25T13:43:40.641171+00:00",
+  "count": 27,
   "items": [
     {
       "store_id": "ace",
@@ -393,6 +393,21 @@
       "sku": "88100-388-11",
       "barcodes": [],
       "scraped_at": "2026-11-23 18:25"
+    },
+    {
+      "store_id": "ace",
+      "store_name": "ACE",
+      "our_sku": "99226-000-23",
+      "our_product_name": "תחנת כח ניידת  BLUETTI AC180P   1440WH",
+      "title": "תחנת כוח ניידת Bluetti 1800W 1440Wh דגם AC180P",
+      "price": 6690.0,
+      "url": "https://www.ace.co.il/4441975",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99226-000-23",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 09:26"
     }
   ]
 }

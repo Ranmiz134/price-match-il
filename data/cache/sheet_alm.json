@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_alm",
   "store_name": "ALM",
-  "last_ok_at": "2026-11-25T02:28:55.245456+00:00",
-  "count": 12,
+  "last_ok_at": "2026-11-25T13:43:40.641616+00:00",
+  "count": 14,
   "items": [
     {
       "store_id": "alm",
@@ -183,6 +183,36 @@
       "sku": "99999-958-45",
       "barcodes": [],
       "scraped_at": "2026-11-25 00:32"
+    },
+    {
+      "store_id": "alm",
+      "store_name": "ALM",
+      "our_sku": "99999-955-11",
+      "our_product_name": "Dji Neo 2 Fly More Combo כולל שלט",
+      "title": "רחפן DJI NEO 2 Fly More Combo כולל שלט",
+      "price": 1899.0,
+      "url": "https://www.alm.co.il/891500002.html",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99999-955-11",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 07:25"
+    },
+    {
+      "store_id": "alm",
+      "store_name": "ALM",
+      "our_sku": "99999-958-69",
+      "our_product_name": "מיקרופון אלחוטי (Mic Mini 2 (2 TX + 1 RX + Charging Case",
+      "title": "מערכת מיקרופון אלחוטית כוללת שני משדרים וקייס טעינה דגם DJI Mic Mini 2",
+      "price": 399.0,
+      "url": "https://www.alm.co.il/659002342.html",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "99999-958-69",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 13:30"
     }
   ]
 }

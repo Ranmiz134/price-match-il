@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_ksp",
   "store_name": "KSP",
-  "last_ok_at": "2026-11-25T13:43:40.645659+00:00",
-  "count": 19,
+  "last_ok_at": "2026-11-26T04:18:14.373494+00:00",
+  "count": 22,
   "items": [
     {
       "store_id": "ksp",
@@ -288,6 +288,51 @@
       "sku": "90903-011-49",
       "barcodes": [],
       "scraped_at": "2026-11-25 10:27"
+    },
+    {
+      "store_id": "ksp",
+      "store_name": "KSP",
+      "our_sku": "99360-080-00",
+      "our_product_name": "נתב אלחוטי Tp-Link ARCHER C80 AC1900 GIGA MU-MIMO",
+      "title": "ראוטר TP-Link AC1900 Wireless MU-MIMO WiFi 5 Router Archer C80",
+      "price": 119.0,
+      "url": "https://ksp.co.il/web/item/108643",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99360-080-00",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 16:33"
+    },
+    {
+      "store_id": "ksp",
+      "store_name": "KSP",
+      "our_sku": "38168-001-33",
+      "our_product_name": "כונן חיצוני SSD E30 2.5       1T",
+      "title": "כונן SSD נייד Sandisk Portable 1TB SSD USB 3.2 Type-C SDSSDE30-1T00-G26",
+      "price": 545.0,
+      "url": "https://ksp.co.il/web/item/273589",
+      "in_stock": false,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "38168-001-33",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 16:33"
+    },
+    {
+      "store_id": "ksp",
+      "store_name": "KSP",
+      "our_sku": "99999-958-88",
+      "our_product_name": "מצלמת אקשן Osmo 360 II Adventure Combo",
+      "title": "מצלמת אקסטרים DJI Osmo 360 II Adventure Combo",
+      "price": 2269.0,
+      "url": "https://ksp.co.il/mob/item/498652",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99999-958-88",
+      "barcodes": [],
+      "scraped_at": "2026-11-26 02:36"
     }
   ]
 }

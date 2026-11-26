@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-25T13:43:40.641873+00:00",
-  "count": 215,
+  "last_ok_at": "2026-11-26T04:18:14.370216+00:00",
+  "count": 218,
   "items": [
     {
       "store_id": "bug",
@@ -3228,6 +3228,51 @@
       "sku": "90903-005-25",
       "barcodes": [],
       "scraped_at": "2026-11-25 11:27"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "99360-201-21",
+      "our_product_name": "מצלמה TAPO C210 WIFI 3MP IP",
+      "title": "מצלמה TAPO C210 WIFI 3MP IP טי פי-לינק - TP-Link",
+      "price": 113.0,
+      "url": "https://www.bug.co.il/brand/tp/link/tapo/c210/wifi/3mp/ip",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99360-201-21",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 17:32"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "99360-211-11",
+      "our_product_name": "מצלמת אבטחה ממונעת 2K דגם Tapo C211 מבית TP-Link",
+      "title": "טי פי-לינק - TP-Link מצלמת אבטחה Tapo C211",
+      "price": 99.0,
+      "url": "https://www.bug.co.il/brand/tp/link/tapo/c211",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99360-211-11",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 17:32"
+    },
+    {
+      "store_id": "bug",
+      "store_name": "באג (Bug)",
+      "our_sku": "99360-061-02",
+      "our_product_name": "ראוטר אלחוטי/אקסס פוינט Deco X60 V3.2 Mesh WiFi 6 AX5400 (2 יחי' באריזה)",
+      "title": "מגדיל טווח (2 יחי' באריזה) Deco X60 MESH AX5400 טי פי-לינק",
+      "price": 699.0,
+      "url": "https://www.bug.co.il/brand/tp/link/deco/x60/v3/ax5400/whole/home/mesh/wi/fi/6/system",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99360-061-02",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 17:32"
     }
   ]
 }

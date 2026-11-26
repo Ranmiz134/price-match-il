@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_kravitz",
   "store_name": "Kravitz",
-  "last_ok_at": "2026-11-25T13:43:40.644034+00:00",
-  "count": 175,
+  "last_ok_at": "2026-11-26T04:18:14.372240+00:00",
+  "count": 177,
   "items": [
     {
       "store_id": "kravitz",
@@ -2628,6 +2628,36 @@
       "sku": "99227-300-30",
       "barcodes": [],
       "scraped_at": "2026-11-25 12:29"
+    },
+    {
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "our_sku": "99360-201-21",
+      "our_product_name": "מצלמה TAPO C210 WIFI 3MP IP",
+      "title": "מצלמה אלחוטית ביתית Tapo C210 מבית Tp-Link",
+      "price": 119.25,
+      "url": "https://www.kravitz.co.il/products/%d7%9e%d7%a6%d7%9c%d7%9e%d7%aa-%d7%90%d7%91%d7%98%d7%97%d7%94-%d7%90%d7%9c%d7%97%d7%95%d7%98%d7%99%d7%aa-%d7%91%d7%99%d7%aa%d7%99%d7%aa-tapo-c210-%d7%9e%d7%91%d7%99%d7%aa-tp-link",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "99360-201-21",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 18:33"
+    },
+    {
+      "store_id": "kravitz",
+      "store_name": "Kravitz",
+      "our_sku": "99999-958-45",
+      "our_product_name": "רחפן -(DJI Lito 1 Fly More Combo (DJI RC-RN3",
+      "title": "רחפן - DJI Lito 1 Fly More Combo (DJI RC-N3)",
+      "price": 2149.0,
+      "url": "https://www.kravitz.co.il/products/%D7%A8%D7%97%D7%A4%D7%9F-dji-lito-1-fly-more-combo-dji-rc-n3",
+      "in_stock": true,
+      "importer_status": "unverified",
+      "importer_text": "unverified",
+      "sku": "99999-958-45",
+      "barcodes": [],
+      "scraped_at": "2026-11-25 23:35"
     }
   ]
 }

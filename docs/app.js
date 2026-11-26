@@ -476,14 +476,14 @@
     return `
       <article class="card">
         <div class="card-header">
-          <div>
+          <div class="card-top">${thumbHtml(p.sku, p.name)}<div class="card-top-text">
             <h2 class="card-title">${escapeHtml(p.name)}</h2>
             <div class="card-meta">
               ${skuText ? `<span>${escapeHtml(skuText)}</span>` : ""}
               ${barcodeText ? `<span>${escapeHtml(barcodeText)}</span>` : ""}
               <span>מקור: ${escapeHtml(p.source_name)}</span>
             </div>
-          </div>
+          </div></div>
           ${p.source_url ? `<a class="link-btn" href="${escapeHtml(p.source_url)}" target="_blank" rel="noopener">דף שלנו ↗</a>` : ""}
         </div>
 
@@ -620,9 +620,9 @@
       </div>`;
     }).join("");
     return `<article class="card manager-card" data-sku="${escapeHtml(product.sku)}">
-      <h2 class="card-title">${escapeHtml(product.name)}</h2>
+      <div class="card-top">${thumbHtml(product.sku, product.name)}<div class="card-top-text"><h2 class="card-title">${escapeHtml(product.name)}</h2>
       <div class="card-meta"><span>מק"ט: <bdi>${escapeHtml(product.sku)}</bdi></span>${product.brand ? `<span>${escapeHtml(product.brand)}</span>` : ""}
-        ${(product.barcodes || []).length ? `<span>ברקוד: <bdi>${escapeHtml(product.barcodes.join(", "))}</bdi></span>` : ""}</div>
+        ${(product.barcodes || []).length ? `<span>ברקוד: <bdi>${escapeHtml(product.barcodes.join(", "))}</bdi></span>` : ""}</div></div></div>
       ${clearanceCollisionHtml(product)}
       ${supplierPromotionHtml(product)}
       <div class="manager-prices"><div class="manager-price"><span>המחיר שלנו, כולל מע״מ</span><strong>${formatPreciseILS(product.our_price)}</strong></div>
@@ -746,6 +746,14 @@
       return `<div style="margin-top:8px"><strong>${label}: ${formatPreciseILS(p.price_ils)} כולל מע״מ</strong><div>${p.starts_on ? 'מ-'+escapeHtml(p.starts_on)+' · ' : 'תחילה לא צוינה · '}עד ${escapeHtml(p.ends_on)}</div><div>${escapeHtml(p.source_label)}${p.vat_note ? ' · '+escapeHtml(p.vat_note) : ''}${p.date_note ? ' · '+escapeHtml(p.date_note) : ''}</div></div>`;
     }).join('')}</div>`;
   }
+  let productImages = {};
+  async function loadProductImages() {
+    try { const r = await fetch('product-images.json', {cache:'no-store'}); if (r.ok) productImages = await r.json(); } catch (e) { productImages = {}; }
+  }
+  function thumbHtml(sku, name) {
+    const u = productImages[sku];
+    return u ? `<img class="card-thumb" src="${escapeHtml(u)}" alt="${escapeHtml(name || '')}" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()">` : '';
+  }
   async function loadSupplierPromotions() {
     try {
       const response = await fetch('supplier-promotions.json', {cache:'no-store'});
@@ -841,6 +849,7 @@
       allProducts = (payload.products || []).map(buildSearchIndex);
       await loadPromotions();
       await loadSupplierPromotions();
+      await loadProductImages();
       renderCategoryHome();
       applyFilter();
     } catch (err) {

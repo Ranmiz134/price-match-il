@@ -738,11 +738,11 @@
     const items = product.supplier_promotions || [];
     const today = new Intl.DateTimeFormat('en-CA', {timeZone:'Asia/Jerusalem',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
     const regular = product.supplier_regular_price;
-    if (!items.length && !regular) return '';
-    return `<div class="price-sub" style="margin:10px 0;padding:12px;background:#eff6ff;border-radius:9px;color:#1e3a8a">${regular ? `<div>מחיר קטלוג רגיל כולל מע״מ: <strong>${formatPreciseILS(regular)}</strong></div>` : ''}${items.map(p => {
-      const upcoming = p.starts_on && p.starts_on > today;
-      const expired = p.ends_on && p.ends_on < today;
-      const label = upcoming ? 'מבצע בנדא עתידי, אינו המחיר עכשיו' : expired ? 'מבצע בנדא הסתיים, המחיר דורש בדיקה' : 'מבצע בנדא בתוקף כעת';
+    if (!items.length) return '';
+    return `<div class="price-sub" style="margin:10px 0;padding:12px;background:#eff6ff;border-radius:9px;color:#1e3a8a">${items.map(p => {
+      const live = product.our_price;
+      const state = p.state || (p.starts_on && p.starts_on > today ? 'upcoming' : p.ends_on && p.ends_on < today ? 'expired' : 'unverified');
+      const label = state === 'upcoming' ? 'מבצע עתידי, טרם באתר (המחיר עכשיו הוא מחיר האתר)' : state === 'expired' ? 'מבצע בנדא הסתיים' : state === 'verified' ? 'מבצע בנדא בתוקף ומאומת באתר' : 'מבצע לפי הקובץ, לא אומת באתר (המחיר שלנו נשאר מחיר האתר)';
       return `<div style="margin-top:8px"><strong>${label}: ${formatPreciseILS(p.price_ils)} כולל מע״מ</strong><div>${p.starts_on ? 'מ-'+escapeHtml(p.starts_on)+' · ' : 'תחילה לא צוינה · '}עד ${escapeHtml(p.ends_on)}</div><div>${escapeHtml(p.source_label)}${p.vat_note ? ' · '+escapeHtml(p.vat_note) : ''}${p.date_note ? ' · '+escapeHtml(p.date_note) : ''}</div></div>`;
     }).join('')}</div>`;
   }
@@ -758,9 +758,16 @@
       data.offers.forEach(r => { const p=products.get(r.our_sku); if(!p || r.verified!==true || !Number.isFinite(r.price_ils) || r.price_ils<=0 || !validDate(r.starts_on) || !validDate(r.ends_on) || !r.ends_on || r.starts_on && r.starts_on>r.ends_on) return; (p.supplier_promotions ||= []).push(r); p.promotion=r; });
       const today = new Intl.DateTimeFormat('en-CA', {timeZone:'Asia/Jerusalem',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
       allProducts.forEach(p => {
-        const active=(p.supplier_promotions || []).filter(r => (!r.starts_on || r.starts_on<=today) && today<=r.ends_on);
-        if(p.supplier_regular_price) {p.our_price=active.length ? active[0].price_ils : p.supplier_regular_price; p.regular_price=p.supplier_regular_price; p.is_on_sale=active.length>0;}
-        p.promotion=active[0] || (p.supplier_promotions || [])[0];
+        const live = p.our_price;
+        const offers = p.supplier_promotions || [];
+        offers.forEach(r => {
+          r.state = r.starts_on && r.starts_on > today ? 'upcoming'
+            : r.ends_on < today ? 'expired'
+            : (Number.isFinite(live) && live <= r.price_ils + 0.5 ? 'verified' : 'unverified');
+        });
+        // The live Benda site price (prices.json) is the source of truth for our price. A promo file entry is only a hint.
+        if (p.supplier_regular_price && Number.isFinite(live) && live < p.supplier_regular_price - 0.5 && p.is_on_sale) p.regular_price = p.supplier_regular_price;
+        p.promotion = offers.find(r => r.state === 'verified');
       });
     } catch(error) {
       const note=document.createElement('div');note.className='price-sub';note.textContent='מידע מבצעי בנדא אינו זמין. המחיר המוצג נשמר, יש לבדוק מול המחירון.';document.querySelector('.search-panel').appendChild(note);

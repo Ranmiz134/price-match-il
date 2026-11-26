@@ -1,8 +1,8 @@
 {
   "store_id": "sheet_ksp",
   "store_name": "KSP",
-  "last_ok_at": "2026-11-26T04:18:14.373494+00:00",
-  "count": 22,
+  "last_ok_at": "2026-11-26T06:50:36.935193+00:00",
+  "count": 25,
   "items": [
     {
       "store_id": "ksp",
@@ -333,6 +333,51 @@
       "sku": "99999-958-88",
       "barcodes": [],
       "scraped_at": "2026-11-26 02:36"
+    },
+    {
+      "store_id": "ksp",
+      "store_name": "KSP",
+      "our_sku": "90903-001-35",
+      "our_product_name": "אוזניות – RAZER Blackshark V2 HyperSpeed",
+      "title": "אוזניות גיימינג אלחוטיות Razer BlackShark V2 HyperSpeed - צבע שחור",
+      "price": 329.0,
+      "url": "https://ksp.co.il/mob/item/414848",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-001-35",
+      "barcodes": [],
+      "scraped_at": "2026-11-26 07:39"
+    },
+    {
+      "store_id": "ksp",
+      "store_name": "KSP",
+      "our_sku": "90903-001-51",
+      "our_product_name": "אוזניות אלחוטיות Razer BlackShark V3 Pro – שחור",
+      "title": "אוזניות גיימינג אלחוטיות Razer BlackShark V3 Pro - תואמות ל-PC - צבע שחור",
+      "price": 975.0,
+      "url": "https://ksp.co.il/mob/item/415545",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-001-51",
+      "barcodes": [],
+      "scraped_at": "2026-11-26 07:39"
+    },
+    {
+      "store_id": "ksp",
+      "store_name": "KSP",
+      "our_sku": "90903-003-31",
+      "our_product_name": "מקלדת חוטית Ornata V3x מבית RAZER",
+      "title": "מקלדת גיימרים Razer Ornata V3 X",
+      "price": 123.0,
+      "url": "https://ksp.co.il/mob/item/428780",
+      "in_stock": true,
+      "importer_status": "official",
+      "importer_text": "official",
+      "sku": "90903-003-31",
+      "barcodes": [],
+      "scraped_at": "2026-11-26 07:39"
     }
   ]
 }

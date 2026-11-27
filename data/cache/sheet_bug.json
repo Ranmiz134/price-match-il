@@ -1,7 +1,7 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-27T08:56:48.977079+00:00",
+  "last_ok_at": "2026-11-27T13:18:55.713442+00:00",
   "count": 218,
   "items": [
     {
@@ -10,14 +10,14 @@
       "our_sku": "99999-958-91",
       "our_product_name": "מצלמת גימבל דגם Osmo Pocket 4P Vlog Combo מבית DJI",
       "title": "מצלמת גימבל Osmo Pocket 4P Vlog Combo DJI",
-      "price": 2899.0,
+      "price": 2449.0,
       "url": "https://www.bug.co.il/brand/dji/osmo/pocket/4p/vlog/combo",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-958-91",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 11:55"
     },
     {
       "store_id": "bug",
@@ -32,7 +32,7 @@
       "importer_text": "official",
       "sku": "99999-958-90",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 12:55"
     },
     {
       "store_id": "bug",
@@ -47,7 +47,7 @@
       "importer_text": "official",
       "sku": "99999-958-88",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 11:55"
     },
     {
       "store_id": "bug",
@@ -62,7 +62,7 @@
       "importer_text": "official",
       "sku": "99999-958-89",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 12:55"
     },
     {
       "store_id": "bug",
@@ -92,7 +92,7 @@
       "importer_text": "official",
       "sku": "99999-956-23",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 12:55"
     },
     {
       "store_id": "bug",
@@ -107,7 +107,7 @@
       "importer_text": "official",
       "sku": "99999-951-94",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 15:00"
     },
     {
       "store_id": "bug",
@@ -122,7 +122,7 @@
       "importer_text": "official",
       "sku": "99999-956-24",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 13:55"
     },
     {
       "store_id": "bug",
@@ -205,14 +205,14 @@
       "our_sku": "99999-958-66",
       "our_product_name": "מצלמה- Osmo Pocket 4 Creator Combo",
       "title": "מצלמת גימבל Osmo Pocket 4 Creator Combo DJI",
-      "price": 2199.0,
+      "price": 1859.0,
       "url": "https://www.bug.co.il/brand/dji/osmo/pocket/4/creator/combo",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-958-66",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 12:55"
     },
     {
       "store_id": "bug",
@@ -227,7 +227,7 @@
       "importer_text": "official",
       "sku": "99999-958-42",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 11:55"
     },
     {
       "store_id": "bug",
@@ -235,14 +235,14 @@
       "our_sku": "99999-958-67",
       "our_product_name": "מצלמה-Osmo Pocket 4 Standard Combo",
       "title": "מצלמת גימבל Osmo Pocket 4 Standard Combo DJI",
-      "price": 1899.0,
+      "price": 1609.0,
       "url": "https://www.bug.co.il/brand/dji/osmo/pocket/4/standard/combo",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-958-67",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 13:55"
     },
     {
       "store_id": "bug",
@@ -257,7 +257,7 @@
       "importer_text": "official",
       "sku": "99999-958-43",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 11:55"
     },
     {
       "store_id": "bug",
@@ -272,7 +272,7 @@
       "importer_text": "official",
       "sku": "99999-958-40",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 11:00"
     },
     {
       "store_id": "bug",
@@ -280,14 +280,14 @@
       "our_sku": "99999-958-45",
       "our_product_name": "רחפן -(DJI Lito 1 Fly More Combo (DJI RC-RN3",
       "title": "רחפן Lito 1 Fly More Combo DJI",
-      "price": 2149.0,
+      "price": 1819.0,
       "url": "https://www.bug.co.il/brand/dji/lito/1/fly/more/combo",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-958-45",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 13:55"
     },
     {
       "store_id": "bug",
@@ -302,7 +302,7 @@
       "importer_text": "official",
       "sku": "99999-958-41",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 11:00"
     },
     {
       "store_id": "bug",
@@ -317,7 +317,7 @@
       "importer_text": "official",
       "sku": "99999-958-39",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 11:55"
     },
     {
       "store_id": "bug",
@@ -332,7 +332,7 @@
       "importer_text": "official",
       "sku": "99999-958-44",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 15:00"
     },
     {
       "store_id": "bug",
@@ -370,14 +370,14 @@
       "our_sku": "99999-955-11",
       "our_product_name": "Dji Neo 2 Fly More Combo כולל שלט",
       "title": "רחפן Neo 2 Fly More Combo DJI",
-      "price": 1899.0,
+      "price": 1609.0,
       "url": "https://www.bug.co.il/brand/dji/neo/2/fly/more/combo",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-955-11",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 13:55"
     },
     {
       "store_id": "bug",
@@ -407,7 +407,7 @@
       "importer_text": "official",
       "sku": "99999-955-10",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 12:55"
     },
     {
       "store_id": "bug",
@@ -445,14 +445,14 @@
       "our_sku": "99999-955-17",
       "our_product_name": "מצלמת DJI ACTION 6 ADVENTURE COMBO",
       "title": "מצלמת אקסטרים Action 6 Adventure Combo DJI",
-      "price": 1949.0,
+      "price": 1649.0,
       "url": "https://www.bug.co.il/brand/dji/osmo/action/6/adventure",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-955-17",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 13:55"
     },
     {
       "store_id": "bug",
@@ -460,14 +460,14 @@
       "our_sku": "99999-955-18",
       "our_product_name": "מצלמת DJI ACTION 6 STANDARD COMBO",
       "title": "מצלמת אקסטרים Action 6 Standard Combo DJI",
-      "price": 1549.0,
+      "price": 1309.0,
       "url": "https://www.bug.co.il/brand/dji/osmo/action/6/standard",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-955-18",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 15:00"
     },
     {
       "store_id": "bug",
@@ -542,7 +542,7 @@
       "importer_text": "official",
       "sku": "99999-954-01",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 12:55"
     },
     {
       "store_id": "bug",
@@ -557,7 +557,7 @@
       "importer_text": "official",
       "sku": "99999-952-79",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 15:00"
     },
     {
       "store_id": "bug",
@@ -640,14 +640,14 @@
       "our_sku": "99999-951-66",
       "our_product_name": "רחפן DJI Flip Fly More Combo",
       "title": "רחפן Flip Fly More Combo DJI",
-      "price": 3399.0,
+      "price": 2879.0,
       "url": "https://www.bug.co.il/brand/dji/flip/fly/more/combo",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-951-66",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 11:55"
     },
     {
       "store_id": "bug",
@@ -662,7 +662,7 @@
       "importer_text": "official",
       "sku": "99999-951-67",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 11:55"
     },
     {
       "store_id": "bug",
@@ -692,7 +692,7 @@
       "importer_text": "official",
       "sku": "99999-601-12",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 15:00"
     },
     {
       "store_id": "bug",
@@ -707,7 +707,7 @@
       "importer_text": "official",
       "sku": "99999-600-68",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 13:55"
     },
     {
       "store_id": "bug",
@@ -722,7 +722,7 @@
       "importer_text": "official",
       "sku": "99999-600-59",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 11:00"
     },
     {
       "store_id": "bug",
@@ -2170,14 +2170,14 @@
       "our_sku": "90904-100-58",
       "our_product_name": "כיסא גיימינג בד CORSAIR T3 RUSH 2023 Fabric White/Grey",
       "title": "כיסא גיימינג R3 Rush קורסר - Corsair",
-      "price": 1249.0,
+      "price": 1199.0,
       "url": "https://www.bug.co.il/brand/corsair/color/white/grey/t3/rush/fabric",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "90904-100-58",
       "barcodes": [],
-      "scraped_at": "2026-11-23 17:28"
+      "scraped_at": "2026-11-27 15:00"
     },
     {
       "store_id": "bug",
@@ -2297,7 +2297,7 @@
       "importer_text": "official",
       "sku": "90902-815-15",
       "barcodes": [],
-      "scraped_at": "2026-11-23 18:06"
+      "scraped_at": "2026-11-27 13:55"
     },
     {
       "store_id": "bug",
@@ -2350,14 +2350,14 @@
       "our_sku": "90902-800-09",
       "our_product_name": "הגה TM T300 RS GT ED PS-4/5/PC",
       "title": "הגה מירוצים עם דוושות T300 RS GT Edition תראסטמאסטר - Thrustmaster",
-      "price": 1399.0,
+      "price": 2299.0,
       "url": "https://www.bug.co.il/brand/thrustmaster/t300rs/gtedition/wheel/set/",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "90902-800-09",
       "barcodes": [],
-      "scraped_at": "2026-11-23 18:06"
+      "scraped_at": "2026-11-27 15:00"
     },
     {
       "store_id": "bug",
@@ -2462,7 +2462,7 @@
       "importer_text": "official",
       "sku": "99999-600-67",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 15:00"
     },
     {
       "store_id": "bug",
@@ -3212,7 +3212,7 @@
       "importer_text": "official",
       "sku": "99999-600-49",
       "barcodes": [],
-      "scraped_at": "2026-11-25 05:24"
+      "scraped_at": "2026-11-27 11:00"
     },
     {
       "store_id": "bug",

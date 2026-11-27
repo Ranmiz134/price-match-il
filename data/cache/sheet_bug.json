@@ -1,7 +1,7 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-27T02:24:07.524204+00:00",
+  "last_ok_at": "2026-11-27T08:56:48.977079+00:00",
   "count": 218,
   "items": [
     {
@@ -340,14 +340,14 @@
       "our_sku": "99999-955-06",
       "our_product_name": "DJI Mini 5 Pro Fly More Combo",
       "title": "רחפן Mini 5 Pro Fly More Combo DJI",
-      "price": 4499.0,
+      "price": 3809.0,
       "url": "https://www.bug.co.il/brand/dji/mini/5/pro/fly/more/combo",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-955-06",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 09:55"
     },
     {
       "store_id": "bug",
@@ -362,7 +362,7 @@
       "importer_text": "official",
       "sku": "99999-952-78",
       "barcodes": [],
-      "scraped_at": "2026-11-26 15:45"
+      "scraped_at": "2026-11-27 09:55"
     },
     {
       "store_id": "bug",
@@ -505,14 +505,14 @@
       "our_sku": "99999-955-05",
       "our_product_name": "DJI Mini 5 Pro Fly More Combo Plus",
       "title": "רחפן Mini 5 Pro Fly More Combo Plus DJI",
-      "price": 4799.0,
+      "price": 4059.0,
       "url": "https://www.bug.co.il/brand/dji/mini/5/pro/fly/more/combo/plus",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-955-05",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 09:55"
     },
     {
       "store_id": "bug",
@@ -580,14 +580,14 @@
       "our_sku": "99999-952-77",
       "our_product_name": "DJI Mavic 4 Pro Fly More Combo",
       "title": "רחפן Mavic 4 Pro Fly More Combo DJI",
-      "price": 11999.0,
+      "price": 10099.0,
       "url": "https://www.bug.co.il/brand/dji/mavic/4/pro/fly/more/combo",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-952-77",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 09:55"
     },
     {
       "store_id": "bug",
@@ -625,14 +625,14 @@
       "our_sku": "99999-601-16",
       "our_product_name": "רחפן DJI Air 3S Combo עם שלט חכם RC2",
       "title": "רחפן ושלט חכם AIR 3S + RC 2 Combo DJI",
-      "price": 6499.0,
+      "price": 5499.0,
       "url": "https://www.bug.co.il/brand/dji/rc/2/air/3s/combo",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-601-16",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 09:55"
     },
     {
       "store_id": "bug",

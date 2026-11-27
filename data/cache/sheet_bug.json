@@ -1,7 +1,7 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-26T13:21:25.140422+00:00",
+  "last_ok_at": "2026-11-27T02:24:07.524204+00:00",
   "count": 218,
   "items": [
     {
@@ -362,7 +362,7 @@
       "importer_text": "official",
       "sku": "99999-952-78",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-26 15:45"
     },
     {
       "store_id": "bug",
@@ -565,14 +565,14 @@
       "our_sku": "99999-952-76",
       "our_product_name": "DJI Mavic 4 Pro (DJI RC 2)",
       "title": "רחפן Mavic 4 Pro DJI",
-      "price": 9299.0,
+      "price": 10990.0,
       "url": "https://www.bug.co.il/brand/dji/mavic/4/pro",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-952-76",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-26 15:45"
     },
     {
       "store_id": "bug",

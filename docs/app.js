@@ -625,7 +625,7 @@
         ${(product.barcodes || []).length ? `<span>ברקוד: <bdi>${escapeHtml(product.barcodes.join(", "))}</bdi></span>` : ""}</div></div></div>
       ${clearanceCollisionHtml(product)}
       ${supplierPromotionHtml(product)}
-      <div class="manager-prices"><div class="manager-price"><span>המחיר שלנו, כולל מע״מ</span><strong>${formatPreciseILS(product.our_price)}</strong></div>
+      <div class="manager-prices"><div class="manager-price"><span>המחיר שלנו, כולל מע״מ${product.is_on_sale ? ' <b class="badge badge-sale">מחיר מבצע באתר</b>' : ''}</span><strong>${formatPreciseILS(product.our_price)}</strong>${product.is_on_sale && product.regular_price ? `<span class="price-sub">מחיר רגיל באתר: <s>${formatPreciseILS(product.regular_price)}</s></span>` : ''}</div>
         <div class="manager-price"><span>רשתות שעוברות את הסינון</span><strong>${new Set(displayedOffers.map((offer) => offer.store_id || offer.store_name)).size}</strong></div></div>
       <div class="manager-offers" aria-label="כל המתחרים המתאימים לסינון">
         <strong>כל המתחרים המתאימים (${displayedOffers.length}/${assessment.eligible.length})</strong>
@@ -754,6 +754,11 @@
     const u = productImages[sku];
     return u ? `<img class="card-thumb" src="${escapeHtml(u)}" alt="${escapeHtml(name || '')}" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()">` : '';
   }
+  let saleRegular = {};
+  async function loadSaleRegular() {
+    try { const r = await fetch('sale-regular.json', {cache:'no-store'}); if (r.ok) saleRegular = await r.json(); } catch (e) { saleRegular = {}; }
+    allProducts.forEach(p => { const g = saleRegular[p.sku]; if (p.is_on_sale && g && Number.isFinite(p.our_price) && g > p.our_price && !p.regular_price) p.regular_price = g; });
+  }
   async function loadSupplierPromotions() {
     try {
       const response = await fetch('supplier-promotions.json', {cache:'no-store'});
@@ -850,6 +855,7 @@
       await loadPromotions();
       await loadSupplierPromotions();
       await loadProductImages();
+      await loadSaleRegular();
       renderCategoryHome();
       applyFilter();
     } catch (err) {

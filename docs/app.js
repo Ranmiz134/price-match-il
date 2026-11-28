@@ -888,5 +888,19 @@
 
   initManagerExport();
   initClearance();
+  // auto-refresh: re-check data when the app returns to foreground and every 10 minutes while open
+  let refreshing = false;
+  async function refreshIfNew() {
+    if (refreshing || document.hidden) return;
+    refreshing = true;
+    try {
+      const r = await fetch("data/prices.json?t=" + Date.now(), { cache: "no-store" });
+      if (r.ok) { const p = await r.json(); if (p.generated_at && p.generated_at !== feedGeneratedAt) await init(); }
+    } catch (e) {} finally { refreshing = false; }
+  }
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) refreshIfNew(); });
+  window.addEventListener("pageshow", (e) => { if (e.persisted) refreshIfNew(); });
+  setInterval(refreshIfNew, 10 * 60 * 1000);
+
   init();
 })();

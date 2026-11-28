@@ -1,7 +1,7 @@
 {
   "store_id": "sheet_bug",
   "store_name": "באג (Bug)",
-  "last_ok_at": "2026-11-27T13:18:55.713442+00:00",
+  "last_ok_at": "2026-11-28T02:27:24.400542+00:00",
   "count": 218,
   "items": [
     {
@@ -70,14 +70,14 @@
       "our_sku": "99999-958-81",
       "our_product_name": "מיקרופון אלחוטי – (DJI Mic Mini 2S(2TX+1RX+Charging Case",
       "title": "מיקרופון אלחוטי Mic Mini 2S (2 TX + 1 RX + Charging Case) DJI",
-      "price": 649.0,
+      "price": 549.0,
       "url": "https://www.bug.co.il/brand/dji/mic/mini/2s/2/tx/1/rx/charging/case/",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-958-81",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 19:00"
     },
     {
       "store_id": "bug",
@@ -137,7 +137,7 @@
       "importer_text": "unverified",
       "sku": "99999-958-59",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 22:00"
     },
     {
       "store_id": "bug",
@@ -152,7 +152,7 @@
       "importer_text": "official",
       "sku": "99999-958-73",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 18:00"
     },
     {
       "store_id": "bug",
@@ -167,7 +167,7 @@
       "importer_text": "official",
       "sku": "99999-958-72",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 17:00"
     },
     {
       "store_id": "bug",
@@ -175,14 +175,14 @@
       "our_sku": "99999-958-68",
       "our_product_name": "מיקרופון אלחוטי (DJI Mic Mini 2 (2 TX + 1 Mobile RX + Charging Case",
       "title": "מערכת מיקרופון אלחוטית Mic Mini 2 (2TX+1Mobile RX+Charging Case) DJI",
-      "price": 299.0,
+      "price": 249.0,
       "url": "https://www.bug.co.il/brand/dji/mic/mini/2/2tx/1mobile/rx/charging/case/",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-958-68",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 21:00"
     },
     {
       "store_id": "bug",
@@ -190,14 +190,14 @@
       "our_sku": "99999-958-71",
       "our_product_name": "מיקרופון אלחוטי(DJI Mic Mini 2 (1 TX + 1 RX",
       "title": "מיקרופון אלחוטי Mic Mini 2 (1 TX + 1 RX) DJI",
-      "price": 249.0,
+      "price": 209.0,
       "url": "https://www.bug.co.il/brand/dji/mic/mini/2/1/tx/1/rx/",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-958-71",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 22:00"
     },
     {
       "store_id": "bug",
@@ -385,14 +385,14 @@
       "our_sku": "99999-955-16",
       "our_product_name": "Dji Neo 2 ללא שלט",
       "title": "רחפן Neo 2 (רחפן בלבד) DJI",
-      "price": 999.0,
+      "price": 839.0,
       "url": "https://www.bug.co.il/brand/dji/neo/2/droneonly",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-955-16",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 17:00"
     },
     {
       "store_id": "bug",
@@ -415,14 +415,14 @@
       "our_sku": "99999-955-15",
       "our_product_name": "Dji Neo 2 Fly More Combo ללא שלט",
       "title": "רחפן Neo 2 Fly More Combo ללא שלט DJI",
-      "price": 1449.0,
+      "price": 1219.0,
       "url": "https://www.bug.co.il/brand/dji/neo/2/fly/more/combo/droneonly",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-955-15",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 16:00"
     },
     {
       "store_id": "bug",
@@ -437,7 +437,7 @@
       "importer_text": "official",
       "sku": "99999-955-09",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 19:00"
     },
     {
       "store_id": "bug",
@@ -475,14 +475,14 @@
       "our_sku": "99999-954-12",
       "our_product_name": "מיקרופון אלחוטי DJI 3 זוגי",
       "title": "מיקרופון אלחוטי Mic 3 זוג ומארז DJI",
-      "price": 1299.0,
+      "price": 1099.0,
       "url": "https://www.bug.co.il/brand/dji/wireless/microphone/mic/3/dual",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-954-12",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 16:00"
     },
     {
       "store_id": "bug",
@@ -490,14 +490,14 @@
       "our_sku": "99999-955-04",
       "our_product_name": "מצלמת DJI OSMO NANO 128GB",
       "title": "מצלמה Osmo Nano 128GB DJI",
-      "price": 1349.0,
+      "price": 1139.0,
       "url": "https://www.bug.co.il/brand/dji/osmo/nano/128gb",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-955-04",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 16:00"
     },
     {
       "store_id": "bug",
@@ -527,7 +527,7 @@
       "importer_text": "official",
       "sku": "99999-954-11",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 18:00"
     },
     {
       "store_id": "bug",
@@ -602,7 +602,7 @@
       "importer_text": "official",
       "sku": "99999-951-91",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 21:00"
     },
     {
       "store_id": "bug",
@@ -617,7 +617,7 @@
       "importer_text": "official",
       "sku": "99999-951-92",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 20:00"
     },
     {
       "store_id": "bug",
@@ -670,14 +670,14 @@
       "our_sku": "99999-601-11",
       "our_product_name": "ללא שלט DJI Neo",
       "title": "רחפן   Neo DJI",
-      "price": 899.0,
+      "price": 599.0,
       "url": "https://www.bug.co.il/brand/dji/neo/",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-601-11",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 18:00"
     },
     {
       "store_id": "bug",
@@ -737,7 +737,7 @@
       "importer_text": "official",
       "sku": "99999-488-91",
       "barcodes": [],
-      "scraped_at": "2026-11-22 10:39"
+      "scraped_at": "2026-11-27 17:00"
     },
     {
       "store_id": "bug",
@@ -745,14 +745,14 @@
       "our_sku": "90902-810-01",
       "our_product_name": "הגה וערכת דוושות THRUSTMASTER T98 FERRARI 296 GTB",
       "title": "תראסטמאסטר - Thrustmaster הגה מרוצים ודוושות T98P Ferrari 296 GTB",
-      "price": 449.0,
+      "price": 549.0,
       "url": "https://www.bug.co.il/brand/thrustmaster/t98p/ferrari/296/gtb",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "90902-810-01",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 19:00"
     },
     {
       "store_id": "bug",
@@ -857,7 +857,7 @@
       "importer_text": "official",
       "sku": "90904-911-30",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 20:00"
     },
     {
       "store_id": "bug",
@@ -910,14 +910,14 @@
       "our_sku": "90905-802-00",
       "our_product_name": "מקלדת חוטית דגם Command Series KB5 מבית Turtle Beach",
       "title": "טרטל ביצ' - Turtle Beach מקלדת גיימינג חוטית Command Series KB5",
-      "price": 529.0,
+      "price": 629.0,
       "url": "https://www.bug.co.il/brand/turtlebeach/command/series/kb5",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "90905-802-00",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 19:00"
     },
     {
       "store_id": "bug",
@@ -947,7 +947,7 @@
       "importer_text": "official",
       "sku": "99701-804-34",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 23:00"
     },
     {
       "store_id": "bug",
@@ -962,7 +962,7 @@
       "importer_text": "unverified",
       "sku": "99999-488-69",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-28 00:00"
     },
     {
       "store_id": "bug",
@@ -992,7 +992,7 @@
       "importer_text": "unverified",
       "sku": "99999-488-64",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 23:00"
     },
     {
       "store_id": "bug",
@@ -1075,14 +1075,14 @@
       "our_sku": "90902-805-42",
       "our_product_name": "הגה מירוצים ודוושות דגם T248R מבית THRUSTMASTER",
       "title": "תראסטמאסטר - Thrustmaster הגה מירוצים ודוושות T248R",
-      "price": 999.0,
+      "price": 1199.0,
       "url": "https://www.bug.co.il/brand/thrustmaster/t248r",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "90902-805-42",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 16:00"
     },
     {
       "store_id": "bug",
@@ -1097,7 +1097,7 @@
       "importer_text": "unverified",
       "sku": "99999-488-66",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-28 00:00"
     },
     {
       "store_id": "bug",
@@ -1112,7 +1112,7 @@
       "importer_text": "official",
       "sku": "99999-958-74",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 18:00"
     },
     {
       "store_id": "bug",
@@ -1120,14 +1120,14 @@
       "our_sku": "90904-001-26",
       "our_product_name": "אוזניות גיימינג חוטיות דגם HS35 v3 בצבע לבן מבית Corsair",
       "title": "קורסר - Corsair אוזניות חוטיות בצבע לבן HS35 V3",
-      "price": 155.0,
+      "price": 199.0,
       "url": "https://www.bug.co.il/brand/corsair/hs35/v3/wired/white",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "90904-001-26",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 23:00"
     },
     {
       "store_id": "bug",
@@ -1135,14 +1135,14 @@
       "our_sku": "90904-001-25",
       "our_product_name": "אוזניות גיימינג חוטיות דגם HS35 v3 בצבע שחור מבית Corsair",
       "title": "קורסר - Corsair אוזניות חוטיות בצבע שחור HS35 V3",
-      "price": 155.0,
+      "price": 199.0,
       "url": "https://www.bug.co.il/brand/corsair/hs35/v3/wired/black",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "90904-001-25",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 23:00"
     },
     {
       "store_id": "bug",
@@ -1157,7 +1157,7 @@
       "importer_text": "official",
       "sku": "90904-720-69",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 20:00"
     },
     {
       "store_id": "bug",
@@ -1165,14 +1165,14 @@
       "our_sku": "90904-720-70",
       "our_product_name": "אוזניות גיימינג דגם Void Wireless V2 בצבע לבן מבית Corsair",
       "title": "קורסר - Corsair אוזניות גיימינג אלחוטיות VOID WIRELESS v2",
-      "price": 329.0,
+      "price": 499.0,
       "url": "https://www.bug.co.il/brand/corsair/void/wireless/v2/white",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "90904-720-70",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 20:00"
     },
     {
       "store_id": "bug",
@@ -1195,14 +1195,14 @@
       "our_sku": "90902-815-38",
       "our_product_name": "ג'ויסטיק טיסה דגם T.Flight Hotas 5 Microsoft Flight Simulator Edition מבית Thrustmaster",
       "title": "תראסטמאסטר - Thrustmaster ג'ויסטיק טיסה T.Flight Hotas 5 Microsoft Flight Simulator Ed",
-      "price": 449.0,
+      "price": 589.0,
       "url": "https://www.bug.co.il/brand/thrustmaster/t/flight/hotas/5/microsoft/flight/simulator/ed",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "90902-815-38",
       "barcodes": [],
-      "scraped_at": "2026-11-23 04:24"
+      "scraped_at": "2026-11-27 19:00"
     },
     {
       "store_id": "bug",
@@ -1210,14 +1210,14 @@
       "our_sku": "90904-911-31",
       "our_product_name": "מקלדת אלחוטית מכנית לגיימינג CORSAIR K70 CORE TKL WIRELESS RGB",
       "title": "קורסר - Corsair מקלדת גיימינג מכנית אלחוטית K70 Core TKL RGB",
-      "price": 599.0,
+      "price": 799.0,
       "url": "https://www.bug.co.il/brand/corsair/keyboard/k70/core/tkl",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "90904-911-31",
       "barcodes": [],
-      "scraped_at": "2026-11-23 04:24"
+      "scraped_at": "2026-11-27 18:00"
     },
     {
       "store_id": "bug",
@@ -1277,7 +1277,7 @@
       "importer_text": "official",
       "sku": "90902-815-40",
       "barcodes": [],
-      "scraped_at": "2026-11-23 04:24"
+      "scraped_at": "2026-11-27 18:00"
     },
     {
       "store_id": "bug",
@@ -1300,14 +1300,14 @@
       "our_sku": "99999-958-69",
       "our_product_name": "מיקרופון אלחוטי (Mic Mini 2 (2 TX + 1 RX + Charging Case",
       "title": "די ג'יי איי - DJI מערכת מיקרופון אלחוטית Mic Mini 2 (2TX+1RX+Charging Case)",
-      "price": 399.0,
+      "price": 329.0,
       "url": "https://www.bug.co.il/brand/dji/mic/mini/2/2tx/1rx/charging/case/",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99999-958-69",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:28"
+      "scraped_at": "2026-11-27 20:00"
     },
     {
       "store_id": "bug",
@@ -1472,7 +1472,7 @@
       "importer_text": "official",
       "sku": "90902-815-35",
       "barcodes": [],
-      "scraped_at": "2026-11-23 13:13"
+      "scraped_at": "2026-11-27 16:00"
     },
     {
       "store_id": "bug",
@@ -1480,14 +1480,14 @@
       "our_sku": "90902-815-42",
       "our_product_name": "ג'ויסטיק טיסה T.Flight Hotas Neo ל-Xbox מבית Thrustmaster",
       "title": "ג'ויסטיק טיסה T.Flight Hotas Neo ל-Xbox ACE COMBAT 8",
-      "price": 699.0,
+      "price": 799.0,
       "url": "https://www.bug.co.il/brand/thrustmaster/ace/combat/8/xbox",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "90902-815-42",
       "barcodes": [],
-      "scraped_at": "2026-11-23 13:13"
+      "scraped_at": "2026-11-27 17:00"
     },
     {
       "store_id": "bug",
@@ -1592,7 +1592,7 @@
       "importer_text": "official",
       "sku": "36208-498-53",
       "barcodes": [],
-      "scraped_at": "2026-11-23 14:11"
+      "scraped_at": "2026-11-27 17:00"
     },
     {
       "store_id": "bug",
@@ -1600,14 +1600,14 @@
       "our_sku": "36208-498-52",
       "our_product_name": "מסך מחשב 24 אינץ' דגם 24B2N2200 מבית Philips",
       "title": "מסך מחשב \"23.8 24B2N2200",
-      "price": 419.0,
+      "price": 429.0,
       "url": "https://www.bug.co.il/brand/philips/24b2n2200",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "36208-498-52",
       "barcodes": [],
-      "scraped_at": "2026-11-23 14:12"
+      "scraped_at": "2026-11-27 20:00"
     },
     {
       "store_id": "bug",
@@ -1615,14 +1615,14 @@
       "our_sku": "36208-273-27",
       "our_product_name": "מסך 4K‏ אולטרה \"HD 27E1N1800A/00 27 מבית PHILIPS",
       "title": "מסך מחשב \"27 27E1N1800A",
-      "price": 849.0,
+      "price": 890.0,
       "url": "https://www.bug.co.il/brand/philips/27e1n1800a",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "36208-273-27",
       "barcodes": [],
-      "scraped_at": "2026-11-23 14:12"
+      "scraped_at": "2026-11-27 17:00"
     },
     {
       "store_id": "bug",
@@ -1697,7 +1697,7 @@
       "importer_text": "official",
       "sku": "99918-286-03",
       "barcodes": [],
-      "scraped_at": "2026-11-23 16:25"
+      "scraped_at": "2026-11-27 17:00"
     },
     {
       "store_id": "bug",
@@ -1757,7 +1757,7 @@
       "importer_text": "official",
       "sku": "99914-014-17",
       "barcodes": [],
-      "scraped_at": "2026-11-23 16:26"
+      "scraped_at": "2026-11-27 22:00"
     },
     {
       "store_id": "bug",
@@ -1802,7 +1802,7 @@
       "importer_text": "official",
       "sku": "99700-901-25",
       "barcodes": [],
-      "scraped_at": "2026-11-23 16:46"
+      "scraped_at": "2026-11-27 22:00"
     },
     {
       "store_id": "bug",
@@ -2027,7 +2027,7 @@
       "importer_text": "official",
       "sku": "99218-001-03",
       "barcodes": [],
-      "scraped_at": "2026-11-23 17:08"
+      "scraped_at": "2026-11-28 00:00"
     },
     {
       "store_id": "bug",
@@ -2035,14 +2035,14 @@
       "our_sku": "99218-001-01",
       "our_product_name": "תיק איפור מחולק עם מראה ותאורת לד דגם MCB450 מבית MIRACASE בצבע שחור",
       "title": "תיק איפור MCB450 מיראקייס - Miracase",
-      "price": 299.0,
+      "price": 99.0,
       "url": "https://www.bug.co.il/brand/miracase/black/mcb450",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "99218-001-01",
       "barcodes": [],
-      "scraped_at": "2026-11-23 17:08"
+      "scraped_at": "2026-11-28 00:00"
     },
     {
       "store_id": "bug",
@@ -2057,7 +2057,7 @@
       "importer_text": "official",
       "sku": "90904-003-32",
       "barcodes": [],
-      "scraped_at": "2026-11-23 17:28"
+      "scraped_at": "2026-11-27 20:00"
     },
     {
       "store_id": "bug",
@@ -2065,14 +2065,14 @@
       "our_sku": "90904-003-36",
       "our_product_name": "מקלדת גיימינג מכנית אלחוטית דגם VANGUARD 96 Wireless מבית Corsair",
       "title": "מקלדת גיימינג מכנית אלחוטית Vanguard 96 MLX Plasma Wireless קורסר - Corsair",
-      "price": 799.0,
+      "price": 899.0,
       "url": "https://www.bug.co.il/brand/corsair/vanguard/96/mlx/plasma/wireless",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "90904-003-36",
       "barcodes": [],
-      "scraped_at": "2026-11-23 17:28"
+      "scraped_at": "2026-11-27 17:00"
     },
     {
       "store_id": "bug",
@@ -2125,14 +2125,14 @@
       "our_sku": "90904-003-35",
       "our_product_name": "מקלדת חוט (CORSAIR Keyboard K55 CORE TKL (RGB",
       "title": "מקלדת גיימינג חוטית K55 CORE TKL RGB קורסר - Corsair",
-      "price": 179.0,
+      "price": 159.0,
       "url": "https://www.bug.co.il/brand/corsair/k55/core/tkl",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "90904-003-35",
       "barcodes": [],
-      "scraped_at": "2026-11-23 17:28"
+      "scraped_at": "2026-11-27 22:00"
     },
     {
       "store_id": "bug",
@@ -2140,14 +2140,14 @@
       "our_sku": "90904-112-95",
       "our_product_name": "אוזניות גיימינג אלחוטיות CORSAIR HS80 MAX WIRELESS",
       "title": "אוזניות גיימינג אלחוטיות HS80 MAX WIRELESS - שחור קורסר - Corsair",
-      "price": 699.0,
+      "price": 1099.0,
       "url": "https://www.bug.co.il/brand/corsair/hs80/max/wireless/black",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "90904-112-95",
       "barcodes": [],
-      "scraped_at": "2026-11-23 17:28"
+      "scraped_at": "2026-11-27 18:00"
     },
     {
       "store_id": "bug",
@@ -2155,14 +2155,14 @@
       "our_sku": "90904-112-96",
       "our_product_name": "אוזניות גיימינג אלחוטיות CORSAIR HS80 MAX WIRELESS White",
       "title": "אוזניות גיימינג אלחוטיות HS80 MAX WIRELESS - לבן קורסר - Corsair",
-      "price": 699.0,
+      "price": 1099.0,
       "url": "https://www.bug.co.il/brand/corsair/hs80/max/wireless/",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "90904-112-96",
       "barcodes": [],
-      "scraped_at": "2026-11-23 17:28"
+      "scraped_at": "2026-11-27 18:00"
     },
     {
       "store_id": "bug",
@@ -2192,7 +2192,7 @@
       "importer_text": "official",
       "sku": "90904-111-01",
       "barcodes": [],
-      "scraped_at": "2026-11-23 17:48"
+      "scraped_at": "2026-11-27 20:00"
     },
     {
       "store_id": "bug",
@@ -2222,7 +2222,7 @@
       "importer_text": "official",
       "sku": "90904-003-34",
       "barcodes": [],
-      "scraped_at": "2026-11-23 17:48"
+      "scraped_at": "2026-11-27 23:00"
     },
     {
       "store_id": "bug",
@@ -2230,14 +2230,14 @@
       "our_sku": "90904-112-60",
       "our_product_name": "אוזניות גיימינג CORSAIR HS55 STEREO – שחור",
       "title": "אוזניות גיימינג חוטיות 3.5 מ'מ HS55 קורסר - Corsair",
-      "price": 179.0,
+      "price": 399.0,
       "url": "https://www.bug.co.il/brand/corsair/hs55/black",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "90904-112-60",
       "barcodes": [],
-      "scraped_at": "2026-11-23 17:48"
+      "scraped_at": "2026-11-27 22:00"
     },
     {
       "store_id": "bug",
@@ -2252,7 +2252,7 @@
       "importer_text": "official",
       "sku": "90904-112-61",
       "barcodes": [],
-      "scraped_at": "2026-11-23 17:48"
+      "scraped_at": "2026-11-27 22:00"
     },
     {
       "store_id": "bug",
@@ -2275,14 +2275,14 @@
       "our_sku": "90904-005-39",
       "our_product_name": "עכבר גיימינג אלחוטי Corsair DARK CORE RGB PRO Wireless",
       "title": "עכבר גיימינג אלחוטי Dark Core RGB Pro קורסר - Corsair",
-      "price": 299.0,
+      "price": 349.0,
       "url": "https://www.bug.co.il/brand/corsair/dark/core/rgb/pro/wireless",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "90904-005-39",
       "barcodes": [],
-      "scraped_at": "2026-11-23 17:48"
+      "scraped_at": "2026-11-27 21:00"
     },
     {
       "store_id": "bug",
@@ -2312,7 +2312,7 @@
       "importer_text": "official",
       "sku": "90902-815-29",
       "barcodes": [],
-      "scraped_at": "2026-11-23 18:06"
+      "scraped_at": "2026-11-27 19:00"
     },
     {
       "store_id": "bug",
@@ -2575,14 +2575,14 @@
       "our_sku": "90905-802-14",
       "our_product_name": "אוזניות גיימינג אלחוטיות דגם Stealth Pro II – PC / PlayStation מבית Turtle Beach",
       "title": "אוזניות גיימינג אלחוטיות Stealth Pro II PC - שחור טרטל ביצ' - Turtle Beach",
-      "price": 1199.0,
+      "price": 1329.0,
       "url": "https://www.bug.co.il/brand/turtlebeach/stealth/pro/ii/pc/black",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "90905-802-14",
       "barcodes": [],
-      "scraped_at": "2026-11-23 22:47"
+      "scraped_at": "2026-11-27 16:00"
     },
     {
       "store_id": "bug",
@@ -2590,14 +2590,14 @@
       "our_sku": "90905-802-15",
       "our_product_name": "אוזניות גיימינג אלחוטיות דגם Stealth Pro II – XBOX מבית Turtle Beach",
       "title": "אוזניות גיימינג אלחוטיות Stealth Pro II Xbox - שחור טרטל ביצ' - Turtle Beach",
-      "price": 1199.0,
+      "price": 1329.0,
       "url": "https://www.bug.co.il/brand/turtlebeach/stealth/pro/ii/xbox/black",
       "in_stock": true,
       "importer_status": "official",
       "importer_text": "official",
       "sku": "90905-802-15",
       "barcodes": [],
-      "scraped_at": "2026-11-23 22:47"
+      "scraped_at": "2026-11-27 16:00"
     },
     {
       "store_id": "bug",
@@ -2623,11 +2623,11 @@
       "price": 249.0,
       "url": "https://www.bug.co.il/brand/razer/viper/v3/pro",
       "in_stock": true,
-      "importer_status": "official",
-      "importer_text": "official",
+      "importer_status": "unverified",
+      "importer_text": "unverified",
       "sku": "90903-001-78",
       "barcodes": [],
-      "scraped_at": "2026-11-23 23:23"
+      "scraped_at": "2026-11-27 21:00"
     },
     {
       "store_id": "bug",
@@ -2635,14 +2635,14 @@
       "our_sku": "90903-001-59",
       "our_product_name": "אוזניות אלחוטיות Razer BlackShark V3 X HyperSpeed – שחור",
       "title": "אוזניות גיימינג אלחוטיות Blackshark V3 X HyperSpeed PC - שחור",
-      "price": 325.0,
+      "price": 475.0,
       "url": "https://www.bug.co.il/brand/razer/blackshark/v3/x/hyperspeed/pc/",
       "in_stock": true,
-      "importer_status": "official",
-      "importer_text": "official",
+      "importer_status": "unverified",
+      "importer_text": "unverified",
       "sku": "90903-001-59",
       "barcodes": [],
-      "scraped_at": "2026-11-23 23:23"
+      "scraped_at": "2026-11-27 21:00"
     },
     {
       "store_id": "bug",
@@ -2650,14 +2650,14 @@
       "our_sku": "90903-001-60",
       "our_product_name": "אוזניות שחור RAZER BLACKSHARK V3 X HYPERSPEED FOR XBOX",
       "title": "אוזניות גיימינג אלחוטיות Blackshark V3 X HyperSpeed Xbox - שחור",
-      "price": 325.0,
+      "price": 433.0,
       "url": "https://www.bug.co.il/brand/razer/blackshark/v3/x/hyperspeed/xbox",
       "in_stock": true,
-      "importer_status": "official",
-      "importer_text": "official",
+      "importer_status": "unverified",
+      "importer_text": "unverified",
       "sku": "90903-001-60",
       "barcodes": [],
-      "scraped_at": "2026-11-23 23:23"
+      "scraped_at": "2026-11-27 21:00"
     },
     {
       "store_id": "bug",
@@ -2755,14 +2755,14 @@
       "our_sku": "90903-005-49",
       "our_product_name": "RAZER BASILISK MOBILE – עכבר אלחוטי",
       "title": "עכבר גיימינג אלחוטי Basilisk Mobile",
-      "price": 219.0,
+      "price": 399.0,
       "url": "https://www.bug.co.il/brand/razer/basilisk",
       "in_stock": true,
-      "importer_status": "official",
-      "importer_text": "official",
+      "importer_status": "unverified",
+      "importer_text": "unverified",
       "sku": "90903-005-49",
       "barcodes": [],
-      "scraped_at": "2026-11-23 23:58"
+      "scraped_at": "2026-11-27 22:00"
     },
     {
       "store_id": "bug",
@@ -2770,14 +2770,14 @@
       "our_sku": "90903-011-48",
       "our_product_name": "RAZER BARRACUDA X CHROMA  אוזניות צבע לבן",
       "title": "אוזניות גיימינג אלחוטיות Barracuda X Chroma - לבן",
-      "price": 325.0,
+      "price": 489.0,
       "url": "https://www.bug.co.il/brand/razer/barracuda/xchroma/white",
       "in_stock": true,
-      "importer_status": "official",
-      "importer_text": "official",
+      "importer_status": "unverified",
+      "importer_text": "unverified",
       "sku": "90903-011-48",
       "barcodes": [],
-      "scraped_at": "2026-11-23 23:58"
+      "scraped_at": "2026-11-27 21:00"
     },
     {
       "store_id": "bug",
@@ -2785,14 +2785,14 @@
       "our_sku": "90903-005-37",
       "our_product_name": "עכבר גיימינג אלחוטי Razer Basilisk V3 Pro צבע לבן",
       "title": "עכבר אלחוטי Basilisk V3 PRO",
-      "price": 559.0,
+      "price": 699.0,
       "url": "https://www.bug.co.il/brand/razer/rz01/04630200/r3g1/basilisk/v3/pro/white",
       "in_stock": true,
-      "importer_status": "official",
-      "importer_text": "official",
+      "importer_status": "unverified",
+      "importer_text": "unverified",
       "sku": "90903-005-37",
       "barcodes": [],
-      "scraped_at": "2026-11-23 23:58"
+      "scraped_at": "2026-11-27 19:00"
     },
     {
       "store_id": "bug",
@@ -2815,14 +2815,14 @@
       "our_sku": "90903-005-38",
       "our_product_name": "עכבר RAZ BASILISK V3 X HYPERSPEED",
       "title": "עכבר גיימינג אלחוטי Basilisk V3 X HyperSpeed",
-      "price": 179.0,
+      "price": 290.0,
       "url": "https://www.bug.co.il/brand/razer/color/black/wireless/gaming/mouse/basilisk/v3/x/hyperspeed",
       "in_stock": true,
-      "importer_status": "official",
-      "importer_text": "official",
+      "importer_status": "unverified",
+      "importer_text": "unverified",
       "sku": "90903-005-38",
       "barcodes": [],
-      "scraped_at": "2026-11-24 00:17"
+      "scraped_at": "2026-11-27 23:00"
     },
     {
       "store_id": "bug",
@@ -2830,14 +2830,14 @@
       "our_sku": "90903-005-36",
       "our_product_name": "עכבר גיימינג אלחוטי Razer Basilisk V3 Pro",
       "title": "עכבר אלחוטי Basilisk V3 PRO",
-      "price": 559.0,
+      "price": 649.0,
       "url": "https://www.bug.co.il/brand/razer/rz01/04630200/r3g1/basilisk/v3/pro/black",
       "in_stock": true,
-      "importer_status": "official",
-      "importer_text": "official",
+      "importer_status": "unverified",
+      "importer_text": "unverified",
       "sku": "90903-005-36",
       "barcodes": [],
-      "scraped_at": "2026-11-24 00:17"
+      "scraped_at": "2026-11-27 19:00"
     },
     {
       "store_id": "bug",
@@ -2920,14 +2920,14 @@
       "our_sku": "90903-001-48",
       "our_product_name": "אוזניות אלחוטיות RAZER BARRACUDA X Chroma",
       "title": "אוזניות גיימינג אלחוטיות Barracuda X Chroma - שחור",
-      "price": 449.0,
+      "price": 439.0,
       "url": "https://www.bug.co.il/brand/razer/barracuda/xchroma/black",
       "in_stock": false,
-      "importer_status": "official",
-      "importer_text": "official",
+      "importer_status": "unverified",
+      "importer_text": "unverified",
       "sku": "90903-001-48",
       "barcodes": [],
-      "scraped_at": "2026-11-24 00:52"
+      "scraped_at": "2026-11-27 21:00"
     },
     {
       "store_id": "bug",
@@ -3107,7 +3107,7 @@
       "importer_text": "unverified",
       "sku": "90909-131-58",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:47"
+      "scraped_at": "2026-11-28 00:00"
     },
     {
       "store_id": "bug",
@@ -3115,14 +3115,14 @@
       "our_sku": "90909-123-48",
       "our_product_name": "מארז גווני ויניל  PERMANENT הולוגרפי  -10 י'ח",
       "title": "מארז גווני ויניל  PERMANENT הולוגרפי  -10 י'ח",
-      "price": 76.0,
+      "price": 109.0,
       "url": "https://www.bug.co.il/brand/cricut/holographic/vinyl/mythical/sampler/10/units",
       "in_stock": true,
       "importer_status": "unverified",
       "importer_text": "unverified",
       "sku": "90909-123-48",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:47"
+      "scraped_at": "2026-11-28 00:00"
     },
     {
       "store_id": "bug",
@@ -3130,14 +3130,14 @@
       "our_sku": "90909-120-74",
       "our_product_name": "מארז גווני איירון און נצנצים   – 6 י'ח V/P",
       "title": "מארז גווני איירון און נצנצים   – 6 י'ח V/P",
-      "price": 69.0,
+      "price": 99.0,
       "url": "https://www.bug.co.il/brand/cricut/value/glitter/iron/on/party/sampler/6/units",
       "in_stock": true,
       "importer_status": "unverified",
       "importer_text": "unverified",
       "sku": "90909-120-74",
       "barcodes": [],
-      "scraped_at": "2026-11-24 04:47"
+      "scraped_at": "2026-11-28 00:00"
     },
     {
       "store_id": "bug",
@@ -3167,7 +3167,7 @@
       "importer_text": "official",
       "sku": "90909-068-35",
       "barcodes": [],
-      "scraped_at": "2026-11-24 05:23"
+      "scraped_at": "2026-11-27 23:00"
     },
     {
       "store_id": "bug",
@@ -3175,14 +3175,14 @@
       "our_sku": "90909-108-98",
       "our_product_name": "מארז גווני איירון און  – 20 י'ח V/P",
       "title": "מארז גווני איירון און  – 20 י'ח V/P",
-      "price": 125.0,
+      "price": 179.0,
       "url": "https://www.bug.co.il/brand/cricut/value/iron/on/rainbow/sampler/20/units",
       "in_stock": true,
       "importer_status": "unverified",
       "importer_text": "unverified",
       "sku": "90909-108-98",
       "barcodes": [],
-      "scraped_at": "2026-11-24 05:40"
+      "scraped_at": "2026-11-28 00:00"
     },
     {
       "store_id": "bug",
@@ -3190,14 +3190,14 @@
       "our_sku": "90909-108-87",
       "our_product_name": "מארז גווני ויניל – 50 י'ח V/P",
       "title": "מארז גווני ויניל – 50 י'ח V/P",
-      "price": 139.0,
+      "price": 199.0,
       "url": "https://www.bug.co.il/brand/cricut/value/vinyl/rainbow/sampler/50/units",
       "in_stock": true,
       "importer_status": "unverified",
       "importer_text": "unverified",
       "sku": "90909-108-87",
       "barcodes": [],
-      "scraped_at": "2026-11-24 05:40"
+      "scraped_at": "2026-11-27 23:00"
     },
     {
       "store_id": "bug",
